@@ -1,0 +1,1 @@
+rclpy;geometry_msgs;nav_msgs;sensor_msgs;ackermann_msgs;visualization_msgs;ament_index_python;ros2launch;python3-numpy;python3-scipy;ament_lint_auto;ament_lint_common

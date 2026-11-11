@@ -1,0 +1,6 @@
+{
+  "package_name": "raceline_msgs",
+  "non_idl_tuples": [
+    "/home/nvidia/raceline_ws/src/raceline_UI_f1tenth/raceline_msgs:srv/UpdateRaceline.srv"
+  ]
+}

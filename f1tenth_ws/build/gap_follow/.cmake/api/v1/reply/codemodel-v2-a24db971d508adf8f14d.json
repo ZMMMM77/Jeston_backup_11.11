@@ -1,0 +1,97 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-c43207d14b5038b5be84.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "gap_follow",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_gap_follow_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_gap_follow_egg-2882e2b31c1239d2bd91.json",
+					"name" : "ament_cmake_python_build_gap_follow_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_copy_gap_follow::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_copy_gap_follow-4614035548f095a6efd7.json",
+					"name" : "ament_cmake_python_copy_gap_follow",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_copy_gap_follow_setup::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_copy_gap_follow_setup-a552ebbd05ed0bb2b4c0.json",
+					"name" : "ament_cmake_python_copy_gap_follow_setup",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "gap_follow_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-gap_follow_uninstall-7e4a64e19fb4c05c90fe.json",
+					"name" : "gap_follow_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-aca1da15fbdeab6045c8.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/nvidia/f1tenth_ws/build/gap_follow",
+		"source" : "/home/nvidia/f1tenth_ws/src/111/ese-6150-lab-4-follow-the-gap-group-9-main 2/gap_follow"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

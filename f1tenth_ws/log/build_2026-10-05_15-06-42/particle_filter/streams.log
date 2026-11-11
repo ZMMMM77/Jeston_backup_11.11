@@ -1,0 +1,39 @@
+[4.422s] Invoking command in '/home/nvidia/f1tenth_ws/src/particle_filter': PYTHONPATH=/home/nvidia/f1tenth_ws/build/particle_filter/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/nvidia/f1tenth_ws/install/particle_filter/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/particle_filter build --build-base /home/nvidia/f1tenth_ws/build/particle_filter/build install --record /home/nvidia/f1tenth_ws/build/particle_filter/install.log --install-scripts $base/lib/particle_filter --single-version-externally-managed install_data
+[4.788s] /usr/lib/python3/dist-packages/setuptools/dist.py:744: SetuptoolsDeprecationWarning: Invalid dash-separated options
+[4.788s] !!
+[4.788s] 
+[4.788s]         ********************************************************************************
+[4.789s]         Usage of dash-separated 'script-dir' will not be supported in future
+[4.789s]         versions. Please use the underscore name 'script_dir' instead.
+[4.789s] 
+[4.789s]         This deprecation is overdue, please update your project and remove deprecated
+[4.789s]         calls to avoid build errors in the future.
+[4.789s] 
+[4.790s]         See https://setuptools.pypa.io/en/latest/userguide/declarative_config.html for details.
+[4.790s]         ********************************************************************************
+[4.790s] 
+[4.790s] !!
+[4.790s]   opt = self.warn_dash_deprecation(opt, section)
+[5.222s] running egg_info
+[5.279s] writing ../../build/particle_filter/particle_filter.egg-info/PKG-INFO
+[5.280s] writing dependency_links to ../../build/particle_filter/particle_filter.egg-info/dependency_links.txt
+[5.280s] writing entry points to ../../build/particle_filter/particle_filter.egg-info/entry_points.txt
+[5.280s] writing requirements to ../../build/particle_filter/particle_filter.egg-info/requires.txt
+[5.281s] writing top-level names to ../../build/particle_filter/particle_filter.egg-info/top_level.txt
+[5.402s] reading manifest file '../../build/particle_filter/particle_filter.egg-info/SOURCES.txt'
+[5.404s] writing manifest file '../../build/particle_filter/particle_filter.egg-info/SOURCES.txt'
+[5.405s] running build
+[5.405s] running build_py
+[5.406s] running install
+[5.421s] running install_lib
+[5.484s] running install_data
+[5.485s] copying maps/levine_1st_map.yaml -> /home/nvidia/f1tenth_ws/install/particle_filter/share/particle_filter/maps
+[5.485s] copying maps/levine_1st_map.pgm -> /home/nvidia/f1tenth_ws/install/particle_filter/share/particle_filter/maps
+[5.487s] copying config/localize.yaml -> /home/nvidia/f1tenth_ws/install/particle_filter/share/particle_filter/config
+[5.487s] running install_egg_info
+[5.552s] removing '/home/nvidia/f1tenth_ws/install/particle_filter/lib/python3.12/site-packages/particle_filter-0.2.0-py3.12.egg-info' (and everything under it)
+[5.552s] Copying ../../build/particle_filter/particle_filter.egg-info to /home/nvidia/f1tenth_ws/install/particle_filter/lib/python3.12/site-packages/particle_filter-0.2.0-py3.12.egg-info
+[5.558s] running install_scripts
+[5.959s] Installing particle_filter script to /home/nvidia/f1tenth_ws/install/particle_filter/lib/particle_filter
+[5.960s] writing list of installed files to '/home/nvidia/f1tenth_ws/build/particle_filter/install.log'
+[6.110s] Invoked command in '/home/nvidia/f1tenth_ws/src/particle_filter' returned '0': PYTHONPATH=/home/nvidia/f1tenth_ws/build/particle_filter/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/nvidia/f1tenth_ws/install/particle_filter/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/particle_filter build --build-base /home/nvidia/f1tenth_ws/build/particle_filter/build install --record /home/nvidia/f1tenth_ws/build/particle_filter/install.log --install-scripts $base/lib/particle_filter --single-version-externally-managed install_data

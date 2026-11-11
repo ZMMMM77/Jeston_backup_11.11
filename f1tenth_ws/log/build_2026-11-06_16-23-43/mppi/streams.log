@@ -1,0 +1,48 @@
+[0.035s] Invoking command in '/home/nvidia/f1tenth_ws/build/mppi': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nvidia/f1tenth_ws/install/f1tenth_stack:/home/nvidia/f1tenth_ws/install/joy_teleop:/home/nvidia/f1tenth_ws/install/particle_filter:/home/nvidia/f1tenth_ws/install/mouse_teleop:/home/nvidia/f1tenth_ws/install/key_teleop:/home/nvidia/raceline_ws/install/raceline_studio:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/nvidia/f1tenth_ws/build/mppi -- -j6 -l6
+[0.179s] Built target ament_cmake_python_copy_mppi
+[0.832s] running egg_info
+[0.896s] writing mppi.egg-info/PKG-INFO
+[0.897s] writing dependency_links to mppi.egg-info/dependency_links.txt
+[0.897s] writing top-level names to mppi.egg-info/top_level.txt
+[1.084s] reading manifest file 'mppi.egg-info/SOURCES.txt'
+[1.086s] writing manifest file 'mppi.egg-info/SOURCES.txt'
+[1.173s] Built target ament_cmake_python_build_mppi_egg
+[1.199s] Invoked command in '/home/nvidia/f1tenth_ws/build/mppi' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nvidia/f1tenth_ws/install/f1tenth_stack:/home/nvidia/f1tenth_ws/install/joy_teleop:/home/nvidia/f1tenth_ws/install/particle_filter:/home/nvidia/f1tenth_ws/install/mouse_teleop:/home/nvidia/f1tenth_ws/install/key_teleop:/home/nvidia/raceline_ws/install/raceline_studio:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/nvidia/f1tenth_ws/build/mppi -- -j6 -l6
+[1.224s] Invoking command in '/home/nvidia/f1tenth_ws/build/mppi': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nvidia/f1tenth_ws/install/f1tenth_stack:/home/nvidia/f1tenth_ws/install/joy_teleop:/home/nvidia/f1tenth_ws/install/particle_filter:/home/nvidia/f1tenth_ws/install/mouse_teleop:/home/nvidia/f1tenth_ws/install/key_teleop:/home/nvidia/raceline_ws/install/raceline_studio:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/nvidia/f1tenth_ws/build/mppi
+[1.248s] -- Install configuration: ""
+[1.248s] -- Up-to-date: /home/nvidia/f1tenth_ws/install/mppi/share/mppi/environment/pythonpath.sh
+[1.248s] -- Up-to-date: /home/nvidia/f1tenth_ws/install/mppi/share/mppi/environment/pythonpath.dsv
+[1.249s] -- Up-to-date: /home/nvidia/f1tenth_ws/install/mppi/lib/python3.12/site-packages/mppi-0.0.0-py3.12.egg-info
+[1.249s] -- Installing: /home/nvidia/f1tenth_ws/install/mppi/lib/python3.12/site-packages/mppi-0.0.0-py3.12.egg-info/PKG-INFO
+[1.249s] -- Installing: /home/nvidia/f1tenth_ws/install/mppi/lib/python3.12/site-packages/mppi-0.0.0-py3.12.egg-info/dependency_links.txt
+[1.249s] -- Installing: /home/nvidia/f1tenth_ws/install/mppi/lib/python3.12/site-packages/mppi-0.0.0-py3.12.egg-info/SOURCES.txt
+[1.249s] -- Installing: /home/nvidia/f1tenth_ws/install/mppi/lib/python3.12/site-packages/mppi-0.0.0-py3.12.egg-info/top_level.txt
+[1.249s] -- Up-to-date: /home/nvidia/f1tenth_ws/install/mppi/lib/python3.12/site-packages/mppi
+[1.250s] -- Up-to-date: /home/nvidia/f1tenth_ws/install/mppi/lib/python3.12/site-packages/mppi/__init__.py
+[1.344s] Listing '/home/nvidia/f1tenth_ws/install/mppi/lib/python3.12/site-packages/mppi'...
+[1.361s] -- Up-to-date: /home/nvidia/f1tenth_ws/install/mppi/lib/mppi/mppi_node.py
+[1.361s] -- Up-to-date: /home/nvidia/f1tenth_ws/install/mppi/lib/mppi/utils.py
+[1.361s] -- Up-to-date: /home/nvidia/f1tenth_ws/install/mppi/share/mppi/launch
+[1.361s] -- Up-to-date: /home/nvidia/f1tenth_ws/install/mppi/share/mppi/launch/spielberg_launch.py
+[1.362s] -- Up-to-date: /home/nvidia/f1tenth_ws/install/mppi/share/mppi/launch/levine_launch.py
+[1.362s] -- Up-to-date: /home/nvidia/f1tenth_ws/install/mppi/share/mppi/waypoints
+[1.363s] -- Up-to-date: /home/nvidia/f1tenth_ws/install/mppi/share/mppi/waypoints/.gitkeep
+[1.363s] -- Up-to-date: /home/nvidia/f1tenth_ws/install/mppi/share/mppi/waypoints/race.csv
+[1.364s] -- Up-to-date: /home/nvidia/f1tenth_ws/install/mppi/share/mppi/waypoints/levine.csv
+[1.364s] -- Up-to-date: /home/nvidia/f1tenth_ws/install/mppi/share/mppi/waypoints/levine1.csv
+[1.364s] -- Up-to-date: /home/nvidia/f1tenth_ws/install/mppi/share/ament_index/resource_index/package_run_dependencies/mppi
+[1.365s] -- Up-to-date: /home/nvidia/f1tenth_ws/install/mppi/share/ament_index/resource_index/parent_prefix_path/mppi
+[1.365s] -- Up-to-date: /home/nvidia/f1tenth_ws/install/mppi/share/mppi/environment/ament_prefix_path.sh
+[1.365s] -- Up-to-date: /home/nvidia/f1tenth_ws/install/mppi/share/mppi/environment/ament_prefix_path.dsv
+[1.365s] -- Up-to-date: /home/nvidia/f1tenth_ws/install/mppi/share/mppi/environment/path.sh
+[1.366s] -- Up-to-date: /home/nvidia/f1tenth_ws/install/mppi/share/mppi/environment/path.dsv
+[1.366s] -- Up-to-date: /home/nvidia/f1tenth_ws/install/mppi/share/mppi/local_setup.bash
+[1.366s] -- Up-to-date: /home/nvidia/f1tenth_ws/install/mppi/share/mppi/local_setup.sh
+[1.366s] -- Up-to-date: /home/nvidia/f1tenth_ws/install/mppi/share/mppi/local_setup.zsh
+[1.366s] -- Up-to-date: /home/nvidia/f1tenth_ws/install/mppi/share/mppi/local_setup.dsv
+[1.367s] -- Installing: /home/nvidia/f1tenth_ws/install/mppi/share/mppi/package.dsv
+[1.367s] -- Up-to-date: /home/nvidia/f1tenth_ws/install/mppi/share/ament_index/resource_index/packages/mppi
+[1.368s] -- Up-to-date: /home/nvidia/f1tenth_ws/install/mppi/share/mppi/cmake/mppiConfig.cmake
+[1.369s] -- Up-to-date: /home/nvidia/f1tenth_ws/install/mppi/share/mppi/cmake/mppiConfig-version.cmake
+[1.371s] -- Up-to-date: /home/nvidia/f1tenth_ws/install/mppi/share/mppi/package.xml
+[1.372s] Invoked command in '/home/nvidia/f1tenth_ws/build/mppi' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nvidia/f1tenth_ws/install/f1tenth_stack:/home/nvidia/f1tenth_ws/install/joy_teleop:/home/nvidia/f1tenth_ws/install/particle_filter:/home/nvidia/f1tenth_ws/install/mouse_teleop:/home/nvidia/f1tenth_ws/install/key_teleop:/home/nvidia/raceline_ws/install/raceline_studio:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/nvidia/f1tenth_ws/build/mppi

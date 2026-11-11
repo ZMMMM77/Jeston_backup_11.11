@@ -1,0 +1,100 @@
+-- The C compiler identification is GNU 13.3.0
+-- The CXX compiler identification is GNU 13.3.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+-- Found ament_index_cpp: 1.8.4 (/opt/ros/jazzy/share/ament_index_cpp/cmake)
+-- Found rclcpp: 28.1.22 (/opt/ros/jazzy/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 4.6.9 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+-- Found rosidl_generator_cpp: 4.6.9 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 8.4.4 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+-- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.13")  
+-- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found rclpy: 7.1.12 (/opt/ros/jazzy/share/rclpy/cmake)
+-- Found geometry_msgs: 5.3.8 (/opt/ros/jazzy/share/geometry_msgs/cmake)
+-- Found nav_msgs: 5.3.8 (/opt/ros/jazzy/share/nav_msgs/cmake)
+-- Found ackermann_msgs: 2.0.2 (/opt/ros/jazzy/share/ackermann_msgs/cmake)
+-- Found sensor_msgs: 5.3.8 (/opt/ros/jazzy/share/sensor_msgs/cmake)
+-- Found visualization_msgs: 5.3.8 (/opt/ros/jazzy/share/visualization_msgs/cmake)
+-- Found tf2: 0.36.22 (/opt/ros/jazzy/share/tf2/cmake)
+-- Found tf2_ros: 0.36.22 (/opt/ros/jazzy/share/tf2_ros/cmake)
+-- OsqpEigen not found: skipping the C++ mpc_node (the Python mpc_node.py is still installed)
+-- Found ament_lint_auto: 0.17.5 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+-- Added test 'copyright' to check source files copyright and LICENSE
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: /home/nvidia/ese-6150-lab-7-model-predictive-control-group-9/mpc/include
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'cpplint' to check C / C++ code against the Google style
+-- Configured cpplint exclude dirs and/or files: 
+-- Added test 'flake8' to check Python code syntax and style conventions
+-- Configured 'flake8' exclude dirs and/or files: 
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+-- Added test 'uncrustify' to check C / C++ code style
+-- Configured uncrustify additional arguments: 
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done (4.0s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/nvidia/ese-6150-lab-7-model-predictive-control-group-9/build/mpc
+Built target ament_cmake_python_copy_mpc
+Built target ament_cmake_python_copy_mpc_setup
+running egg_info
+creating mpc.egg-info
+writing mpc.egg-info/PKG-INFO
+writing dependency_links to mpc.egg-info/dependency_links.txt
+writing top-level names to mpc.egg-info/top_level.txt
+writing manifest file 'mpc.egg-info/SOURCES.txt'
+reading manifest file 'mpc.egg-info/SOURCES.txt'
+writing manifest file 'mpc.egg-info/SOURCES.txt'
+Built target ament_cmake_python_build_mpc_egg
+-- Install configuration: ""
+-- Installing: /home/nvidia/ese-6150-lab-7-model-predictive-control-group-9/install/mpc/share/mpc/environment/pythonpath.sh
+-- Installing: /home/nvidia/ese-6150-lab-7-model-predictive-control-group-9/install/mpc/share/mpc/environment/pythonpath.dsv
+-- Installing: /home/nvidia/ese-6150-lab-7-model-predictive-control-group-9/install/mpc/lib/python3.12/site-packages/mpc-0.0.0-py3.12.egg-info
+-- Installing: /home/nvidia/ese-6150-lab-7-model-predictive-control-group-9/install/mpc/lib/python3.12/site-packages/mpc-0.0.0-py3.12.egg-info/PKG-INFO
+-- Installing: /home/nvidia/ese-6150-lab-7-model-predictive-control-group-9/install/mpc/lib/python3.12/site-packages/mpc-0.0.0-py3.12.egg-info/dependency_links.txt
+-- Installing: /home/nvidia/ese-6150-lab-7-model-predictive-control-group-9/install/mpc/lib/python3.12/site-packages/mpc-0.0.0-py3.12.egg-info/SOURCES.txt
+-- Installing: /home/nvidia/ese-6150-lab-7-model-predictive-control-group-9/install/mpc/lib/python3.12/site-packages/mpc-0.0.0-py3.12.egg-info/top_level.txt
+-- Installing: /home/nvidia/ese-6150-lab-7-model-predictive-control-group-9/install/mpc/lib/python3.12/site-packages/mpc
+-- Installing: /home/nvidia/ese-6150-lab-7-model-predictive-control-group-9/install/mpc/lib/python3.12/site-packages/mpc/__init__.py
+Listing '/home/nvidia/ese-6150-lab-7-model-predictive-control-group-9/install/mpc/lib/python3.12/site-packages/mpc'...
+Compiling '/home/nvidia/ese-6150-lab-7-model-predictive-control-group-9/install/mpc/lib/python3.12/site-packages/mpc/__init__.py'...
+-- Installing: /home/nvidia/ese-6150-lab-7-model-predictive-control-group-9/install/mpc/lib/mpc/mpc_node.py
+-- Installing: /home/nvidia/ese-6150-lab-7-model-predictive-control-group-9/install/mpc/lib/mpc/utils.py
+-- Installing: /home/nvidia/ese-6150-lab-7-model-predictive-control-group-9/install/mpc/share/mpc/launch
+-- Installing: /home/nvidia/ese-6150-lab-7-model-predictive-control-group-9/install/mpc/share/mpc/launch/spielberg_launch.py
+-- Installing: /home/nvidia/ese-6150-lab-7-model-predictive-control-group-9/install/mpc/share/mpc/launch/levine_launch.py
+-- Installing: /home/nvidia/ese-6150-lab-7-model-predictive-control-group-9/install/mpc/share/mpc/launch/levine_2nd_real_launch.py
+-- Installing: /home/nvidia/ese-6150-lab-7-model-predictive-control-group-9/install/mpc/share/mpc/waypoints
+-- Installing: /home/nvidia/ese-6150-lab-7-model-predictive-control-group-9/install/mpc/share/mpc/waypoints/Spielberg.csv
+-- Installing: /home/nvidia/ese-6150-lab-7-model-predictive-control-group-9/install/mpc/share/mpc/waypoints/levine_2nd.csv
+-- Installing: /home/nvidia/ese-6150-lab-7-model-predictive-control-group-9/install/mpc/share/mpc/waypoints/.gitkeep
+-- Installing: /home/nvidia/ese-6150-lab-7-model-predictive-control-group-9/install/mpc/share/mpc/waypoints/levine.csv
+-- Installing: /home/nvidia/ese-6150-lab-7-model-predictive-control-group-9/install/mpc/share/ament_index/resource_index/package_run_dependencies/mpc
+-- Installing: /home/nvidia/ese-6150-lab-7-model-predictive-control-group-9/install/mpc/share/ament_index/resource_index/parent_prefix_path/mpc
+-- Installing: /home/nvidia/ese-6150-lab-7-model-predictive-control-group-9/install/mpc/share/mpc/environment/ament_prefix_path.sh
+-- Installing: /home/nvidia/ese-6150-lab-7-model-predictive-control-group-9/install/mpc/share/mpc/environment/ament_prefix_path.dsv
+-- Installing: /home/nvidia/ese-6150-lab-7-model-predictive-control-group-9/install/mpc/share/mpc/environment/path.sh
+-- Installing: /home/nvidia/ese-6150-lab-7-model-predictive-control-group-9/install/mpc/share/mpc/environment/path.dsv
+-- Installing: /home/nvidia/ese-6150-lab-7-model-predictive-control-group-9/install/mpc/share/mpc/local_setup.bash
+-- Installing: /home/nvidia/ese-6150-lab-7-model-predictive-control-group-9/install/mpc/share/mpc/local_setup.sh
+-- Installing: /home/nvidia/ese-6150-lab-7-model-predictive-control-group-9/install/mpc/share/mpc/local_setup.zsh
+-- Installing: /home/nvidia/ese-6150-lab-7-model-predictive-control-group-9/install/mpc/share/mpc/local_setup.dsv
+-- Installing: /home/nvidia/ese-6150-lab-7-model-predictive-control-group-9/install/mpc/share/mpc/package.dsv
+-- Installing: /home/nvidia/ese-6150-lab-7-model-predictive-control-group-9/install/mpc/share/ament_index/resource_index/packages/mpc
+-- Installing: /home/nvidia/ese-6150-lab-7-model-predictive-control-group-9/install/mpc/share/mpc/cmake/mpcConfig.cmake
+-- Installing: /home/nvidia/ese-6150-lab-7-model-predictive-control-group-9/install/mpc/share/mpc/cmake/mpcConfig-version.cmake
+-- Installing: /home/nvidia/ese-6150-lab-7-model-predictive-control-group-9/install/mpc/share/mpc/package.xml

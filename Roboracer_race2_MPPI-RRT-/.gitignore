@@ -1,0 +1,16 @@
+build/
+install/
+log/
+__pycache__/
+*.pyc
+*.nbc
+*.nbi
+.pytest_cache/
+
+# Local backups and editor files
+backup*/
+**/backup*/
+*.bak*
+*.backup*
+.vscode/
+.DS_Store

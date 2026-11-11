@@ -1,0 +1,257 @@
+[0.000000] (-) TimerEvent: {}
+[0.000413] (-) JobUnselected: {'identifier': 'ackermann_mux'}
+[0.000692] (-) JobUnselected: {'identifier': 'f1tenth_stack'}
+[0.000744] (-) JobUnselected: {'identifier': 'joy_teleop'}
+[0.000872] (-) JobUnselected: {'identifier': 'key_teleop'}
+[0.000908] (-) JobUnselected: {'identifier': 'mouse_teleop'}
+[0.000941] (-) JobUnselected: {'identifier': 'teleop_tools'}
+[0.001309] (-) JobUnselected: {'identifier': 'teleop_tools_msgs'}
+[0.001342] (-) JobUnselected: {'identifier': 'vesc'}
+[0.001371] (-) JobUnselected: {'identifier': 'vesc_ackermann'}
+[0.001399] (-) JobUnselected: {'identifier': 'vesc_driver'}
+[0.001426] (-) JobUnselected: {'identifier': 'vesc_msgs'}
+[0.001459] (wall_follow) JobQueued: {'identifier': 'wall_follow', 'dependencies': OrderedDict()}
+[0.001728] (wall_follow) JobStarted: {'identifier': 'wall_follow'}
+[0.019023] (wall_follow) JobProgress: {'identifier': 'wall_follow', 'progress': 'cmake'}
+[0.020021] (wall_follow) Command: {'cmd': ['/usr/bin/cmake', '/home/nvidia/f1tenth_ws/src/ese-6150-lab-3-wall-following-zmmmm77/wall_follow', '-DCMAKE_INSTALL_PREFIX=/home/nvidia/f1tenth_ws/install/wall_follow'], 'cwd': '/home/nvidia/f1tenth_ws/build/wall_follow', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'nvidia', 'SSH_CLIENT': '100.104.208.13 55076 22', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/nvidia', 'OLDPWD': '/home/nvidia/f1tenth_ws/src', 'SSH_TTY': '/dev/pts/0', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/2002/bus', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'nvidia', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '4', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/2002', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/nvidia/f1tenth_ws/build/wall_follow', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '100.104.208.13 55076 100.122.20.107 22', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/opt/gz_math_vendor/lib/python:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[0.099482] (-) TimerEvent: {}
+[0.200107] (-) TimerEvent: {}
+[0.234135] (wall_follow) StdoutLine: {'line': b'-- The C compiler identification is GNU 13.3.0\n'}
+[0.300328] (-) TimerEvent: {}
+[0.400925] (-) TimerEvent: {}
+[0.413598] (wall_follow) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 13.3.0\n'}
+[0.455813] (wall_follow) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.501116] (-) TimerEvent: {}
+[0.601746] (-) TimerEvent: {}
+[0.634129] (wall_follow) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.670433] (wall_follow) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.671771] (wall_follow) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.673285] (wall_follow) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.694711] (wall_follow) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.701856] (-) TimerEvent: {}
+[0.802351] (-) TimerEvent: {}
+[0.889875] (wall_follow) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.902476] (-) TimerEvent: {}
+[0.927243] (wall_follow) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.928193] (wall_follow) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.929828] (wall_follow) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.942415] (wall_follow) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[1.002654] (-) TimerEvent: {}
+[1.103237] (-) TimerEvent: {}
+[1.203767] (-) TimerEvent: {}
+[1.272969] (wall_follow) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter \n'}
+[1.303948] (-) TimerEvent: {}
+[1.404507] (-) TimerEvent: {}
+[1.505101] (-) TimerEvent: {}
+[1.559124] (wall_follow) StdoutLine: {'line': b'-- Found rclcpp: 28.1.22 (/opt/ros/jazzy/share/rclcpp/cmake)\n'}
+[1.605229] (-) TimerEvent: {}
+[1.676536] (wall_follow) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.6.9 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)\n'}
+[1.705345] (-) TimerEvent: {}
+[1.707786] (wall_follow) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.6.9 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)\n'}
+[1.745016] (wall_follow) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.786182] (wall_follow) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.805454] (-) TimerEvent: {}
+[1.905875] (-) TimerEvent: {}
+[1.952767] (wall_follow) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)\n'}
+[1.959213] (wall_follow) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 8.4.4 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)\n'}
+[2.006004] (-) TimerEvent: {}
+[2.106509] (-) TimerEvent: {}
+[2.111813] (wall_follow) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.13")  \n'}
+[2.161131] (wall_follow) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") \n'}
+[2.206690] (-) TimerEvent: {}
+[2.211698] (wall_follow) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[2.306847] (-) TimerEvent: {}
+[2.381177] (wall_follow) StdoutLine: {'line': b'-- Found rclpy: 7.1.12 (/opt/ros/jazzy/share/rclpy/cmake)\n'}
+[2.384255] (wall_follow) StdoutLine: {'line': b'-- Found geometry_msgs: 5.3.8 (/opt/ros/jazzy/share/geometry_msgs/cmake)\n'}
+[2.406952] (-) TimerEvent: {}
+[2.457167] (wall_follow) StdoutLine: {'line': b'-- Found nav_msgs: 5.3.8 (/opt/ros/jazzy/share/nav_msgs/cmake)\n'}
+[2.507088] (-) TimerEvent: {}
+[2.511731] (wall_follow) StdoutLine: {'line': b'-- Found ackermann_msgs: 2.0.2 (/opt/ros/jazzy/share/ackermann_msgs/cmake)\n'}
+[2.547817] (wall_follow) StdoutLine: {'line': b'-- Found sensor_msgs: 5.3.8 (/opt/ros/jazzy/share/sensor_msgs/cmake)\n'}
+[2.607248] (-) TimerEvent: {}
+[2.707804] (-) TimerEvent: {}
+[2.808379] (-) TimerEvent: {}
+[2.861406] (wall_follow) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.17.5 (/opt/ros/jazzy/share/ament_lint_auto/cmake)\n'}
+[2.908515] (-) TimerEvent: {}
+[3.009033] (-) TimerEvent: {}
+[3.109601] (-) TimerEvent: {}
+[3.146965] (wall_follow) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[3.151282] (wall_follow) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[3.152529] (wall_follow) StdoutLine: {'line': b'-- Configured cppcheck include dirs: /home/nvidia/f1tenth_ws/src/ese-6150-lab-3-wall-following-zmmmm77/wall_follow/include\n'}
+[3.152865] (wall_follow) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[3.155834] (wall_follow) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[3.156209] (wall_follow) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[3.157841] (wall_follow) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[3.158118] (wall_follow) StdoutLine: {'line': b"-- Configured 'flake8' exclude dirs and/or files: \n"}
+[3.160047] (wall_follow) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[3.162087] (wall_follow) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[3.165089] (wall_follow) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[3.165430] (wall_follow) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[3.167155] (wall_follow) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[3.171860] (wall_follow) StdoutLine: {'line': b'-- Configuring done (3.1s)\n'}
+[3.209699] (-) TimerEvent: {}
+[3.211083] (wall_follow) StdoutLine: {'line': b'-- Generating done (0.0s)\n'}
+[3.221733] (wall_follow) StdoutLine: {'line': b'-- Build files have been written to: /home/nvidia/f1tenth_ws/build/wall_follow\n'}
+[3.248467] (wall_follow) CommandEnded: {'returncode': 0}
+[3.250348] (wall_follow) JobProgress: {'identifier': 'wall_follow', 'progress': 'build'}
+[3.252423] (wall_follow) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/nvidia/f1tenth_ws/build/wall_follow', '--', '-j6', '-l6'], 'cwd': '/home/nvidia/f1tenth_ws/build/wall_follow', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'nvidia', 'SSH_CLIENT': '100.104.208.13 55076 22', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/nvidia', 'OLDPWD': '/home/nvidia/f1tenth_ws/src', 'SSH_TTY': '/dev/pts/0', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/2002/bus', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'nvidia', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '4', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/2002', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/nvidia/f1tenth_ws/build/wall_follow', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '100.104.208.13 55076 100.122.20.107 22', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/opt/gz_math_vendor/lib/python:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[3.309898] (-) TimerEvent: {}
+[3.356484] (wall_follow) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/wall_follow_node.dir/src/wall_follow_node.cpp.o\x1b[0m\n'}
+[3.373746] (wall_follow) StdoutLine: {'line': b'[ 50%] Built target ament_cmake_python_copy_wall_follow_setup\n'}
+[3.374284] (wall_follow) StdoutLine: {'line': b'[ 50%] Built target ament_cmake_python_copy_wall_follow\n'}
+[3.410048] (-) TimerEvent: {}
+[3.510665] (-) TimerEvent: {}
+[3.611243] (-) TimerEvent: {}
+[3.711853] (-) TimerEvent: {}
+[3.812389] (-) TimerEvent: {}
+[3.912960] (-) TimerEvent: {}
+[3.930171] (wall_follow) StdoutLine: {'line': b'running egg_info\n'}
+[3.932133] (wall_follow) StdoutLine: {'line': b'creating wall_follow.egg-info\n'}
+[3.986952] (wall_follow) StdoutLine: {'line': b'writing wall_follow.egg-info/PKG-INFO\n'}
+[3.987449] (wall_follow) StdoutLine: {'line': b'writing dependency_links to wall_follow.egg-info/dependency_links.txt\n'}
+[3.987798] (wall_follow) StdoutLine: {'line': b'writing top-level names to wall_follow.egg-info/top_level.txt\n'}
+[3.988101] (wall_follow) StdoutLine: {'line': b"writing manifest file 'wall_follow.egg-info/SOURCES.txt'\n"}
+[4.013066] (-) TimerEvent: {}
+[4.113566] (-) TimerEvent: {}
+[4.152109] (wall_follow) StdoutLine: {'line': b"reading manifest file 'wall_follow.egg-info/SOURCES.txt'\n"}
+[4.152980] (wall_follow) StdoutLine: {'line': b"writing manifest file 'wall_follow.egg-info/SOURCES.txt'\n"}
+[4.213760] (-) TimerEvent: {}
+[4.229876] (wall_follow) StdoutLine: {'line': b'[ 50%] Built target ament_cmake_python_build_wall_follow_egg\n'}
+[4.313955] (-) TimerEvent: {}
+[4.414593] (-) TimerEvent: {}
+[4.515291] (-) TimerEvent: {}
+[4.615925] (-) TimerEvent: {}
+[4.716569] (-) TimerEvent: {}
+[4.817164] (-) TimerEvent: {}
+[4.917750] (-) TimerEvent: {}
+[5.018348] (-) TimerEvent: {}
+[5.118993] (-) TimerEvent: {}
+[5.219613] (-) TimerEvent: {}
+[5.320237] (-) TimerEvent: {}
+[5.420864] (-) TimerEvent: {}
+[5.521460] (-) TimerEvent: {}
+[5.622059] (-) TimerEvent: {}
+[5.722683] (-) TimerEvent: {}
+[5.823317] (-) TimerEvent: {}
+[5.923923] (-) TimerEvent: {}
+[6.024515] (-) TimerEvent: {}
+[6.125122] (-) TimerEvent: {}
+[6.225725] (-) TimerEvent: {}
+[6.326330] (-) TimerEvent: {}
+[6.426936] (-) TimerEvent: {}
+[6.527548] (-) TimerEvent: {}
+[6.628163] (-) TimerEvent: {}
+[6.728758] (-) TimerEvent: {}
+[6.829338] (-) TimerEvent: {}
+[6.929903] (-) TimerEvent: {}
+[7.030496] (-) TimerEvent: {}
+[7.131102] (-) TimerEvent: {}
+[7.231686] (-) TimerEvent: {}
+[7.332261] (-) TimerEvent: {}
+[7.432861] (-) TimerEvent: {}
+[7.533490] (-) TimerEvent: {}
+[7.634099] (-) TimerEvent: {}
+[7.734708] (-) TimerEvent: {}
+[7.835295] (-) TimerEvent: {}
+[7.935869] (-) TimerEvent: {}
+[8.036456] (-) TimerEvent: {}
+[8.137030] (-) TimerEvent: {}
+[8.237614] (-) TimerEvent: {}
+[8.338180] (-) TimerEvent: {}
+[8.438778] (-) TimerEvent: {}
+[8.497099] (wall_follow) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nvidia/f1tenth_ws/src/ese-6150-lab-3-wall-following-zmmmm77/wall_follow/src/wall_follow_node.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kdouble WallFollow::\x1b[01;32m\x1b[Kget_range\x1b[m\x1b[K(float*, double)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[8.498489] (wall_follow) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nvidia/f1tenth_ws/src/ese-6150-lab-3-wall-following-zmmmm77/wall_follow/src/wall_follow_node.cpp:30:29:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Krange_data\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[8.498787] (wall_follow) StderrLine: {'line': b'   30 |     double get_range(\x1b[01;35m\x1b[Kfloat* range_data\x1b[m\x1b[K, double angle)\n'}
+[8.499008] (wall_follow) StderrLine: {'line': b'      |                      \x1b[01;35m\x1b[K~~~~~~~^~~~~~~~~~\x1b[m\x1b[K\n'}
+[8.499194] (wall_follow) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nvidia/f1tenth_ws/src/ese-6150-lab-3-wall-following-zmmmm77/wall_follow/src/wall_follow_node.cpp:30:48:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kangle\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[8.499369] (wall_follow) StderrLine: {'line': b'   30 |     double get_range(float* range_data, \x1b[01;35m\x1b[Kdouble angle\x1b[m\x1b[K)\n'}
+[8.499537] (wall_follow) StderrLine: {'line': b'      |                                         \x1b[01;35m\x1b[K~~~~~~~^~~~~\x1b[m\x1b[K\n'}
+[8.499702] (wall_follow) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nvidia/f1tenth_ws/src/ese-6150-lab-3-wall-following-zmmmm77/wall_follow/src/wall_follow_node.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kdouble WallFollow::\x1b[01;32m\x1b[Kget_error\x1b[m\x1b[K(float*, double)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[8.499869] (wall_follow) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nvidia/f1tenth_ws/src/ese-6150-lab-3-wall-following-zmmmm77/wall_follow/src/wall_follow_node.cpp:47:29:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Krange_data\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[8.500030] (wall_follow) StderrLine: {'line': b'   47 |     double get_error(\x1b[01;35m\x1b[Kfloat* range_data\x1b[m\x1b[K, double dist)\n'}
+[8.500192] (wall_follow) StderrLine: {'line': b'      |                      \x1b[01;35m\x1b[K~~~~~~~^~~~~~~~~~\x1b[m\x1b[K\n'}
+[8.500341] (wall_follow) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nvidia/f1tenth_ws/src/ese-6150-lab-3-wall-following-zmmmm77/wall_follow/src/wall_follow_node.cpp:47:48:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kdist\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[8.500654] (wall_follow) StderrLine: {'line': b'   47 |     double get_error(float* range_data, \x1b[01;35m\x1b[Kdouble dist\x1b[m\x1b[K)\n'}
+[8.500825] (wall_follow) StderrLine: {'line': b'      |                                         \x1b[01;35m\x1b[K~~~~~~~^~~~\x1b[m\x1b[K\n'}
+[8.500981] (wall_follow) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nvidia/f1tenth_ws/src/ese-6150-lab-3-wall-following-zmmmm77/wall_follow/src/wall_follow_node.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid WallFollow::\x1b[01;32m\x1b[Kpid_control\x1b[m\x1b[K(double, double)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[8.501136] (wall_follow) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nvidia/f1tenth_ws/src/ese-6150-lab-3-wall-following-zmmmm77/wall_follow/src/wall_follow_node.cpp:76:16:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[Kangle\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable\x07-Wunused-variable\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[8.501298] (wall_follow) StderrLine: {'line': b'   76 |         double \x1b[01;35m\x1b[Kangle\x1b[m\x1b[K = 0.0;\n'}
+[8.501450] (wall_follow) StderrLine: {'line': b'      |                \x1b[01;35m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[8.501598] (wall_follow) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nvidia/f1tenth_ws/src/ese-6150-lab-3-wall-following-zmmmm77/wall_follow/src/wall_follow_node.cpp:64:29:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kerror\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[8.501769] (wall_follow) StderrLine: {'line': b'   64 |     void pid_control(\x1b[01;35m\x1b[Kdouble error\x1b[m\x1b[K, double velocity)\n'}
+[8.501920] (wall_follow) StderrLine: {'line': b'      |                      \x1b[01;35m\x1b[K~~~~~~~^~~~~\x1b[m\x1b[K\n'}
+[8.502063] (wall_follow) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nvidia/f1tenth_ws/src/ese-6150-lab-3-wall-following-zmmmm77/wall_follow/src/wall_follow_node.cpp:64:43:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kvelocity\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[8.502212] (wall_follow) StderrLine: {'line': b'   64 |     void pid_control(double error, \x1b[01;35m\x1b[Kdouble velocity\x1b[m\x1b[K)\n'}
+[8.502354] (wall_follow) StderrLine: {'line': b'      |                                    \x1b[01;35m\x1b[K~~~~~~~^~~~~~~~\x1b[m\x1b[K\n'}
+[8.502495] (wall_follow) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nvidia/f1tenth_ws/src/ese-6150-lab-3-wall-following-zmmmm77/wall_follow/src/wall_follow_node.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid WallFollow::\x1b[01;32m\x1b[Kscan_callback\x1b[m\x1b[K(sensor_msgs::msg::LaserScan_<std::allocator<void> >::ConstSharedPtr)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[8.502666] (wall_follow) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nvidia/f1tenth_ws/src/ese-6150-lab-3-wall-following-zmmmm77/wall_follow/src/wall_follow_node.cpp:93:16:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[Kerror\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable\x07-Wunused-variable\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[8.502874] (wall_follow) StderrLine: {'line': b'   93 |         double \x1b[01;35m\x1b[Kerror\x1b[m\x1b[K = 0.0; // TODO: replace with error calculated by get_error()\n'}
+[8.503089] (wall_follow) StderrLine: {'line': b'      |                \x1b[01;35m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[8.503236] (wall_follow) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nvidia/f1tenth_ws/src/ese-6150-lab-3-wall-following-zmmmm77/wall_follow/src/wall_follow_node.cpp:94:16:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[Kvelocity\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable\x07-Wunused-variable\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[8.503388] (wall_follow) StderrLine: {'line': b'   94 |         double \x1b[01;35m\x1b[Kvelocity\x1b[m\x1b[K = 0.0; // TODO: calculate desired car velocity based on error\n'}
+[8.503532] (wall_follow) StderrLine: {'line': b'      |                \x1b[01;35m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[8.503677] (wall_follow) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nvidia/f1tenth_ws/src/ese-6150-lab-3-wall-following-zmmmm77/wall_follow/src/wall_follow_node.cpp:82:74:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kscan_msg\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[8.503825] (wall_follow) StderrLine: {'line': b'   82 |     void scan_callback(\x1b[01;35m\x1b[Kconst sensor_msgs::msg::LaserScan::ConstSharedPtr scan_msg\x1b[m\x1b[K)\n'}
+[8.503966] (wall_follow) StderrLine: {'line': b'      |                        \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~\x1b[m\x1b[K\n'}
+[8.538893] (-) TimerEvent: {}
+[8.639512] (-) TimerEvent: {}
+[8.740127] (-) TimerEvent: {}
+[8.840718] (-) TimerEvent: {}
+[8.941298] (-) TimerEvent: {}
+[9.041885] (-) TimerEvent: {}
+[9.142486] (-) TimerEvent: {}
+[9.243108] (-) TimerEvent: {}
+[9.343703] (-) TimerEvent: {}
+[9.444318] (-) TimerEvent: {}
+[9.544931] (-) TimerEvent: {}
+[9.645524] (-) TimerEvent: {}
+[9.746150] (-) TimerEvent: {}
+[9.846822] (-) TimerEvent: {}
+[9.947480] (-) TimerEvent: {}
+[10.048082] (-) TimerEvent: {}
+[10.148677] (-) TimerEvent: {}
+[10.249287] (-) TimerEvent: {}
+[10.305906] (wall_follow) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable wall_follow_node\x1b[0m\n'}
+[10.349476] (-) TimerEvent: {}
+[10.450131] (-) TimerEvent: {}
+[10.550881] (-) TimerEvent: {}
+[10.647391] (wall_follow) StdoutLine: {'line': b'[100%] Built target wall_follow_node\n'}
+[10.650970] (-) TimerEvent: {}
+[10.671462] (wall_follow) CommandEnded: {'returncode': 0}
+[10.673439] (wall_follow) JobProgress: {'identifier': 'wall_follow', 'progress': 'install'}
+[10.693054] (wall_follow) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/nvidia/f1tenth_ws/build/wall_follow'], 'cwd': '/home/nvidia/f1tenth_ws/build/wall_follow', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'nvidia', 'SSH_CLIENT': '100.104.208.13 55076 22', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/nvidia', 'OLDPWD': '/home/nvidia/f1tenth_ws/src', 'SSH_TTY': '/dev/pts/0', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/2002/bus', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'nvidia', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '4', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/2002', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/nvidia/f1tenth_ws/build/wall_follow', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '100.104.208.13 55076 100.122.20.107 22', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/opt/gz_math_vendor/lib/python:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[10.709651] (wall_follow) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[10.710063] (wall_follow) StdoutLine: {'line': b'-- Installing: /home/nvidia/f1tenth_ws/install/wall_follow/lib/wall_follow/wall_follow_node\n'}
+[10.710950] (wall_follow) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/nvidia/f1tenth_ws/install/wall_follow/lib/wall_follow/wall_follow_node" to ""\n'}
+[10.711229] (wall_follow) StdoutLine: {'line': b'-- Installing: /home/nvidia/f1tenth_ws/install/wall_follow/share/wall_follow/environment/pythonpath.sh\n'}
+[10.711522] (wall_follow) StdoutLine: {'line': b'-- Installing: /home/nvidia/f1tenth_ws/install/wall_follow/share/wall_follow/environment/pythonpath.dsv\n'}
+[10.711767] (wall_follow) StdoutLine: {'line': b'-- Installing: /home/nvidia/f1tenth_ws/install/wall_follow/lib/python3.12/site-packages/wall_follow-0.0.0-py3.12.egg-info\n'}
+[10.711974] (wall_follow) StdoutLine: {'line': b'-- Installing: /home/nvidia/f1tenth_ws/install/wall_follow/lib/python3.12/site-packages/wall_follow-0.0.0-py3.12.egg-info/PKG-INFO\n'}
+[10.712186] (wall_follow) StdoutLine: {'line': b'-- Installing: /home/nvidia/f1tenth_ws/install/wall_follow/lib/python3.12/site-packages/wall_follow-0.0.0-py3.12.egg-info/dependency_links.txt\n'}
+[10.712384] (wall_follow) StdoutLine: {'line': b'-- Installing: /home/nvidia/f1tenth_ws/install/wall_follow/lib/python3.12/site-packages/wall_follow-0.0.0-py3.12.egg-info/SOURCES.txt\n'}
+[10.712578] (wall_follow) StdoutLine: {'line': b'-- Installing: /home/nvidia/f1tenth_ws/install/wall_follow/lib/python3.12/site-packages/wall_follow-0.0.0-py3.12.egg-info/top_level.txt\n'}
+[10.712767] (wall_follow) StdoutLine: {'line': b'-- Installing: /home/nvidia/f1tenth_ws/install/wall_follow/lib/python3.12/site-packages/wall_follow\n'}
+[10.712955] (wall_follow) StdoutLine: {'line': b'-- Installing: /home/nvidia/f1tenth_ws/install/wall_follow/lib/python3.12/site-packages/wall_follow/__init__.py\n'}
+[10.751102] (-) TimerEvent: {}
+[10.793309] (wall_follow) StdoutLine: {'line': b"Listing '/home/nvidia/f1tenth_ws/install/wall_follow/lib/python3.12/site-packages/wall_follow'...\n"}
+[10.793780] (wall_follow) StdoutLine: {'line': b"Compiling '/home/nvidia/f1tenth_ws/install/wall_follow/lib/python3.12/site-packages/wall_follow/__init__.py'...\n"}
+[10.808219] (wall_follow) StdoutLine: {'line': b'-- Installing: /home/nvidia/f1tenth_ws/install/wall_follow/lib/wall_follow/wall_follow_node.py\n'}
+[10.808832] (wall_follow) StdoutLine: {'line': b'-- Installing: /home/nvidia/f1tenth_ws/install/wall_follow/share/ament_index/resource_index/package_run_dependencies/wall_follow\n'}
+[10.809171] (wall_follow) StdoutLine: {'line': b'-- Installing: /home/nvidia/f1tenth_ws/install/wall_follow/share/ament_index/resource_index/parent_prefix_path/wall_follow\n'}
+[10.809428] (wall_follow) StdoutLine: {'line': b'-- Installing: /home/nvidia/f1tenth_ws/install/wall_follow/share/wall_follow/environment/ament_prefix_path.sh\n'}
+[10.809680] (wall_follow) StdoutLine: {'line': b'-- Installing: /home/nvidia/f1tenth_ws/install/wall_follow/share/wall_follow/environment/ament_prefix_path.dsv\n'}
+[10.809909] (wall_follow) StdoutLine: {'line': b'-- Installing: /home/nvidia/f1tenth_ws/install/wall_follow/share/wall_follow/environment/path.sh\n'}
+[10.810138] (wall_follow) StdoutLine: {'line': b'-- Installing: /home/nvidia/f1tenth_ws/install/wall_follow/share/wall_follow/environment/path.dsv\n'}
+[10.810382] (wall_follow) StdoutLine: {'line': b'-- Installing: /home/nvidia/f1tenth_ws/install/wall_follow/share/wall_follow/local_setup.bash\n'}
+[10.810604] (wall_follow) StdoutLine: {'line': b'-- Installing: /home/nvidia/f1tenth_ws/install/wall_follow/share/wall_follow/local_setup.sh\n'}
+[10.810948] (wall_follow) StdoutLine: {'line': b'-- Installing: /home/nvidia/f1tenth_ws/install/wall_follow/share/wall_follow/local_setup.zsh\n'}
+[10.811249] (wall_follow) StdoutLine: {'line': b'-- Installing: /home/nvidia/f1tenth_ws/install/wall_follow/share/wall_follow/local_setup.dsv\n'}
+[10.811488] (wall_follow) StdoutLine: {'line': b'-- Installing: /home/nvidia/f1tenth_ws/install/wall_follow/share/wall_follow/package.dsv\n'}
+[10.811778] (wall_follow) StdoutLine: {'line': b'-- Installing: /home/nvidia/f1tenth_ws/install/wall_follow/share/ament_index/resource_index/packages/wall_follow\n'}
+[10.812063] (wall_follow) StdoutLine: {'line': b'-- Installing: /home/nvidia/f1tenth_ws/install/wall_follow/share/wall_follow/cmake/wall_followConfig.cmake\n'}
+[10.812327] (wall_follow) StdoutLine: {'line': b'-- Installing: /home/nvidia/f1tenth_ws/install/wall_follow/share/wall_follow/cmake/wall_followConfig-version.cmake\n'}
+[10.812574] (wall_follow) StdoutLine: {'line': b'-- Installing: /home/nvidia/f1tenth_ws/install/wall_follow/share/wall_follow/package.xml\n'}
+[10.817625] (wall_follow) CommandEnded: {'returncode': 0}
+[10.853419] (-) TimerEvent: {}
+[10.891493] (wall_follow) JobEnded: {'identifier': 'wall_follow', 'rc': 0}
+[10.893639] (-) EventReactorShutdown: {}

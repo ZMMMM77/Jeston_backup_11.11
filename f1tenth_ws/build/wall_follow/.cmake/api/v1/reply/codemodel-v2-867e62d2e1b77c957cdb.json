@@ -1,0 +1,106 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-b7a67929cb29b639bf88.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "wall_follow",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_wall_follow_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_wall_follow_egg-5cc5a67d11be45445dc0.json",
+					"name" : "ament_cmake_python_build_wall_follow_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_copy_wall_follow::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_copy_wall_follow-a8e1e29349e71e7acbd7.json",
+					"name" : "ament_cmake_python_copy_wall_follow",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_copy_wall_follow_setup::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_copy_wall_follow_setup-f6211acc1e443e2a3e37.json",
+					"name" : "ament_cmake_python_copy_wall_follow_setup",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-986a9ea6e4873271ca6d.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "wall_follow_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-wall_follow_node-92b3ef57de54b406c862.json",
+					"name" : "wall_follow_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "wall_follow_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-wall_follow_uninstall-2a93ddecfd535285396b.json",
+					"name" : "wall_follow_uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/nvidia/f1tenth_ws/build/wall_follow",
+		"source" : "/home/nvidia/f1tenth_ws/src/ese-6150-lab-3-wall-following-zmmmm77/wall_follow"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

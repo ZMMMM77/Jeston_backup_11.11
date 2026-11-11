@@ -1,0 +1,129 @@
+[0.000000] (-) TimerEvent: {}
+[0.000703] (-) JobUnselected: {'identifier': 'ackermann_mux'}
+[0.000798] (-) JobUnselected: {'identifier': 'f1tenth_stack'}
+[0.001557] (-) JobUnselected: {'identifier': 'joy_teleop'}
+[0.001615] (-) JobUnselected: {'identifier': 'key_teleop'}
+[0.001656] (-) JobUnselected: {'identifier': 'mouse_teleop'}
+[0.001690] (-) JobUnselected: {'identifier': 'teleop_tools'}
+[0.001720] (-) JobUnselected: {'identifier': 'teleop_tools_msgs'}
+[0.001749] (-) JobUnselected: {'identifier': 'vesc'}
+[0.001778] (-) JobUnselected: {'identifier': 'vesc_ackermann'}
+[0.001806] (-) JobUnselected: {'identifier': 'vesc_driver'}
+[0.001833] (-) JobUnselected: {'identifier': 'vesc_msgs'}
+[0.001862] (-) JobUnselected: {'identifier': 'wall_follow'}
+[0.001897] (gap_follow) JobQueued: {'identifier': 'gap_follow', 'dependencies': OrderedDict()}
+[0.001940] (gap_follow) JobStarted: {'identifier': 'gap_follow'}
+[0.020094] (gap_follow) JobProgress: {'identifier': 'gap_follow', 'progress': 'cmake'}
+[0.022225] (gap_follow) Command: {'cmd': ['/usr/bin/cmake', '/home/nvidia/f1tenth_ws/src/gap_follow', '-DCMAKE_INSTALL_PREFIX=/home/nvidia/f1tenth_ws/install/gap_follow'], 'cwd': '/home/nvidia/f1tenth_ws/build/gap_follow', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'nvidia', 'SSH_CLIENT': '100.104.208.13 52686 22', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/nvidia', 'OLDPWD': '/home/nvidia/f1tenth_ws/src', 'SSH_TTY': '/dev/pts/1', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/2002/bus', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'nvidia', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '10', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/2002', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'ROS_DOMAIN_ID': '9', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/nvidia/f1tenth_ws/build/gap_follow', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '100.104.208.13 52686 100.122.20.107 22', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/opt/gz_math_vendor/lib/python:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[0.083541] (gap_follow) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[0.099317] (-) TimerEvent: {}
+[0.199828] (-) TimerEvent: {}
+[0.300395] (-) TimerEvent: {}
+[0.400928] (-) TimerEvent: {}
+[0.501493] (-) TimerEvent: {}
+[0.573992] (gap_follow) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.601612] (-) TimerEvent: {}
+[0.603125] (gap_follow) StdoutLine: {'line': b'-- Found rclcpp: 28.1.22 (/opt/ros/jazzy/share/rclcpp/cmake)\n'}
+[0.672640] (gap_follow) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.6.9 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)\n'}
+[0.697026] (gap_follow) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.6.9 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)\n'}
+[0.702300] (-) TimerEvent: {}
+[0.727640] (gap_follow) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.760841] (gap_follow) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.802446] (-) TimerEvent: {}
+[0.901996] (gap_follow) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)\n'}
+[0.902473] (-) TimerEvent: {}
+[0.907818] (gap_follow) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 8.4.4 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)\n'}
+[1.002651] (-) TimerEvent: {}
+[1.061135] (gap_follow) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.102799] (-) TimerEvent: {}
+[1.203541] (-) TimerEvent: {}
+[1.212639] (gap_follow) StdoutLine: {'line': b'-- Found rclpy: 7.1.12 (/opt/ros/jazzy/share/rclpy/cmake)\n'}
+[1.213499] (gap_follow) StdoutLine: {'line': b'-- Found geometry_msgs: 5.3.8 (/opt/ros/jazzy/share/geometry_msgs/cmake)\n'}
+[1.281061] (gap_follow) StdoutLine: {'line': b'-- Found nav_msgs: 5.3.8 (/opt/ros/jazzy/share/nav_msgs/cmake)\n'}
+[1.303603] (-) TimerEvent: {}
+[1.332764] (gap_follow) StdoutLine: {'line': b'-- Found ackermann_msgs: 2.0.2 (/opt/ros/jazzy/share/ackermann_msgs/cmake)\n'}
+[1.365312] (gap_follow) StdoutLine: {'line': b'-- Found sensor_msgs: 5.3.8 (/opt/ros/jazzy/share/sensor_msgs/cmake)\n'}
+[1.403711] (-) TimerEvent: {}
+[1.504123] (-) TimerEvent: {}
+[1.604643] (-) TimerEvent: {}
+[1.630045] (gap_follow) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.17.5 (/opt/ros/jazzy/share/ament_lint_auto/cmake)\n'}
+[1.704750] (-) TimerEvent: {}
+[1.805233] (-) TimerEvent: {}
+[1.877557] (gap_follow) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[1.880466] (gap_follow) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[1.881000] (gap_follow) StdoutLine: {'line': b'-- Configured cppcheck include dirs: /home/nvidia/f1tenth_ws/src/gap_follow/include\n'}
+[1.881364] (gap_follow) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[1.883289] (gap_follow) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[1.883635] (gap_follow) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[1.884347] (gap_follow) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[1.884602] (gap_follow) StdoutLine: {'line': b"-- Configured 'flake8' exclude dirs and/or files: \n"}
+[1.885555] (gap_follow) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[1.886631] (gap_follow) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[1.888800] (gap_follow) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[1.889227] (gap_follow) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[1.889925] (gap_follow) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[1.893028] (gap_follow) StdoutLine: {'line': b'-- Configuring done (1.8s)\n'}
+[1.905451] (-) TimerEvent: {}
+[1.912576] (gap_follow) StdoutLine: {'line': b'-- Generating done (0.0s)\n'}
+[1.919415] (gap_follow) StdoutLine: {'line': b'-- Build files have been written to: /home/nvidia/f1tenth_ws/build/gap_follow\n'}
+[1.943882] (gap_follow) CommandEnded: {'returncode': 0}
+[1.946986] (gap_follow) JobProgress: {'identifier': 'gap_follow', 'progress': 'build'}
+[1.947058] (gap_follow) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/nvidia/f1tenth_ws/build/gap_follow', '--', '-j6', '-l6'], 'cwd': '/home/nvidia/f1tenth_ws/build/gap_follow', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'nvidia', 'SSH_CLIENT': '100.104.208.13 52686 22', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/nvidia', 'OLDPWD': '/home/nvidia/f1tenth_ws/src', 'SSH_TTY': '/dev/pts/1', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/2002/bus', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'nvidia', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '10', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/2002', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'ROS_DOMAIN_ID': '9', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/nvidia/f1tenth_ws/build/gap_follow', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '100.104.208.13 52686 100.122.20.107 22', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/opt/gz_math_vendor/lib/python:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[2.005647] (-) TimerEvent: {}
+[2.071115] (gap_follow) StdoutLine: {'line': b'Built target ament_cmake_python_symlink_gap_follow_setup\n'}
+[2.071816] (gap_follow) StdoutLine: {'line': b'Built target ament_cmake_python_symlink_gap_follow\n'}
+[2.105804] (-) TimerEvent: {}
+[2.206371] (-) TimerEvent: {}
+[2.306926] (-) TimerEvent: {}
+[2.407464] (-) TimerEvent: {}
+[2.508001] (-) TimerEvent: {}
+[2.608372] (-) TimerEvent: {}
+[2.625891] (gap_follow) StdoutLine: {'line': b'running egg_info\n'}
+[2.681371] (gap_follow) StdoutLine: {'line': b'writing gap_follow.egg-info/PKG-INFO\n'}
+[2.681942] (gap_follow) StdoutLine: {'line': b'writing dependency_links to gap_follow.egg-info/dependency_links.txt\n'}
+[2.682351] (gap_follow) StdoutLine: {'line': b'writing top-level names to gap_follow.egg-info/top_level.txt\n'}
+[2.708470] (-) TimerEvent: {}
+[2.809035] (-) TimerEvent: {}
+[2.842872] (gap_follow) StdoutLine: {'line': b"reading manifest file 'gap_follow.egg-info/SOURCES.txt'\n"}
+[2.844353] (gap_follow) StdoutLine: {'line': b"writing manifest file 'gap_follow.egg-info/SOURCES.txt'\n"}
+[2.909195] (-) TimerEvent: {}
+[2.920337] (gap_follow) StdoutLine: {'line': b'Built target ament_cmake_python_build_gap_follow_egg\n'}
+[2.944722] (gap_follow) CommandEnded: {'returncode': 0}
+[2.946924] (gap_follow) JobProgress: {'identifier': 'gap_follow', 'progress': 'install'}
+[2.967451] (gap_follow) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/nvidia/f1tenth_ws/build/gap_follow'], 'cwd': '/home/nvidia/f1tenth_ws/build/gap_follow', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'nvidia', 'SSH_CLIENT': '100.104.208.13 52686 22', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/nvidia', 'OLDPWD': '/home/nvidia/f1tenth_ws/src', 'SSH_TTY': '/dev/pts/1', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/2002/bus', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'nvidia', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '10', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/2002', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'ROS_DOMAIN_ID': '9', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/nvidia/f1tenth_ws/build/gap_follow', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '100.104.208.13 52686 100.122.20.107 22', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/opt/gz_math_vendor/lib/python:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[2.984511] (gap_follow) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[2.985364] (gap_follow) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[2.985758] (gap_follow) StdoutLine: {'line': b'-- Up-to-date symlink: /home/nvidia/f1tenth_ws/install/gap_follow/share/gap_follow/environment/pythonpath.sh\n'}
+[2.986056] (gap_follow) StdoutLine: {'line': b'-- Up-to-date symlink: /home/nvidia/f1tenth_ws/install/gap_follow/share/gap_follow/environment/pythonpath.dsv\n'}
+[2.986620] (gap_follow) StdoutLine: {'line': b'-- Up-to-date symlink: /home/nvidia/f1tenth_ws/install/gap_follow/lib/python3.12/site-packages/gap_follow-0.0.0-py3.12.egg-info/PKG-INFO\n'}
+[2.987066] (gap_follow) StdoutLine: {'line': b'-- Up-to-date symlink: /home/nvidia/f1tenth_ws/install/gap_follow/lib/python3.12/site-packages/gap_follow-0.0.0-py3.12.egg-info/SOURCES.txt\n'}
+[2.987370] (gap_follow) StdoutLine: {'line': b'-- Up-to-date symlink: /home/nvidia/f1tenth_ws/install/gap_follow/lib/python3.12/site-packages/gap_follow-0.0.0-py3.12.egg-info/dependency_links.txt\n'}
+[2.987649] (gap_follow) StdoutLine: {'line': b'-- Up-to-date symlink: /home/nvidia/f1tenth_ws/install/gap_follow/lib/python3.12/site-packages/gap_follow-0.0.0-py3.12.egg-info/top_level.txt\n'}
+[2.987985] (gap_follow) StdoutLine: {'line': b'-- Up-to-date symlink: /home/nvidia/f1tenth_ws/install/gap_follow/lib/python3.12/site-packages/gap_follow/__init__.py\n'}
+[2.988316] (gap_follow) StdoutLine: {'line': b'-- Up-to-date symlink: /home/nvidia/f1tenth_ws/install/gap_follow/lib/gap_follow/reactive_node.py\n'}
+[2.988831] (gap_follow) StdoutLine: {'line': b'-- Up-to-date symlink: /home/nvidia/f1tenth_ws/install/gap_follow/share/gap_follow/launch/__pycache__/levine_blocked_launch.cpython-314.pyc\n'}
+[2.989222] (gap_follow) StdoutLine: {'line': b'-- Up-to-date symlink: /home/nvidia/f1tenth_ws/install/gap_follow/share/gap_follow/launch/__pycache__/levine_obs_launch.cpython-314.pyc\n'}
+[2.989598] (gap_follow) StdoutLine: {'line': b'-- Up-to-date symlink: /home/nvidia/f1tenth_ws/install/gap_follow/share/gap_follow/launch/levine_blocked_launch.py\n'}
+[2.989955] (gap_follow) StdoutLine: {'line': b'-- Up-to-date symlink: /home/nvidia/f1tenth_ws/install/gap_follow/share/gap_follow/launch/levine_obs_launch.py\n'}
+[2.990220] (gap_follow) StdoutLine: {'line': b'-- Up-to-date symlink: /home/nvidia/f1tenth_ws/install/gap_follow/share/ament_index/resource_index/package_run_dependencies/gap_follow\n'}
+[2.990573] (gap_follow) StdoutLine: {'line': b'-- Up-to-date symlink: /home/nvidia/f1tenth_ws/install/gap_follow/share/ament_index/resource_index/parent_prefix_path/gap_follow\n'}
+[2.990918] (gap_follow) StdoutLine: {'line': b'-- Up-to-date symlink: /home/nvidia/f1tenth_ws/install/gap_follow/share/gap_follow/environment/ament_prefix_path.sh\n'}
+[2.991292] (gap_follow) StdoutLine: {'line': b'-- Up-to-date symlink: /home/nvidia/f1tenth_ws/install/gap_follow/share/gap_follow/environment/ament_prefix_path.dsv\n'}
+[2.991653] (gap_follow) StdoutLine: {'line': b'-- Up-to-date symlink: /home/nvidia/f1tenth_ws/install/gap_follow/share/gap_follow/environment/path.sh\n'}
+[2.991922] (gap_follow) StdoutLine: {'line': b'-- Up-to-date symlink: /home/nvidia/f1tenth_ws/install/gap_follow/share/gap_follow/environment/path.dsv\n'}
+[2.992241] (gap_follow) StdoutLine: {'line': b'-- Up-to-date symlink: /home/nvidia/f1tenth_ws/install/gap_follow/share/gap_follow/local_setup.bash\n'}
+[2.992699] (gap_follow) StdoutLine: {'line': b'-- Up-to-date symlink: /home/nvidia/f1tenth_ws/install/gap_follow/share/gap_follow/local_setup.sh\n'}
+[2.992990] (gap_follow) StdoutLine: {'line': b'-- Up-to-date symlink: /home/nvidia/f1tenth_ws/install/gap_follow/share/gap_follow/local_setup.zsh\n'}
+[2.993376] (gap_follow) StdoutLine: {'line': b'-- Up-to-date symlink: /home/nvidia/f1tenth_ws/install/gap_follow/share/gap_follow/local_setup.dsv\n'}
+[2.993639] (gap_follow) StdoutLine: {'line': b'-- Symlinking: /home/nvidia/f1tenth_ws/install/gap_follow/share/gap_follow/package.dsv\n'}
+[3.009303] (-) TimerEvent: {}
+[3.013150] (gap_follow) StdoutLine: {'line': b'-- Up-to-date symlink: /home/nvidia/f1tenth_ws/install/gap_follow/share/ament_index/resource_index/packages/gap_follow\n'}
+[3.013576] (gap_follow) StdoutLine: {'line': b'-- Up-to-date symlink: /home/nvidia/f1tenth_ws/install/gap_follow/share/gap_follow/cmake/gap_followConfig.cmake\n'}
+[3.013947] (gap_follow) StdoutLine: {'line': b'-- Up-to-date symlink: /home/nvidia/f1tenth_ws/install/gap_follow/share/gap_follow/cmake/gap_followConfig-version.cmake\n'}
+[3.014301] (gap_follow) StdoutLine: {'line': b'-- Up-to-date symlink: /home/nvidia/f1tenth_ws/install/gap_follow/share/gap_follow/package.xml\n'}
+[3.093421] (gap_follow) StdoutLine: {'line': b"Listing '/home/nvidia/f1tenth_ws/install/gap_follow/lib/python3.12/site-packages/gap_follow'...\n"}
+[3.108175] (gap_follow) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/f1tenth_ws/install/gap_follow/lib/gap_follow/reactive_node\n'}
+[3.109424] (-) TimerEvent: {}
+[3.113727] (gap_follow) CommandEnded: {'returncode': 0}
+[3.188919] (gap_follow) JobEnded: {'identifier': 'gap_follow', 'rc': 0}
+[3.190948] (-) EventReactorShutdown: {}

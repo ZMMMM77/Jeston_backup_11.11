@@ -1,0 +1,70 @@
+[0.027s] Invoking command in '/home/nvidia/ese-6150-lab-8-model-predictive-path-integral-group-9/build/mppi': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nvidia/f1tenth_ws/install/f1tenth_stack:/home/nvidia/f1tenth_ws/install/joy_teleop:/home/nvidia/f1tenth_ws/install/particle_filter:/home/nvidia/f1tenth_ws/install/mouse_teleop:/home/nvidia/f1tenth_ws/install/key_teleop:/home/nvidia/raceline_ws/install/raceline_studio:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/nvidia/ese-6150-lab-8-model-predictive-path-integral-group-9/mppi -DCMAKE_INSTALL_PREFIX=/home/nvidia/ese-6150-lab-8-model-predictive-path-integral-group-9/install/mppi
+[0.061s] -- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.632s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.654s] -- Found rclpy: 7.1.12 (/opt/ros/jazzy/share/rclpy/cmake)
+[0.654s] -- Found geometry_msgs: 5.3.8 (/opt/ros/jazzy/share/geometry_msgs/cmake)
+[0.714s] -- Found rosidl_generator_c: 4.6.9 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.735s] -- Found rosidl_generator_cpp: 4.6.9 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.761s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.794s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.880s] -- Found nav_msgs: 5.3.8 (/opt/ros/jazzy/share/nav_msgs/cmake)
+[0.951s] -- Found ackermann_msgs: 2.0.2 (/opt/ros/jazzy/share/ackermann_msgs/cmake)
+[0.980s] -- Found visualization_msgs: 5.3.8 (/opt/ros/jazzy/share/visualization_msgs/cmake)
+[1.339s] -- Found ament_lint_auto: 0.17.5 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[1.598s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.602s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.603s] -- Configured 'flake8' exclude dirs and/or files: 
+[1.603s] -- Added test 'lint_cmake' to check CMake code style
+[1.604s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.607s] -- Added test 'xmllint' to check XML markup files
+[1.609s] -- Configuring done (1.6s)
+[1.621s] -- Generating done (0.0s)
+[1.628s] -- Build files have been written to: /home/nvidia/ese-6150-lab-8-model-predictive-path-integral-group-9/build/mppi
+[1.645s] Invoked command in '/home/nvidia/ese-6150-lab-8-model-predictive-path-integral-group-9/build/mppi' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nvidia/f1tenth_ws/install/f1tenth_stack:/home/nvidia/f1tenth_ws/install/joy_teleop:/home/nvidia/f1tenth_ws/install/particle_filter:/home/nvidia/f1tenth_ws/install/mouse_teleop:/home/nvidia/f1tenth_ws/install/key_teleop:/home/nvidia/raceline_ws/install/raceline_studio:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/nvidia/ese-6150-lab-8-model-predictive-path-integral-group-9/mppi -DCMAKE_INSTALL_PREFIX=/home/nvidia/ese-6150-lab-8-model-predictive-path-integral-group-9/install/mppi
+[1.648s] Invoking command in '/home/nvidia/ese-6150-lab-8-model-predictive-path-integral-group-9/build/mppi': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nvidia/f1tenth_ws/install/f1tenth_stack:/home/nvidia/f1tenth_ws/install/joy_teleop:/home/nvidia/f1tenth_ws/install/particle_filter:/home/nvidia/f1tenth_ws/install/mouse_teleop:/home/nvidia/f1tenth_ws/install/key_teleop:/home/nvidia/raceline_ws/install/raceline_studio:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/nvidia/ese-6150-lab-8-model-predictive-path-integral-group-9/build/mppi -- -j6 -l6
+[1.774s] Built target ament_cmake_python_symlink_mppi
+[2.402s] running egg_info
+[2.466s] writing mppi.egg-info/PKG-INFO
+[2.467s] writing dependency_links to mppi.egg-info/dependency_links.txt
+[2.467s] writing top-level names to mppi.egg-info/top_level.txt
+[2.652s] reading manifest file 'mppi.egg-info/SOURCES.txt'
+[2.653s] writing manifest file 'mppi.egg-info/SOURCES.txt'
+[2.741s] Built target ament_cmake_python_build_mppi_egg
+[2.767s] Invoked command in '/home/nvidia/ese-6150-lab-8-model-predictive-path-integral-group-9/build/mppi' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nvidia/f1tenth_ws/install/f1tenth_stack:/home/nvidia/f1tenth_ws/install/joy_teleop:/home/nvidia/f1tenth_ws/install/particle_filter:/home/nvidia/f1tenth_ws/install/mouse_teleop:/home/nvidia/f1tenth_ws/install/key_teleop:/home/nvidia/raceline_ws/install/raceline_studio:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/nvidia/ese-6150-lab-8-model-predictive-path-integral-group-9/build/mppi -- -j6 -l6
+[2.791s] Invoking command in '/home/nvidia/ese-6150-lab-8-model-predictive-path-integral-group-9/build/mppi': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nvidia/f1tenth_ws/install/f1tenth_stack:/home/nvidia/f1tenth_ws/install/joy_teleop:/home/nvidia/f1tenth_ws/install/particle_filter:/home/nvidia/f1tenth_ws/install/mouse_teleop:/home/nvidia/f1tenth_ws/install/key_teleop:/home/nvidia/raceline_ws/install/raceline_studio:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/nvidia/ese-6150-lab-8-model-predictive-path-integral-group-9/build/mppi
+[2.807s] -- Install configuration: ""
+[2.808s] -- Execute custom install script
+[2.809s] -- Up-to-date symlink: /home/nvidia/ese-6150-lab-8-model-predictive-path-integral-group-9/install/mppi/share/mppi/environment/pythonpath.sh
+[2.809s] -- Up-to-date symlink: /home/nvidia/ese-6150-lab-8-model-predictive-path-integral-group-9/install/mppi/share/mppi/environment/pythonpath.dsv
+[2.810s] -- Up-to-date symlink: /home/nvidia/ese-6150-lab-8-model-predictive-path-integral-group-9/install/mppi/lib/python3.12/site-packages/mppi-0.0.0-py3.12.egg-info/PKG-INFO
+[2.811s] -- Up-to-date symlink: /home/nvidia/ese-6150-lab-8-model-predictive-path-integral-group-9/install/mppi/lib/python3.12/site-packages/mppi-0.0.0-py3.12.egg-info/SOURCES.txt
+[2.813s] -- Up-to-date symlink: /home/nvidia/ese-6150-lab-8-model-predictive-path-integral-group-9/install/mppi/lib/python3.12/site-packages/mppi-0.0.0-py3.12.egg-info/dependency_links.txt
+[2.813s] -- Up-to-date symlink: /home/nvidia/ese-6150-lab-8-model-predictive-path-integral-group-9/install/mppi/lib/python3.12/site-packages/mppi-0.0.0-py3.12.egg-info/top_level.txt
+[2.813s] -- Up-to-date symlink: /home/nvidia/ese-6150-lab-8-model-predictive-path-integral-group-9/install/mppi/lib/python3.12/site-packages/mppi/__init__.py
+[2.814s] -- Up-to-date symlink: /home/nvidia/ese-6150-lab-8-model-predictive-path-integral-group-9/install/mppi/lib/mppi/mppi_node.py
+[2.814s] -- Up-to-date symlink: /home/nvidia/ese-6150-lab-8-model-predictive-path-integral-group-9/install/mppi/lib/mppi/utils.py
+[2.814s] -- Up-to-date symlink: /home/nvidia/ese-6150-lab-8-model-predictive-path-integral-group-9/install/mppi/share/mppi/launch/levine_launch.py
+[2.814s] -- Up-to-date symlink: /home/nvidia/ese-6150-lab-8-model-predictive-path-integral-group-9/install/mppi/share/mppi/launch/spielberg_launch.py
+[2.814s] -- Up-to-date symlink: /home/nvidia/ese-6150-lab-8-model-predictive-path-integral-group-9/install/mppi/share/mppi/waypoints/.gitkeep
+[2.815s] -- Up-to-date symlink: /home/nvidia/ese-6150-lab-8-model-predictive-path-integral-group-9/install/mppi/share/mppi/waypoints/levine.csv
+[2.815s] -- Up-to-date symlink: /home/nvidia/ese-6150-lab-8-model-predictive-path-integral-group-9/install/mppi/share/mppi/waypoints/levine1.csv
+[2.815s] -- Up-to-date symlink: /home/nvidia/ese-6150-lab-8-model-predictive-path-integral-group-9/install/mppi/share/mppi/waypoints/race.csv
+[2.816s] -- Symlinking: /home/nvidia/ese-6150-lab-8-model-predictive-path-integral-group-9/install/mppi/share/mppi/waypoints/race.csv.bak-a3fa40ba254b4d61afa2e509717ed7f9
+[2.835s] -- Symlinking: /home/nvidia/ese-6150-lab-8-model-predictive-path-integral-group-9/install/mppi/share/mppi/waypoints/race.csv.bak-b266a51502c4481db1dd6bb20fd73702
+[2.855s] -- Up-to-date symlink: /home/nvidia/ese-6150-lab-8-model-predictive-path-integral-group-9/install/mppi/share/ament_index/resource_index/package_run_dependencies/mppi
+[2.855s] -- Up-to-date symlink: /home/nvidia/ese-6150-lab-8-model-predictive-path-integral-group-9/install/mppi/share/ament_index/resource_index/parent_prefix_path/mppi
+[2.855s] -- Up-to-date symlink: /home/nvidia/ese-6150-lab-8-model-predictive-path-integral-group-9/install/mppi/share/mppi/environment/ament_prefix_path.sh
+[2.856s] -- Up-to-date symlink: /home/nvidia/ese-6150-lab-8-model-predictive-path-integral-group-9/install/mppi/share/mppi/environment/ament_prefix_path.dsv
+[2.856s] -- Up-to-date symlink: /home/nvidia/ese-6150-lab-8-model-predictive-path-integral-group-9/install/mppi/share/mppi/environment/path.sh
+[2.857s] -- Up-to-date symlink: /home/nvidia/ese-6150-lab-8-model-predictive-path-integral-group-9/install/mppi/share/mppi/environment/path.dsv
+[2.857s] -- Up-to-date symlink: /home/nvidia/ese-6150-lab-8-model-predictive-path-integral-group-9/install/mppi/share/mppi/local_setup.bash
+[2.857s] -- Up-to-date symlink: /home/nvidia/ese-6150-lab-8-model-predictive-path-integral-group-9/install/mppi/share/mppi/local_setup.sh
+[2.858s] -- Up-to-date symlink: /home/nvidia/ese-6150-lab-8-model-predictive-path-integral-group-9/install/mppi/share/mppi/local_setup.zsh
+[2.858s] -- Up-to-date symlink: /home/nvidia/ese-6150-lab-8-model-predictive-path-integral-group-9/install/mppi/share/mppi/local_setup.dsv
+[2.858s] -- Symlinking: /home/nvidia/ese-6150-lab-8-model-predictive-path-integral-group-9/install/mppi/share/mppi/package.dsv
+[2.879s] -- Up-to-date symlink: /home/nvidia/ese-6150-lab-8-model-predictive-path-integral-group-9/install/mppi/share/ament_index/resource_index/packages/mppi
+[2.879s] -- Up-to-date symlink: /home/nvidia/ese-6150-lab-8-model-predictive-path-integral-group-9/install/mppi/share/mppi/cmake/mppiConfig.cmake
+[2.880s] -- Up-to-date symlink: /home/nvidia/ese-6150-lab-8-model-predictive-path-integral-group-9/install/mppi/share/mppi/cmake/mppiConfig-version.cmake
+[2.880s] -- Up-to-date symlink: /home/nvidia/ese-6150-lab-8-model-predictive-path-integral-group-9/install/mppi/share/mppi/package.xml
+[2.980s] Listing '/home/nvidia/ese-6150-lab-8-model-predictive-path-integral-group-9/install/mppi/lib/python3.12/site-packages/mppi'...
+[3.004s] Invoked command in '/home/nvidia/ese-6150-lab-8-model-predictive-path-integral-group-9/build/mppi' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nvidia/f1tenth_ws/install/f1tenth_stack:/home/nvidia/f1tenth_ws/install/joy_teleop:/home/nvidia/f1tenth_ws/install/particle_filter:/home/nvidia/f1tenth_ws/install/mouse_teleop:/home/nvidia/f1tenth_ws/install/key_teleop:/home/nvidia/raceline_ws/install/raceline_studio:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/nvidia/ese-6150-lab-8-model-predictive-path-integral-group-9/build/mppi

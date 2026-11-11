@@ -1,0 +1,32 @@
+[0.017s] Invoking command in '/home/nvidia/f1tenth_ws/build/gap_follow': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/nvidia/f1tenth_ws/src/gap_follow -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/nvidia/f1tenth_ws/install/gap_follow
+[0.224s] -- The C compiler identification is GNU 13.3.0
+[0.408s] -- The CXX compiler identification is GNU 13.3.0
+[0.449s] -- Detecting C compiler ABI info
+[0.626s] -- Detecting C compiler ABI info - done
+[0.663s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.664s] -- Detecting C compile features
+[0.666s] -- Detecting C compile features - done
+[0.688s] -- Detecting CXX compiler ABI info
+[0.880s] -- Detecting CXX compiler ABI info - done
+[0.919s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.920s] -- Detecting CXX compile features
+[0.921s] -- Detecting CXX compile features - done
+[0.951s] [31mCMake Error at CMakeLists.txt:25 (find_package):
+[0.951s]   By not providing "Findament_cmake.cmake" in CMAKE_MODULE_PATH this project
+[0.951s]   has asked CMake to find a package configuration file provided by
+[0.951s]   "ament_cmake", but CMake did not find one.
+[0.951s] 
+[0.952s]   Could not find a package configuration file provided by "ament_cmake" with
+[0.952s]   any of the following names:
+[0.952s] 
+[0.952s]     ament_cmakeConfig.cmake
+[0.952s]     ament_cmake-config.cmake
+[0.953s] 
+[0.953s]   Add the installation prefix of "ament_cmake" to CMAKE_PREFIX_PATH or set
+[0.953s]   "ament_cmake_DIR" to a directory containing one of the above files.  If
+[0.953s]   "ament_cmake" provides a separate development package or SDK, be sure it
+[0.953s]   has been installed.
+[0.954s] 
+[0.954s] [0m
+[0.954s] -- Configuring incomplete, errors occurred!
+[0.960s] Invoked command in '/home/nvidia/f1tenth_ws/build/gap_follow' returned '1': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/nvidia/f1tenth_ws/src/gap_follow -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/nvidia/f1tenth_ws/install/gap_follow

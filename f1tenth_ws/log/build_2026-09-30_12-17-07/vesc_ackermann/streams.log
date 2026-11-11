@@ -1,0 +1,30 @@
+[0.693s] Invoking command in '/home/nvidia/f1tenth_ws/build/vesc_ackermann': CMAKE_PREFIX_PATH=/home/nvidia/f1tenth_ws/install/vesc_msgs:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/nvidia/f1tenth_ws/install/wall_follow:/home/nvidia/f1tenth_ws/install/vesc:/home/nvidia/f1tenth_ws/install/vesc_driver:/home/nvidia/f1tenth_ws/install/vesc_ackermann:/home/nvidia/f1tenth_ws/install/teleop_tools:/home/nvidia/f1tenth_ws/install/teleop_tools_msgs:/home/nvidia/f1tenth_ws/install/gap_follow:/home/nvidia/f1tenth_ws/install/ackermann_mux:/opt/ros/jazzy:/home/nvidia/f1tenth_ws/install/f1tenth_stack:/home/nvidia/f1tenth_ws/install/joy_teleop:/home/nvidia/f1tenth_ws/install/particle_filter:/home/nvidia/f1tenth_ws/install/mouse_teleop:/home/nvidia/f1tenth_ws/install/key_teleop DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/nvidia/f1tenth_ws/install/vesc_msgs/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib:/home/nvidia/f1tenth_ws/install/vesc_driver/lib:/home/nvidia/f1tenth_ws/install/vesc_ackermann/lib:/home/nvidia/f1tenth_ws/install/teleop_tools_msgs/lib PYTHONPATH=/home/nvidia/f1tenth_ws/install/vesc_msgs/lib/python3.12/site-packages:/opt/ros/jazzy/opt/gz_math_vendor/lib/python:/opt/ros/jazzy/lib/python3.12/site-packages:/home/nvidia/f1tenth_ws/install/wall_follow/lib/python3.12/site-packages:/home/nvidia/f1tenth_ws/install/f1tenth_stack/lib/python3.12/site-packages:/home/nvidia/f1tenth_ws/install/joy_teleop/lib/python3.12/site-packages:/home/nvidia/f1tenth_ws/install/teleop_tools_msgs/lib/python3.12/site-packages:/home/nvidia/f1tenth_ws/install/particle_filter/lib/python3.12/site-packages:/home/nvidia/f1tenth_ws/install/mouse_teleop/lib/python3.12/site-packages:/home/nvidia/f1tenth_ws/install/key_teleop/lib/python3.12/site-packages:/home/nvidia/f1tenth_ws/install/gap_follow/lib/python3.12/site-packages /usr/bin/cmake --build /home/nvidia/f1tenth_ws/build/vesc_ackermann -- -j6 -l6
+[0.768s] -- Found ament_cmake_auto: 2.5.6 (/opt/ros/jazzy/share/ament_cmake_auto/cmake)
+[1.648s] -- Found rosidl_generator_c: 4.6.9 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[1.670s] -- Found rosidl_generator_cpp: 4.6.9 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[1.700s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.730s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.006s] -- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[2.015s] -- Found rmw_fastrtps_cpp: 8.4.4 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[2.164s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.617s] -- Found ament_lint_auto: 0.17.5 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[2.632s] [0mIn this package, headers install destination is set to `include` by ament_auto_package. It is recommended to install `include/vesc_ackermann` instead and will be the default behavior of ament_auto_package from ROS 2 Kilted Kaiju. On distributions before Kilted, ament_auto_package behaves the same way when you use USE_SCOPED_HEADER_INSTALL_DIR option.[0m
+[2.644s] -- Added test 'copyright' to check source files copyright and LICENSE
+[2.644s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.645s] -- Configured cppcheck include dirs: /home/nvidia/f1tenth_ws/src/f1tenth_system/vesc/vesc_ackermann/include
+[2.645s] -- Configured cppcheck exclude dirs and/or files: 
+[2.646s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[2.647s] -- Configured cpplint exclude dirs and/or files: 
+[2.647s] -- Added test 'lint_cmake' to check CMake code style
+[2.651s] -- Added test 'uncrustify' to check C / C++ code style
+[2.652s] -- Configured uncrustify additional arguments: 
+[2.653s] -- Added test 'xmllint' to check XML markup files
+[2.663s] -- Configuring done (1.9s)
+[2.721s] -- Generating done (0.0s)
+[2.744s] -- Build files have been written to: /home/nvidia/f1tenth_ws/build/vesc_ackermann
+[2.888s] [ 14%] [32mBuilding CXX object CMakeFiles/vesc_ackermann.dir/src/vesc_to_odom.cpp.o[0m
+[2.899s] [ 42%] Built target ackermann_to_vesc_node
+[2.900s] [ 57%] [32mBuilding CXX object CMakeFiles/vesc_ackermann.dir/src/ackermann_to_vesc.cpp.o[0m
+[2.919s] [ 85%] Built target vesc_to_odom_node
+[31.221s] [100%] [32m[1mLinking CXX shared library libvesc_ackermann.so[0m
+[32.848s] [100%] Built target vesc_ackermann

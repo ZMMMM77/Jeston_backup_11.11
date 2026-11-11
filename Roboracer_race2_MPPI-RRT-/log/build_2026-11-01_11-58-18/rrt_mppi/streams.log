@@ -1,0 +1,30 @@
+[0.029s] Invoking command in '/home/nvidia/Roboracer_race2_MPPI-RRT-/build/rrt_mppi': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nvidia/f1tenth_ws/install/f1tenth_stack:/home/nvidia/f1tenth_ws/install/joy_teleop:/home/nvidia/f1tenth_ws/install/particle_filter:/home/nvidia/f1tenth_ws/install/mouse_teleop:/home/nvidia/f1tenth_ws/install/key_teleop:/home/nvidia/raceline_ws/install/raceline_studio:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/nvidia/Roboracer_race2_MPPI-RRT-/build/rrt_mppi -- -j6 -l6
+[0.121s] Invoked command in '/home/nvidia/Roboracer_race2_MPPI-RRT-/build/rrt_mppi' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nvidia/f1tenth_ws/install/f1tenth_stack:/home/nvidia/f1tenth_ws/install/joy_teleop:/home/nvidia/f1tenth_ws/install/particle_filter:/home/nvidia/f1tenth_ws/install/mouse_teleop:/home/nvidia/f1tenth_ws/install/key_teleop:/home/nvidia/raceline_ws/install/raceline_studio:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/nvidia/Roboracer_race2_MPPI-RRT-/build/rrt_mppi -- -j6 -l6
+[0.147s] Invoking command in '/home/nvidia/Roboracer_race2_MPPI-RRT-/build/rrt_mppi': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nvidia/f1tenth_ws/install/f1tenth_stack:/home/nvidia/f1tenth_ws/install/joy_teleop:/home/nvidia/f1tenth_ws/install/particle_filter:/home/nvidia/f1tenth_ws/install/mouse_teleop:/home/nvidia/f1tenth_ws/install/key_teleop:/home/nvidia/raceline_ws/install/raceline_studio:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/nvidia/Roboracer_race2_MPPI-RRT-/build/rrt_mppi
+[0.167s] -- Install configuration: ""
+[0.168s] -- Execute custom install script
+[0.170s] -- Up-to-date symlink: /home/nvidia/Roboracer_race2_MPPI-RRT-/install/rrt_mppi/lib/rrt_mppi/rrt_mppi_node.py
+[0.171s] -- Up-to-date symlink: /home/nvidia/Roboracer_race2_MPPI-RRT-/install/rrt_mppi/lib/rrt_mppi/planning_common.py
+[0.171s] -- Up-to-date symlink: /home/nvidia/Roboracer_race2_MPPI-RRT-/install/rrt_mppi/lib/rrt_mppi/rrt_star.py
+[0.171s] -- Up-to-date symlink: /home/nvidia/Roboracer_race2_MPPI-RRT-/install/rrt_mppi/lib/rrt_mppi/mppi.py
+[0.171s] -- Up-to-date symlink: /home/nvidia/Roboracer_race2_MPPI-RRT-/install/rrt_mppi/share/rrt_mppi/launch/levine_launch.py
+[0.172s] -- Up-to-date symlink: /home/nvidia/Roboracer_race2_MPPI-RRT-/install/rrt_mppi/share/rrt_mppi/launch/spielberg_launch.py
+[0.174s] -- Up-to-date symlink: /home/nvidia/Roboracer_race2_MPPI-RRT-/install/rrt_mppi/share/rrt_mppi/waypoints/levine.csv
+[0.175s] -- Up-to-date symlink: /home/nvidia/Roboracer_race2_MPPI-RRT-/install/rrt_mppi/share/rrt_mppi/waypoints/levine1.csv
+[0.176s] -- Up-to-date symlink: /home/nvidia/Roboracer_race2_MPPI-RRT-/install/rrt_mppi/share/rrt_mppi/waypoints/race.csv
+[0.176s] -- Up-to-date symlink: /home/nvidia/Roboracer_race2_MPPI-RRT-/install/rrt_mppi/share/ament_index/resource_index/package_run_dependencies/rrt_mppi
+[0.177s] -- Up-to-date symlink: /home/nvidia/Roboracer_race2_MPPI-RRT-/install/rrt_mppi/share/ament_index/resource_index/parent_prefix_path/rrt_mppi
+[0.177s] -- Up-to-date symlink: /home/nvidia/Roboracer_race2_MPPI-RRT-/install/rrt_mppi/share/rrt_mppi/environment/ament_prefix_path.sh
+[0.178s] -- Up-to-date symlink: /home/nvidia/Roboracer_race2_MPPI-RRT-/install/rrt_mppi/share/rrt_mppi/environment/ament_prefix_path.dsv
+[0.178s] -- Up-to-date symlink: /home/nvidia/Roboracer_race2_MPPI-RRT-/install/rrt_mppi/share/rrt_mppi/environment/path.sh
+[0.178s] -- Up-to-date symlink: /home/nvidia/Roboracer_race2_MPPI-RRT-/install/rrt_mppi/share/rrt_mppi/environment/path.dsv
+[0.179s] -- Up-to-date symlink: /home/nvidia/Roboracer_race2_MPPI-RRT-/install/rrt_mppi/share/rrt_mppi/local_setup.bash
+[0.179s] -- Up-to-date symlink: /home/nvidia/Roboracer_race2_MPPI-RRT-/install/rrt_mppi/share/rrt_mppi/local_setup.sh
+[0.180s] -- Up-to-date symlink: /home/nvidia/Roboracer_race2_MPPI-RRT-/install/rrt_mppi/share/rrt_mppi/local_setup.zsh
+[0.180s] -- Up-to-date symlink: /home/nvidia/Roboracer_race2_MPPI-RRT-/install/rrt_mppi/share/rrt_mppi/local_setup.dsv
+[0.180s] -- Symlinking: /home/nvidia/Roboracer_race2_MPPI-RRT-/install/rrt_mppi/share/rrt_mppi/package.dsv
+[0.198s] -- Up-to-date symlink: /home/nvidia/Roboracer_race2_MPPI-RRT-/install/rrt_mppi/share/ament_index/resource_index/packages/rrt_mppi
+[0.199s] -- Up-to-date symlink: /home/nvidia/Roboracer_race2_MPPI-RRT-/install/rrt_mppi/share/rrt_mppi/cmake/rrt_mppiConfig.cmake
+[0.199s] -- Up-to-date symlink: /home/nvidia/Roboracer_race2_MPPI-RRT-/install/rrt_mppi/share/rrt_mppi/cmake/rrt_mppiConfig-version.cmake
+[0.200s] -- Up-to-date symlink: /home/nvidia/Roboracer_race2_MPPI-RRT-/install/rrt_mppi/share/rrt_mppi/package.xml
+[0.204s] Invoked command in '/home/nvidia/Roboracer_race2_MPPI-RRT-/build/rrt_mppi' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nvidia/f1tenth_ws/install/f1tenth_stack:/home/nvidia/f1tenth_ws/install/joy_teleop:/home/nvidia/f1tenth_ws/install/particle_filter:/home/nvidia/f1tenth_ws/install/mouse_teleop:/home/nvidia/f1tenth_ws/install/key_teleop:/home/nvidia/raceline_ws/install/raceline_studio:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/nvidia/Roboracer_race2_MPPI-RRT-/build/rrt_mppi

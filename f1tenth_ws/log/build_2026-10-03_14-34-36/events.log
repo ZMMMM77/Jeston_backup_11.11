@@ -1,0 +1,93 @@
+[0.000000] (-) TimerEvent: {}
+[0.000953] (-) JobUnselected: {'identifier': 'ackermann_mux'}
+[0.001326] (-) JobUnselected: {'identifier': 'f1tenth_stack'}
+[0.001685] (-) JobUnselected: {'identifier': 'joy_teleop'}
+[0.001789] (-) JobUnselected: {'identifier': 'key_teleop'}
+[0.001889] (-) JobUnselected: {'identifier': 'mouse_teleop'}
+[0.001955] (-) JobUnselected: {'identifier': 'pure_pursuit'}
+[0.002013] (-) JobUnselected: {'identifier': 'range_lib'}
+[0.002073] (-) JobUnselected: {'identifier': 'teleop_tools'}
+[0.002131] (-) JobUnselected: {'identifier': 'teleop_tools_msgs'}
+[0.002188] (-) JobUnselected: {'identifier': 'vesc'}
+[0.002247] (-) JobUnselected: {'identifier': 'vesc_ackermann'}
+[0.002305] (-) JobUnselected: {'identifier': 'vesc_driver'}
+[0.002363] (-) JobUnselected: {'identifier': 'vesc_msgs'}
+[0.002427] (particle_filter) JobQueued: {'identifier': 'particle_filter', 'dependencies': OrderedDict()}
+[0.002521] (particle_filter) JobStarted: {'identifier': 'particle_filter'}
+[0.099322] (-) TimerEvent: {}
+[0.199905] (-) TimerEvent: {}
+[0.300468] (-) TimerEvent: {}
+[0.400982] (-) TimerEvent: {}
+[0.501502] (-) TimerEvent: {}
+[0.602043] (-) TimerEvent: {}
+[0.702542] (-) TimerEvent: {}
+[0.803084] (-) TimerEvent: {}
+[0.903626] (-) TimerEvent: {}
+[1.004156] (-) TimerEvent: {}
+[1.104689] (-) TimerEvent: {}
+[1.205218] (-) TimerEvent: {}
+[1.305759] (-) TimerEvent: {}
+[1.406290] (-) TimerEvent: {}
+[1.506814] (-) TimerEvent: {}
+[1.607349] (-) TimerEvent: {}
+[1.707869] (-) TimerEvent: {}
+[1.808377] (-) TimerEvent: {}
+[1.908892] (-) TimerEvent: {}
+[2.009379] (-) TimerEvent: {}
+[2.109881] (-) TimerEvent: {}
+[2.210427] (-) TimerEvent: {}
+[2.310994] (-) TimerEvent: {}
+[2.360023] (particle_filter) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/particle_filter', 'build', '--build-base', '/home/nvidia/f1tenth_ws/build/particle_filter/build', 'install', '--record', '/home/nvidia/f1tenth_ws/build/particle_filter/install.log', '--install-scripts', '$base/lib/particle_filter', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/nvidia/f1tenth_ws/src/particle_filter', 'env': OrderedDict({'LESSOPEN': '| /bin/lesspipe %s', 'INSIDE_EMACS': '31.1,comint,tramp:2.8.2.31.1', 'USER': 'nvidia', 'SSH_CLIENT': '100.124.138.18 34626 22', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/nvidia/f1tenth_ws/install/vesc_driver/lib:/home/nvidia/f1tenth_ws/install/vesc_ackermann/lib:/home/nvidia/f1tenth_ws/install/vesc_msgs/lib:/home/nvidia/f1tenth_ws/install/teleop_tools_msgs/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/nvidia', 'OLDPWD': '/home/nvidia', 'SSH_TTY': '/dev/pts/5', 'ROS_PYTHON_VERSION': '3', 'PAGER': 'cat', 'PS1': '${debian_chroot:+($debian_chroot)}\\u@\\h:\\w\\$', 'LC_CTYPE': "''", 'PS2': '', 'ENV': "''", 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/2002/bus', 'PS3': '', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'COLCON_PREFIX_PATH': '/home/nvidia/f1tenth_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'nvidia', '_': '/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'COLUMNS': '171', 'TERM': 'dumb', 'XDG_SESSION_ID': '7', 'PATH': '/opt/ros/jazzy/bin:/bin:/usr/bin:/sbin:/usr/sbin:/usr/local/bin:/usr/local/sbin', 'XDG_RUNTIME_DIR': '/run/user/2002', 'LANG': 'en_US.UTF-8', 'LS_COLORS': '', 'ROS_DOMAIN_ID': '9', 'AMENT_PREFIX_PATH': '/home/nvidia/f1tenth_ws/install/wall_follow:/home/nvidia/f1tenth_ws/install/f1tenth_stack:/home/nvidia/f1tenth_ws/install/vesc:/home/nvidia/f1tenth_ws/install/vesc_driver:/home/nvidia/f1tenth_ws/install/vesc_ackermann:/home/nvidia/f1tenth_ws/install/vesc_msgs:/home/nvidia/f1tenth_ws/install/teleop_tools:/home/nvidia/f1tenth_ws/install/joy_teleop:/home/nvidia/f1tenth_ws/install/teleop_tools_msgs:/home/nvidia/f1tenth_ws/install/pure_pursuit:/home/nvidia/f1tenth_ws/install/particle_filter:/home/nvidia/f1tenth_ws/install/mouse_teleop:/home/nvidia/f1tenth_ws/install/key_teleop:/home/nvidia/f1tenth_ws/install/gap_follow:/home/nvidia/f1tenth_ws/install/ackermann_mux:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'PROMPT_COMMAND': '', 'LESSCLOSE': '/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/nvidia/f1tenth_ws/build/particle_filter', 'LC_ALL': 'en_US.utf8', 'SSH_CONNECTION': '100.124.138.18 34626 100.122.20.107 22', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'TERMCAP': '', 'PYTHONPATH': '/home/nvidia/f1tenth_ws/build/particle_filter/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/nvidia/f1tenth_ws/install/particle_filter/lib/python3.12/site-packages:/home/nvidia/f1tenth_ws/install/wall_follow/lib/python3.12/site-packages:/home/nvidia/f1tenth_ws/install/f1tenth_stack/lib/python3.12/site-packages:/home/nvidia/f1tenth_ws/install/vesc_msgs/lib/python3.12/site-packages:/home/nvidia/f1tenth_ws/install/joy_teleop/lib/python3.12/site-packages:/home/nvidia/f1tenth_ws/install/teleop_tools_msgs/lib/python3.12/site-packages:/home/nvidia/f1tenth_ws/install/pure_pursuit/lib/python3.12/site-packages:/home/nvidia/f1tenth_ws/install/particle_filter/lib/python3.12/site-packages:/home/nvidia/f1tenth_ws/install/mouse_teleop/lib/python3.12/site-packages:/home/nvidia/f1tenth_ws/install/key_teleop/lib/python3.12/site-packages:/home/nvidia/f1tenth_ws/install/gap_follow/lib/python3.12/site-packages:/opt/ros/jazzy/opt/gz_math_vendor/lib/python:/opt/ros/jazzy/lib/python3.12/site-packages', 'HISTFILE': '/home/nvidia/.tramp_history', 'COLCON': '1', 'TMOUT': '0', 'CMAKE_PREFIX_PATH': '/home/nvidia/f1tenth_ws/install/wall_follow:/home/nvidia/f1tenth_ws/install/vesc:/home/nvidia/f1tenth_ws/install/vesc_driver:/home/nvidia/f1tenth_ws/install/vesc_ackermann:/home/nvidia/f1tenth_ws/install/vesc_msgs:/home/nvidia/f1tenth_ws/install/teleop_tools:/home/nvidia/f1tenth_ws/install/teleop_tools_msgs:/home/nvidia/f1tenth_ws/install/pure_pursuit:/home/nvidia/f1tenth_ws/install/gap_follow:/home/nvidia/f1tenth_ws/install/ackermann_mux:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor'}), 'shell': False}
+[2.411118] (-) TimerEvent: {}
+[2.511653] (-) TimerEvent: {}
+[2.612210] (-) TimerEvent: {}
+[2.698107] (particle_filter) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/dist.py:744: SetuptoolsDeprecationWarning: Invalid dash-separated options\n'}
+[2.698803] (particle_filter) StderrLine: {'line': b'!!\n'}
+[2.699059] (particle_filter) StderrLine: {'line': b'\n'}
+[2.699279] (particle_filter) StderrLine: {'line': b'        ********************************************************************************\n'}
+[2.699500] (particle_filter) StderrLine: {'line': b"        Usage of dash-separated 'script-dir' will not be supported in future\n"}
+[2.699702] (particle_filter) StderrLine: {'line': b"        versions. Please use the underscore name 'script_dir' instead.\n"}
+[2.699897] (particle_filter) StderrLine: {'line': b'\n'}
+[2.700088] (particle_filter) StderrLine: {'line': b'        This deprecation is overdue, please update your project and remove deprecated\n'}
+[2.700456] (particle_filter) StderrLine: {'line': b'        calls to avoid build errors in the future.\n'}
+[2.700849] (particle_filter) StderrLine: {'line': b'\n'}
+[2.701145] (particle_filter) StderrLine: {'line': b'        See https://setuptools.pypa.io/en/latest/userguide/declarative_config.html for details.\n'}
+[2.701433] (particle_filter) StderrLine: {'line': b'        ********************************************************************************\n'}
+[2.701729] (particle_filter) StderrLine: {'line': b'\n'}
+[2.702008] (particle_filter) StderrLine: {'line': b'!!\n'}
+[2.702278] (particle_filter) StderrLine: {'line': b'  opt = self.warn_dash_deprecation(opt, section)\n'}
+[2.712298] (-) TimerEvent: {}
+[2.812801] (-) TimerEvent: {}
+[2.913289] (-) TimerEvent: {}
+[3.013773] (-) TimerEvent: {}
+[3.107928] (particle_filter) StdoutLine: {'line': b'running egg_info\n'}
+[3.113856] (-) TimerEvent: {}
+[3.165508] (particle_filter) StdoutLine: {'line': b'writing ../../build/particle_filter/particle_filter.egg-info/PKG-INFO\n'}
+[3.166224] (particle_filter) StdoutLine: {'line': b'writing dependency_links to ../../build/particle_filter/particle_filter.egg-info/dependency_links.txt\n'}
+[3.166775] (particle_filter) StdoutLine: {'line': b'writing entry points to ../../build/particle_filter/particle_filter.egg-info/entry_points.txt\n'}
+[3.167183] (particle_filter) StdoutLine: {'line': b'writing requirements to ../../build/particle_filter/particle_filter.egg-info/requires.txt\n'}
+[3.167503] (particle_filter) StdoutLine: {'line': b'writing top-level names to ../../build/particle_filter/particle_filter.egg-info/top_level.txt\n'}
+[3.213978] (-) TimerEvent: {}
+[3.284629] (particle_filter) StdoutLine: {'line': b"reading manifest file '../../build/particle_filter/particle_filter.egg-info/SOURCES.txt'\n"}
+[3.287235] (particle_filter) StdoutLine: {'line': b"writing manifest file '../../build/particle_filter/particle_filter.egg-info/SOURCES.txt'\n"}
+[3.287784] (particle_filter) StdoutLine: {'line': b'running build\n'}
+[3.288152] (particle_filter) StdoutLine: {'line': b'running build_py\n'}
+[3.288661] (particle_filter) StdoutLine: {'line': b'running install\n'}
+[3.303243] (particle_filter) StdoutLine: {'line': b'running install_lib\n'}
+[3.314078] (-) TimerEvent: {}
+[3.363361] (particle_filter) StdoutLine: {'line': b'running install_data\n'}
+[3.364116] (particle_filter) StdoutLine: {'line': b'running install_egg_info\n'}
+[3.414212] (-) TimerEvent: {}
+[3.425332] (particle_filter) StdoutLine: {'line': b"removing '/home/nvidia/f1tenth_ws/install/particle_filter/lib/python3.12/site-packages/particle_filter-0.2.0-py3.12.egg-info' (and everything under it)\n"}
+[3.428042] (particle_filter) StdoutLine: {'line': b'Copying ../../build/particle_filter/particle_filter.egg-info to /home/nvidia/f1tenth_ws/install/particle_filter/lib/python3.12/site-packages/particle_filter-0.2.0-py3.12.egg-info\n'}
+[3.428507] (particle_filter) StdoutLine: {'line': b'running install_scripts\n'}
+[3.514332] (-) TimerEvent: {}
+[3.614791] (-) TimerEvent: {}
+[3.715301] (-) TimerEvent: {}
+[3.805375] (particle_filter) StdoutLine: {'line': b'Installing particle_filter script to /home/nvidia/f1tenth_ws/install/particle_filter/lib/particle_filter\n'}
+[3.806362] (particle_filter) StdoutLine: {'line': b"writing list of installed files to '/home/nvidia/f1tenth_ws/build/particle_filter/install.log'\n"}
+[3.815410] (-) TimerEvent: {}
+[3.896814] (particle_filter) CommandEnded: {'returncode': 0}
+[3.915741] (-) TimerEvent: {}
+[3.935487] (particle_filter) JobEnded: {'identifier': 'particle_filter', 'rc': 0}
+[3.938384] (-) EventReactorShutdown: {}

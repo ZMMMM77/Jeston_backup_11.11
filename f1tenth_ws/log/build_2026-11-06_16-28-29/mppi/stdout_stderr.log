@@ -1,0 +1,4 @@
+failed to create symbolic link '/home/nvidia/f1tenth_ws/build/mppi/ament_cmake_python/mppi/mppi' because existing path cannot be removed: Is a directory
+gmake[2]: *** [CMakeFiles/ament_cmake_python_symlink_mppi.dir/build.make:70: CMakeFiles/ament_cmake_python_symlink_mppi] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:138: CMakeFiles/ament_cmake_python_symlink_mppi.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

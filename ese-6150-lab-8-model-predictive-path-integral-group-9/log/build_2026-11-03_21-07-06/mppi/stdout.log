@@ -1,0 +1,20 @@
+Built target ament_cmake_python_symlink_mppi
+running egg_info
+writing mppi.egg-info/PKG-INFO
+writing dependency_links to mppi.egg-info/dependency_links.txt
+writing top-level names to mppi.egg-info/top_level.txt
+reading manifest file 'mppi.egg-info/SOURCES.txt'
+writing manifest file 'mppi.egg-info/SOURCES.txt'
+Built target ament_cmake_python_build_mppi_egg
+-- Install configuration: ""
+-- Execute custom install script
+-- Up-to-date symlink: /home/nvidia/ese-6150-lab-8-model-predictive-path-integral-group-9/install/mppi/share/mppi/environment/pythonpath.sh
+-- Up-to-date symlink: /home/nvidia/ese-6150-lab-8-model-predictive-path-integral-group-9/install/mppi/share/mppi/environment/pythonpath.dsv
+-- Up-to-date symlink: /home/nvidia/ese-6150-lab-8-model-predictive-path-integral-group-9/install/mppi/lib/python3.12/site-packages/mppi-0.0.0-py3.12.egg-info/PKG-INFO
+-- Up-to-date symlink: /home/nvidia/ese-6150-lab-8-model-predictive-path-integral-group-9/install/mppi/lib/python3.12/site-packages/mppi-0.0.0-py3.12.egg-info/SOURCES.txt
+-- Up-to-date symlink: /home/nvidia/ese-6150-lab-8-model-predictive-path-integral-group-9/install/mppi/lib/python3.12/site-packages/mppi-0.0.0-py3.12.egg-info/dependency_links.txt
+-- Up-to-date symlink: /home/nvidia/ese-6150-lab-8-model-predictive-path-integral-group-9/install/mppi/lib/python3.12/site-packages/mppi-0.0.0-py3.12.egg-info/top_level.txt
+-- Up-to-date symlink: /home/nvidia/ese-6150-lab-8-model-predictive-path-integral-group-9/install/mppi/lib/python3.12/site-packages/mppi/__init__.py
+-- Up-to-date symlink: /home/nvidia/ese-6150-lab-8-model-predictive-path-integral-group-9/install/mppi/lib/mppi/mppi_node.py
+-- Up-to-date symlink: /home/nvidia/ese-6150-lab-8-model-predictive-path-integral-group-9/install/mppi/lib/mppi/utils.py
+-- Symlinking: /home/nvidia/ese-6150-lab-8-model-predictive-path-integral-group-9/install/mppi/share/mppi/launch/.#levine_launch.py

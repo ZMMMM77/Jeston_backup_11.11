@@ -1,0 +1,36 @@
+[0.070s] Invoking command in '/home/nvidia/f1tenth_ws/build/ackermann_mux': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy:/home/nvidia/f1tenth_ws/install/f1tenth_stack:/home/nvidia/f1tenth_ws/install/joy_teleop:/home/nvidia/f1tenth_ws/install/particle_filter:/home/nvidia/f1tenth_ws/install/mouse_teleop:/home/nvidia/f1tenth_ws/install/key_teleop DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/nvidia/f1tenth_ws/build/ackermann_mux -- -j6 -l6
+[0.698s] -- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.740s] -- Found rclcpp: 28.1.22 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.821s] -- Found rosidl_generator_c: 4.6.9 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.843s] -- Found rosidl_generator_cpp: 4.6.9 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.872s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.905s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.056s] -- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[1.061s] -- Found rmw_fastrtps_cpp: 8.4.4 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[1.230s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.397s] -- Found std_msgs: 5.3.8 (/opt/ros/jazzy/share/std_msgs/cmake)
+[1.423s] -- Found ackermann_msgs: 2.0.2 (/opt/ros/jazzy/share/ackermann_msgs/cmake)
+[1.458s] -- Found diagnostic_updater: 4.2.7 (/opt/ros/jazzy/share/diagnostic_updater/cmake)
+[1.515s] -- Found ament_lint_auto: 0.17.5 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[1.828s] -- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)
+[2.223s] -- Added test 'xmllint' to check XML markup files
+[2.223s] -- Added test 'copyright' to check source files copyright and LICENSE
+[2.227s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.227s] -- Configured cppcheck include dirs: /home/nvidia/f1tenth_ws/src/f1tenth_system/ackermann_mux/include
+[2.227s] -- Configured cppcheck exclude dirs and/or files: 
+[2.230s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[2.231s] -- Configured cpplint exclude dirs and/or files: 
+[2.232s] -- Added test 'flake8' to check Python code syntax and style conventions
+[2.232s] -- Configured 'flake8' exclude dirs and/or files: 
+[2.233s] -- Added test 'lint_cmake' to check CMake code style
+[2.235s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[2.238s] -- Added test 'uncrustify' to check C / C++ code style
+[2.238s] -- Configured uncrustify additional arguments: 
+[2.243s] -- Configuring done (2.1s)
+[2.277s] -- Generating done (0.0s)
+[2.287s] -- Build files have been written to: /home/nvidia/f1tenth_ws/build/ackermann_mux
+[2.411s] [ 25%] [32mBuilding CXX object CMakeFiles/ackermann_mux.dir/src/ackermann_mux_node.cpp.o[0m
+[2.411s] [ 50%] [32mBuilding CXX object CMakeFiles/ackermann_mux.dir/src/ackermann_mux_diagnostics.cpp.o[0m
+[2.413s] [ 75%] [32mBuilding CXX object CMakeFiles/ackermann_mux.dir/src/ackermann_mux.cpp.o[0m
+[27.501s] [100%] [32m[1mLinking CXX executable ackermann_mux[0m
+[28.424s] [100%] Built target ackermann_mux

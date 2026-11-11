@@ -1,0 +1,138 @@
+[0.340s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--packages-select', 'mppi']
+[0.340s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=6, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=['mppi'], packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0xffff82977ad0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0xffff829773b0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0xffff829773b0>>, mixin_verb=('build',))
+[0.444s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.444s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.444s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.444s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.444s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.445s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.445s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/nvidia/ese-6150-lab-8-model-predictive-path-integral-group-9'
+[0.445s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.445s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.446s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.446s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.446s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.446s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.446s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.446s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.446s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.514s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.514s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.515s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.515s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.515s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.515s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.515s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.516s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.516s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.516s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.516s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.517s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.517s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.517s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.517s] Level 1:colcon.colcon_core.package_identification:_identify(mppi) by extensions ['ignore', 'ignore_ament_install']
+[0.517s] Level 1:colcon.colcon_core.package_identification:_identify(mppi) by extension 'ignore'
+[0.518s] Level 1:colcon.colcon_core.package_identification:_identify(mppi) by extension 'ignore_ament_install'
+[0.518s] Level 1:colcon.colcon_core.package_identification:_identify(mppi) by extensions ['colcon_pkg']
+[0.518s] Level 1:colcon.colcon_core.package_identification:_identify(mppi) by extension 'colcon_pkg'
+[0.518s] Level 1:colcon.colcon_core.package_identification:_identify(mppi) by extensions ['colcon_meta']
+[0.518s] Level 1:colcon.colcon_core.package_identification:_identify(mppi) by extension 'colcon_meta'
+[0.518s] Level 1:colcon.colcon_core.package_identification:_identify(mppi) by extensions ['ros']
+[0.518s] Level 1:colcon.colcon_core.package_identification:_identify(mppi) by extension 'ros'
+[0.525s] DEBUG:colcon.colcon_core.package_identification:Package 'mppi' with type 'ros.ament_cmake' and name 'mppi'
+[0.525s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.526s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.526s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.526s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.526s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.572s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.572s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.579s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/nvidia/ese-6150-lab-8-model-predictive-path-integral-group-9/install
+[0.581s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 16 installed packages in /home/nvidia/f1tenth_ws/install
+[0.582s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/nvidia/f1tenth_ws/src/ese-6150-lab-6-motion-planning-group-9/install
+[0.584s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 2 installed packages in /home/nvidia/raceline_ws/install
+[0.584s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/nvidia/install
+[0.588s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 321 installed packages in /opt/ros/jazzy
+[0.593s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.711s] Level 5:colcon.colcon_core.verb:set package 'mppi' build argument 'cmake_args' from command line to 'None'
+[0.711s] Level 5:colcon.colcon_core.verb:set package 'mppi' build argument 'cmake_target' from command line to 'None'
+[0.712s] Level 5:colcon.colcon_core.verb:set package 'mppi' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.712s] Level 5:colcon.colcon_core.verb:set package 'mppi' build argument 'cmake_clean_cache' from command line to 'False'
+[0.712s] Level 5:colcon.colcon_core.verb:set package 'mppi' build argument 'cmake_clean_first' from command line to 'False'
+[0.712s] Level 5:colcon.colcon_core.verb:set package 'mppi' build argument 'cmake_force_configure' from command line to 'False'
+[0.712s] Level 5:colcon.colcon_core.verb:set package 'mppi' build argument 'ament_cmake_args' from command line to 'None'
+[0.712s] Level 5:colcon.colcon_core.verb:set package 'mppi' build argument 'catkin_cmake_args' from command line to 'None'
+[0.712s] Level 5:colcon.colcon_core.verb:set package 'mppi' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.712s] DEBUG:colcon.colcon_core.verb:Building package 'mppi' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/nvidia/ese-6150-lab-8-model-predictive-path-integral-group-9/build/mppi', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/nvidia/ese-6150-lab-8-model-predictive-path-integral-group-9/install/mppi', 'merge_install': False, 'path': '/home/nvidia/ese-6150-lab-8-model-predictive-path-integral-group-9/mppi', 'symlink_install': False, 'test_result_base': None}
+[0.712s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.715s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.715s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/nvidia/ese-6150-lab-8-model-predictive-path-integral-group-9/mppi' with build type 'ament_cmake'
+[0.716s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/nvidia/ese-6150-lab-8-model-predictive-path-integral-group-9/mppi'
+[0.721s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.721s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.721s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.744s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/nvidia/ese-6150-lab-8-model-predictive-path-integral-group-9/build/mppi': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nvidia/f1tenth_ws/install/f1tenth_stack:/home/nvidia/f1tenth_ws/install/joy_teleop:/home/nvidia/f1tenth_ws/install/particle_filter:/home/nvidia/f1tenth_ws/install/mouse_teleop:/home/nvidia/f1tenth_ws/install/key_teleop:/home/nvidia/raceline_ws/install/raceline_studio:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/nvidia/ese-6150-lab-8-model-predictive-path-integral-group-9/mppi -DCMAKE_INSTALL_PREFIX=/home/nvidia/ese-6150-lab-8-model-predictive-path-integral-group-9/install/mppi
+[2.370s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/nvidia/ese-6150-lab-8-model-predictive-path-integral-group-9/build/mppi' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nvidia/f1tenth_ws/install/f1tenth_stack:/home/nvidia/f1tenth_ws/install/joy_teleop:/home/nvidia/f1tenth_ws/install/particle_filter:/home/nvidia/f1tenth_ws/install/mouse_teleop:/home/nvidia/f1tenth_ws/install/key_teleop:/home/nvidia/raceline_ws/install/raceline_studio:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/nvidia/ese-6150-lab-8-model-predictive-path-integral-group-9/mppi -DCMAKE_INSTALL_PREFIX=/home/nvidia/ese-6150-lab-8-model-predictive-path-integral-group-9/install/mppi
+[2.374s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/nvidia/ese-6150-lab-8-model-predictive-path-integral-group-9/build/mppi': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nvidia/f1tenth_ws/install/f1tenth_stack:/home/nvidia/f1tenth_ws/install/joy_teleop:/home/nvidia/f1tenth_ws/install/particle_filter:/home/nvidia/f1tenth_ws/install/mouse_teleop:/home/nvidia/f1tenth_ws/install/key_teleop:/home/nvidia/raceline_ws/install/raceline_studio:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/nvidia/ese-6150-lab-8-model-predictive-path-integral-group-9/build/mppi -- -j6 -l6
+[3.537s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/nvidia/ese-6150-lab-8-model-predictive-path-integral-group-9/build/mppi' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nvidia/f1tenth_ws/install/f1tenth_stack:/home/nvidia/f1tenth_ws/install/joy_teleop:/home/nvidia/f1tenth_ws/install/particle_filter:/home/nvidia/f1tenth_ws/install/mouse_teleop:/home/nvidia/f1tenth_ws/install/key_teleop:/home/nvidia/raceline_ws/install/raceline_studio:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/nvidia/ese-6150-lab-8-model-predictive-path-integral-group-9/build/mppi -- -j6 -l6
+[3.562s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/nvidia/ese-6150-lab-8-model-predictive-path-integral-group-9/build/mppi': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nvidia/f1tenth_ws/install/f1tenth_stack:/home/nvidia/f1tenth_ws/install/joy_teleop:/home/nvidia/f1tenth_ws/install/particle_filter:/home/nvidia/f1tenth_ws/install/mouse_teleop:/home/nvidia/f1tenth_ws/install/key_teleop:/home/nvidia/raceline_ws/install/raceline_studio:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/nvidia/ese-6150-lab-8-model-predictive-path-integral-group-9/build/mppi
+[3.737s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(mppi)
+[3.737s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/nvidia/ese-6150-lab-8-model-predictive-path-integral-group-9/build/mppi' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nvidia/f1tenth_ws/install/f1tenth_stack:/home/nvidia/f1tenth_ws/install/joy_teleop:/home/nvidia/f1tenth_ws/install/particle_filter:/home/nvidia/f1tenth_ws/install/mouse_teleop:/home/nvidia/f1tenth_ws/install/key_teleop:/home/nvidia/raceline_ws/install/raceline_studio:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/nvidia/ese-6150-lab-8-model-predictive-path-integral-group-9/build/mppi
+[3.743s] Level 1:colcon.colcon_core.environment:checking '/home/nvidia/ese-6150-lab-8-model-predictive-path-integral-group-9/install/mppi' for CMake module files
+[3.745s] Level 1:colcon.colcon_core.environment:checking '/home/nvidia/ese-6150-lab-8-model-predictive-path-integral-group-9/install/mppi' for CMake config files
+[3.746s] Level 1:colcon.colcon_core.shell:create_environment_hook('mppi', 'cmake_prefix_path')
+[3.746s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nvidia/ese-6150-lab-8-model-predictive-path-integral-group-9/install/mppi/share/mppi/hook/cmake_prefix_path.ps1'
+[3.748s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/nvidia/ese-6150-lab-8-model-predictive-path-integral-group-9/install/mppi/share/mppi/hook/cmake_prefix_path.dsv'
+[3.749s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nvidia/ese-6150-lab-8-model-predictive-path-integral-group-9/install/mppi/share/mppi/hook/cmake_prefix_path.sh'
+[3.751s] Level 1:colcon.colcon_core.environment:checking '/home/nvidia/ese-6150-lab-8-model-predictive-path-integral-group-9/install/mppi/lib'
+[3.752s] Level 1:colcon.colcon_core.environment:checking '/home/nvidia/ese-6150-lab-8-model-predictive-path-integral-group-9/install/mppi/bin'
+[3.752s] Level 1:colcon.colcon_core.environment:checking '/home/nvidia/ese-6150-lab-8-model-predictive-path-integral-group-9/install/mppi/lib/pkgconfig/mppi.pc'
+[3.752s] Level 1:colcon.colcon_core.environment:checking '/home/nvidia/ese-6150-lab-8-model-predictive-path-integral-group-9/install/mppi/lib/python3.12/site-packages'
+[3.753s] Level 1:colcon.colcon_core.shell:create_environment_hook('mppi', 'pythonpath')
+[3.753s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nvidia/ese-6150-lab-8-model-predictive-path-integral-group-9/install/mppi/share/mppi/hook/pythonpath.ps1'
+[3.754s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/nvidia/ese-6150-lab-8-model-predictive-path-integral-group-9/install/mppi/share/mppi/hook/pythonpath.dsv'
+[3.755s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nvidia/ese-6150-lab-8-model-predictive-path-integral-group-9/install/mppi/share/mppi/hook/pythonpath.sh'
+[3.757s] Level 1:colcon.colcon_core.environment:checking '/home/nvidia/ese-6150-lab-8-model-predictive-path-integral-group-9/install/mppi/bin'
+[3.757s] INFO:colcon.colcon_core.shell:Creating package script '/home/nvidia/ese-6150-lab-8-model-predictive-path-integral-group-9/install/mppi/share/mppi/package.ps1'
+[3.760s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/nvidia/ese-6150-lab-8-model-predictive-path-integral-group-9/install/mppi/share/mppi/package.dsv'
+[3.761s] INFO:colcon.colcon_core.shell:Creating package script '/home/nvidia/ese-6150-lab-8-model-predictive-path-integral-group-9/install/mppi/share/mppi/package.sh'
+[3.763s] INFO:colcon.colcon_core.shell:Creating package script '/home/nvidia/ese-6150-lab-8-model-predictive-path-integral-group-9/install/mppi/share/mppi/package.bash'
+[3.764s] INFO:colcon.colcon_core.shell:Creating package script '/home/nvidia/ese-6150-lab-8-model-predictive-path-integral-group-9/install/mppi/share/mppi/package.zsh'
+[3.766s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/nvidia/ese-6150-lab-8-model-predictive-path-integral-group-9/install/mppi/share/colcon-core/packages/mppi)
+[3.767s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(mppi)
+[3.768s] Level 1:colcon.colcon_core.environment:checking '/home/nvidia/ese-6150-lab-8-model-predictive-path-integral-group-9/install/mppi' for CMake module files
+[3.769s] Level 1:colcon.colcon_core.environment:checking '/home/nvidia/ese-6150-lab-8-model-predictive-path-integral-group-9/install/mppi' for CMake config files
+[3.770s] Level 1:colcon.colcon_core.shell:create_environment_hook('mppi', 'cmake_prefix_path')
+[3.770s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nvidia/ese-6150-lab-8-model-predictive-path-integral-group-9/install/mppi/share/mppi/hook/cmake_prefix_path.ps1'
+[3.771s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/nvidia/ese-6150-lab-8-model-predictive-path-integral-group-9/install/mppi/share/mppi/hook/cmake_prefix_path.dsv'
+[3.772s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nvidia/ese-6150-lab-8-model-predictive-path-integral-group-9/install/mppi/share/mppi/hook/cmake_prefix_path.sh'
+[3.773s] Level 1:colcon.colcon_core.environment:checking '/home/nvidia/ese-6150-lab-8-model-predictive-path-integral-group-9/install/mppi/lib'
+[3.774s] Level 1:colcon.colcon_core.environment:checking '/home/nvidia/ese-6150-lab-8-model-predictive-path-integral-group-9/install/mppi/bin'
+[3.774s] Level 1:colcon.colcon_core.environment:checking '/home/nvidia/ese-6150-lab-8-model-predictive-path-integral-group-9/install/mppi/lib/pkgconfig/mppi.pc'
+[3.774s] Level 1:colcon.colcon_core.environment:checking '/home/nvidia/ese-6150-lab-8-model-predictive-path-integral-group-9/install/mppi/lib/python3.12/site-packages'
+[3.775s] Level 1:colcon.colcon_core.shell:create_environment_hook('mppi', 'pythonpath')
+[3.775s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nvidia/ese-6150-lab-8-model-predictive-path-integral-group-9/install/mppi/share/mppi/hook/pythonpath.ps1'
+[3.776s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/nvidia/ese-6150-lab-8-model-predictive-path-integral-group-9/install/mppi/share/mppi/hook/pythonpath.dsv'
+[3.777s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nvidia/ese-6150-lab-8-model-predictive-path-integral-group-9/install/mppi/share/mppi/hook/pythonpath.sh'
+[3.779s] Level 1:colcon.colcon_core.environment:checking '/home/nvidia/ese-6150-lab-8-model-predictive-path-integral-group-9/install/mppi/bin'
+[3.779s] INFO:colcon.colcon_core.shell:Creating package script '/home/nvidia/ese-6150-lab-8-model-predictive-path-integral-group-9/install/mppi/share/mppi/package.ps1'
+[3.781s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/nvidia/ese-6150-lab-8-model-predictive-path-integral-group-9/install/mppi/share/mppi/package.dsv'
+[3.783s] INFO:colcon.colcon_core.shell:Creating package script '/home/nvidia/ese-6150-lab-8-model-predictive-path-integral-group-9/install/mppi/share/mppi/package.sh'
+[3.784s] INFO:colcon.colcon_core.shell:Creating package script '/home/nvidia/ese-6150-lab-8-model-predictive-path-integral-group-9/install/mppi/share/mppi/package.bash'
+[3.785s] INFO:colcon.colcon_core.shell:Creating package script '/home/nvidia/ese-6150-lab-8-model-predictive-path-integral-group-9/install/mppi/share/mppi/package.zsh'
+[3.786s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/nvidia/ese-6150-lab-8-model-predictive-path-integral-group-9/install/mppi/share/colcon-core/packages/mppi)
+[3.787s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[3.787s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[3.787s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[3.789s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[3.790s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[3.790s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/nvidia/ese-6150-lab-8-model-predictive-path-integral-group-9/install/local_setup.ps1'
+[3.792s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/nvidia/ese-6150-lab-8-model-predictive-path-integral-group-9/install/_local_setup_util_ps1.py'
+[3.795s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/nvidia/ese-6150-lab-8-model-predictive-path-integral-group-9/install/setup.ps1'
+[3.799s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/nvidia/ese-6150-lab-8-model-predictive-path-integral-group-9/install/local_setup.sh'
+[3.801s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/nvidia/ese-6150-lab-8-model-predictive-path-integral-group-9/install/_local_setup_util_sh.py'
+[3.802s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/nvidia/ese-6150-lab-8-model-predictive-path-integral-group-9/install/setup.sh'
+[3.806s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/nvidia/ese-6150-lab-8-model-predictive-path-integral-group-9/install/local_setup.bash'
+[3.807s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/nvidia/ese-6150-lab-8-model-predictive-path-integral-group-9/install/setup.bash'
+[3.811s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/nvidia/ese-6150-lab-8-model-predictive-path-integral-group-9/install/local_setup.zsh'
+[3.812s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/nvidia/ese-6150-lab-8-model-predictive-path-integral-group-9/install/setup.zsh'

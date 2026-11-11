@@ -1,0 +1,48 @@
+[0.029s] Invoking command in '/home/nvidia/f1tenth_ws/build/lab7_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nvidia/f1tenth_ws/install/f1tenth_stack:/home/nvidia/f1tenth_ws/install/joy_teleop:/home/nvidia/f1tenth_ws/install/particle_filter:/home/nvidia/f1tenth_ws/install/mouse_teleop:/home/nvidia/f1tenth_ws/install/key_teleop:/home/nvidia/raceline_ws/install/raceline_studio:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/nvidia/f1tenth_ws/build/lab7_pkg -- -j6 -l6
+[0.171s] [  0%] Built target ament_cmake_python_copy_lab7_pkg_setup
+[0.172s] [100%] Built target rrt_node
+[0.177s] [100%] Built target ament_cmake_python_copy_lab7_pkg
+[0.804s] running egg_info
+[0.866s] writing lab7_pkg.egg-info/PKG-INFO
+[0.867s] writing dependency_links to lab7_pkg.egg-info/dependency_links.txt
+[0.867s] writing top-level names to lab7_pkg.egg-info/top_level.txt
+[1.048s] reading manifest file 'lab7_pkg.egg-info/SOURCES.txt'
+[1.050s] writing manifest file 'lab7_pkg.egg-info/SOURCES.txt'
+[1.134s] [100%] Built target ament_cmake_python_build_lab7_pkg_egg
+[1.160s] Invoked command in '/home/nvidia/f1tenth_ws/build/lab7_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nvidia/f1tenth_ws/install/f1tenth_stack:/home/nvidia/f1tenth_ws/install/joy_teleop:/home/nvidia/f1tenth_ws/install/particle_filter:/home/nvidia/f1tenth_ws/install/mouse_teleop:/home/nvidia/f1tenth_ws/install/key_teleop:/home/nvidia/raceline_ws/install/raceline_studio:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/nvidia/f1tenth_ws/build/lab7_pkg -- -j6 -l6
+[1.182s] Invoking command in '/home/nvidia/f1tenth_ws/build/lab7_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nvidia/f1tenth_ws/install/f1tenth_stack:/home/nvidia/f1tenth_ws/install/joy_teleop:/home/nvidia/f1tenth_ws/install/particle_filter:/home/nvidia/f1tenth_ws/install/mouse_teleop:/home/nvidia/f1tenth_ws/install/key_teleop:/home/nvidia/raceline_ws/install/raceline_studio:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/nvidia/f1tenth_ws/build/lab7_pkg
+[1.200s] -- Install configuration: ""
+[1.200s] -- Up-to-date: /home/nvidia/f1tenth_ws/install/lab7_pkg/lib/lab7_pkg/rrt_node
+[1.200s] -- Up-to-date: /home/nvidia/f1tenth_ws/install/lab7_pkg/share/lab7_pkg/environment/pythonpath.sh
+[1.200s] -- Up-to-date: /home/nvidia/f1tenth_ws/install/lab7_pkg/share/lab7_pkg/environment/pythonpath.dsv
+[1.201s] -- Up-to-date: /home/nvidia/f1tenth_ws/install/lab7_pkg/lib/python3.12/site-packages/lab7_pkg-0.0.0-py3.12.egg-info
+[1.201s] -- Installing: /home/nvidia/f1tenth_ws/install/lab7_pkg/lib/python3.12/site-packages/lab7_pkg-0.0.0-py3.12.egg-info/PKG-INFO
+[1.201s] -- Installing: /home/nvidia/f1tenth_ws/install/lab7_pkg/lib/python3.12/site-packages/lab7_pkg-0.0.0-py3.12.egg-info/dependency_links.txt
+[1.201s] -- Installing: /home/nvidia/f1tenth_ws/install/lab7_pkg/lib/python3.12/site-packages/lab7_pkg-0.0.0-py3.12.egg-info/SOURCES.txt
+[1.201s] -- Installing: /home/nvidia/f1tenth_ws/install/lab7_pkg/lib/python3.12/site-packages/lab7_pkg-0.0.0-py3.12.egg-info/top_level.txt
+[1.201s] -- Up-to-date: /home/nvidia/f1tenth_ws/install/lab7_pkg/lib/python3.12/site-packages/lab7_pkg
+[1.202s] -- Up-to-date: /home/nvidia/f1tenth_ws/install/lab7_pkg/lib/python3.12/site-packages/lab7_pkg/__init__.py
+[1.296s] Listing '/home/nvidia/f1tenth_ws/install/lab7_pkg/lib/python3.12/site-packages/lab7_pkg'...
+[1.312s] -- Up-to-date: /home/nvidia/f1tenth_ws/install/lab7_pkg/lib/lab7_pkg/rrt_node.py
+[1.313s] -- Up-to-date: /home/nvidia/f1tenth_ws/install/lab7_pkg/share/lab7_pkg/launch
+[1.315s] -- Up-to-date: /home/nvidia/f1tenth_ws/install/lab7_pkg/share/lab7_pkg/launch/levine_launch.py
+[1.316s] -- Up-to-date: /home/nvidia/f1tenth_ws/install/lab7_pkg/share/lab7_pkg/waypoints
+[1.316s] -- Up-to-date: /home/nvidia/f1tenth_ws/install/lab7_pkg/share/lab7_pkg/waypoints/.gitkeep
+[1.316s] -- Up-to-date: /home/nvidia/f1tenth_ws/install/lab7_pkg/share/lab7_pkg/waypoints/levine_sim.csv
+[1.316s] -- Up-to-date: /home/nvidia/f1tenth_ws/install/lab7_pkg/share/lab7_pkg/waypoints/levine.csv
+[1.316s] -- Up-to-date: /home/nvidia/f1tenth_ws/install/lab7_pkg/share/ament_index/resource_index/package_run_dependencies/lab7_pkg
+[1.316s] -- Up-to-date: /home/nvidia/f1tenth_ws/install/lab7_pkg/share/ament_index/resource_index/parent_prefix_path/lab7_pkg
+[1.317s] -- Up-to-date: /home/nvidia/f1tenth_ws/install/lab7_pkg/share/lab7_pkg/environment/ament_prefix_path.sh
+[1.317s] -- Up-to-date: /home/nvidia/f1tenth_ws/install/lab7_pkg/share/lab7_pkg/environment/ament_prefix_path.dsv
+[1.317s] -- Up-to-date: /home/nvidia/f1tenth_ws/install/lab7_pkg/share/lab7_pkg/environment/path.sh
+[1.317s] -- Up-to-date: /home/nvidia/f1tenth_ws/install/lab7_pkg/share/lab7_pkg/environment/path.dsv
+[1.317s] -- Up-to-date: /home/nvidia/f1tenth_ws/install/lab7_pkg/share/lab7_pkg/local_setup.bash
+[1.317s] -- Up-to-date: /home/nvidia/f1tenth_ws/install/lab7_pkg/share/lab7_pkg/local_setup.sh
+[1.317s] -- Up-to-date: /home/nvidia/f1tenth_ws/install/lab7_pkg/share/lab7_pkg/local_setup.zsh
+[1.318s] -- Up-to-date: /home/nvidia/f1tenth_ws/install/lab7_pkg/share/lab7_pkg/local_setup.dsv
+[1.318s] -- Installing: /home/nvidia/f1tenth_ws/install/lab7_pkg/share/lab7_pkg/package.dsv
+[1.318s] -- Up-to-date: /home/nvidia/f1tenth_ws/install/lab7_pkg/share/ament_index/resource_index/packages/lab7_pkg
+[1.318s] -- Up-to-date: /home/nvidia/f1tenth_ws/install/lab7_pkg/share/lab7_pkg/cmake/lab7_pkgConfig.cmake
+[1.318s] -- Up-to-date: /home/nvidia/f1tenth_ws/install/lab7_pkg/share/lab7_pkg/cmake/lab7_pkgConfig-version.cmake
+[1.318s] -- Up-to-date: /home/nvidia/f1tenth_ws/install/lab7_pkg/share/lab7_pkg/package.xml
+[1.321s] Invoked command in '/home/nvidia/f1tenth_ws/build/lab7_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nvidia/f1tenth_ws/install/f1tenth_stack:/home/nvidia/f1tenth_ws/install/joy_teleop:/home/nvidia/f1tenth_ws/install/particle_filter:/home/nvidia/f1tenth_ws/install/mouse_teleop:/home/nvidia/f1tenth_ws/install/key_teleop:/home/nvidia/raceline_ws/install/raceline_studio:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/nvidia/f1tenth_ws/build/lab7_pkg

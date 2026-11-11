@@ -1,0 +1,70 @@
+Built target ament_cmake_python_symlink_mppi
+running egg_info
+writing mppi.egg-info/PKG-INFO
+writing dependency_links to mppi.egg-info/dependency_links.txt
+writing top-level names to mppi.egg-info/top_level.txt
+reading manifest file 'mppi.egg-info/SOURCES.txt'
+writing manifest file 'mppi.egg-info/SOURCES.txt'
+Built target ament_cmake_python_build_mppi_egg
+-- Install configuration: ""
+-- Execute custom install script
+-- Up-to-date symlink: /home/nvidia/ese-6150-lab-8-model-predictive-path-integral-group-9/install/mppi/share/mppi/environment/pythonpath.sh
+-- Up-to-date symlink: /home/nvidia/ese-6150-lab-8-model-predictive-path-integral-group-9/install/mppi/share/mppi/environment/pythonpath.dsv
+-- Up-to-date symlink: /home/nvidia/ese-6150-lab-8-model-predictive-path-integral-group-9/install/mppi/lib/python3.12/site-packages/mppi-0.0.0-py3.12.egg-info/PKG-INFO
+-- Up-to-date symlink: /home/nvidia/ese-6150-lab-8-model-predictive-path-integral-group-9/install/mppi/lib/python3.12/site-packages/mppi-0.0.0-py3.12.egg-info/SOURCES.txt
+-- Up-to-date symlink: /home/nvidia/ese-6150-lab-8-model-predictive-path-integral-group-9/install/mppi/lib/python3.12/site-packages/mppi-0.0.0-py3.12.egg-info/dependency_links.txt
+-- Up-to-date symlink: /home/nvidia/ese-6150-lab-8-model-predictive-path-integral-group-9/install/mppi/lib/python3.12/site-packages/mppi-0.0.0-py3.12.egg-info/top_level.txt
+-- Up-to-date symlink: /home/nvidia/ese-6150-lab-8-model-predictive-path-integral-group-9/install/mppi/lib/python3.12/site-packages/mppi/__init__.py
+-- Up-to-date symlink: /home/nvidia/ese-6150-lab-8-model-predictive-path-integral-group-9/install/mppi/lib/mppi/mppi_node.py
+-- Up-to-date symlink: /home/nvidia/ese-6150-lab-8-model-predictive-path-integral-group-9/install/mppi/lib/mppi/utils.py
+-- Up-to-date symlink: /home/nvidia/ese-6150-lab-8-model-predictive-path-integral-group-9/install/mppi/share/mppi/launch/levine_launch.py
+-- Up-to-date symlink: /home/nvidia/ese-6150-lab-8-model-predictive-path-integral-group-9/install/mppi/share/mppi/launch/spielberg_launch.py
+-- Up-to-date symlink: /home/nvidia/ese-6150-lab-8-model-predictive-path-integral-group-9/install/mppi/share/mppi/waypoints/.gitkeep
+-- Up-to-date symlink: /home/nvidia/ese-6150-lab-8-model-predictive-path-integral-group-9/install/mppi/share/mppi/waypoints/levine.csv
+-- Up-to-date symlink: /home/nvidia/ese-6150-lab-8-model-predictive-path-integral-group-9/install/mppi/share/mppi/waypoints/levine1.csv
+-- Up-to-date symlink: /home/nvidia/ese-6150-lab-8-model-predictive-path-integral-group-9/install/mppi/share/mppi/waypoints/race.csv
+-- Up-to-date symlink: /home/nvidia/ese-6150-lab-8-model-predictive-path-integral-group-9/install/mppi/share/mppi/waypoints/race.csv.bak-068170606cae46b9ab1fce53859c9930
+-- Up-to-date symlink: /home/nvidia/ese-6150-lab-8-model-predictive-path-integral-group-9/install/mppi/share/mppi/waypoints/race.csv.bak-0a79586f3e3c439c82cc5018976d3737
+-- Up-to-date symlink: /home/nvidia/ese-6150-lab-8-model-predictive-path-integral-group-9/install/mppi/share/mppi/waypoints/race.csv.bak-36274be7ca0743dcb145cbeb8d9d5c34
+-- Up-to-date symlink: /home/nvidia/ese-6150-lab-8-model-predictive-path-integral-group-9/install/mppi/share/mppi/waypoints/race.csv.bak-4c5ab7be45e24443a0b28e9b7f2374e2
+-- Up-to-date symlink: /home/nvidia/ese-6150-lab-8-model-predictive-path-integral-group-9/install/mppi/share/mppi/waypoints/race.csv.bak-507f7cca702045a291fc776c6864020f
+-- Up-to-date symlink: /home/nvidia/ese-6150-lab-8-model-predictive-path-integral-group-9/install/mppi/share/mppi/waypoints/race.csv.bak-5798bfa351364885af3802322f4388f4
+-- Up-to-date symlink: /home/nvidia/ese-6150-lab-8-model-predictive-path-integral-group-9/install/mppi/share/mppi/waypoints/race.csv.bak-59bc976491304267b6abd6d5e5123aec
+-- Up-to-date symlink: /home/nvidia/ese-6150-lab-8-model-predictive-path-integral-group-9/install/mppi/share/mppi/waypoints/race.csv.bak-5c19c6141e73442a841f54389aabd215
+-- Up-to-date symlink: /home/nvidia/ese-6150-lab-8-model-predictive-path-integral-group-9/install/mppi/share/mppi/waypoints/race.csv.bak-6279dfbe724b4decb462e143f7afe061
+-- Up-to-date symlink: /home/nvidia/ese-6150-lab-8-model-predictive-path-integral-group-9/install/mppi/share/mppi/waypoints/race.csv.bak-6bbf8d66339d4617bfc991b4fa675a18
+-- Up-to-date symlink: /home/nvidia/ese-6150-lab-8-model-predictive-path-integral-group-9/install/mppi/share/mppi/waypoints/race.csv.bak-7c665b84ed134f3ca5375c83c9e0dee1
+-- Up-to-date symlink: /home/nvidia/ese-6150-lab-8-model-predictive-path-integral-group-9/install/mppi/share/mppi/waypoints/race.csv.bak-7c9efb707307421d86a6e68fdabc5502
+-- Up-to-date symlink: /home/nvidia/ese-6150-lab-8-model-predictive-path-integral-group-9/install/mppi/share/mppi/waypoints/race.csv.bak-7dd27bc245934ea4bceec80113a1ef94
+-- Up-to-date symlink: /home/nvidia/ese-6150-lab-8-model-predictive-path-integral-group-9/install/mppi/share/mppi/waypoints/race.csv.bak-8429b0830e8c414ebdd154da4ba6972b
+-- Up-to-date symlink: /home/nvidia/ese-6150-lab-8-model-predictive-path-integral-group-9/install/mppi/share/mppi/waypoints/race.csv.bak-9b4e823842b14173a08a934bce41067c
+-- Up-to-date symlink: /home/nvidia/ese-6150-lab-8-model-predictive-path-integral-group-9/install/mppi/share/mppi/waypoints/race.csv.bak-a29253ac53a04946986b32d93c7bce3f
+-- Up-to-date symlink: /home/nvidia/ese-6150-lab-8-model-predictive-path-integral-group-9/install/mppi/share/mppi/waypoints/race.csv.bak-a5a26a593be84919a24c59fec8473e11
+-- Up-to-date symlink: /home/nvidia/ese-6150-lab-8-model-predictive-path-integral-group-9/install/mppi/share/mppi/waypoints/race.csv.bak-aa1d8ee73c1a49cb99a7bb229e08e15a
+-- Up-to-date symlink: /home/nvidia/ese-6150-lab-8-model-predictive-path-integral-group-9/install/mppi/share/mppi/waypoints/race.csv.bak-b0981d1b1378439e9741dd6c4ae2ca88
+-- Up-to-date symlink: /home/nvidia/ese-6150-lab-8-model-predictive-path-integral-group-9/install/mppi/share/mppi/waypoints/race.csv.bak-b519c3659c6441fcb532db8378b4115b
+-- Up-to-date symlink: /home/nvidia/ese-6150-lab-8-model-predictive-path-integral-group-9/install/mppi/share/mppi/waypoints/race.csv.bak-b7f6a764a7a44352a0fb78f7897bc37c
+-- Up-to-date symlink: /home/nvidia/ese-6150-lab-8-model-predictive-path-integral-group-9/install/mppi/share/mppi/waypoints/race.csv.bak-bd00441f6b5740ac9e7e828a3a27b806
+-- Up-to-date symlink: /home/nvidia/ese-6150-lab-8-model-predictive-path-integral-group-9/install/mppi/share/mppi/waypoints/race.csv.bak-c4f4bc59c5754e309b55ad2745cef477
+-- Up-to-date symlink: /home/nvidia/ese-6150-lab-8-model-predictive-path-integral-group-9/install/mppi/share/mppi/waypoints/race.csv.bak-c5364b9a8b414caa94fe6c225e03dff2
+-- Up-to-date symlink: /home/nvidia/ese-6150-lab-8-model-predictive-path-integral-group-9/install/mppi/share/mppi/waypoints/race.csv.bak-ceba069a3b12492280cace07784f2c59
+-- Up-to-date symlink: /home/nvidia/ese-6150-lab-8-model-predictive-path-integral-group-9/install/mppi/share/mppi/waypoints/race.csv.bak-e21fbc2932044298bf91c4e892b6b7a1
+-- Up-to-date symlink: /home/nvidia/ese-6150-lab-8-model-predictive-path-integral-group-9/install/mppi/share/mppi/waypoints/race.csv.bak-e558e796e3b745f7a34e040358e43197
+-- Up-to-date symlink: /home/nvidia/ese-6150-lab-8-model-predictive-path-integral-group-9/install/mppi/share/mppi/waypoints/race.csv.bak-f2895da737d24b56bffc1dd678a77174
+-- Up-to-date symlink: /home/nvidia/ese-6150-lab-8-model-predictive-path-integral-group-9/install/mppi/share/mppi/waypoints/race.csv.bak-f8224038a07d432a960ed36c7a68c48a
+-- Up-to-date symlink: /home/nvidia/ese-6150-lab-8-model-predictive-path-integral-group-9/install/mppi/share/ament_index/resource_index/package_run_dependencies/mppi
+-- Up-to-date symlink: /home/nvidia/ese-6150-lab-8-model-predictive-path-integral-group-9/install/mppi/share/ament_index/resource_index/parent_prefix_path/mppi
+-- Up-to-date symlink: /home/nvidia/ese-6150-lab-8-model-predictive-path-integral-group-9/install/mppi/share/mppi/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /home/nvidia/ese-6150-lab-8-model-predictive-path-integral-group-9/install/mppi/share/mppi/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /home/nvidia/ese-6150-lab-8-model-predictive-path-integral-group-9/install/mppi/share/mppi/environment/path.sh
+-- Up-to-date symlink: /home/nvidia/ese-6150-lab-8-model-predictive-path-integral-group-9/install/mppi/share/mppi/environment/path.dsv
+-- Up-to-date symlink: /home/nvidia/ese-6150-lab-8-model-predictive-path-integral-group-9/install/mppi/share/mppi/local_setup.bash
+-- Up-to-date symlink: /home/nvidia/ese-6150-lab-8-model-predictive-path-integral-group-9/install/mppi/share/mppi/local_setup.sh
+-- Up-to-date symlink: /home/nvidia/ese-6150-lab-8-model-predictive-path-integral-group-9/install/mppi/share/mppi/local_setup.zsh
+-- Up-to-date symlink: /home/nvidia/ese-6150-lab-8-model-predictive-path-integral-group-9/install/mppi/share/mppi/local_setup.dsv
+-- Symlinking: /home/nvidia/ese-6150-lab-8-model-predictive-path-integral-group-9/install/mppi/share/mppi/package.dsv
+-- Up-to-date symlink: /home/nvidia/ese-6150-lab-8-model-predictive-path-integral-group-9/install/mppi/share/ament_index/resource_index/packages/mppi
+-- Up-to-date symlink: /home/nvidia/ese-6150-lab-8-model-predictive-path-integral-group-9/install/mppi/share/mppi/cmake/mppiConfig.cmake
+-- Up-to-date symlink: /home/nvidia/ese-6150-lab-8-model-predictive-path-integral-group-9/install/mppi/share/mppi/cmake/mppiConfig-version.cmake
+-- Up-to-date symlink: /home/nvidia/ese-6150-lab-8-model-predictive-path-integral-group-9/install/mppi/share/mppi/package.xml
+Listing '/home/nvidia/ese-6150-lab-8-model-predictive-path-integral-group-9/install/mppi/lib/python3.12/site-packages/mppi'...

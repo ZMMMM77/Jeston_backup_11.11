@@ -1,0 +1,26 @@
+[0.024s] Invoking command in '/home/nvidia/raceline_ws/build/raceline_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nvidia/raceline_ws/install/raceline_studio:/home/nvidia/f1tenth_ws/install/f1tenth_stack:/home/nvidia/f1tenth_ws/install/joy_teleop:/home/nvidia/f1tenth_ws/install/particle_filter:/home/nvidia/f1tenth_ws/install/mouse_teleop:/home/nvidia/f1tenth_ws/install/key_teleop:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/nvidia/raceline_ws/src/raceline_UI_f1tenth/raceline_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/nvidia/raceline_ws/install/raceline_msgs
+[0.055s] -- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.311s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.340s] -- Found rosidl_default_generators: 1.6.1 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+[0.357s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.442s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.513s] -- Found rosidl_adapter: 4.6.9 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[1.207s] -- Found ament_cmake_ros: 0.12.1 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)
+[1.470s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.824s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.828s] -- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)
+[2.535s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed 
+[2.658s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[2.690s] -- Configuring done (2.6s)
+[2.776s] -- Generating done (0.1s)
+[2.803s] -- Build files have been written to: /home/nvidia/raceline_ws/build/raceline_msgs
+[2.825s] Invoked command in '/home/nvidia/raceline_ws/build/raceline_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nvidia/raceline_ws/install/raceline_studio:/home/nvidia/f1tenth_ws/install/f1tenth_stack:/home/nvidia/f1tenth_ws/install/joy_teleop:/home/nvidia/f1tenth_ws/install/particle_filter:/home/nvidia/f1tenth_ws/install/mouse_teleop:/home/nvidia/f1tenth_ws/install/key_teleop:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/nvidia/raceline_ws/src/raceline_UI_f1tenth/raceline_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/nvidia/raceline_ws/install/raceline_msgs
+[2.829s] Invoking command in '/home/nvidia/raceline_ws/build/raceline_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nvidia/raceline_ws/install/raceline_studio:/home/nvidia/f1tenth_ws/install/f1tenth_stack:/home/nvidia/f1tenth_ws/install/joy_teleop:/home/nvidia/f1tenth_ws/install/particle_filter:/home/nvidia/f1tenth_ws/install/mouse_teleop:/home/nvidia/f1tenth_ws/install/key_teleop:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/nvidia/raceline_ws/build/raceline_msgs -- -j6 -l6
+[2.932s] failed to create symbolic link '/home/nvidia/raceline_ws/build/raceline_msgs/ament_cmake_python/raceline_msgs/raceline_msgs' because existing path cannot be removed: Is a directory
+[2.933s] [  5%] Built target raceline_msgs__rs
+[2.933s] [  5%] Built target raceline_msgs__rosidl_generator_type_description
+[2.934s] gmake[2]: *** [CMakeFiles/ament_cmake_python_symlink_raceline_msgs.dir/build.make:70: CMakeFiles/ament_cmake_python_symlink_raceline_msgs] Error 1
+[2.935s] gmake[1]: *** [CMakeFiles/Makefile2:471: CMakeFiles/ament_cmake_python_symlink_raceline_msgs.dir/all] Error 2
+[2.935s] gmake[1]: *** Waiting for unfinished jobs....
+[2.936s] gmake: *** [Makefile:146: all] Error 2
+[2.941s] Invoked command in '/home/nvidia/raceline_ws/build/raceline_msgs' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nvidia/raceline_ws/install/raceline_studio:/home/nvidia/f1tenth_ws/install/f1tenth_stack:/home/nvidia/f1tenth_ws/install/joy_teleop:/home/nvidia/f1tenth_ws/install/particle_filter:/home/nvidia/f1tenth_ws/install/mouse_teleop:/home/nvidia/f1tenth_ws/install/key_teleop:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/nvidia/raceline_ws/build/raceline_msgs -- -j6 -l6

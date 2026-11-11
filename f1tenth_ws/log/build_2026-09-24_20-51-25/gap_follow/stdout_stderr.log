@@ -1,0 +1,20 @@
+Built target ament_cmake_python_copy_gap_follow
+Built target ament_cmake_python_copy_gap_follow_setup
+running egg_info
+writing gap_follow.egg-info/PKG-INFO
+writing dependency_links to gap_follow.egg-info/dependency_links.txt
+writing top-level names to gap_follow.egg-info/top_level.txt
+reading manifest file 'gap_follow.egg-info/SOURCES.txt'
+writing manifest file 'gap_follow.egg-info/SOURCES.txt'
+Built target ament_cmake_python_build_gap_follow_egg
+-- Install configuration: ""
+-- Up-to-date: /home/nvidia/f1tenth_ws/install/gap_follow/lib/python3.12/site-packages/gap_follow-0.0.0-py3.12.egg-info
+-- Up-to-date: /home/nvidia/f1tenth_ws/install/gap_follow/lib/python3.12/site-packages/gap_follow
+-- Up-to-date: /home/nvidia/f1tenth_ws/install/gap_follow/lib/python3.12/site-packages/gap_follow/__init__.py
+Listing '/home/nvidia/f1tenth_ws/install/gap_follow/lib/python3.12/site-packages/gap_follow'...
+-- Installing: /home/nvidia/f1tenth_ws/install/gap_follow/lib/gap_follow/reactive_node
+-- Up-to-date: /home/nvidia/f1tenth_ws/install/gap_follow/share/gap_follow/launch
+-- Up-to-date: /home/nvidia/f1tenth_ws/install/gap_follow/share/gap_follow/launch/levine_blocked_launch.py
+-- Up-to-date: /home/nvidia/f1tenth_ws/install/gap_follow/share/gap_follow/launch/levine_obs_launch.py
+-- Installing: /home/nvidia/f1tenth_ws/install/gap_follow/share/gap_follow/package.dsv
+-- Up-to-date: /home/nvidia/f1tenth_ws/install/gap_follow/share/gap_follow/package.xml

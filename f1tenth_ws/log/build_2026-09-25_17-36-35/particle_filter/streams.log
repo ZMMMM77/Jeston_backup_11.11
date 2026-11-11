@@ -1,0 +1,64 @@
+[2.525s] Invoking command in '/home/nvidia/f1tenth_ws/src/particle_filter': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/nvidia/f1tenth_ws/build/particle_filter/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/nvidia/f1tenth_ws/install/particle_filter/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/particle_filter build --build-base /home/nvidia/f1tenth_ws/build/particle_filter/build install --record /home/nvidia/f1tenth_ws/build/particle_filter/install.log --install-scripts $base/lib/particle_filter --single-version-externally-managed install_data
+[2.867s] /usr/lib/python3/dist-packages/setuptools/dist.py:744: SetuptoolsDeprecationWarning: Invalid dash-separated options
+[2.867s] !!
+[2.867s] 
+[2.868s]         ********************************************************************************
+[2.868s]         Usage of dash-separated 'script-dir' will not be supported in future
+[2.868s]         versions. Please use the underscore name 'script_dir' instead.
+[2.868s] 
+[2.868s]         This deprecation is overdue, please update your project and remove deprecated
+[2.868s]         calls to avoid build errors in the future.
+[2.868s] 
+[2.869s]         See https://setuptools.pypa.io/en/latest/userguide/declarative_config.html for details.
+[2.869s]         ********************************************************************************
+[2.870s] 
+[2.870s] !!
+[2.870s]   opt = self.warn_dash_deprecation(opt, section)
+[3.286s] running egg_info
+[3.286s] creating ../../build/particle_filter/particle_filter.egg-info
+[3.345s] writing ../../build/particle_filter/particle_filter.egg-info/PKG-INFO
+[3.345s] writing dependency_links to ../../build/particle_filter/particle_filter.egg-info/dependency_links.txt
+[3.346s] writing entry points to ../../build/particle_filter/particle_filter.egg-info/entry_points.txt
+[3.346s] writing requirements to ../../build/particle_filter/particle_filter.egg-info/requires.txt
+[3.346s] writing top-level names to ../../build/particle_filter/particle_filter.egg-info/top_level.txt
+[3.347s] writing manifest file '../../build/particle_filter/particle_filter.egg-info/SOURCES.txt'
+[3.466s] reading manifest file '../../build/particle_filter/particle_filter.egg-info/SOURCES.txt'
+[3.467s] writing manifest file '../../build/particle_filter/particle_filter.egg-info/SOURCES.txt'
+[3.468s] running build
+[3.468s] running build_py
+[3.468s] creating /home/nvidia/f1tenth_ws/build/particle_filter/build
+[3.468s] creating /home/nvidia/f1tenth_ws/build/particle_filter/build/lib
+[3.468s] creating /home/nvidia/f1tenth_ws/build/particle_filter/build/lib/particle_filter
+[3.469s] copying particle_filter/utils.py -> /home/nvidia/f1tenth_ws/build/particle_filter/build/lib/particle_filter
+[3.469s] copying particle_filter/particle_filter.py -> /home/nvidia/f1tenth_ws/build/particle_filter/build/lib/particle_filter
+[3.470s] copying particle_filter/__init__.py -> /home/nvidia/f1tenth_ws/build/particle_filter/build/lib/particle_filter
+[3.470s] running install
+[3.486s] running install_lib
+[3.546s] creating /home/nvidia/f1tenth_ws/install/particle_filter/lib/python3.12/site-packages/particle_filter
+[3.546s] copying /home/nvidia/f1tenth_ws/build/particle_filter/build/lib/particle_filter/utils.py -> /home/nvidia/f1tenth_ws/install/particle_filter/lib/python3.12/site-packages/particle_filter
+[3.547s] copying /home/nvidia/f1tenth_ws/build/particle_filter/build/lib/particle_filter/particle_filter.py -> /home/nvidia/f1tenth_ws/install/particle_filter/lib/python3.12/site-packages/particle_filter
+[3.547s] copying /home/nvidia/f1tenth_ws/build/particle_filter/build/lib/particle_filter/__init__.py -> /home/nvidia/f1tenth_ws/install/particle_filter/lib/python3.12/site-packages/particle_filter
+[3.548s] byte-compiling /home/nvidia/f1tenth_ws/install/particle_filter/lib/python3.12/site-packages/particle_filter/utils.py to utils.cpython-312.pyc
+[3.552s] byte-compiling /home/nvidia/f1tenth_ws/install/particle_filter/lib/python3.12/site-packages/particle_filter/particle_filter.py to particle_filter.cpython-312.pyc
+[3.564s] byte-compiling /home/nvidia/f1tenth_ws/install/particle_filter/lib/python3.12/site-packages/particle_filter/__init__.py to __init__.cpython-312.pyc
+[3.565s] running install_data
+[3.565s] creating /home/nvidia/f1tenth_ws/install/particle_filter/share/ament_index
+[3.565s] creating /home/nvidia/f1tenth_ws/install/particle_filter/share/ament_index/resource_index
+[3.566s] creating /home/nvidia/f1tenth_ws/install/particle_filter/share/ament_index/resource_index/packages
+[3.566s] copying resource/particle_filter -> /home/nvidia/f1tenth_ws/install/particle_filter/share/ament_index/resource_index/packages
+[3.566s] copying package.xml -> /home/nvidia/f1tenth_ws/install/particle_filter/share/particle_filter
+[3.566s] creating /home/nvidia/f1tenth_ws/install/particle_filter/share/particle_filter/maps
+[3.566s] copying maps/levine.yaml -> /home/nvidia/f1tenth_ws/install/particle_filter/share/particle_filter/maps
+[3.567s] copying maps/basement_fixed.png -> /home/nvidia/f1tenth_ws/install/particle_filter/share/particle_filter/maps
+[3.567s] copying maps/basement_fixed.map.yaml -> /home/nvidia/f1tenth_ws/install/particle_filter/share/particle_filter/maps
+[3.567s] copying maps/levine.pgm -> /home/nvidia/f1tenth_ws/install/particle_filter/share/particle_filter/maps
+[3.575s] creating /home/nvidia/f1tenth_ws/install/particle_filter/share/particle_filter/launch
+[3.575s] copying launch/localize_launch.py -> /home/nvidia/f1tenth_ws/install/particle_filter/share/particle_filter/launch
+[3.575s] creating /home/nvidia/f1tenth_ws/install/particle_filter/share/particle_filter/config
+[3.575s] copying config/localize.yaml -> /home/nvidia/f1tenth_ws/install/particle_filter/share/particle_filter/config
+[3.575s] running install_egg_info
+[3.638s] Copying ../../build/particle_filter/particle_filter.egg-info to /home/nvidia/f1tenth_ws/install/particle_filter/lib/python3.12/site-packages/particle_filter-0.2.0-py3.12.egg-info
+[3.640s] running install_scripts
+[4.026s] Installing particle_filter script to /home/nvidia/f1tenth_ws/install/particle_filter/lib/particle_filter
+[4.027s] writing list of installed files to '/home/nvidia/f1tenth_ws/build/particle_filter/install.log'
+[4.128s] Invoked command in '/home/nvidia/f1tenth_ws/src/particle_filter' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/nvidia/f1tenth_ws/build/particle_filter/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/nvidia/f1tenth_ws/install/particle_filter/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/particle_filter build --build-base /home/nvidia/f1tenth_ws/build/particle_filter/build install --record /home/nvidia/f1tenth_ws/build/particle_filter/install.log --install-scripts $base/lib/particle_filter --single-version-externally-managed install_data

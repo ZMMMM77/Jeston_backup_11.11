@@ -1,0 +1,6 @@
+source;share/raceline_studio/hook/pythonpath.ps1
+source;share/raceline_studio/hook/pythonpath.dsv
+source;share/raceline_studio/hook/pythonpath.sh
+source;share/raceline_studio/hook/ament_prefix_path.ps1
+source;share/raceline_studio/hook/ament_prefix_path.dsv
+source;share/raceline_studio/hook/ament_prefix_path.sh

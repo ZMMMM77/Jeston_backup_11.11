@@ -1,0 +1,12 @@
+schema: "classroom50/repo-config/v1"
+classroom: "ese-6150"
+assignment: "lab-8-model-predictive-path-integral"
+owner:
+  username: "ZMMMM77"
+  id: 240956184
+  accepted_at: "2026-10-30T00:05:49Z"
+source:
+  owner: "f1tenth"
+  owner_id: 38742763
+  repo: "f1tenth_lab8_template"
+  branch: "main"

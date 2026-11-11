@@ -1,0 +1,267 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-2c8e2cc16398293ceb09.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						15,
+						16,
+						17,
+						18,
+						19
+					]
+				},
+				{
+					"build" : "raceline_msgs__py",
+					"jsonFile" : "directory-raceline_msgs__py-dc5e5faeae0683b01054.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/nvidia/raceline_ws/build/raceline_msgs/raceline_msgs__py",
+					"targetIndexes" : 
+					[
+						4
+					]
+				},
+				{
+					"build" : "raceline_msgs__rs",
+					"jsonFile" : "directory-raceline_msgs__rs-fb3a917bae2399f0e1a4.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/nvidia/raceline_ws/build/raceline_msgs/raceline_msgs__rs",
+					"targetIndexes" : 
+					[
+						14
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						2
+					],
+					"name" : "raceline_msgs",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_raceline_msgs_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_raceline_msgs_egg-0846b6228f33d29467ce.json",
+					"name" : "ament_cmake_python_build_raceline_msgs_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_symlink_raceline_msgs::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_symlink_raceline_msgs-4f7db3f8b196cce92423.json",
+					"name" : "ament_cmake_python_symlink_raceline_msgs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "raceline_msgs::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-raceline_msgs-7bdc418b1704706d92f1.json",
+					"name" : "raceline_msgs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "raceline_msgs__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-raceline_msgs__cpp-e787dde35527f6e7d0d6.json",
+					"name" : "raceline_msgs__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "raceline_msgs__py::@03890b75820296c18275",
+					"jsonFile" : "target-raceline_msgs__py-ceccb8a678bf51cad238.json",
+					"name" : "raceline_msgs__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "raceline_msgs__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-raceline_msgs__rosidl_generator_c-585fc3b15f6feb0f909d.json",
+					"name" : "raceline_msgs__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "raceline_msgs__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-raceline_msgs__rosidl_generator_py-89082b865dfa41cecd88.json",
+					"name" : "raceline_msgs__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "raceline_msgs__rosidl_generator_type_description::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-raceline_msgs__rosidl_generator_type_description-390f9610b440c60da12b.json",
+					"name" : "raceline_msgs__rosidl_generator_type_description",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "raceline_msgs__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-raceline_msgs__rosidl_typesupport_c-30d6f9e499a8f14b343b.json",
+					"name" : "raceline_msgs__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "raceline_msgs__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-raceline_msgs__rosidl_typesupport_cpp-a963e539d00ea0d2f8d4.json",
+					"name" : "raceline_msgs__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "raceline_msgs__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-raceline_msgs__rosidl_typesupport_fastrtps_c-fec30b124491e73cf4f5.json",
+					"name" : "raceline_msgs__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "raceline_msgs__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-raceline_msgs__rosidl_typesupport_fastrtps_cpp-4bb7c0377f36f3f38a6a.json",
+					"name" : "raceline_msgs__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "raceline_msgs__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-raceline_msgs__rosidl_typesupport_introspection_c-94db5675f54654af496f.json",
+					"name" : "raceline_msgs__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "raceline_msgs__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-raceline_msgs__rosidl_typesupport_introspection_cpp-868730c42d7677fef615.json",
+					"name" : "raceline_msgs__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "raceline_msgs__rs::@52c712e2cd24c26307d5",
+					"jsonFile" : "target-raceline_msgs__rs-8ed422506a9fe71cfdac.json",
+					"name" : "raceline_msgs__rs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "raceline_msgs_s__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-raceline_msgs_s__rosidl_typesupport_c-0c6e9be45c363764a4ec.json",
+					"name" : "raceline_msgs_s__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "raceline_msgs_s__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-raceline_msgs_s__rosidl_typesupport_fastrtps_c-131032422d339ffe158b.json",
+					"name" : "raceline_msgs_s__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "raceline_msgs_s__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-raceline_msgs_s__rosidl_typesupport_introspection_c-3301fd8f2b19804ddbd9.json",
+					"name" : "raceline_msgs_s__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "raceline_msgs_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-raceline_msgs_uninstall-1f8db7d7df6438d1c41a.json",
+					"name" : "raceline_msgs_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-b9664efeef218ef861cc.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/nvidia/raceline_ws/build/raceline_msgs",
+		"source" : "/home/nvidia/raceline_ws/src/raceline_UI_f1tenth/raceline_msgs"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

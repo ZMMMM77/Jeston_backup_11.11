@@ -1,0 +1,10 @@
+[100%] Built target pure_pursuit_node
+[100%] Built target ament_cmake_python_symlink_pure_pursuit
+[100%] Built target ament_cmake_python_symlink_pure_pursuit_setup
+running egg_info
+writing pure_pursuit.egg-info/PKG-INFO
+writing dependency_links to pure_pursuit.egg-info/dependency_links.txt
+writing top-level names to pure_pursuit.egg-info/top_level.txt
+reading manifest file 'pure_pursuit.egg-info/SOURCES.txt'
+writing manifest file 'pure_pursuit.egg-info/SOURCES.txt'
+[100%] Built target ament_cmake_python_build_pure_pursuit_egg

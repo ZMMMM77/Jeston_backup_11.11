@@ -1,0 +1,34 @@
+[2.592s] Invoking command in '/home/nvidia/f1tenth_ws/src/f1tenth_system/f1tenth_stack': AMENT_PREFIX_PATH=/home/nvidia/f1tenth_ws/install/vesc:/home/nvidia/f1tenth_ws/install/vesc_driver:/home/nvidia/f1tenth_ws/install/vesc_ackermann:/home/nvidia/f1tenth_ws/install/joy_teleop:/home/nvidia/f1tenth_ws/install/vesc_msgs:/home/nvidia/f1tenth_ws/install/teleop_tools_msgs:/home/nvidia/f1tenth_ws/install/ackermann_mux:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nvidia/f1tenth_ws/install/vesc:/home/nvidia/f1tenth_ws/install/vesc_driver:/home/nvidia/f1tenth_ws/install/vesc_ackermann:/home/nvidia/f1tenth_ws/install/vesc_msgs:/home/nvidia/f1tenth_ws/install/teleop_tools_msgs:/home/nvidia/f1tenth_ws/install/ackermann_mux:${CMAKE_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/nvidia/f1tenth_ws/install/vesc_driver/lib:/home/nvidia/f1tenth_ws/install/vesc_ackermann/lib:/home/nvidia/f1tenth_ws/install/vesc_msgs/lib:/home/nvidia/f1tenth_ws/install/teleop_tools_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/nvidia/f1tenth_ws/build/f1tenth_stack/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/nvidia/f1tenth_ws/install/f1tenth_stack/lib/python3.12/site-packages:/home/nvidia/f1tenth_ws/install/joy_teleop/lib/python3.12/site-packages:/home/nvidia/f1tenth_ws/install/vesc_msgs/lib/python3.12/site-packages:/home/nvidia/f1tenth_ws/install/teleop_tools_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/f1tenth_stack build --build-base /home/nvidia/f1tenth_ws/build/f1tenth_stack/build install --record /home/nvidia/f1tenth_ws/build/f1tenth_stack/install.log --install-scripts $base/lib/f1tenth_stack --single-version-externally-managed install_data
+[3.337s] running egg_info
+[3.396s] writing ../../../build/f1tenth_stack/f1tenth_stack.egg-info/PKG-INFO
+[3.397s] writing dependency_links to ../../../build/f1tenth_stack/f1tenth_stack.egg-info/dependency_links.txt
+[3.397s] writing entry points to ../../../build/f1tenth_stack/f1tenth_stack.egg-info/entry_points.txt
+[3.398s] writing requirements to ../../../build/f1tenth_stack/f1tenth_stack.egg-info/requires.txt
+[3.398s] writing top-level names to ../../../build/f1tenth_stack/f1tenth_stack.egg-info/top_level.txt
+[3.518s] reading manifest file '../../../build/f1tenth_stack/f1tenth_stack.egg-info/SOURCES.txt'
+[3.520s] writing manifest file '../../../build/f1tenth_stack/f1tenth_stack.egg-info/SOURCES.txt'
+[3.520s] running build
+[3.520s] running build_py
+[3.520s] copying f1tenth_stack/throttle_interpolator.py -> /home/nvidia/f1tenth_ws/build/f1tenth_stack/build/lib/f1tenth_stack
+[3.521s] running install
+[3.536s] running install_lib
+[3.593s] copying /home/nvidia/f1tenth_ws/build/f1tenth_stack/build/lib/f1tenth_stack/throttle_interpolator.py -> /home/nvidia/f1tenth_ws/install/f1tenth_stack/lib/python3.12/site-packages/f1tenth_stack
+[3.594s] byte-compiling /home/nvidia/f1tenth_ws/install/f1tenth_stack/lib/python3.12/site-packages/f1tenth_stack/throttle_interpolator.py to throttle_interpolator.cpython-312.pyc
+[3.597s] running install_data
+[3.597s] copying package.xml -> /home/nvidia/f1tenth_ws/install/f1tenth_stack/share/f1tenth_stack
+[3.598s] copying launch/bringup_launch.py -> /home/nvidia/f1tenth_ws/install/f1tenth_stack/share/f1tenth_stack/launch
+[3.598s] copying launch/no_lidar_bringup_launch.py -> /home/nvidia/f1tenth_ws/install/f1tenth_stack/share/f1tenth_stack/launch
+[3.598s] copying launch/sick_bringup_launch.py -> /home/nvidia/f1tenth_ws/install/f1tenth_stack/share/f1tenth_stack/launch
+[3.599s] copying launch/sick_tim_5xx.launch -> /home/nvidia/f1tenth_ws/install/f1tenth_stack/share/f1tenth_stack/launch
+[3.599s] copying config/f1tenth_online_async.yaml -> /home/nvidia/f1tenth_ws/install/f1tenth_stack/share/f1tenth_stack/config
+[3.599s] copying config/joy_teleop.yaml -> /home/nvidia/f1tenth_ws/install/f1tenth_stack/share/f1tenth_stack/config
+[3.600s] copying config/mux.yaml -> /home/nvidia/f1tenth_ws/install/f1tenth_stack/share/f1tenth_stack/config
+[3.600s] copying config/sensors.yaml -> /home/nvidia/f1tenth_ws/install/f1tenth_stack/share/f1tenth_stack/config
+[3.600s] copying config/vesc.yaml -> /home/nvidia/f1tenth_ws/install/f1tenth_stack/share/f1tenth_stack/config
+[3.601s] running install_egg_info
+[3.661s] removing '/home/nvidia/f1tenth_ws/install/f1tenth_stack/lib/python3.12/site-packages/f1tenth_stack-0.0.1-py3.12.egg-info' (and everything under it)
+[3.662s] Copying ../../../build/f1tenth_stack/f1tenth_stack.egg-info to /home/nvidia/f1tenth_ws/install/f1tenth_stack/lib/python3.12/site-packages/f1tenth_stack-0.0.1-py3.12.egg-info
+[3.664s] running install_scripts
+[4.029s] Installing throttle_interpolator script to /home/nvidia/f1tenth_ws/install/f1tenth_stack/lib/f1tenth_stack
+[4.030s] writing list of installed files to '/home/nvidia/f1tenth_ws/build/f1tenth_stack/install.log'
+[4.117s] Invoked command in '/home/nvidia/f1tenth_ws/src/f1tenth_system/f1tenth_stack' returned '0': AMENT_PREFIX_PATH=/home/nvidia/f1tenth_ws/install/vesc:/home/nvidia/f1tenth_ws/install/vesc_driver:/home/nvidia/f1tenth_ws/install/vesc_ackermann:/home/nvidia/f1tenth_ws/install/joy_teleop:/home/nvidia/f1tenth_ws/install/vesc_msgs:/home/nvidia/f1tenth_ws/install/teleop_tools_msgs:/home/nvidia/f1tenth_ws/install/ackermann_mux:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nvidia/f1tenth_ws/install/vesc:/home/nvidia/f1tenth_ws/install/vesc_driver:/home/nvidia/f1tenth_ws/install/vesc_ackermann:/home/nvidia/f1tenth_ws/install/vesc_msgs:/home/nvidia/f1tenth_ws/install/teleop_tools_msgs:/home/nvidia/f1tenth_ws/install/ackermann_mux:${CMAKE_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/nvidia/f1tenth_ws/install/vesc_driver/lib:/home/nvidia/f1tenth_ws/install/vesc_ackermann/lib:/home/nvidia/f1tenth_ws/install/vesc_msgs/lib:/home/nvidia/f1tenth_ws/install/teleop_tools_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/nvidia/f1tenth_ws/build/f1tenth_stack/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/nvidia/f1tenth_ws/install/f1tenth_stack/lib/python3.12/site-packages:/home/nvidia/f1tenth_ws/install/joy_teleop/lib/python3.12/site-packages:/home/nvidia/f1tenth_ws/install/vesc_msgs/lib/python3.12/site-packages:/home/nvidia/f1tenth_ws/install/teleop_tools_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/f1tenth_stack build --build-base /home/nvidia/f1tenth_ws/build/f1tenth_stack/build install --record /home/nvidia/f1tenth_ws/build/f1tenth_stack/install.log --install-scripts $base/lib/f1tenth_stack --single-version-externally-managed install_data

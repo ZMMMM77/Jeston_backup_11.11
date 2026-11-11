@@ -1,0 +1,22 @@
+running egg_info
+writing ../../../build/raceline_studio/raceline_studio.egg-info/PKG-INFO
+writing dependency_links to ../../../build/raceline_studio/raceline_studio.egg-info/dependency_links.txt
+writing entry points to ../../../build/raceline_studio/raceline_studio.egg-info/entry_points.txt
+writing requirements to ../../../build/raceline_studio/raceline_studio.egg-info/requires.txt
+writing top-level names to ../../../build/raceline_studio/raceline_studio.egg-info/top_level.txt
+reading manifest file '../../../build/raceline_studio/raceline_studio.egg-info/SOURCES.txt'
+writing manifest file '../../../build/raceline_studio/raceline_studio.egg-info/SOURCES.txt'
+running build
+running build_py
+copying raceline_studio/app.py -> /home/nvidia/raceline_ws/build/raceline_studio/build/lib/raceline_studio
+running install
+running install_lib
+copying /home/nvidia/raceline_ws/build/raceline_studio/build/lib/raceline_studio/app.py -> /home/nvidia/raceline_ws/install/raceline_studio/lib/python3.12/site-packages/raceline_studio
+byte-compiling /home/nvidia/raceline_ws/install/raceline_studio/lib/python3.12/site-packages/raceline_studio/app.py to app.cpython-312.pyc
+running install_data
+running install_egg_info
+removing '/home/nvidia/raceline_ws/install/raceline_studio/lib/python3.12/site-packages/raceline_studio-0.0.1-py3.12.egg-info' (and everything under it)
+Copying ../../../build/raceline_studio/raceline_studio.egg-info to /home/nvidia/raceline_ws/install/raceline_studio/lib/python3.12/site-packages/raceline_studio-0.0.1-py3.12.egg-info
+running install_scripts
+Installing studio script to /home/nvidia/raceline_ws/install/raceline_studio/lib/raceline_studio
+writing list of installed files to '/home/nvidia/raceline_ws/build/raceline_studio/install.log'

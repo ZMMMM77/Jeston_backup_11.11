@@ -1,0 +1,6 @@
+setup.py
+raceline_msgs/__init__.py
+raceline_msgs.egg-info/PKG-INFO
+raceline_msgs.egg-info/SOURCES.txt
+raceline_msgs.egg-info/dependency_links.txt
+raceline_msgs.egg-info/top_level.txt

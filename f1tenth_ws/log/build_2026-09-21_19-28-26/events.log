@@ -1,0 +1,63 @@
+[0.000000] (-) TimerEvent: {}
+[0.000410] (-) JobUnselected: {'identifier': 'ackermann_mux'}
+[0.000486] (-) JobUnselected: {'identifier': 'joy_teleop'}
+[0.000734] (-) JobUnselected: {'identifier': 'key_teleop'}
+[0.000775] (-) JobUnselected: {'identifier': 'mouse_teleop'}
+[0.000924] (-) JobUnselected: {'identifier': 'teleop_tools'}
+[0.000962] (-) JobUnselected: {'identifier': 'teleop_tools_msgs'}
+[0.000994] (-) JobUnselected: {'identifier': 'vesc'}
+[0.001025] (-) JobUnselected: {'identifier': 'vesc_ackermann'}
+[0.001054] (-) JobUnselected: {'identifier': 'vesc_driver'}
+[0.001082] (-) JobUnselected: {'identifier': 'vesc_msgs'}
+[0.001117] (f1tenth_stack) JobQueued: {'identifier': 'f1tenth_stack', 'dependencies': OrderedDict({'ackermann_mux': '/home/nvidia/f1tenth_ws/install/ackermann_mux', 'teleop_tools_msgs': '/home/nvidia/f1tenth_ws/install/teleop_tools_msgs', 'vesc_msgs': '/home/nvidia/f1tenth_ws/install/vesc_msgs', 'joy_teleop': '/home/nvidia/f1tenth_ws/install/joy_teleop', 'vesc_ackermann': '/home/nvidia/f1tenth_ws/install/vesc_ackermann', 'vesc_driver': '/home/nvidia/f1tenth_ws/install/vesc_driver', 'vesc': '/home/nvidia/f1tenth_ws/install/vesc'})}
+[0.001544] (f1tenth_stack) JobStarted: {'identifier': 'f1tenth_stack'}
+[0.099477] (-) TimerEvent: {}
+[0.200049] (-) TimerEvent: {}
+[0.300542] (-) TimerEvent: {}
+[0.400969] (-) TimerEvent: {}
+[0.501446] (-) TimerEvent: {}
+[0.602433] (-) TimerEvent: {}
+[0.702943] (-) TimerEvent: {}
+[0.803461] (-) TimerEvent: {}
+[0.903966] (-) TimerEvent: {}
+[1.004470] (-) TimerEvent: {}
+[1.105016] (-) TimerEvent: {}
+[1.205537] (-) TimerEvent: {}
+[1.306041] (-) TimerEvent: {}
+[1.406518] (-) TimerEvent: {}
+[1.507009] (-) TimerEvent: {}
+[1.607574] (-) TimerEvent: {}
+[1.648262] (f1tenth_stack) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../../build/f1tenth_stack', 'build', '--build-base', '/home/nvidia/f1tenth_ws/build/f1tenth_stack/build', 'install', '--record', '/home/nvidia/f1tenth_ws/build/f1tenth_stack/install.log', '--install-scripts', '$base/lib/f1tenth_stack', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/nvidia/f1tenth_ws/src/f1tenth_system/f1tenth_stack', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'nvidia', 'XDG_SESSION_TYPE': 'x11', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/nvidia/f1tenth_ws/install/vesc_driver/lib:/home/nvidia/f1tenth_ws/install/vesc_ackermann/lib:/home/nvidia/f1tenth_ws/install/vesc_msgs/lib:/home/nvidia/f1tenth_ws/install/teleop_tools_msgs/lib', 'HOME': '/home/nvidia', 'OLDPWD': '/home/nvidia/f1tenth_ws/src/f1tenth_system/f1tenth_stack/config', 'DESKTOP_SESSION': 'ubuntu', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '3630', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/2002/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'LOGNAME': 'nvidia', '_': '/usr/bin/colcon', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'nvidia', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'WINDOWPATH': '2', 'PATH': '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/localhost.localdomain:@/tmp/.ICE-unix/3599,unix/localhost.localdomain:/tmp/.ICE-unix/3599', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/e8cdc941_1287_4b1b_9521_6c5d90cde823', 'XDG_RUNTIME_DIR': '/run/user/2002', 'DISPLAY': ':1', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/2002/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.178', 'SSH_AUTH_SOCK': '/run/user/2002/keyring/ssh', 'ROS_DOMAIN_ID': '9', 'AMENT_PREFIX_PATH': '/home/nvidia/f1tenth_ws/install/vesc:/home/nvidia/f1tenth_ws/install/vesc_driver:/home/nvidia/f1tenth_ws/install/vesc_ackermann:/home/nvidia/f1tenth_ws/install/joy_teleop:/home/nvidia/f1tenth_ws/install/vesc_msgs:/home/nvidia/f1tenth_ws/install/teleop_tools_msgs:/home/nvidia/f1tenth_ws/install/ackermann_mux', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/2002/gnupg/S.gpg-agent:0:1', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/nvidia/f1tenth_ws/build/f1tenth_stack', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/nvidia/f1tenth_ws/build/f1tenth_stack/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/nvidia/f1tenth_ws/install/f1tenth_stack/lib/python3.12/site-packages:/home/nvidia/f1tenth_ws/install/joy_teleop/lib/python3.12/site-packages:/home/nvidia/f1tenth_ws/install/vesc_msgs/lib/python3.12/site-packages:/home/nvidia/f1tenth_ws/install/teleop_tools_msgs/lib/python3.12/site-packages', 'COLCON': '1', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/nvidia/f1tenth_ws/install/vesc:/home/nvidia/f1tenth_ws/install/vesc_driver:/home/nvidia/f1tenth_ws/install/vesc_ackermann:/home/nvidia/f1tenth_ws/install/vesc_msgs:/home/nvidia/f1tenth_ws/install/teleop_tools_msgs:/home/nvidia/f1tenth_ws/install/ackermann_mux'}), 'shell': False}
+[1.707694] (-) TimerEvent: {}
+[1.808203] (-) TimerEvent: {}
+[1.908732] (-) TimerEvent: {}
+[2.009290] (-) TimerEvent: {}
+[2.109816] (-) TimerEvent: {}
+[2.167200] (f1tenth_stack) StdoutLine: {'line': b'running egg_info\n'}
+[2.197899] (f1tenth_stack) StdoutLine: {'line': b'writing ../../../build/f1tenth_stack/f1tenth_stack.egg-info/PKG-INFO\n'}
+[2.198332] (f1tenth_stack) StdoutLine: {'line': b'writing dependency_links to ../../../build/f1tenth_stack/f1tenth_stack.egg-info/dependency_links.txt\n'}
+[2.198761] (f1tenth_stack) StdoutLine: {'line': b'writing entry points to ../../../build/f1tenth_stack/f1tenth_stack.egg-info/entry_points.txt\n'}
+[2.199087] (f1tenth_stack) StdoutLine: {'line': b'writing requirements to ../../../build/f1tenth_stack/f1tenth_stack.egg-info/requires.txt\n'}
+[2.199327] (f1tenth_stack) StdoutLine: {'line': b'writing top-level names to ../../../build/f1tenth_stack/f1tenth_stack.egg-info/top_level.txt\n'}
+[2.209881] (-) TimerEvent: {}
+[2.263248] (f1tenth_stack) StdoutLine: {'line': b"reading manifest file '../../../build/f1tenth_stack/f1tenth_stack.egg-info/SOURCES.txt'\n"}
+[2.265164] (f1tenth_stack) StdoutLine: {'line': b"writing manifest file '../../../build/f1tenth_stack/f1tenth_stack.egg-info/SOURCES.txt'\n"}
+[2.265462] (f1tenth_stack) StdoutLine: {'line': b'running build\n'}
+[2.265691] (f1tenth_stack) StdoutLine: {'line': b'running build_py\n'}
+[2.266236] (f1tenth_stack) StdoutLine: {'line': b'running install\n'}
+[2.280919] (f1tenth_stack) StdoutLine: {'line': b'running install_lib\n'}
+[2.309980] (-) TimerEvent: {}
+[2.313960] (f1tenth_stack) StdoutLine: {'line': b'running install_data\n'}
+[2.314573] (f1tenth_stack) StdoutLine: {'line': b'running install_egg_info\n'}
+[2.349153] (f1tenth_stack) StdoutLine: {'line': b"removing '/home/nvidia/f1tenth_ws/install/f1tenth_stack/lib/python3.12/site-packages/f1tenth_stack-0.0.1-py3.12.egg-info' (and everything under it)\n"}
+[2.349907] (f1tenth_stack) StdoutLine: {'line': b'Copying ../../../build/f1tenth_stack/f1tenth_stack.egg-info to /home/nvidia/f1tenth_ws/install/f1tenth_stack/lib/python3.12/site-packages/f1tenth_stack-0.0.1-py3.12.egg-info\n'}
+[2.351978] (f1tenth_stack) StdoutLine: {'line': b'running install_scripts\n'}
+[2.410083] (-) TimerEvent: {}
+[2.510522] (-) TimerEvent: {}
+[2.591676] (f1tenth_stack) StdoutLine: {'line': b'Installing throttle_interpolator script to /home/nvidia/f1tenth_ws/install/f1tenth_stack/lib/f1tenth_stack\n'}
+[2.592486] (f1tenth_stack) StdoutLine: {'line': b"writing list of installed files to '/home/nvidia/f1tenth_ws/build/f1tenth_stack/install.log'\n"}
+[2.610652] (-) TimerEvent: {}
+[2.676989] (f1tenth_stack) CommandEnded: {'returncode': 0}
+[2.711630] (-) TimerEvent: {}
+[2.713792] (f1tenth_stack) JobEnded: {'identifier': 'f1tenth_stack', 'rc': 0}
+[2.717487] (-) EventReactorShutdown: {}

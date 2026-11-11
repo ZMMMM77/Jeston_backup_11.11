@@ -1,0 +1,2 @@
+Invoking command in '/home/nvidia/f1tenth_ws/build/range_lib': /usr/bin/cmake /home/nvidia/f1tenth_ws/src/range_libc -DCMAKE_INSTALL_PREFIX=/home/nvidia/f1tenth_ws/install/range_lib
+Invoked command in '/home/nvidia/f1tenth_ws/build/range_lib' returned '1': /usr/bin/cmake /home/nvidia/f1tenth_ws/src/range_libc -DCMAKE_INSTALL_PREFIX=/home/nvidia/f1tenth_ws/install/range_lib

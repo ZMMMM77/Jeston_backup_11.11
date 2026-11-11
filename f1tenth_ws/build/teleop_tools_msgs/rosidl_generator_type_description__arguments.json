@@ -1,0 +1,13 @@
+{
+  "package_name": "teleop_tools_msgs",
+  "output_dir": "/home/nvidia/f1tenth_ws/build/teleop_tools_msgs/rosidl_generator_type_description/teleop_tools_msgs",
+  "idl_tuples": [
+    "/home/nvidia/f1tenth_ws/build/teleop_tools_msgs/rosidl_adapter/teleop_tools_msgs:action/Increment.idl"
+  ],
+  "include_paths": [
+    "service_msgs:/opt/ros/jazzy/share/service_msgs",
+    "builtin_interfaces:/opt/ros/jazzy/share/builtin_interfaces",
+    "action_msgs:/opt/ros/jazzy/share/action_msgs",
+    "unique_identifier_msgs:/opt/ros/jazzy/share/unique_identifier_msgs"
+  ]
+}

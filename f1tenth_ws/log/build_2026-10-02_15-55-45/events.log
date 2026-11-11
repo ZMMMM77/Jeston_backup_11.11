@@ -1,0 +1,265 @@
+[0.000000] (-) TimerEvent: {}
+[0.000719] (-) JobUnselected: {'identifier': 'ackermann_mux'}
+[0.001263] (-) JobUnselected: {'identifier': 'f1tenth_stack'}
+[0.001640] (-) JobUnselected: {'identifier': 'joy_teleop'}
+[0.002024] (-) JobUnselected: {'identifier': 'key_teleop'}
+[0.002120] (-) JobUnselected: {'identifier': 'mouse_teleop'}
+[0.002190] (-) JobUnselected: {'identifier': 'particle_filter'}
+[0.002252] (-) JobUnselected: {'identifier': 'range_lib'}
+[0.002312] (-) JobUnselected: {'identifier': 'teleop_tools'}
+[0.002370] (-) JobUnselected: {'identifier': 'teleop_tools_msgs'}
+[0.002427] (-) JobUnselected: {'identifier': 'vesc'}
+[0.002485] (-) JobUnselected: {'identifier': 'vesc_ackermann'}
+[0.002544] (-) JobUnselected: {'identifier': 'vesc_driver'}
+[0.002601] (-) JobUnselected: {'identifier': 'vesc_msgs'}
+[0.002665] (pure_pursuit) JobQueued: {'identifier': 'pure_pursuit', 'dependencies': OrderedDict()}
+[0.002905] (pure_pursuit) JobStarted: {'identifier': 'pure_pursuit'}
+[0.024827] (pure_pursuit) JobProgress: {'identifier': 'pure_pursuit', 'progress': 'cmake'}
+[0.026187] (pure_pursuit) Command: {'cmd': ['/bin/cmake', '/home/nvidia/f1tenth_ws/src/pure-pursuit/pure_pursuit', '-DCMAKE_INSTALL_PREFIX=/home/nvidia/f1tenth_ws/install/pure_pursuit'], 'cwd': '/home/nvidia/f1tenth_ws/build/pure_pursuit', 'env': OrderedDict({'LESSOPEN': '| /bin/lesspipe %s', 'INSIDE_EMACS': '31.1,comint,tramp:2.8.2.31.1', 'USER': 'nvidia', 'SSH_CLIENT': '100.124.138.18 57240 22', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/nvidia/f1tenth_ws/install/vesc_driver/lib:/home/nvidia/f1tenth_ws/install/vesc_ackermann/lib:/home/nvidia/f1tenth_ws/install/vesc_msgs/lib:/home/nvidia/f1tenth_ws/install/teleop_tools_msgs/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/nvidia', 'OLDPWD': '/home/nvidia/f1tenth_ws/src/pure-pursuit/pure_pursuit/launch', 'SSH_TTY': '/dev/pts/5', 'ROS_PYTHON_VERSION': '3', 'PAGER': 'cat', 'PS1': '${debian_chroot:+($debian_chroot)}\\u@\\h:\\w\\$', 'LC_CTYPE': "''", 'PS2': '', 'ENV': "''", 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/2002/bus', 'PS3': '', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'COLCON_PREFIX_PATH': '/home/nvidia/f1tenth_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'nvidia', '_': '/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'COLUMNS': '84', 'TERM': 'dumb', 'XDG_SESSION_ID': '6', 'PATH': '/opt/ros/jazzy/bin:/bin:/usr/bin:/sbin:/usr/sbin:/usr/local/bin:/usr/local/sbin', 'XDG_RUNTIME_DIR': '/run/user/2002', 'LANG': 'en_US.UTF-8', 'LS_COLORS': '', 'ROS_DOMAIN_ID': '9', 'AMENT_PREFIX_PATH': '/home/nvidia/f1tenth_ws/install/wall_follow:/home/nvidia/f1tenth_ws/install/f1tenth_stack:/home/nvidia/f1tenth_ws/install/vesc:/home/nvidia/f1tenth_ws/install/vesc_driver:/home/nvidia/f1tenth_ws/install/vesc_ackermann:/home/nvidia/f1tenth_ws/install/vesc_msgs:/home/nvidia/f1tenth_ws/install/teleop_tools:/home/nvidia/f1tenth_ws/install/joy_teleop:/home/nvidia/f1tenth_ws/install/teleop_tools_msgs:/home/nvidia/f1tenth_ws/install/particle_filter:/home/nvidia/f1tenth_ws/install/mouse_teleop:/home/nvidia/f1tenth_ws/install/key_teleop:/home/nvidia/f1tenth_ws/install/gap_follow:/home/nvidia/f1tenth_ws/install/ackermann_mux:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'PROMPT_COMMAND': '', 'LESSCLOSE': '/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/nvidia/f1tenth_ws/build/pure_pursuit', 'LC_ALL': 'en_US.utf8', 'SSH_CONNECTION': '100.124.138.18 57240 100.122.20.107 22', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'TERMCAP': '', 'PYTHONPATH': '/home/nvidia/f1tenth_ws/install/wall_follow/lib/python3.12/site-packages:/home/nvidia/f1tenth_ws/install/f1tenth_stack/lib/python3.12/site-packages:/home/nvidia/f1tenth_ws/install/vesc_msgs/lib/python3.12/site-packages:/home/nvidia/f1tenth_ws/install/joy_teleop/lib/python3.12/site-packages:/home/nvidia/f1tenth_ws/install/teleop_tools_msgs/lib/python3.12/site-packages:/home/nvidia/f1tenth_ws/install/particle_filter/lib/python3.12/site-packages:/home/nvidia/f1tenth_ws/install/mouse_teleop/lib/python3.12/site-packages:/home/nvidia/f1tenth_ws/install/key_teleop/lib/python3.12/site-packages:/home/nvidia/f1tenth_ws/install/gap_follow/lib/python3.12/site-packages:/opt/ros/jazzy/opt/gz_math_vendor/lib/python:/opt/ros/jazzy/lib/python3.12/site-packages', 'HISTFILE': '/home/nvidia/.tramp_history', 'COLCON': '1', 'TMOUT': '0', 'CMAKE_PREFIX_PATH': '/home/nvidia/f1tenth_ws/install/wall_follow:/home/nvidia/f1tenth_ws/install/vesc:/home/nvidia/f1tenth_ws/install/vesc_driver:/home/nvidia/f1tenth_ws/install/vesc_ackermann:/home/nvidia/f1tenth_ws/install/vesc_msgs:/home/nvidia/f1tenth_ws/install/teleop_tools:/home/nvidia/f1tenth_ws/install/teleop_tools_msgs:/home/nvidia/f1tenth_ws/install/gap_follow:/home/nvidia/f1tenth_ws/install/ackermann_mux:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/nvidia/f1tenth_ws/install/f1tenth_stack:/home/nvidia/f1tenth_ws/install/joy_teleop:/home/nvidia/f1tenth_ws/install/particle_filter:/home/nvidia/f1tenth_ws/install/mouse_teleop:/home/nvidia/f1tenth_ws/install/key_teleop:/opt/ros/jazzy'}), 'shell': False}
+[0.099386] (-) TimerEvent: {}
+[0.200090] (-) TimerEvent: {}
+[0.240985] (pure_pursuit) StdoutLine: {'line': b'-- The C compiler identification is GNU 13.3.0\n'}
+[0.300271] (-) TimerEvent: {}
+[0.400867] (-) TimerEvent: {}
+[0.429212] (pure_pursuit) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 13.3.0\n'}
+[0.471597] (pure_pursuit) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.501057] (-) TimerEvent: {}
+[0.601788] (-) TimerEvent: {}
+[0.665985] (pure_pursuit) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.687128] (pure_pursuit) StdoutLine: {'line': b'-- Check for working C compiler: /bin/cc - skipped\n'}
+[0.688303] (pure_pursuit) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.689222] (pure_pursuit) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.701974] (-) TimerEvent: {}
+[0.708572] (pure_pursuit) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.802173] (-) TimerEvent: {}
+[0.902913] (-) TimerEvent: {}
+[0.919898] (pure_pursuit) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.938769] (pure_pursuit) StdoutLine: {'line': b'-- Check for working CXX compiler: /bin/c++ - skipped\n'}
+[0.939681] (pure_pursuit) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.940850] (pure_pursuit) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.949847] (pure_pursuit) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[1.003079] (-) TimerEvent: {}
+[1.103738] (-) TimerEvent: {}
+[1.204462] (-) TimerEvent: {}
+[1.305143] (-) TimerEvent: {}
+[1.318846] (pure_pursuit) StdoutLine: {'line': b'-- Found Python3: /bin/python3 (found version "3.12.3") found components: Interpreter \n'}
+[1.405322] (-) TimerEvent: {}
+[1.506029] (-) TimerEvent: {}
+[1.606753] (-) TimerEvent: {}
+[1.615695] (pure_pursuit) StdoutLine: {'line': b'-- Found ament_index_cpp: 1.8.4 (/opt/ros/jazzy/share/ament_index_cpp/cmake)\n'}
+[1.622870] (pure_pursuit) StdoutLine: {'line': b'-- Found rclcpp: 28.1.22 (/opt/ros/jazzy/share/rclcpp/cmake)\n'}
+[1.706910] (-) TimerEvent: {}
+[1.740239] (pure_pursuit) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.6.9 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)\n'}
+[1.777830] (pure_pursuit) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.6.9 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)\n'}
+[1.807100] (-) TimerEvent: {}
+[1.826044] (pure_pursuit) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.876389] (pure_pursuit) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.907254] (-) TimerEvent: {}
+[2.007865] (-) TimerEvent: {}
+[2.072863] (pure_pursuit) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)\n'}
+[2.081957] (pure_pursuit) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 8.4.4 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)\n'}
+[2.108004] (-) TimerEvent: {}
+[2.208542] (-) TimerEvent: {}
+[2.262526] (pure_pursuit) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.13")  \n'}
+[2.308734] (-) TimerEvent: {}
+[2.309873] (pure_pursuit) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") \n'}
+[2.363416] (pure_pursuit) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[2.408899] (-) TimerEvent: {}
+[2.509590] (-) TimerEvent: {}
+[2.549450] (pure_pursuit) StdoutLine: {'line': b'-- Found rclpy: 7.1.12 (/opt/ros/jazzy/share/rclpy/cmake)\n'}
+[2.554795] (pure_pursuit) StdoutLine: {'line': b'-- Found geometry_msgs: 5.3.8 (/opt/ros/jazzy/share/geometry_msgs/cmake)\n'}
+[2.609771] (-) TimerEvent: {}
+[2.635621] (pure_pursuit) StdoutLine: {'line': b'-- Found nav_msgs: 5.3.8 (/opt/ros/jazzy/share/nav_msgs/cmake)\n'}
+[2.696866] (pure_pursuit) StdoutLine: {'line': b'-- Found ackermann_msgs: 2.0.2 (/opt/ros/jazzy/share/ackermann_msgs/cmake)\n'}
+[2.709861] (-) TimerEvent: {}
+[2.738532] (pure_pursuit) StdoutLine: {'line': b'-- Found sensor_msgs: 5.3.8 (/opt/ros/jazzy/share/sensor_msgs/cmake)\n'}
+[2.791913] (pure_pursuit) StdoutLine: {'line': b'-- Found visualization_msgs: 5.3.8 (/opt/ros/jazzy/share/visualization_msgs/cmake)\n'}
+[2.810015] (-) TimerEvent: {}
+[2.872317] (pure_pursuit) StdoutLine: {'line': b'-- Found tf2_ros: 0.36.22 (/opt/ros/jazzy/share/tf2_ros/cmake)\n'}
+[2.910170] (-) TimerEvent: {}
+[3.010711] (-) TimerEvent: {}
+[3.111299] (-) TimerEvent: {}
+[3.211854] (-) TimerEvent: {}
+[3.312459] (-) TimerEvent: {}
+[3.413062] (-) TimerEvent: {}
+[3.469001] (pure_pursuit) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.17.5 (/opt/ros/jazzy/share/ament_lint_auto/cmake)\n'}
+[3.513218] (-) TimerEvent: {}
+[3.613858] (-) TimerEvent: {}
+[3.714454] (-) TimerEvent: {}
+[3.764884] (pure_pursuit) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[3.768726] (pure_pursuit) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[3.769605] (pure_pursuit) StdoutLine: {'line': b'-- Configured cppcheck include dirs: /home/nvidia/f1tenth_ws/src/pure-pursuit/pure_pursuit/include\n'}
+[3.770052] (pure_pursuit) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[3.773017] (pure_pursuit) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[3.773425] (pure_pursuit) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[3.775105] (pure_pursuit) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[3.775486] (pure_pursuit) StdoutLine: {'line': b"-- Configured 'flake8' exclude dirs and/or files: \n"}
+[3.777265] (pure_pursuit) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[3.779603] (pure_pursuit) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[3.782828] (pure_pursuit) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[3.783498] (pure_pursuit) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[3.784872] (pure_pursuit) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[3.788958] (pure_pursuit) StdoutLine: {'line': b'-- Configuring done (3.7s)\n'}
+[3.814630] (-) TimerEvent: {}
+[3.831340] (pure_pursuit) StdoutLine: {'line': b'-- Generating done (0.0s)\n'}
+[3.843041] (pure_pursuit) StdoutLine: {'line': b'-- Build files have been written to: /home/nvidia/f1tenth_ws/build/pure_pursuit\n'}
+[3.877288] (pure_pursuit) CommandEnded: {'returncode': 0}
+[3.880502] (pure_pursuit) JobProgress: {'identifier': 'pure_pursuit', 'progress': 'build'}
+[3.880796] (pure_pursuit) Command: {'cmd': ['/bin/cmake', '--build', '/home/nvidia/f1tenth_ws/build/pure_pursuit', '--', '-j6', '-l6'], 'cwd': '/home/nvidia/f1tenth_ws/build/pure_pursuit', 'env': OrderedDict({'LESSOPEN': '| /bin/lesspipe %s', 'INSIDE_EMACS': '31.1,comint,tramp:2.8.2.31.1', 'USER': 'nvidia', 'SSH_CLIENT': '100.124.138.18 57240 22', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/nvidia/f1tenth_ws/install/vesc_driver/lib:/home/nvidia/f1tenth_ws/install/vesc_ackermann/lib:/home/nvidia/f1tenth_ws/install/vesc_msgs/lib:/home/nvidia/f1tenth_ws/install/teleop_tools_msgs/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/nvidia', 'OLDPWD': '/home/nvidia/f1tenth_ws/src/pure-pursuit/pure_pursuit/launch', 'SSH_TTY': '/dev/pts/5', 'ROS_PYTHON_VERSION': '3', 'PAGER': 'cat', 'PS1': '${debian_chroot:+($debian_chroot)}\\u@\\h:\\w\\$', 'LC_CTYPE': "''", 'PS2': '', 'ENV': "''", 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/2002/bus', 'PS3': '', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'COLCON_PREFIX_PATH': '/home/nvidia/f1tenth_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'nvidia', '_': '/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'COLUMNS': '84', 'TERM': 'dumb', 'XDG_SESSION_ID': '6', 'PATH': '/opt/ros/jazzy/bin:/bin:/usr/bin:/sbin:/usr/sbin:/usr/local/bin:/usr/local/sbin', 'XDG_RUNTIME_DIR': '/run/user/2002', 'LANG': 'en_US.UTF-8', 'LS_COLORS': '', 'ROS_DOMAIN_ID': '9', 'AMENT_PREFIX_PATH': '/home/nvidia/f1tenth_ws/install/wall_follow:/home/nvidia/f1tenth_ws/install/f1tenth_stack:/home/nvidia/f1tenth_ws/install/vesc:/home/nvidia/f1tenth_ws/install/vesc_driver:/home/nvidia/f1tenth_ws/install/vesc_ackermann:/home/nvidia/f1tenth_ws/install/vesc_msgs:/home/nvidia/f1tenth_ws/install/teleop_tools:/home/nvidia/f1tenth_ws/install/joy_teleop:/home/nvidia/f1tenth_ws/install/teleop_tools_msgs:/home/nvidia/f1tenth_ws/install/particle_filter:/home/nvidia/f1tenth_ws/install/mouse_teleop:/home/nvidia/f1tenth_ws/install/key_teleop:/home/nvidia/f1tenth_ws/install/gap_follow:/home/nvidia/f1tenth_ws/install/ackermann_mux:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'PROMPT_COMMAND': '', 'LESSCLOSE': '/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/nvidia/f1tenth_ws/build/pure_pursuit', 'LC_ALL': 'en_US.utf8', 'SSH_CONNECTION': '100.124.138.18 57240 100.122.20.107 22', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'TERMCAP': '', 'PYTHONPATH': '/home/nvidia/f1tenth_ws/install/wall_follow/lib/python3.12/site-packages:/home/nvidia/f1tenth_ws/install/f1tenth_stack/lib/python3.12/site-packages:/home/nvidia/f1tenth_ws/install/vesc_msgs/lib/python3.12/site-packages:/home/nvidia/f1tenth_ws/install/joy_teleop/lib/python3.12/site-packages:/home/nvidia/f1tenth_ws/install/teleop_tools_msgs/lib/python3.12/site-packages:/home/nvidia/f1tenth_ws/install/particle_filter/lib/python3.12/site-packages:/home/nvidia/f1tenth_ws/install/mouse_teleop/lib/python3.12/site-packages:/home/nvidia/f1tenth_ws/install/key_teleop/lib/python3.12/site-packages:/home/nvidia/f1tenth_ws/install/gap_follow/lib/python3.12/site-packages:/opt/ros/jazzy/opt/gz_math_vendor/lib/python:/opt/ros/jazzy/lib/python3.12/site-packages', 'HISTFILE': '/home/nvidia/.tramp_history', 'COLCON': '1', 'TMOUT': '0', 'CMAKE_PREFIX_PATH': '/home/nvidia/f1tenth_ws/install/wall_follow:/home/nvidia/f1tenth_ws/install/vesc:/home/nvidia/f1tenth_ws/install/vesc_driver:/home/nvidia/f1tenth_ws/install/vesc_ackermann:/home/nvidia/f1tenth_ws/install/vesc_msgs:/home/nvidia/f1tenth_ws/install/teleop_tools:/home/nvidia/f1tenth_ws/install/teleop_tools_msgs:/home/nvidia/f1tenth_ws/install/gap_follow:/home/nvidia/f1tenth_ws/install/ackermann_mux:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/nvidia/f1tenth_ws/install/f1tenth_stack:/home/nvidia/f1tenth_ws/install/joy_teleop:/home/nvidia/f1tenth_ws/install/particle_filter:/home/nvidia/f1tenth_ws/install/mouse_teleop:/home/nvidia/f1tenth_ws/install/key_teleop:/opt/ros/jazzy'}), 'shell': False}
+[3.914799] (-) TimerEvent: {}
+[3.994577] (pure_pursuit) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/pure_pursuit_node.dir/src/pure_pursuit_node.cpp.o\x1b[0m\n'}
+[4.014682] (pure_pursuit) StdoutLine: {'line': b'[ 50%] Built target ament_cmake_python_copy_pure_pursuit\n'}
+[4.016165] (-) TimerEvent: {}
+[4.016420] (pure_pursuit) StdoutLine: {'line': b'[ 50%] Built target ament_cmake_python_copy_pure_pursuit_setup\n'}
+[4.116347] (-) TimerEvent: {}
+[4.216926] (-) TimerEvent: {}
+[4.317587] (-) TimerEvent: {}
+[4.418145] (-) TimerEvent: {}
+[4.519811] (-) TimerEvent: {}
+[4.620492] (-) TimerEvent: {}
+[4.630168] (pure_pursuit) StdoutLine: {'line': b'running egg_info\n'}
+[4.632914] (pure_pursuit) StdoutLine: {'line': b'creating pure_pursuit.egg-info\n'}
+[4.692862] (pure_pursuit) StdoutLine: {'line': b'writing pure_pursuit.egg-info/PKG-INFO\n'}
+[4.693472] (pure_pursuit) StdoutLine: {'line': b'writing dependency_links to pure_pursuit.egg-info/dependency_links.txt\n'}
+[4.694051] (pure_pursuit) StdoutLine: {'line': b'writing top-level names to pure_pursuit.egg-info/top_level.txt\n'}
+[4.694276] (pure_pursuit) StdoutLine: {'line': b"writing manifest file 'pure_pursuit.egg-info/SOURCES.txt'\n"}
+[4.720638] (-) TimerEvent: {}
+[4.821182] (-) TimerEvent: {}
+[4.874446] (pure_pursuit) StdoutLine: {'line': b"reading manifest file 'pure_pursuit.egg-info/SOURCES.txt'\n"}
+[4.875668] (pure_pursuit) StdoutLine: {'line': b"writing manifest file 'pure_pursuit.egg-info/SOURCES.txt'\n"}
+[4.921516] (-) TimerEvent: {}
+[4.959032] (pure_pursuit) StdoutLine: {'line': b'[ 50%] Built target ament_cmake_python_build_pure_pursuit_egg\n'}
+[5.021679] (-) TimerEvent: {}
+[5.122280] (-) TimerEvent: {}
+[5.222994] (-) TimerEvent: {}
+[5.323599] (-) TimerEvent: {}
+[5.424213] (-) TimerEvent: {}
+[5.524827] (-) TimerEvent: {}
+[5.625476] (-) TimerEvent: {}
+[5.726088] (-) TimerEvent: {}
+[5.826789] (-) TimerEvent: {}
+[5.927457] (-) TimerEvent: {}
+[6.028085] (-) TimerEvent: {}
+[6.128724] (-) TimerEvent: {}
+[6.229392] (-) TimerEvent: {}
+[6.330046] (-) TimerEvent: {}
+[6.430660] (-) TimerEvent: {}
+[6.531275] (-) TimerEvent: {}
+[6.631906] (-) TimerEvent: {}
+[6.732538] (-) TimerEvent: {}
+[6.833210] (-) TimerEvent: {}
+[6.934174] (-) TimerEvent: {}
+[7.034797] (-) TimerEvent: {}
+[7.135470] (-) TimerEvent: {}
+[7.236430] (-) TimerEvent: {}
+[7.337072] (-) TimerEvent: {}
+[7.437755] (-) TimerEvent: {}
+[7.538358] (-) TimerEvent: {}
+[7.638971] (-) TimerEvent: {}
+[7.739583] (-) TimerEvent: {}
+[7.840209] (-) TimerEvent: {}
+[7.940818] (-) TimerEvent: {}
+[8.041490] (-) TimerEvent: {}
+[8.142123] (-) TimerEvent: {}
+[8.242726] (-) TimerEvent: {}
+[8.343371] (-) TimerEvent: {}
+[8.443992] (-) TimerEvent: {}
+[8.544628] (-) TimerEvent: {}
+[8.645230] (-) TimerEvent: {}
+[8.745870] (-) TimerEvent: {}
+[8.846491] (-) TimerEvent: {}
+[8.947129] (-) TimerEvent: {}
+[9.047767] (-) TimerEvent: {}
+[9.148386] (-) TimerEvent: {}
+[9.249008] (-) TimerEvent: {}
+[9.349653] (-) TimerEvent: {}
+[9.450254] (-) TimerEvent: {}
+[9.550863] (-) TimerEvent: {}
+[9.560933] (pure_pursuit) StderrLine: {'line': b'/home/nvidia/f1tenth_ws/src/pure-pursuit/pure_pursuit/src/pure_pursuit_node.cpp:40:81: warning: \xe2\x80\x98geometry_msgs::msg::PoseStamped_<std::allocator<void> >::ConstPtr\xe2\x80\x99 is deprecated [-Wdeprecated-declarations]\n'}
+[9.561617] (pure_pursuit) StderrLine: {'line': b'   40 | id pose_callback(const geometry_msgs::msg::PoseStamped::ConstPtr &pose_msg)\n'}
+[9.561881] (pure_pursuit) StderrLine: {'line': b'      |                                                                           ^\n'}
+[9.562129] (pure_pursuit) StderrLine: {'line': b'\n'}
+[9.562328] (pure_pursuit) StderrLine: {'line': b'In file included from /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/pose_stamped.hpp:7,\n'}
+[9.562550] (pure_pursuit) StderrLine: {'line': b'                 from /home/nvidia/f1tenth_ws/src/pure-pursuit/pure_pursuit/src/pure_pursuit_node.cpp:10:\n'}
+[9.562742] (pure_pursuit) StderrLine: {'line': b'/opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/pose_stamped__struct.hpp:119:5: note: declared here\n'}
+[9.562939] (pure_pursuit) StderrLine: {'line': b'  119 |     ConstPtr;\n'}
+[9.563126] (pure_pursuit) StderrLine: {'line': b'      |     ^~~~~~~~\n'}
+[9.564697] (pure_pursuit) StderrLine: {'line': b'/home/nvidia/f1tenth_ws/src/pure-pursuit/pure_pursuit/src/pure_pursuit_node.cpp: In member function \xe2\x80\x98void PurePursuit::pose_callback(const geometry_msgs::msg::PoseStamped_<std::allocator<void> >::ConstPtr&)\xe2\x80\x99:\n'}
+[9.564949] (pure_pursuit) StderrLine: {'line': b'/home/nvidia/f1tenth_ws/src/pure-pursuit/pure_pursuit/src/pure_pursuit_node.cpp:40:73: warning: unused parameter \xe2\x80\x98pose_msg\xe2\x80\x99 [-Wunused-parameter]\n'}
+[9.565146] (pure_pursuit) StderrLine: {'line': b'   40 | id pose_callback(const geometry_msgs::msg::PoseStamped::ConstPtr &pose_msg)\n'}
+[9.565329] (pure_pursuit) StderrLine: {'line': b'      |                  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~\n'}
+[9.565548] (pure_pursuit) StderrLine: {'line': b'\n'}
+[9.651028] (-) TimerEvent: {}
+[9.751636] (-) TimerEvent: {}
+[9.852261] (-) TimerEvent: {}
+[9.952882] (-) TimerEvent: {}
+[10.053499] (-) TimerEvent: {}
+[10.154106] (-) TimerEvent: {}
+[10.254718] (-) TimerEvent: {}
+[10.355340] (-) TimerEvent: {}
+[10.455965] (-) TimerEvent: {}
+[10.556579] (-) TimerEvent: {}
+[10.657219] (-) TimerEvent: {}
+[10.758001] (-) TimerEvent: {}
+[10.858591] (-) TimerEvent: {}
+[10.959212] (-) TimerEvent: {}
+[11.059842] (-) TimerEvent: {}
+[11.160462] (-) TimerEvent: {}
+[11.261084] (-) TimerEvent: {}
+[11.361737] (-) TimerEvent: {}
+[11.462321] (-) TimerEvent: {}
+[11.547827] (pure_pursuit) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable pure_pursuit_node\x1b[0m\n'}
+[11.562433] (-) TimerEvent: {}
+[11.663038] (-) TimerEvent: {}
+[11.763893] (-) TimerEvent: {}
+[11.864506] (-) TimerEvent: {}
+[11.904966] (pure_pursuit) StdoutLine: {'line': b'[100%] Built target pure_pursuit_node\n'}
+[11.930496] (pure_pursuit) CommandEnded: {'returncode': 0}
+[11.932472] (pure_pursuit) JobProgress: {'identifier': 'pure_pursuit', 'progress': 'install'}
+[11.952121] (pure_pursuit) Command: {'cmd': ['/bin/cmake', '--install', '/home/nvidia/f1tenth_ws/build/pure_pursuit'], 'cwd': '/home/nvidia/f1tenth_ws/build/pure_pursuit', 'env': OrderedDict({'LESSOPEN': '| /bin/lesspipe %s', 'INSIDE_EMACS': '31.1,comint,tramp:2.8.2.31.1', 'USER': 'nvidia', 'SSH_CLIENT': '100.124.138.18 57240 22', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/nvidia/f1tenth_ws/install/vesc_driver/lib:/home/nvidia/f1tenth_ws/install/vesc_ackermann/lib:/home/nvidia/f1tenth_ws/install/vesc_msgs/lib:/home/nvidia/f1tenth_ws/install/teleop_tools_msgs/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/nvidia', 'OLDPWD': '/home/nvidia/f1tenth_ws/src/pure-pursuit/pure_pursuit/launch', 'SSH_TTY': '/dev/pts/5', 'ROS_PYTHON_VERSION': '3', 'PAGER': 'cat', 'PS1': '${debian_chroot:+($debian_chroot)}\\u@\\h:\\w\\$', 'LC_CTYPE': "''", 'PS2': '', 'ENV': "''", 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/2002/bus', 'PS3': '', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'COLCON_PREFIX_PATH': '/home/nvidia/f1tenth_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'nvidia', '_': '/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'COLUMNS': '84', 'TERM': 'dumb', 'XDG_SESSION_ID': '6', 'PATH': '/opt/ros/jazzy/bin:/bin:/usr/bin:/sbin:/usr/sbin:/usr/local/bin:/usr/local/sbin', 'XDG_RUNTIME_DIR': '/run/user/2002', 'LANG': 'en_US.UTF-8', 'LS_COLORS': '', 'ROS_DOMAIN_ID': '9', 'AMENT_PREFIX_PATH': '/home/nvidia/f1tenth_ws/install/wall_follow:/home/nvidia/f1tenth_ws/install/f1tenth_stack:/home/nvidia/f1tenth_ws/install/vesc:/home/nvidia/f1tenth_ws/install/vesc_driver:/home/nvidia/f1tenth_ws/install/vesc_ackermann:/home/nvidia/f1tenth_ws/install/vesc_msgs:/home/nvidia/f1tenth_ws/install/teleop_tools:/home/nvidia/f1tenth_ws/install/joy_teleop:/home/nvidia/f1tenth_ws/install/teleop_tools_msgs:/home/nvidia/f1tenth_ws/install/particle_filter:/home/nvidia/f1tenth_ws/install/mouse_teleop:/home/nvidia/f1tenth_ws/install/key_teleop:/home/nvidia/f1tenth_ws/install/gap_follow:/home/nvidia/f1tenth_ws/install/ackermann_mux:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'PROMPT_COMMAND': '', 'LESSCLOSE': '/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/nvidia/f1tenth_ws/build/pure_pursuit', 'LC_ALL': 'en_US.utf8', 'SSH_CONNECTION': '100.124.138.18 57240 100.122.20.107 22', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'TERMCAP': '', 'PYTHONPATH': '/home/nvidia/f1tenth_ws/install/wall_follow/lib/python3.12/site-packages:/home/nvidia/f1tenth_ws/install/f1tenth_stack/lib/python3.12/site-packages:/home/nvidia/f1tenth_ws/install/vesc_msgs/lib/python3.12/site-packages:/home/nvidia/f1tenth_ws/install/joy_teleop/lib/python3.12/site-packages:/home/nvidia/f1tenth_ws/install/teleop_tools_msgs/lib/python3.12/site-packages:/home/nvidia/f1tenth_ws/install/particle_filter/lib/python3.12/site-packages:/home/nvidia/f1tenth_ws/install/mouse_teleop/lib/python3.12/site-packages:/home/nvidia/f1tenth_ws/install/key_teleop/lib/python3.12/site-packages:/home/nvidia/f1tenth_ws/install/gap_follow/lib/python3.12/site-packages:/opt/ros/jazzy/opt/gz_math_vendor/lib/python:/opt/ros/jazzy/lib/python3.12/site-packages', 'HISTFILE': '/home/nvidia/.tramp_history', 'COLCON': '1', 'TMOUT': '0', 'CMAKE_PREFIX_PATH': '/home/nvidia/f1tenth_ws/install/wall_follow:/home/nvidia/f1tenth_ws/install/vesc:/home/nvidia/f1tenth_ws/install/vesc_driver:/home/nvidia/f1tenth_ws/install/vesc_ackermann:/home/nvidia/f1tenth_ws/install/vesc_msgs:/home/nvidia/f1tenth_ws/install/teleop_tools:/home/nvidia/f1tenth_ws/install/teleop_tools_msgs:/home/nvidia/f1tenth_ws/install/gap_follow:/home/nvidia/f1tenth_ws/install/ackermann_mux:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/nvidia/f1tenth_ws/install/f1tenth_stack:/home/nvidia/f1tenth_ws/install/joy_teleop:/home/nvidia/f1tenth_ws/install/particle_filter:/home/nvidia/f1tenth_ws/install/mouse_teleop:/home/nvidia/f1tenth_ws/install/key_teleop:/opt/ros/jazzy'}), 'shell': False}
+[11.964633] (-) TimerEvent: {}
+[11.970664] (pure_pursuit) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[11.971279] (pure_pursuit) StdoutLine: {'line': b'-- Installing: /home/nvidia/f1tenth_ws/install/pure_pursuit/lib/pure_pursuit/pure_pursuit_node\n'}
+[11.972632] (pure_pursuit) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/nvidia/f1tenth_ws/install/pure_pursuit/lib/pure_pursuit/pure_pursuit_node" to ""\n'}
+[11.973156] (pure_pursuit) StdoutLine: {'line': b'-- Installing: /home/nvidia/f1tenth_ws/install/pure_pursuit/share/pure_pursuit/environment/pythonpath.sh\n'}
+[11.973684] (pure_pursuit) StdoutLine: {'line': b'-- Installing: /home/nvidia/f1tenth_ws/install/pure_pursuit/share/pure_pursuit/environment/pythonpath.dsv\n'}
+[11.974105] (pure_pursuit) StdoutLine: {'line': b'-- Installing: /home/nvidia/f1tenth_ws/install/pure_pursuit/lib/python3.12/site-packages/pure_pursuit-0.0.0-py3.12.egg-info\n'}
+[11.974515] (pure_pursuit) StdoutLine: {'line': b'-- Installing: /home/nvidia/f1tenth_ws/install/pure_pursuit/lib/python3.12/site-packages/pure_pursuit-0.0.0-py3.12.egg-info/PKG-INFO\n'}
+[11.974918] (pure_pursuit) StdoutLine: {'line': b'-- Installing: /home/nvidia/f1tenth_ws/install/pure_pursuit/lib/python3.12/site-packages/pure_pursuit-0.0.0-py3.12.egg-info/dependency_links.txt\n'}
+[11.975227] (pure_pursuit) StdoutLine: {'line': b'-- Installing: /home/nvidia/f1tenth_ws/install/pure_pursuit/lib/python3.12/site-packages/pure_pursuit-0.0.0-py3.12.egg-info/SOURCES.txt\n'}
+[11.975524] (pure_pursuit) StdoutLine: {'line': b'-- Installing: /home/nvidia/f1tenth_ws/install/pure_pursuit/lib/python3.12/site-packages/pure_pursuit-0.0.0-py3.12.egg-info/top_level.txt\n'}
+[11.975854] (pure_pursuit) StdoutLine: {'line': b'-- Installing: /home/nvidia/f1tenth_ws/install/pure_pursuit/lib/python3.12/site-packages/pure_pursuit\n'}
+[11.976140] (pure_pursuit) StdoutLine: {'line': b'-- Installing: /home/nvidia/f1tenth_ws/install/pure_pursuit/lib/python3.12/site-packages/pure_pursuit/__init__.py\n'}
+[12.064815] (-) TimerEvent: {}
+[12.066091] (pure_pursuit) StdoutLine: {'line': b"Listing '/home/nvidia/f1tenth_ws/install/pure_pursuit/lib/python3.12/site-packages/pure_pursuit'...\n"}
+[12.066714] (pure_pursuit) StdoutLine: {'line': b"Compiling '/home/nvidia/f1tenth_ws/install/pure_pursuit/lib/python3.12/site-packages/pure_pursuit/__init__.py'...\n"}
+[12.082290] (pure_pursuit) StdoutLine: {'line': b'-- Installing: /home/nvidia/f1tenth_ws/install/pure_pursuit/lib/pure_pursuit/pure_pursuit_node.py\n'}
+[12.082841] (pure_pursuit) StdoutLine: {'line': b'-- Installing: /home/nvidia/f1tenth_ws/install/pure_pursuit/share/pure_pursuit/launch\n'}
+[12.083327] (pure_pursuit) StdoutLine: {'line': b'-- Installing: /home/nvidia/f1tenth_ws/install/pure_pursuit/share/pure_pursuit/launch/.levine_2nd_launch.py.swp\n'}
+[12.083844] (pure_pursuit) StdoutLine: {'line': b'-- Installing: /home/nvidia/f1tenth_ws/install/pure_pursuit/share/pure_pursuit/launch/spielberg_launch.py\n'}
+[12.084295] (pure_pursuit) StdoutLine: {'line': b'-- Installing: /home/nvidia/f1tenth_ws/install/pure_pursuit/share/pure_pursuit/launch/levine_2nd_launch.py\n'}
+[12.084805] (pure_pursuit) StdoutLine: {'line': b'-- Installing: /home/nvidia/f1tenth_ws/install/pure_pursuit/share/pure_pursuit/launch/levine_launch.py\n'}
+[12.085117] (pure_pursuit) StdoutLine: {'line': b'-- Installing: /home/nvidia/f1tenth_ws/install/pure_pursuit/share/pure_pursuit/waypoints\n'}
+[12.085466] (pure_pursuit) StdoutLine: {'line': b'-- Installing: /home/nvidia/f1tenth_ws/install/pure_pursuit/share/pure_pursuit/waypoints/spielberg.csv\n'}
+[12.086017] (pure_pursuit) StdoutLine: {'line': b'-- Installing: /home/nvidia/f1tenth_ws/install/pure_pursuit/share/pure_pursuit/waypoints/levine_2nd.csv\n'}
+[12.086654] (pure_pursuit) StdoutLine: {'line': b'-- Installing: /home/nvidia/f1tenth_ws/install/pure_pursuit/share/pure_pursuit/waypoints/.gitkeep\n'}
+[12.086989] (pure_pursuit) StdoutLine: {'line': b'-- Installing: /home/nvidia/f1tenth_ws/install/pure_pursuit/share/pure_pursuit/waypoints/levine.csv\n'}
+[12.087494] (pure_pursuit) StdoutLine: {'line': b'-- Installing: /home/nvidia/f1tenth_ws/install/pure_pursuit/share/pure_pursuit/waypoints/spielberg.csv.bak\n'}
+[12.088936] (pure_pursuit) StdoutLine: {'line': b'-- Installing: /home/nvidia/f1tenth_ws/install/pure_pursuit/share/ament_index/resource_index/package_run_dependencies/pure_pursuit\n'}
+[12.089405] (pure_pursuit) StdoutLine: {'line': b'-- Installing: /home/nvidia/f1tenth_ws/install/pure_pursuit/share/ament_index/resource_index/parent_prefix_path/pure_pursuit\n'}
+[12.089837] (pure_pursuit) StdoutLine: {'line': b'-- Installing: /home/nvidia/f1tenth_ws/install/pure_pursuit/share/pure_pursuit/environment/ament_prefix_path.sh\n'}
+[12.090224] (pure_pursuit) StdoutLine: {'line': b'-- Installing: /home/nvidia/f1tenth_ws/install/pure_pursuit/share/pure_pursuit/environment/ament_prefix_path.dsv\n'}
+[12.090649] (pure_pursuit) StdoutLine: {'line': b'-- Installing: /home/nvidia/f1tenth_ws/install/pure_pursuit/share/pure_pursuit/environment/path.sh\n'}
+[12.091049] (pure_pursuit) StdoutLine: {'line': b'-- Installing: /home/nvidia/f1tenth_ws/install/pure_pursuit/share/pure_pursuit/environment/path.dsv\n'}
+[12.091496] (pure_pursuit) StdoutLine: {'line': b'-- Installing: /home/nvidia/f1tenth_ws/install/pure_pursuit/share/pure_pursuit/local_setup.bash\n'}
+[12.091811] (pure_pursuit) StdoutLine: {'line': b'-- Installing: /home/nvidia/f1tenth_ws/install/pure_pursuit/share/pure_pursuit/local_setup.sh\n'}
+[12.092254] (pure_pursuit) StdoutLine: {'line': b'-- Installing: /home/nvidia/f1tenth_ws/install/pure_pursuit/share/pure_pursuit/local_setup.zsh\n'}
+[12.092641] (pure_pursuit) StdoutLine: {'line': b'-- Installing: /home/nvidia/f1tenth_ws/install/pure_pursuit/share/pure_pursuit/local_setup.dsv\n'}
+[12.093069] (pure_pursuit) StdoutLine: {'line': b'-- Installing: /home/nvidia/f1tenth_ws/install/pure_pursuit/share/pure_pursuit/package.dsv\n'}
+[12.093390] (pure_pursuit) StdoutLine: {'line': b'-- Installing: /home/nvidia/f1tenth_ws/install/pure_pursuit/share/ament_index/resource_index/packages/pure_pursuit\n'}
+[12.093719] (pure_pursuit) StdoutLine: {'line': b'-- Installing: /home/nvidia/f1tenth_ws/install/pure_pursuit/share/pure_pursuit/cmake/pure_pursuitConfig.cmake\n'}
+[12.094013] (pure_pursuit) StdoutLine: {'line': b'-- Installing: /home/nvidia/f1tenth_ws/install/pure_pursuit/share/pure_pursuit/cmake/pure_pursuitConfig-version.cmake\n'}
+[12.094297] (pure_pursuit) StdoutLine: {'line': b'-- Installing: /home/nvidia/f1tenth_ws/install/pure_pursuit/share/pure_pursuit/package.xml\n'}
+[12.097577] (pure_pursuit) CommandEnded: {'returncode': 0}
+[12.150240] (pure_pursuit) JobEnded: {'identifier': 'pure_pursuit', 'rc': 0}
+[12.152462] (-) EventReactorShutdown: {}

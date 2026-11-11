@@ -1,0 +1,14 @@
+/home/nvidia/f1tenth_ws/src/pure-pursuit/pure_pursuit/src/pure_pursuit_node.cpp:40:81: warning: ‘geometry_msgs::msg::PoseStamped_<std::allocator<void> >::ConstPtr’ is deprecated [-Wdeprecated-declarations]
+   40 | id pose_callback(const geometry_msgs::msg::PoseStamped::ConstPtr &pose_msg)
+      |                                                                           ^
+
+In file included from /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/pose_stamped.hpp:7,
+                 from /home/nvidia/f1tenth_ws/src/pure-pursuit/pure_pursuit/src/pure_pursuit_node.cpp:10:
+/opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/pose_stamped__struct.hpp:119:5: note: declared here
+  119 |     ConstPtr;
+      |     ^~~~~~~~
+/home/nvidia/f1tenth_ws/src/pure-pursuit/pure_pursuit/src/pure_pursuit_node.cpp: In member function ‘void PurePursuit::pose_callback(const geometry_msgs::msg::PoseStamped_<std::allocator<void> >::ConstPtr&)’:
+/home/nvidia/f1tenth_ws/src/pure-pursuit/pure_pursuit/src/pure_pursuit_node.cpp:40:73: warning: unused parameter ‘pose_msg’ [-Wunused-parameter]
+   40 | id pose_callback(const geometry_msgs::msg::PoseStamped::ConstPtr &pose_msg)
+      |                  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~
+

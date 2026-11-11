@@ -1,0 +1,24 @@
+[0.022s] Invoking command in '/home/nvidia/f1tenth_ws/build/gap_follow': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nvidia/f1tenth_ws/install/f1tenth_stack:/home/nvidia/f1tenth_ws/install/joy_teleop:/home/nvidia/f1tenth_ws/install/mouse_teleop:/home/nvidia/f1tenth_ws/install/key_teleop:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/nvidia/f1tenth_ws/build/gap_follow -- -j6 -l6
+[0.145s] Built target ament_cmake_python_copy_gap_follow
+[0.145s] Built target ament_cmake_python_copy_gap_follow_setup
+[0.705s] running egg_info
+[0.762s] writing gap_follow.egg-info/PKG-INFO
+[0.762s] writing dependency_links to gap_follow.egg-info/dependency_links.txt
+[0.762s] writing top-level names to gap_follow.egg-info/top_level.txt
+[0.926s] reading manifest file 'gap_follow.egg-info/SOURCES.txt'
+[0.927s] writing manifest file 'gap_follow.egg-info/SOURCES.txt'
+[1.004s] Built target ament_cmake_python_build_gap_follow_egg
+[1.031s] Invoked command in '/home/nvidia/f1tenth_ws/build/gap_follow' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nvidia/f1tenth_ws/install/f1tenth_stack:/home/nvidia/f1tenth_ws/install/joy_teleop:/home/nvidia/f1tenth_ws/install/mouse_teleop:/home/nvidia/f1tenth_ws/install/key_teleop:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/nvidia/f1tenth_ws/build/gap_follow -- -j6 -l6
+[1.054s] Invoking command in '/home/nvidia/f1tenth_ws/build/gap_follow': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nvidia/f1tenth_ws/install/f1tenth_stack:/home/nvidia/f1tenth_ws/install/joy_teleop:/home/nvidia/f1tenth_ws/install/mouse_teleop:/home/nvidia/f1tenth_ws/install/key_teleop:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/nvidia/f1tenth_ws/build/gap_follow
+[1.072s] -- Install configuration: ""
+[1.072s] -- Up-to-date: /home/nvidia/f1tenth_ws/install/gap_follow/lib/python3.12/site-packages/gap_follow-0.0.0-py3.12.egg-info
+[1.072s] -- Up-to-date: /home/nvidia/f1tenth_ws/install/gap_follow/lib/python3.12/site-packages/gap_follow
+[1.072s] -- Up-to-date: /home/nvidia/f1tenth_ws/install/gap_follow/lib/python3.12/site-packages/gap_follow/__init__.py
+[1.154s] Listing '/home/nvidia/f1tenth_ws/install/gap_follow/lib/python3.12/site-packages/gap_follow'...
+[1.168s] -- Up-to-date: /home/nvidia/f1tenth_ws/install/gap_follow/lib/gap_follow/reactive_node
+[1.168s] -- Up-to-date: /home/nvidia/f1tenth_ws/install/gap_follow/share/gap_follow/launch
+[1.169s] -- Up-to-date: /home/nvidia/f1tenth_ws/install/gap_follow/share/gap_follow/launch/levine_blocked_launch.py
+[1.169s] -- Up-to-date: /home/nvidia/f1tenth_ws/install/gap_follow/share/gap_follow/launch/levine_obs_launch.py
+[1.169s] -- Installing: /home/nvidia/f1tenth_ws/install/gap_follow/share/gap_follow/package.dsv
+[1.169s] -- Up-to-date: /home/nvidia/f1tenth_ws/install/gap_follow/share/gap_follow/package.xml
+[1.176s] Invoked command in '/home/nvidia/f1tenth_ws/build/gap_follow' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nvidia/f1tenth_ws/install/f1tenth_stack:/home/nvidia/f1tenth_ws/install/joy_teleop:/home/nvidia/f1tenth_ws/install/mouse_teleop:/home/nvidia/f1tenth_ws/install/key_teleop:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/nvidia/f1tenth_ws/build/gap_follow

@@ -1,0 +1,8 @@
+**/__pycache__/
+**/build/
+**/install/
+**/log/
+.vscode/
+
+# Local waypoint editor backups
+*.bak-*

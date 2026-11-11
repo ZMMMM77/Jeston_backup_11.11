@@ -1,0 +1,72 @@
+[0.024s] Invoking command in '/home/nvidia/f1tenth_ws/build/gap_follow': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nvidia/f1tenth_ws/install/f1tenth_stack:/home/nvidia/f1tenth_ws/install/joy_teleop:/home/nvidia/f1tenth_ws/install/mouse_teleop:/home/nvidia/f1tenth_ws/install/key_teleop:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/nvidia/f1tenth_ws/src/lab4-ruturaj/gap_follow -DCMAKE_INSTALL_PREFIX=/home/nvidia/f1tenth_ws/install/gap_follow
+[0.141s] -- The C compiler identification is GNU 13.3.0
+[0.261s] -- The CXX compiler identification is GNU 13.3.0
+[0.297s] -- Detecting C compiler ABI info
+[0.482s] -- Detecting C compiler ABI info - done
+[0.520s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.521s] -- Detecting C compile features
+[0.523s] -- Detecting C compile features - done
+[0.545s] -- Detecting CXX compiler ABI info
+[0.755s] -- Detecting CXX compiler ABI info - done
+[0.792s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.793s] -- Detecting CXX compile features
+[0.794s] -- Detecting CXX compile features - done
+[0.803s] -- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[1.161s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[1.458s] -- Found rclcpp: 28.1.22 (/opt/ros/jazzy/share/rclcpp/cmake)
+[1.556s] -- Found rosidl_generator_c: 4.6.9 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[1.590s] -- Found rosidl_generator_cpp: 4.6.9 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[1.629s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.674s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.853s] -- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[1.861s] -- Found rmw_fastrtps_cpp: 8.4.4 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[2.012s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[2.054s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[2.106s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.275s] -- Found rclpy: 7.1.12 (/opt/ros/jazzy/share/rclpy/cmake)
+[2.280s] -- Found geometry_msgs: 5.3.8 (/opt/ros/jazzy/share/geometry_msgs/cmake)
+[2.349s] -- Found nav_msgs: 5.3.8 (/opt/ros/jazzy/share/nav_msgs/cmake)
+[2.402s] -- Found ackermann_msgs: 2.0.2 (/opt/ros/jazzy/share/ackermann_msgs/cmake)
+[2.436s] -- Found sensor_msgs: 5.3.8 (/opt/ros/jazzy/share/sensor_msgs/cmake)
+[2.774s] -- Found ament_lint_auto: 0.17.5 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[3.076s] -- Added test 'copyright' to check source files copyright and LICENSE
+[3.079s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[3.079s] -- Configured cppcheck include dirs: /home/nvidia/f1tenth_ws/src/lab4-ruturaj/gap_follow/include
+[3.080s] -- Configured cppcheck exclude dirs and/or files: 
+[3.082s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[3.082s] -- Configured cpplint exclude dirs and/or files: 
+[3.083s] -- Added test 'flake8' to check Python code syntax and style conventions
+[3.083s] -- Configured 'flake8' exclude dirs and/or files: 
+[3.085s] -- Added test 'lint_cmake' to check CMake code style
+[3.086s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[3.089s] -- Added test 'uncrustify' to check C / C++ code style
+[3.089s] -- Configured uncrustify additional arguments: 
+[3.090s] -- Added test 'xmllint' to check XML markup files
+[3.093s] -- Configuring done (3.1s)
+[3.107s] -- Generating done (0.0s)
+[3.117s] -- Build files have been written to: /home/nvidia/f1tenth_ws/build/gap_follow
+[3.145s] Invoked command in '/home/nvidia/f1tenth_ws/build/gap_follow' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nvidia/f1tenth_ws/install/f1tenth_stack:/home/nvidia/f1tenth_ws/install/joy_teleop:/home/nvidia/f1tenth_ws/install/mouse_teleop:/home/nvidia/f1tenth_ws/install/key_teleop:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/nvidia/f1tenth_ws/src/lab4-ruturaj/gap_follow -DCMAKE_INSTALL_PREFIX=/home/nvidia/f1tenth_ws/install/gap_follow
+[3.149s] Invoking command in '/home/nvidia/f1tenth_ws/build/gap_follow': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nvidia/f1tenth_ws/install/f1tenth_stack:/home/nvidia/f1tenth_ws/install/joy_teleop:/home/nvidia/f1tenth_ws/install/mouse_teleop:/home/nvidia/f1tenth_ws/install/key_teleop:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/nvidia/f1tenth_ws/build/gap_follow -- -j6 -l6
+[3.273s] Built target ament_cmake_python_copy_gap_follow
+[3.274s] Built target ament_cmake_python_copy_gap_follow_setup
+[3.849s] running egg_info
+[3.908s] writing gap_follow.egg-info/PKG-INFO
+[3.908s] writing dependency_links to gap_follow.egg-info/dependency_links.txt
+[3.909s] writing top-level names to gap_follow.egg-info/top_level.txt
+[4.076s] reading manifest file 'gap_follow.egg-info/SOURCES.txt'
+[4.077s] writing manifest file 'gap_follow.egg-info/SOURCES.txt'
+[4.158s] Built target ament_cmake_python_build_gap_follow_egg
+[4.183s] Invoked command in '/home/nvidia/f1tenth_ws/build/gap_follow' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nvidia/f1tenth_ws/install/f1tenth_stack:/home/nvidia/f1tenth_ws/install/joy_teleop:/home/nvidia/f1tenth_ws/install/mouse_teleop:/home/nvidia/f1tenth_ws/install/key_teleop:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/nvidia/f1tenth_ws/build/gap_follow -- -j6 -l6
+[4.208s] Invoking command in '/home/nvidia/f1tenth_ws/build/gap_follow': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nvidia/f1tenth_ws/install/f1tenth_stack:/home/nvidia/f1tenth_ws/install/joy_teleop:/home/nvidia/f1tenth_ws/install/mouse_teleop:/home/nvidia/f1tenth_ws/install/key_teleop:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/nvidia/f1tenth_ws/build/gap_follow
+[4.225s] -- Install configuration: ""
+[4.225s] -- Up-to-date: /home/nvidia/f1tenth_ws/install/gap_follow/lib/python3.12/site-packages/gap_follow-0.0.0-py3.12.egg-info
+[4.225s] -- Up-to-date: /home/nvidia/f1tenth_ws/install/gap_follow/lib/python3.12/site-packages/gap_follow
+[4.226s] -- Up-to-date: /home/nvidia/f1tenth_ws/install/gap_follow/lib/python3.12/site-packages/gap_follow/__init__.py
+[4.314s] Listing '/home/nvidia/f1tenth_ws/install/gap_follow/lib/python3.12/site-packages/gap_follow'...
+[4.329s] -- Installing: /home/nvidia/f1tenth_ws/install/gap_follow/lib/gap_follow/reactive_node
+[4.330s] -- Up-to-date: /home/nvidia/f1tenth_ws/install/gap_follow/share/gap_follow/launch
+[4.330s] -- Up-to-date: /home/nvidia/f1tenth_ws/install/gap_follow/share/gap_follow/launch/levine_blocked_launch.py
+[4.330s] -- Up-to-date: /home/nvidia/f1tenth_ws/install/gap_follow/share/gap_follow/launch/levine_obs_launch.py
+[4.330s] -- Installing: /home/nvidia/f1tenth_ws/install/gap_follow/share/gap_follow/package.dsv
+[4.331s] -- Up-to-date: /home/nvidia/f1tenth_ws/install/gap_follow/share/gap_follow/package.xml
+[4.336s] Invoked command in '/home/nvidia/f1tenth_ws/build/gap_follow' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nvidia/f1tenth_ws/install/f1tenth_stack:/home/nvidia/f1tenth_ws/install/joy_teleop:/home/nvidia/f1tenth_ws/install/mouse_teleop:/home/nvidia/f1tenth_ws/install/key_teleop:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/nvidia/f1tenth_ws/build/gap_follow

@@ -1,0 +1,78 @@
+[0.022s] Invoking command in '/home/nvidia/f1tenth_ws/build/gap_follow': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/nvidia/f1tenth_ws/src/gap_follow -DCMAKE_INSTALL_PREFIX=/home/nvidia/f1tenth_ws/install/gap_follow
+[0.082s] -- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.573s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.602s] -- Found rclcpp: 28.1.22 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.672s] -- Found rosidl_generator_c: 4.6.9 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.695s] -- Found rosidl_generator_cpp: 4.6.9 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.726s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.759s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.900s] -- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.906s] -- Found rmw_fastrtps_cpp: 8.4.4 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[1.060s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.211s] -- Found rclpy: 7.1.12 (/opt/ros/jazzy/share/rclpy/cmake)
+[1.212s] -- Found geometry_msgs: 5.3.8 (/opt/ros/jazzy/share/geometry_msgs/cmake)
+[1.279s] -- Found nav_msgs: 5.3.8 (/opt/ros/jazzy/share/nav_msgs/cmake)
+[1.331s] -- Found ackermann_msgs: 2.0.2 (/opt/ros/jazzy/share/ackermann_msgs/cmake)
+[1.364s] -- Found sensor_msgs: 5.3.8 (/opt/ros/jazzy/share/sensor_msgs/cmake)
+[1.628s] -- Found ament_lint_auto: 0.17.5 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[1.876s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.879s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.879s] -- Configured cppcheck include dirs: /home/nvidia/f1tenth_ws/src/gap_follow/include
+[1.880s] -- Configured cppcheck exclude dirs and/or files: 
+[1.882s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[1.882s] -- Configured cpplint exclude dirs and/or files: 
+[1.883s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.883s] -- Configured 'flake8' exclude dirs and/or files: 
+[1.884s] -- Added test 'lint_cmake' to check CMake code style
+[1.885s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.887s] -- Added test 'uncrustify' to check C / C++ code style
+[1.887s] -- Configured uncrustify additional arguments: 
+[1.888s] -- Added test 'xmllint' to check XML markup files
+[1.891s] -- Configuring done (1.8s)
+[1.911s] -- Generating done (0.0s)
+[1.918s] -- Build files have been written to: /home/nvidia/f1tenth_ws/build/gap_follow
+[1.942s] Invoked command in '/home/nvidia/f1tenth_ws/build/gap_follow' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/nvidia/f1tenth_ws/src/gap_follow -DCMAKE_INSTALL_PREFIX=/home/nvidia/f1tenth_ws/install/gap_follow
+[1.945s] Invoking command in '/home/nvidia/f1tenth_ws/build/gap_follow': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/nvidia/f1tenth_ws/build/gap_follow -- -j6 -l6
+[2.070s] Built target ament_cmake_python_symlink_gap_follow_setup
+[2.070s] Built target ament_cmake_python_symlink_gap_follow
+[2.624s] running egg_info
+[2.680s] writing gap_follow.egg-info/PKG-INFO
+[2.680s] writing dependency_links to gap_follow.egg-info/dependency_links.txt
+[2.681s] writing top-level names to gap_follow.egg-info/top_level.txt
+[2.841s] reading manifest file 'gap_follow.egg-info/SOURCES.txt'
+[2.843s] writing manifest file 'gap_follow.egg-info/SOURCES.txt'
+[2.919s] Built target ament_cmake_python_build_gap_follow_egg
+[2.943s] Invoked command in '/home/nvidia/f1tenth_ws/build/gap_follow' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/nvidia/f1tenth_ws/build/gap_follow -- -j6 -l6
+[2.966s] Invoking command in '/home/nvidia/f1tenth_ws/build/gap_follow': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/nvidia/f1tenth_ws/build/gap_follow
+[2.983s] -- Install configuration: ""
+[2.984s] -- Execute custom install script
+[2.984s] -- Up-to-date symlink: /home/nvidia/f1tenth_ws/install/gap_follow/share/gap_follow/environment/pythonpath.sh
+[2.984s] -- Up-to-date symlink: /home/nvidia/f1tenth_ws/install/gap_follow/share/gap_follow/environment/pythonpath.dsv
+[2.985s] -- Up-to-date symlink: /home/nvidia/f1tenth_ws/install/gap_follow/lib/python3.12/site-packages/gap_follow-0.0.0-py3.12.egg-info/PKG-INFO
+[2.985s] -- Up-to-date symlink: /home/nvidia/f1tenth_ws/install/gap_follow/lib/python3.12/site-packages/gap_follow-0.0.0-py3.12.egg-info/SOURCES.txt
+[2.986s] -- Up-to-date symlink: /home/nvidia/f1tenth_ws/install/gap_follow/lib/python3.12/site-packages/gap_follow-0.0.0-py3.12.egg-info/dependency_links.txt
+[2.986s] -- Up-to-date symlink: /home/nvidia/f1tenth_ws/install/gap_follow/lib/python3.12/site-packages/gap_follow-0.0.0-py3.12.egg-info/top_level.txt
+[2.986s] -- Up-to-date symlink: /home/nvidia/f1tenth_ws/install/gap_follow/lib/python3.12/site-packages/gap_follow/__init__.py
+[2.987s] -- Up-to-date symlink: /home/nvidia/f1tenth_ws/install/gap_follow/lib/gap_follow/reactive_node.py
+[2.987s] -- Up-to-date symlink: /home/nvidia/f1tenth_ws/install/gap_follow/share/gap_follow/launch/__pycache__/levine_blocked_launch.cpython-314.pyc
+[2.988s] -- Up-to-date symlink: /home/nvidia/f1tenth_ws/install/gap_follow/share/gap_follow/launch/__pycache__/levine_obs_launch.cpython-314.pyc
+[2.988s] -- Up-to-date symlink: /home/nvidia/f1tenth_ws/install/gap_follow/share/gap_follow/launch/levine_blocked_launch.py
+[2.988s] -- Up-to-date symlink: /home/nvidia/f1tenth_ws/install/gap_follow/share/gap_follow/launch/levine_obs_launch.py
+[2.989s] -- Up-to-date symlink: /home/nvidia/f1tenth_ws/install/gap_follow/share/ament_index/resource_index/package_run_dependencies/gap_follow
+[2.989s] -- Up-to-date symlink: /home/nvidia/f1tenth_ws/install/gap_follow/share/ament_index/resource_index/parent_prefix_path/gap_follow
+[2.989s] -- Up-to-date symlink: /home/nvidia/f1tenth_ws/install/gap_follow/share/gap_follow/environment/ament_prefix_path.sh
+[2.990s] -- Up-to-date symlink: /home/nvidia/f1tenth_ws/install/gap_follow/share/gap_follow/environment/ament_prefix_path.dsv
+[2.990s] -- Up-to-date symlink: /home/nvidia/f1tenth_ws/install/gap_follow/share/gap_follow/environment/path.sh
+[2.990s] -- Up-to-date symlink: /home/nvidia/f1tenth_ws/install/gap_follow/share/gap_follow/environment/path.dsv
+[2.991s] -- Up-to-date symlink: /home/nvidia/f1tenth_ws/install/gap_follow/share/gap_follow/local_setup.bash
+[2.991s] -- Up-to-date symlink: /home/nvidia/f1tenth_ws/install/gap_follow/share/gap_follow/local_setup.sh
+[2.991s] -- Up-to-date symlink: /home/nvidia/f1tenth_ws/install/gap_follow/share/gap_follow/local_setup.zsh
+[2.992s] -- Up-to-date symlink: /home/nvidia/f1tenth_ws/install/gap_follow/share/gap_follow/local_setup.dsv
+[2.992s] -- Symlinking: /home/nvidia/f1tenth_ws/install/gap_follow/share/gap_follow/package.dsv
+[3.011s] -- Up-to-date symlink: /home/nvidia/f1tenth_ws/install/gap_follow/share/ament_index/resource_index/packages/gap_follow
+[3.012s] -- Up-to-date symlink: /home/nvidia/f1tenth_ws/install/gap_follow/share/gap_follow/cmake/gap_followConfig.cmake
+[3.012s] -- Up-to-date symlink: /home/nvidia/f1tenth_ws/install/gap_follow/share/gap_follow/cmake/gap_followConfig-version.cmake
+[3.013s] -- Up-to-date symlink: /home/nvidia/f1tenth_ws/install/gap_follow/share/gap_follow/package.xml
+[3.092s] Listing '/home/nvidia/f1tenth_ws/install/gap_follow/lib/python3.12/site-packages/gap_follow'...
+[3.107s] -- Up-to-date: /home/nvidia/f1tenth_ws/install/gap_follow/lib/gap_follow/reactive_node
+[3.113s] Invoked command in '/home/nvidia/f1tenth_ws/build/gap_follow' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/nvidia/f1tenth_ws/build/gap_follow

@@ -1,0 +1,11 @@
+{
+  "package_name": "raceline_msgs",
+  "output_dir": "/home/nvidia/raceline_ws/build/raceline_msgs/rosidl_generator_type_description/raceline_msgs",
+  "idl_tuples": [
+    "/home/nvidia/raceline_ws/build/raceline_msgs/rosidl_adapter/raceline_msgs:srv/UpdateRaceline.idl"
+  ],
+  "include_paths": [
+    "service_msgs:/opt/ros/jazzy/share/service_msgs",
+    "builtin_interfaces:/opt/ros/jazzy/share/builtin_interfaces"
+  ]
+}

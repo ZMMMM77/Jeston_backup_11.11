@@ -1,0 +1,38 @@
+[0.019s] Invoking command in '/home/nvidia/f1tenth_ws/build/range_lib': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/nvidia/f1tenth_ws/src/range_libc -DCMAKE_INSTALL_PREFIX=/home/nvidia/f1tenth_ws/install/range_lib
+[0.060s] [33mCMake Warning (dev) at CMakeLists.txt:1 (PROJECT):
+[0.060s]   cmake_minimum_required() should be called prior to this top-level project()
+[0.061s]   call.  Please see the cmake-commands(7) manual for usage documentation of
+[0.061s]   both commands.
+[0.061s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[0.061s] [0m
+[0.104s] [0mCMake Deprecation Warning at CMakeLists.txt:4 (cmake_minimum_required):
+[0.104s]   Compatibility with CMake < 3.5 will be removed from a future version of
+[0.105s]   CMake.
+[0.105s] 
+[0.105s]   Update the VERSION argument <min> value or use a ...<max> suffix to tell
+[0.105s]   CMake that the project does not need compatibility with older versions.
+[0.105s] 
+[0.105s] [0m
+[0.106s] [0mCMake Deprecation Warning at vendor/gflags/CMakeLists.txt:73 (cmake_minimum_required):
+[0.106s]   Compatibility with CMake < 3.5 will be removed from a future version of
+[0.106s]   CMake.
+[0.106s] 
+[0.106s]   Update the VERSION argument <min> value or use a ...<max> suffix to tell
+[0.106s]   CMake that the project does not need compatibility with older versions.
+[0.107s] 
+[0.107s] [0m
+[0.136s] [33mCMake Warning (dev) at CMakeLists.txt:61 (find_package):
+[0.137s]   Policy CMP0146 is not set: The FindCUDA module is removed.  Run "cmake
+[0.137s]   --help-policy CMP0146" for policy details.  Use the cmake_policy command to
+[0.137s]   set the policy and suppress this warning.
+[0.137s] 
+[0.137s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[0.137s] [0m
+[0.149s] [31mCMake Error at /usr/share/cmake-3.28/Modules/FindCUDA.cmake:883 (message):
+[0.149s]   Specify CUDA_TOOLKIT_ROOT_DIR
+[0.150s] Call Stack (most recent call first):
+[0.150s]   CMakeLists.txt:61 (find_package)
+[0.150s] 
+[0.150s] [0m
+[0.150s] -- Configuring incomplete, errors occurred!
+[0.160s] Invoked command in '/home/nvidia/f1tenth_ws/build/range_lib' returned '1': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/nvidia/f1tenth_ws/src/range_libc -DCMAKE_INSTALL_PREFIX=/home/nvidia/f1tenth_ws/install/range_lib

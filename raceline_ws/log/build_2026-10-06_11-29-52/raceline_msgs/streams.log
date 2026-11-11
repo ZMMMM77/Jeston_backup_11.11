@@ -1,0 +1,9 @@
+[0.024s] Invoking command in '/home/nvidia/raceline_ws/build/raceline_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nvidia/f1tenth_ws/install/f1tenth_stack:/home/nvidia/f1tenth_ws/install/joy_teleop:/home/nvidia/f1tenth_ws/install/particle_filter:/home/nvidia/f1tenth_ws/install/mouse_teleop:/home/nvidia/f1tenth_ws/install/key_teleop:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/nvidia/raceline_ws/build/raceline_msgs -- -j6 -l6
+[0.128s] failed to create symbolic link '/home/nvidia/raceline_ws/build/raceline_msgs/ament_cmake_python/raceline_msgs/raceline_msgs' because existing path cannot be removed: Is a directory
+[0.129s] [  2%] Built target raceline_msgs__rs
+[0.129s] [  5%] Built target raceline_msgs__rosidl_generator_type_description
+[0.129s] gmake[2]: *** [CMakeFiles/ament_cmake_python_symlink_raceline_msgs.dir/build.make:70: CMakeFiles/ament_cmake_python_symlink_raceline_msgs] Error 1
+[0.130s] gmake[1]: *** [CMakeFiles/Makefile2:471: CMakeFiles/ament_cmake_python_symlink_raceline_msgs.dir/all] Error 2
+[0.130s] gmake[1]: *** Waiting for unfinished jobs....
+[0.131s] gmake: *** [Makefile:146: all] Error 2
+[0.137s] Invoked command in '/home/nvidia/raceline_ws/build/raceline_msgs' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nvidia/f1tenth_ws/install/f1tenth_stack:/home/nvidia/f1tenth_ws/install/joy_teleop:/home/nvidia/f1tenth_ws/install/particle_filter:/home/nvidia/f1tenth_ws/install/mouse_teleop:/home/nvidia/f1tenth_ws/install/key_teleop:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/nvidia/raceline_ws/build/raceline_msgs -- -j6 -l6

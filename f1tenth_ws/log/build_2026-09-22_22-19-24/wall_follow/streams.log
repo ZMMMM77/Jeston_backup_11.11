@@ -1,0 +1,42 @@
+[0.034s] Invoking command in '/home/nvidia/f1tenth_ws/build/wall_follow': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nvidia/f1tenth_ws/install/f1tenth_stack:/home/nvidia/f1tenth_ws/install/joy_teleop:/home/nvidia/f1tenth_ws/install/mouse_teleop:/home/nvidia/f1tenth_ws/install/key_teleop:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/nvidia/f1tenth_ws/build/wall_follow -- -j6 -l6
+[0.159s] [100%] Built target wall_follow_node
+[0.164s] [100%] Built target ament_cmake_python_copy_wall_follow_setup
+[0.164s] [100%] Built target ament_cmake_python_copy_wall_follow
+[0.740s] running egg_info
+[0.798s] writing wall_follow.egg-info/PKG-INFO
+[0.798s] writing dependency_links to wall_follow.egg-info/dependency_links.txt
+[0.799s] writing top-level names to wall_follow.egg-info/top_level.txt
+[0.964s] reading manifest file 'wall_follow.egg-info/SOURCES.txt'
+[0.965s] writing manifest file 'wall_follow.egg-info/SOURCES.txt'
+[1.042s] [100%] Built target ament_cmake_python_build_wall_follow_egg
+[1.067s] Invoked command in '/home/nvidia/f1tenth_ws/build/wall_follow' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nvidia/f1tenth_ws/install/f1tenth_stack:/home/nvidia/f1tenth_ws/install/joy_teleop:/home/nvidia/f1tenth_ws/install/mouse_teleop:/home/nvidia/f1tenth_ws/install/key_teleop:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/nvidia/f1tenth_ws/build/wall_follow -- -j6 -l6
+[1.090s] Invoking command in '/home/nvidia/f1tenth_ws/build/wall_follow': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nvidia/f1tenth_ws/install/f1tenth_stack:/home/nvidia/f1tenth_ws/install/joy_teleop:/home/nvidia/f1tenth_ws/install/mouse_teleop:/home/nvidia/f1tenth_ws/install/key_teleop:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/nvidia/f1tenth_ws/build/wall_follow
+[1.107s] -- Install configuration: ""
+[1.108s] -- Up-to-date: /home/nvidia/f1tenth_ws/install/wall_follow/lib/wall_follow/wall_follow_node
+[1.108s] -- Up-to-date: /home/nvidia/f1tenth_ws/install/wall_follow/share/wall_follow/environment/pythonpath.sh
+[1.108s] -- Up-to-date: /home/nvidia/f1tenth_ws/install/wall_follow/share/wall_follow/environment/pythonpath.dsv
+[1.109s] -- Up-to-date: /home/nvidia/f1tenth_ws/install/wall_follow/lib/python3.12/site-packages/wall_follow-0.0.0-py3.12.egg-info
+[1.109s] -- Installing: /home/nvidia/f1tenth_ws/install/wall_follow/lib/python3.12/site-packages/wall_follow-0.0.0-py3.12.egg-info/PKG-INFO
+[1.109s] -- Installing: /home/nvidia/f1tenth_ws/install/wall_follow/lib/python3.12/site-packages/wall_follow-0.0.0-py3.12.egg-info/dependency_links.txt
+[1.109s] -- Installing: /home/nvidia/f1tenth_ws/install/wall_follow/lib/python3.12/site-packages/wall_follow-0.0.0-py3.12.egg-info/SOURCES.txt
+[1.110s] -- Installing: /home/nvidia/f1tenth_ws/install/wall_follow/lib/python3.12/site-packages/wall_follow-0.0.0-py3.12.egg-info/top_level.txt
+[1.110s] -- Up-to-date: /home/nvidia/f1tenth_ws/install/wall_follow/lib/python3.12/site-packages/wall_follow
+[1.110s] -- Up-to-date: /home/nvidia/f1tenth_ws/install/wall_follow/lib/python3.12/site-packages/wall_follow/__init__.py
+[1.194s] Listing '/home/nvidia/f1tenth_ws/install/wall_follow/lib/python3.12/site-packages/wall_follow'...
+[1.210s] -- Installing: /home/nvidia/f1tenth_ws/install/wall_follow/lib/wall_follow/wall_follow_node.py
+[1.210s] -- Up-to-date: /home/nvidia/f1tenth_ws/install/wall_follow/share/ament_index/resource_index/package_run_dependencies/wall_follow
+[1.211s] -- Up-to-date: /home/nvidia/f1tenth_ws/install/wall_follow/share/ament_index/resource_index/parent_prefix_path/wall_follow
+[1.211s] -- Up-to-date: /home/nvidia/f1tenth_ws/install/wall_follow/share/wall_follow/environment/ament_prefix_path.sh
+[1.211s] -- Up-to-date: /home/nvidia/f1tenth_ws/install/wall_follow/share/wall_follow/environment/ament_prefix_path.dsv
+[1.211s] -- Up-to-date: /home/nvidia/f1tenth_ws/install/wall_follow/share/wall_follow/environment/path.sh
+[1.211s] -- Up-to-date: /home/nvidia/f1tenth_ws/install/wall_follow/share/wall_follow/environment/path.dsv
+[1.212s] -- Up-to-date: /home/nvidia/f1tenth_ws/install/wall_follow/share/wall_follow/local_setup.bash
+[1.212s] -- Up-to-date: /home/nvidia/f1tenth_ws/install/wall_follow/share/wall_follow/local_setup.sh
+[1.212s] -- Up-to-date: /home/nvidia/f1tenth_ws/install/wall_follow/share/wall_follow/local_setup.zsh
+[1.212s] -- Up-to-date: /home/nvidia/f1tenth_ws/install/wall_follow/share/wall_follow/local_setup.dsv
+[1.213s] -- Installing: /home/nvidia/f1tenth_ws/install/wall_follow/share/wall_follow/package.dsv
+[1.213s] -- Up-to-date: /home/nvidia/f1tenth_ws/install/wall_follow/share/ament_index/resource_index/packages/wall_follow
+[1.213s] -- Up-to-date: /home/nvidia/f1tenth_ws/install/wall_follow/share/wall_follow/cmake/wall_followConfig.cmake
+[1.213s] -- Up-to-date: /home/nvidia/f1tenth_ws/install/wall_follow/share/wall_follow/cmake/wall_followConfig-version.cmake
+[1.213s] -- Up-to-date: /home/nvidia/f1tenth_ws/install/wall_follow/share/wall_follow/package.xml
+[1.218s] Invoked command in '/home/nvidia/f1tenth_ws/build/wall_follow' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nvidia/f1tenth_ws/install/f1tenth_stack:/home/nvidia/f1tenth_ws/install/joy_teleop:/home/nvidia/f1tenth_ws/install/mouse_teleop:/home/nvidia/f1tenth_ws/install/key_teleop:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/nvidia/f1tenth_ws/build/wall_follow

@@ -1,0 +1,97 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-68a8a2110281b3c7ad03.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "vesc_driver",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-b08b3e1d0add8eb0068f.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "vesc_device_namer::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-vesc_device_namer-f6ddd74319d72b6921ce.json",
+					"name" : "vesc_device_namer",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "vesc_driver::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-vesc_driver-44283ff7097fbaf72373.json",
+					"name" : "vesc_driver",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "vesc_driver_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-vesc_driver_node-240dceffcec0dab1c1b3.json",
+					"name" : "vesc_driver_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "vesc_driver_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-vesc_driver_uninstall-184e87c720d9b28c07de.json",
+					"name" : "vesc_driver_uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/nvidia/f1tenth_ws/build/vesc_driver",
+		"source" : "/home/nvidia/f1tenth_ws/src/f1tenth_system/vesc/vesc_driver"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

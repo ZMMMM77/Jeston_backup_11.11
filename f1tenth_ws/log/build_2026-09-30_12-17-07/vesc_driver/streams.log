@@ -1,0 +1,39 @@
+[0.661s] Invoking command in '/home/nvidia/f1tenth_ws/build/vesc_driver': CMAKE_PREFIX_PATH=/home/nvidia/f1tenth_ws/install/vesc_msgs:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/nvidia/f1tenth_ws/install/wall_follow:/home/nvidia/f1tenth_ws/install/vesc:/home/nvidia/f1tenth_ws/install/vesc_driver:/home/nvidia/f1tenth_ws/install/vesc_ackermann:/home/nvidia/f1tenth_ws/install/teleop_tools:/home/nvidia/f1tenth_ws/install/teleop_tools_msgs:/home/nvidia/f1tenth_ws/install/gap_follow:/home/nvidia/f1tenth_ws/install/ackermann_mux:/opt/ros/jazzy:/home/nvidia/f1tenth_ws/install/f1tenth_stack:/home/nvidia/f1tenth_ws/install/joy_teleop:/home/nvidia/f1tenth_ws/install/particle_filter:/home/nvidia/f1tenth_ws/install/mouse_teleop:/home/nvidia/f1tenth_ws/install/key_teleop DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/nvidia/f1tenth_ws/install/vesc_msgs/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib:/home/nvidia/f1tenth_ws/install/vesc_driver/lib:/home/nvidia/f1tenth_ws/install/vesc_ackermann/lib:/home/nvidia/f1tenth_ws/install/teleop_tools_msgs/lib PYTHONPATH=/home/nvidia/f1tenth_ws/install/vesc_msgs/lib/python3.12/site-packages:/opt/ros/jazzy/opt/gz_math_vendor/lib/python:/opt/ros/jazzy/lib/python3.12/site-packages:/home/nvidia/f1tenth_ws/install/wall_follow/lib/python3.12/site-packages:/home/nvidia/f1tenth_ws/install/f1tenth_stack/lib/python3.12/site-packages:/home/nvidia/f1tenth_ws/install/joy_teleop/lib/python3.12/site-packages:/home/nvidia/f1tenth_ws/install/teleop_tools_msgs/lib/python3.12/site-packages:/home/nvidia/f1tenth_ws/install/particle_filter/lib/python3.12/site-packages:/home/nvidia/f1tenth_ws/install/mouse_teleop/lib/python3.12/site-packages:/home/nvidia/f1tenth_ws/install/key_teleop/lib/python3.12/site-packages:/home/nvidia/f1tenth_ws/install/gap_follow/lib/python3.12/site-packages /usr/bin/cmake --build /home/nvidia/f1tenth_ws/build/vesc_driver -- -j6 -l6
+[0.739s] -- Found ament_cmake_auto: 2.5.6 (/opt/ros/jazzy/share/ament_cmake_auto/cmake)
+[1.767s] -- Found rosidl_generator_c: 4.6.9 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[1.794s] -- Found rosidl_generator_cpp: 4.6.9 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[1.819s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.853s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.995s] -- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[2.000s] -- Found rmw_fastrtps_cpp: 8.4.4 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[2.172s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.574s] -- Found asio_cmake_module: 1.2.0 (/opt/ros/jazzy/share/asio_cmake_module/cmake)
+[2.778s] -- Found ament_lint_auto: 0.17.5 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[2.791s] [0mIn this package, headers install destination is set to `include` by ament_auto_package. It is recommended to install `include/vesc_driver` instead and will be the default behavior of ament_auto_package from ROS 2 Kilted Kaiju. On distributions before Kilted, ament_auto_package behaves the same way when you use USE_SCOPED_HEADER_INSTALL_DIR option.[0m
+[2.806s] -- Added test 'copyright' to check source files copyright and LICENSE
+[2.808s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.814s] -- Configured cppcheck include dirs: /home/nvidia/f1tenth_ws/src/f1tenth_system/vesc/vesc_driver/include
+[2.814s] -- Configured cppcheck exclude dirs and/or files: 
+[2.816s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[2.819s] -- Configured cpplint exclude dirs and/or files: 
+[2.819s] -- Added test 'flake8' to check Python code syntax and style conventions
+[2.819s] -- Configured 'flake8' exclude dirs and/or files: 
+[2.823s] -- Added test 'lint_cmake' to check CMake code style
+[2.829s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[2.830s] -- Added test 'uncrustify' to check C / C++ code style
+[2.830s] -- Configured uncrustify additional arguments: 
+[2.830s] -- Added test 'xmllint' to check XML markup files
+[2.847s] -- Configuring done (2.1s)
+[2.977s] -- Generating done (0.1s)
+[3.003s] -- Build files have been written to: /home/nvidia/f1tenth_ws/build/vesc_driver
+[3.187s] [ 20%] Built target vesc_driver_node
+[3.211s] [ 30%] [32mBuilding CXX object CMakeFiles/vesc_driver.dir/src/vesc_driver.cpp.o[0m
+[3.221s] [ 40%] [32mBuilding CXX object CMakeFiles/vesc_driver.dir/src/vesc_interface.cpp.o[0m
+[3.230s] [ 50%] [32mBuilding CXX object CMakeFiles/vesc_driver.dir/src/vesc_packet_factory.cpp.o[0m
+[3.231s] [ 60%] [32mBuilding CXX object CMakeFiles/vesc_driver.dir/src/vesc_packet.cpp.o[0m
+[30.018s] [ 70%] [32m[1mLinking CXX shared library libvesc_driver.so[0m
+[31.220s] [ 70%] Built target vesc_driver
+[31.274s] [ 90%] [32mBuilding CXX object CMakeFiles/vesc_device_namer.dir/src/vesc_device_uuid_lookup.cpp.o[0m
+[31.274s] [ 90%] [32mBuilding CXX object CMakeFiles/vesc_device_namer.dir/src/vesc_device_namer.cpp.o[0m
+[33.058s] [100%] [32m[1mLinking CXX executable vesc_device_namer[0m
+[33.754s] [100%] Built target vesc_device_namer

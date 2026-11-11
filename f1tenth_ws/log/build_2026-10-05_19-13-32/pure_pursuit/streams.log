@@ -1,0 +1,57 @@
+[0.027s] Invoking command in '/home/nvidia/f1tenth_ws/build/pure_pursuit': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nvidia/f1tenth_ws/install/f1tenth_stack:/home/nvidia/f1tenth_ws/install/joy_teleop:/home/nvidia/f1tenth_ws/install/particle_filter:/home/nvidia/f1tenth_ws/install/mouse_teleop:/home/nvidia/f1tenth_ws/install/key_teleop:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/nvidia/f1tenth_ws/build/pure_pursuit -- -j6 -l6
+[0.152s] [100%] Built target pure_pursuit_node
+[0.154s] [100%] Built target ament_cmake_python_copy_pure_pursuit_setup
+[0.155s] [100%] Built target ament_cmake_python_copy_pure_pursuit
+[0.757s] running egg_info
+[0.819s] writing pure_pursuit.egg-info/PKG-INFO
+[0.820s] writing dependency_links to pure_pursuit.egg-info/dependency_links.txt
+[0.820s] writing top-level names to pure_pursuit.egg-info/top_level.txt
+[0.998s] reading manifest file 'pure_pursuit.egg-info/SOURCES.txt'
+[0.999s] writing manifest file 'pure_pursuit.egg-info/SOURCES.txt'
+[1.082s] [100%] Built target ament_cmake_python_build_pure_pursuit_egg
+[1.112s] Invoked command in '/home/nvidia/f1tenth_ws/build/pure_pursuit' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nvidia/f1tenth_ws/install/f1tenth_stack:/home/nvidia/f1tenth_ws/install/joy_teleop:/home/nvidia/f1tenth_ws/install/particle_filter:/home/nvidia/f1tenth_ws/install/mouse_teleop:/home/nvidia/f1tenth_ws/install/key_teleop:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/nvidia/f1tenth_ws/build/pure_pursuit -- -j6 -l6
+[1.137s] Invoking command in '/home/nvidia/f1tenth_ws/build/pure_pursuit': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nvidia/f1tenth_ws/install/f1tenth_stack:/home/nvidia/f1tenth_ws/install/joy_teleop:/home/nvidia/f1tenth_ws/install/particle_filter:/home/nvidia/f1tenth_ws/install/mouse_teleop:/home/nvidia/f1tenth_ws/install/key_teleop:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/nvidia/f1tenth_ws/build/pure_pursuit
+[1.154s] -- Install configuration: ""
+[1.154s] -- Up-to-date: /home/nvidia/f1tenth_ws/install/pure_pursuit/lib/pure_pursuit/pure_pursuit_node
+[1.154s] -- Up-to-date: /home/nvidia/f1tenth_ws/install/pure_pursuit/share/pure_pursuit/environment/pythonpath.sh
+[1.155s] -- Up-to-date: /home/nvidia/f1tenth_ws/install/pure_pursuit/share/pure_pursuit/environment/pythonpath.dsv
+[1.155s] -- Up-to-date: /home/nvidia/f1tenth_ws/install/pure_pursuit/lib/python3.12/site-packages/pure_pursuit-0.0.0-py3.12.egg-info
+[1.155s] -- Installing: /home/nvidia/f1tenth_ws/install/pure_pursuit/lib/python3.12/site-packages/pure_pursuit-0.0.0-py3.12.egg-info/PKG-INFO
+[1.156s] -- Installing: /home/nvidia/f1tenth_ws/install/pure_pursuit/lib/python3.12/site-packages/pure_pursuit-0.0.0-py3.12.egg-info/dependency_links.txt
+[1.156s] -- Installing: /home/nvidia/f1tenth_ws/install/pure_pursuit/lib/python3.12/site-packages/pure_pursuit-0.0.0-py3.12.egg-info/SOURCES.txt
+[1.156s] -- Installing: /home/nvidia/f1tenth_ws/install/pure_pursuit/lib/python3.12/site-packages/pure_pursuit-0.0.0-py3.12.egg-info/top_level.txt
+[1.156s] -- Up-to-date: /home/nvidia/f1tenth_ws/install/pure_pursuit/lib/python3.12/site-packages/pure_pursuit
+[1.156s] -- Up-to-date: /home/nvidia/f1tenth_ws/install/pure_pursuit/lib/python3.12/site-packages/pure_pursuit/__init__.py
+[1.251s] Listing '/home/nvidia/f1tenth_ws/install/pure_pursuit/lib/python3.12/site-packages/pure_pursuit'...
+[1.268s] -- Up-to-date: /home/nvidia/f1tenth_ws/install/pure_pursuit/lib/pure_pursuit/pure_pursuit_node.py
+[1.269s] -- Up-to-date: /home/nvidia/f1tenth_ws/install/pure_pursuit/share/pure_pursuit/launch
+[1.269s] -- Up-to-date: /home/nvidia/f1tenth_ws/install/pure_pursuit/share/pure_pursuit/launch/spielberg_launch.py
+[1.270s] -- Up-to-date: /home/nvidia/f1tenth_ws/install/pure_pursuit/share/pure_pursuit/launch/levine_2nd_launch.py
+[1.270s] -- Installing: /home/nvidia/f1tenth_ws/install/pure_pursuit/share/pure_pursuit/launch/levine_1st_launch.py
+[1.270s] -- Up-to-date: /home/nvidia/f1tenth_ws/install/pure_pursuit/share/pure_pursuit/launch/levine_launch.py
+[1.270s] -- Up-to-date: /home/nvidia/f1tenth_ws/install/pure_pursuit/share/pure_pursuit/waypoints
+[1.271s] -- Up-to-date: /home/nvidia/f1tenth_ws/install/pure_pursuit/share/pure_pursuit/waypoints/levine_0700.csv
+[1.271s] -- Up-to-date: /home/nvidia/f1tenth_ws/install/pure_pursuit/share/pure_pursuit/waypoints/spielberg.csv
+[1.271s] -- Up-to-date: /home/nvidia/f1tenth_ws/install/pure_pursuit/share/pure_pursuit/waypoints/levine_2nd.csv
+[1.271s] -- Up-to-date: /home/nvidia/f1tenth_ws/install/pure_pursuit/share/pure_pursuit/waypoints/.gitkeep
+[1.272s] -- Up-to-date: /home/nvidia/f1tenth_ws/install/pure_pursuit/share/pure_pursuit/waypoints/levine_2nd_raw.csv
+[1.272s] -- Up-to-date: /home/nvidia/f1tenth_ws/install/pure_pursuit/share/pure_pursuit/waypoints/levine_1st_raw.csv
+[1.272s] -- Up-to-date: /home/nvidia/f1tenth_ws/install/pure_pursuit/share/pure_pursuit/waypoints/levine.csv
+[1.272s] -- Up-to-date: /home/nvidia/f1tenth_ws/install/pure_pursuit/share/pure_pursuit/waypoints/levine_1st.csv
+[1.273s] -- Up-to-date: /home/nvidia/f1tenth_ws/install/pure_pursuit/share/pure_pursuit/waypoints/spielberg.csv.bak
+[1.273s] -- Up-to-date: /home/nvidia/f1tenth_ws/install/pure_pursuit/share/ament_index/resource_index/package_run_dependencies/pure_pursuit
+[1.273s] -- Up-to-date: /home/nvidia/f1tenth_ws/install/pure_pursuit/share/ament_index/resource_index/parent_prefix_path/pure_pursuit
+[1.273s] -- Up-to-date: /home/nvidia/f1tenth_ws/install/pure_pursuit/share/pure_pursuit/environment/ament_prefix_path.sh
+[1.274s] -- Up-to-date: /home/nvidia/f1tenth_ws/install/pure_pursuit/share/pure_pursuit/environment/ament_prefix_path.dsv
+[1.274s] -- Up-to-date: /home/nvidia/f1tenth_ws/install/pure_pursuit/share/pure_pursuit/environment/path.sh
+[1.275s] -- Up-to-date: /home/nvidia/f1tenth_ws/install/pure_pursuit/share/pure_pursuit/environment/path.dsv
+[1.276s] -- Up-to-date: /home/nvidia/f1tenth_ws/install/pure_pursuit/share/pure_pursuit/local_setup.bash
+[1.280s] -- Up-to-date: /home/nvidia/f1tenth_ws/install/pure_pursuit/share/pure_pursuit/local_setup.sh
+[1.281s] -- Up-to-date: /home/nvidia/f1tenth_ws/install/pure_pursuit/share/pure_pursuit/local_setup.zsh
+[1.282s] -- Up-to-date: /home/nvidia/f1tenth_ws/install/pure_pursuit/share/pure_pursuit/local_setup.dsv
+[1.283s] -- Installing: /home/nvidia/f1tenth_ws/install/pure_pursuit/share/pure_pursuit/package.dsv
+[1.283s] -- Up-to-date: /home/nvidia/f1tenth_ws/install/pure_pursuit/share/ament_index/resource_index/packages/pure_pursuit
+[1.284s] -- Up-to-date: /home/nvidia/f1tenth_ws/install/pure_pursuit/share/pure_pursuit/cmake/pure_pursuitConfig.cmake
+[1.284s] -- Up-to-date: /home/nvidia/f1tenth_ws/install/pure_pursuit/share/pure_pursuit/cmake/pure_pursuitConfig-version.cmake
+[1.285s] -- Up-to-date: /home/nvidia/f1tenth_ws/install/pure_pursuit/share/pure_pursuit/package.xml
+[1.286s] Invoked command in '/home/nvidia/f1tenth_ws/build/pure_pursuit' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nvidia/f1tenth_ws/install/f1tenth_stack:/home/nvidia/f1tenth_ws/install/joy_teleop:/home/nvidia/f1tenth_ws/install/particle_filter:/home/nvidia/f1tenth_ws/install/mouse_teleop:/home/nvidia/f1tenth_ws/install/key_teleop:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/nvidia/f1tenth_ws/build/pure_pursuit

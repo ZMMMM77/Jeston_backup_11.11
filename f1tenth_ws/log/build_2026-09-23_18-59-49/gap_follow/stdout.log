@@ -1,0 +1,40 @@
+Built target ament_cmake_python_symlink_gap_follow
+Built target ament_cmake_python_symlink_gap_follow_setup
+running egg_info
+writing gap_follow.egg-info/PKG-INFO
+writing dependency_links to gap_follow.egg-info/dependency_links.txt
+writing top-level names to gap_follow.egg-info/top_level.txt
+reading manifest file 'gap_follow.egg-info/SOURCES.txt'
+writing manifest file 'gap_follow.egg-info/SOURCES.txt'
+Built target ament_cmake_python_build_gap_follow_egg
+-- Install configuration: ""
+-- Execute custom install script
+-- Up-to-date symlink: /home/nvidia/f1tenth_ws/install/gap_follow/share/gap_follow/environment/pythonpath.sh
+-- Up-to-date symlink: /home/nvidia/f1tenth_ws/install/gap_follow/share/gap_follow/environment/pythonpath.dsv
+-- Up-to-date symlink: /home/nvidia/f1tenth_ws/install/gap_follow/lib/python3.12/site-packages/gap_follow-0.0.0-py3.12.egg-info/PKG-INFO
+-- Up-to-date symlink: /home/nvidia/f1tenth_ws/install/gap_follow/lib/python3.12/site-packages/gap_follow-0.0.0-py3.12.egg-info/SOURCES.txt
+-- Up-to-date symlink: /home/nvidia/f1tenth_ws/install/gap_follow/lib/python3.12/site-packages/gap_follow-0.0.0-py3.12.egg-info/dependency_links.txt
+-- Up-to-date symlink: /home/nvidia/f1tenth_ws/install/gap_follow/lib/python3.12/site-packages/gap_follow-0.0.0-py3.12.egg-info/top_level.txt
+-- Up-to-date symlink: /home/nvidia/f1tenth_ws/install/gap_follow/lib/python3.12/site-packages/gap_follow/__init__.py
+-- Up-to-date symlink: /home/nvidia/f1tenth_ws/install/gap_follow/lib/gap_follow/reactive_node.py
+-- Up-to-date symlink: /home/nvidia/f1tenth_ws/install/gap_follow/share/gap_follow/launch/__pycache__/levine_blocked_launch.cpython-314.pyc
+-- Up-to-date symlink: /home/nvidia/f1tenth_ws/install/gap_follow/share/gap_follow/launch/__pycache__/levine_obs_launch.cpython-314.pyc
+-- Up-to-date symlink: /home/nvidia/f1tenth_ws/install/gap_follow/share/gap_follow/launch/levine_blocked_launch.py
+-- Up-to-date symlink: /home/nvidia/f1tenth_ws/install/gap_follow/share/gap_follow/launch/levine_obs_launch.py
+-- Up-to-date symlink: /home/nvidia/f1tenth_ws/install/gap_follow/share/ament_index/resource_index/package_run_dependencies/gap_follow
+-- Up-to-date symlink: /home/nvidia/f1tenth_ws/install/gap_follow/share/ament_index/resource_index/parent_prefix_path/gap_follow
+-- Up-to-date symlink: /home/nvidia/f1tenth_ws/install/gap_follow/share/gap_follow/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /home/nvidia/f1tenth_ws/install/gap_follow/share/gap_follow/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /home/nvidia/f1tenth_ws/install/gap_follow/share/gap_follow/environment/path.sh
+-- Up-to-date symlink: /home/nvidia/f1tenth_ws/install/gap_follow/share/gap_follow/environment/path.dsv
+-- Up-to-date symlink: /home/nvidia/f1tenth_ws/install/gap_follow/share/gap_follow/local_setup.bash
+-- Up-to-date symlink: /home/nvidia/f1tenth_ws/install/gap_follow/share/gap_follow/local_setup.sh
+-- Up-to-date symlink: /home/nvidia/f1tenth_ws/install/gap_follow/share/gap_follow/local_setup.zsh
+-- Up-to-date symlink: /home/nvidia/f1tenth_ws/install/gap_follow/share/gap_follow/local_setup.dsv
+-- Symlinking: /home/nvidia/f1tenth_ws/install/gap_follow/share/gap_follow/package.dsv
+-- Up-to-date symlink: /home/nvidia/f1tenth_ws/install/gap_follow/share/ament_index/resource_index/packages/gap_follow
+-- Up-to-date symlink: /home/nvidia/f1tenth_ws/install/gap_follow/share/gap_follow/cmake/gap_followConfig.cmake
+-- Up-to-date symlink: /home/nvidia/f1tenth_ws/install/gap_follow/share/gap_follow/cmake/gap_followConfig-version.cmake
+-- Up-to-date symlink: /home/nvidia/f1tenth_ws/install/gap_follow/share/gap_follow/package.xml
+Listing '/home/nvidia/f1tenth_ws/install/gap_follow/lib/python3.12/site-packages/gap_follow'...
+-- Installing: /home/nvidia/f1tenth_ws/install/gap_follow/lib/gap_follow/reactive_node

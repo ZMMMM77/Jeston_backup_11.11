@@ -1,0 +1,12 @@
+cmake_minimum_required(VERSION 3.5)
+project(rrt_mppi)
+find_package(ament_cmake REQUIRED)
+install(PROGRAMS scripts/rrt_mppi_node.py DESTINATION lib/${PROJECT_NAME})
+install(FILES scripts/planning_common.py scripts/mppi.py DESTINATION lib/${PROJECT_NAME})
+install(DIRECTORY launch waypoints DESTINATION share/${PROJECT_NAME})
+if(BUILD_TESTING)
+  find_package(ament_cmake_pytest REQUIRED)
+  ament_add_pytest_test(core_tests test TIMEOUT 180
+    APPEND_ENV PYTHONPATH=${CMAKE_CURRENT_SOURCE_DIR}/scripts)
+endif()
+ament_package()

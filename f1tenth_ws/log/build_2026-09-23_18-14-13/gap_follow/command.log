@@ -1,0 +1,2 @@
+Invoking command in '/home/nvidia/f1tenth_ws/build/gap_follow': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/nvidia/f1tenth_ws/src/gap_follow -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/nvidia/f1tenth_ws/install/gap_follow
+Invoked command in '/home/nvidia/f1tenth_ws/build/gap_follow' returned '1': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/nvidia/f1tenth_ws/src/gap_follow -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/nvidia/f1tenth_ws/install/gap_follow

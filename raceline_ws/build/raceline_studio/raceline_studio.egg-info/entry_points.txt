@@ -1,0 +1,2 @@
+[console_scripts]
+studio = raceline_studio.app:main

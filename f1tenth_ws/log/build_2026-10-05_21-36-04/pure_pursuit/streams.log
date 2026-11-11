@@ -1,0 +1,9 @@
+[0.024s] Invoking command in '/home/nvidia/f1tenth_ws/build/pure_pursuit': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nvidia/f1tenth_ws/install/f1tenth_stack:/home/nvidia/f1tenth_ws/install/joy_teleop:/home/nvidia/f1tenth_ws/install/particle_filter:/home/nvidia/f1tenth_ws/install/mouse_teleop:/home/nvidia/f1tenth_ws/install/key_teleop:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/nvidia/f1tenth_ws/build/pure_pursuit -- -j6 -l6
+[0.143s] failed to create symbolic link '/home/nvidia/f1tenth_ws/build/pure_pursuit/ament_cmake_python/pure_pursuit/pure_pursuit' because existing path cannot be removed: Is a directory
+[0.145s] gmake[2]: *** [CMakeFiles/ament_cmake_python_symlink_pure_pursuit.dir/build.make:70: CMakeFiles/ament_cmake_python_symlink_pure_pursuit] Error 1
+[0.146s] gmake[1]: *** [CMakeFiles/Makefile2:167: CMakeFiles/ament_cmake_python_symlink_pure_pursuit.dir/all] Error 2
+[0.146s] gmake[1]: *** Waiting for unfinished jobs....
+[0.156s] [100%] Built target pure_pursuit_node
+[0.162s] [100%] Built target ament_cmake_python_symlink_pure_pursuit_setup
+[0.165s] gmake: *** [Makefile:146: all] Error 2
+[0.170s] Invoked command in '/home/nvidia/f1tenth_ws/build/pure_pursuit' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nvidia/f1tenth_ws/install/f1tenth_stack:/home/nvidia/f1tenth_ws/install/joy_teleop:/home/nvidia/f1tenth_ws/install/particle_filter:/home/nvidia/f1tenth_ws/install/mouse_teleop:/home/nvidia/f1tenth_ws/install/key_teleop:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/nvidia/f1tenth_ws/build/pure_pursuit -- -j6 -l6

@@ -1,0 +1,11 @@
+[0.051s] Invoking command in '/home/nvidia/f1tenth_ws/build/pure_pursuit': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nvidia/f1tenth_ws/install/f1tenth_stack:/home/nvidia/f1tenth_ws/install/joy_teleop:/home/nvidia/f1tenth_ws/install/particle_filter:/home/nvidia/f1tenth_ws/install/mouse_teleop:/home/nvidia/f1tenth_ws/install/key_teleop:/home/nvidia/raceline_ws/install/raceline_studio:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/nvidia/f1tenth_ws/build/pure_pursuit -- -j6 -l6
+[0.347s] [100%] Built target pure_pursuit_node
+[0.364s] [100%] Built target ament_cmake_python_symlink_pure_pursuit
+[0.368s] [100%] Built target ament_cmake_python_symlink_pure_pursuit_setup
+[1.280s] running egg_info
+[1.348s] writing pure_pursuit.egg-info/PKG-INFO
+[1.349s] writing dependency_links to pure_pursuit.egg-info/dependency_links.txt
+[1.350s] writing top-level names to pure_pursuit.egg-info/top_level.txt
+[1.550s] reading manifest file 'pure_pursuit.egg-info/SOURCES.txt'
+[1.552s] writing manifest file 'pure_pursuit.egg-info/SOURCES.txt'
+[1.653s] [100%] Built target ament_cmake_python_build_pure_pursuit_egg

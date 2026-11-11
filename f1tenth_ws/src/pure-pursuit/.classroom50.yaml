@@ -1,0 +1,12 @@
+schema: "classroom50/repo-config/v1"
+classroom: "ese-6150"
+assignment: "lab-5-pure-pursuit"
+owner:
+  username: "vatsal-singhal"
+  id: 113030420
+  accepted_at: "2026-09-25T17:11:31Z"
+source:
+  owner: "f1tenth"
+  owner_id: 38742763
+  repo: "f1tenth_lab5_template"
+  branch: "main"

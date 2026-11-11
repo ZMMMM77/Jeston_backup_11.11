@@ -1,0 +1,86 @@
+[ 50%] [32mBuilding CXX object CMakeFiles/pure_pursuit_node.dir/src/pure_pursuit_node.cpp.o[0m
+[ 50%] Built target ament_cmake_python_copy_pure_pursuit
+[ 50%] Built target ament_cmake_python_copy_pure_pursuit_setup
+running egg_info
+writing pure_pursuit.egg-info/PKG-INFO
+writing dependency_links to pure_pursuit.egg-info/dependency_links.txt
+writing top-level names to pure_pursuit.egg-info/top_level.txt
+reading manifest file 'pure_pursuit.egg-info/SOURCES.txt'
+writing manifest file 'pure_pursuit.egg-info/SOURCES.txt'
+[ 50%] Built target ament_cmake_python_build_pure_pursuit_egg
+[01m[K/home/nvidia/f1tenth_ws/src/pure-pursuit/pure_pursuit/src/pure_pursuit_node.cpp:40:81:[m[K [01;35m[Kwarning: [m[K‘[01m[Kgeometry_msgs::msg::PoseStamped_<std::allocator<void> >::ConstPtr[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+   40 |    void pose_callback(const geometry_msgs::msg::PoseStamped::ConstPtr &pose_msg[01;35m[K)[m[K
+      |                                                                                [01;35m[K^[m[K
+
+In file included from [01m[K/opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/pose_stamped.hpp:7[m[K,
+                 from [01m[K/home/nvidia/f1tenth_ws/src/pure-pursuit/pure_pursuit/src/pure_pursuit_node.cpp:10[m[K:
+[01m[K/opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/pose_stamped__struct.hpp:119:5:[m[K [01;36m[Knote: [m[Kdeclared here
+  119 |     [01;36m[KConstPtr[m[K;
+      |     [01;36m[K^~~~~~~~[m[K
+[01m[K/home/nvidia/f1tenth_ws/src/pure-pursuit/pure_pursuit/src/pure_pursuit_node.cpp:[m[K In member function ‘[01m[Kvoid PurePursuit::[01;32m[Kpose_callback[m[K(const geometry_msgs::msg::PoseStamped_<std::allocator<void> >::ConstPtr&)[m[K’:
+[01m[K/home/nvidia/f1tenth_ws/src/pure-pursuit/pure_pursuit/src/pure_pursuit_node.cpp:40:73:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kpose_msg[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   40 |    void pose_callback([01;35m[Kconst geometry_msgs::msg::PoseStamped::ConstPtr &pose_msg[m[K)
+      |                       [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~[m[K
+
+[100%] [32m[1mLinking CXX executable pure_pursuit_node[0m
+[100%] Built target pure_pursuit_node
+-- Install configuration: ""
+-- Installing: /home/nvidia/f1tenth_ws/src/install/pure_pursuit/lib/pure_pursuit/pure_pursuit_node
+-- Set non-toolchain portion of runtime path of "/home/nvidia/f1tenth_ws/src/install/pure_pursuit/lib/pure_pursuit/pure_pursuit_node" to ""
+-- Installing: /home/nvidia/f1tenth_ws/src/install/pure_pursuit/share/pure_pursuit/environment/pythonpath.sh
+-- Installing: /home/nvidia/f1tenth_ws/src/install/pure_pursuit/share/pure_pursuit/environment/pythonpath.dsv
+-- Installing: /home/nvidia/f1tenth_ws/src/install/pure_pursuit/lib/python3.12/site-packages/pure_pursuit-0.0.0-py3.12.egg-info
+-- Installing: /home/nvidia/f1tenth_ws/src/install/pure_pursuit/lib/python3.12/site-packages/pure_pursuit-0.0.0-py3.12.egg-info/PKG-INFO
+-- Installing: /home/nvidia/f1tenth_ws/src/install/pure_pursuit/lib/python3.12/site-packages/pure_pursuit-0.0.0-py3.12.egg-info/dependency_links.txt
+-- Installing: /home/nvidia/f1tenth_ws/src/install/pure_pursuit/lib/python3.12/site-packages/pure_pursuit-0.0.0-py3.12.egg-info/SOURCES.txt
+-- Installing: /home/nvidia/f1tenth_ws/src/install/pure_pursuit/lib/python3.12/site-packages/pure_pursuit-0.0.0-py3.12.egg-info/top_level.txt
+-- Installing: /home/nvidia/f1tenth_ws/src/install/pure_pursuit/lib/python3.12/site-packages/pure_pursuit
+-- Installing: /home/nvidia/f1tenth_ws/src/install/pure_pursuit/lib/python3.12/site-packages/pure_pursuit/__init__.py
+Listing '/home/nvidia/f1tenth_ws/src/install/pure_pursuit/lib/python3.12/site-packages/pure_pursuit'...
+Compiling '/home/nvidia/f1tenth_ws/src/install/pure_pursuit/lib/python3.12/site-packages/pure_pursuit/__init__.py'...
+-- Installing: /home/nvidia/f1tenth_ws/src/install/pure_pursuit/lib/pure_pursuit/pure_pursuit_node.py
+-- Installing: /home/nvidia/f1tenth_ws/src/install/pure_pursuit/share/pure_pursuit/launch
+-- Installing: /home/nvidia/f1tenth_ws/src/install/pure_pursuit/share/pure_pursuit/launch/spielberg_launch.py
+-- Installing: /home/nvidia/f1tenth_ws/src/install/pure_pursuit/share/pure_pursuit/launch/levine_2nd_launch.py
+-- Installing: /home/nvidia/f1tenth_ws/src/install/pure_pursuit/share/pure_pursuit/launch/levine_1st_launch.py
+-- Installing: /home/nvidia/f1tenth_ws/src/install/pure_pursuit/share/pure_pursuit/launch/levine_launch.py
+-- Installing: /home/nvidia/f1tenth_ws/src/install/pure_pursuit/share/pure_pursuit/waypoints
+-- Installing: /home/nvidia/f1tenth_ws/src/install/pure_pursuit/share/pure_pursuit/waypoints/0720pm.csv
+-- Installing: /home/nvidia/f1tenth_ws/src/install/pure_pursuit/share/pure_pursuit/waypoints/levine_1st_drawn_10_06_1810.csv
+-- Installing: /home/nvidia/f1tenth_ws/src/install/pure_pursuit/share/pure_pursuit/waypoints/spielberg.csv
+-- Installing: /home/nvidia/f1tenth_ws/src/install/pure_pursuit/share/pure_pursuit/waypoints/levine_2nd.csv
+-- Installing: /home/nvidia/f1tenth_ws/src/install/pure_pursuit/share/pure_pursuit/waypoints/0842pm.csv
+-- Installing: /home/nvidia/f1tenth_ws/src/install/pure_pursuit/share/pure_pursuit/waypoints/0720pm_cleaned.csv
+-- Installing: /home/nvidia/f1tenth_ws/src/install/pure_pursuit/share/pure_pursuit/waypoints/1020pm.csv
+-- Installing: /home/nvidia/f1tenth_ws/src/install/pure_pursuit/share/pure_pursuit/waypoints/.gitkeep
+-- Installing: /home/nvidia/f1tenth_ws/src/install/pure_pursuit/share/pure_pursuit/waypoints/levine_2nd_raw.csv
+-- Installing: /home/nvidia/f1tenth_ws/src/install/pure_pursuit/share/pure_pursuit/waypoints/levine_1st_drawn (3).csv
+-- Installing: /home/nvidia/f1tenth_ws/src/install/pure_pursuit/share/pure_pursuit/waypoints/0950pm.csv
+-- Installing: /home/nvidia/f1tenth_ws/src/install/pure_pursuit/share/pure_pursuit/waypoints/0807pm.csv
+-- Installing: /home/nvidia/f1tenth_ws/src/install/pure_pursuit/share/pure_pursuit/waypoints/race
+-- Installing: /home/nvidia/f1tenth_ws/src/install/pure_pursuit/share/pure_pursuit/waypoints/race/0720pm.csv
+-- Installing: /home/nvidia/f1tenth_ws/src/install/pure_pursuit/share/pure_pursuit/waypoints/race/0842pm.csv
+-- Installing: /home/nvidia/f1tenth_ws/src/install/pure_pursuit/share/pure_pursuit/waypoints/race/levine_0700_smooth_100_xy_speed_1200.csv
+-- Installing: /home/nvidia/f1tenth_ws/src/install/pure_pursuit/share/pure_pursuit/waypoints/race/levine_0700_smooth_100_xy_speed_20261006.csv
+-- Installing: /home/nvidia/f1tenth_ws/src/install/pure_pursuit/share/pure_pursuit/waypoints/race/1020pm.csv
+-- Installing: /home/nvidia/f1tenth_ws/src/install/pure_pursuit/share/pure_pursuit/waypoints/race/levine_0700_smooth_100.csv
+-- Installing: /home/nvidia/f1tenth_ws/src/install/pure_pursuit/share/pure_pursuit/waypoints/race/0950pm.csv
+-- Installing: /home/nvidia/f1tenth_ws/src/install/pure_pursuit/share/pure_pursuit/waypoints/race/0635pm.csv
+-- Installing: /home/nvidia/f1tenth_ws/src/install/pure_pursuit/share/pure_pursuit/waypoints/race/0807pm.csv
+-- Installing: /home/nvidia/f1tenth_ws/src/install/pure_pursuit/share/pure_pursuit/waypoints/levine.csv
+-- Installing: /home/nvidia/f1tenth_ws/src/install/pure_pursuit/share/pure_pursuit/waypoints/spielberg.csv.bak
+-- Installing: /home/nvidia/f1tenth_ws/src/install/pure_pursuit/share/ament_index/resource_index/package_run_dependencies/pure_pursuit
+-- Installing: /home/nvidia/f1tenth_ws/src/install/pure_pursuit/share/ament_index/resource_index/parent_prefix_path/pure_pursuit
+-- Installing: /home/nvidia/f1tenth_ws/src/install/pure_pursuit/share/pure_pursuit/environment/ament_prefix_path.sh
+-- Installing: /home/nvidia/f1tenth_ws/src/install/pure_pursuit/share/pure_pursuit/environment/ament_prefix_path.dsv
+-- Installing: /home/nvidia/f1tenth_ws/src/install/pure_pursuit/share/pure_pursuit/environment/path.sh
+-- Installing: /home/nvidia/f1tenth_ws/src/install/pure_pursuit/share/pure_pursuit/environment/path.dsv
+-- Installing: /home/nvidia/f1tenth_ws/src/install/pure_pursuit/share/pure_pursuit/local_setup.bash
+-- Installing: /home/nvidia/f1tenth_ws/src/install/pure_pursuit/share/pure_pursuit/local_setup.sh
+-- Installing: /home/nvidia/f1tenth_ws/src/install/pure_pursuit/share/pure_pursuit/local_setup.zsh
+-- Installing: /home/nvidia/f1tenth_ws/src/install/pure_pursuit/share/pure_pursuit/local_setup.dsv
+-- Installing: /home/nvidia/f1tenth_ws/src/install/pure_pursuit/share/pure_pursuit/package.dsv
+-- Installing: /home/nvidia/f1tenth_ws/src/install/pure_pursuit/share/ament_index/resource_index/packages/pure_pursuit
+-- Installing: /home/nvidia/f1tenth_ws/src/install/pure_pursuit/share/pure_pursuit/cmake/pure_pursuitConfig.cmake
+-- Installing: /home/nvidia/f1tenth_ws/src/install/pure_pursuit/share/pure_pursuit/cmake/pure_pursuitConfig-version.cmake
+-- Installing: /home/nvidia/f1tenth_ws/src/install/pure_pursuit/share/pure_pursuit/package.xml

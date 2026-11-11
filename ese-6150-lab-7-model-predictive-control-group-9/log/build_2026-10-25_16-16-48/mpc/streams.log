@@ -1,0 +1,53 @@
+[0.035s] Invoking command in '/home/nvidia/ese-6150-lab-7-model-predictive-control-group-9/build/mpc': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nvidia/f1tenth_ws/install/f1tenth_stack:/home/nvidia/f1tenth_ws/install/joy_teleop:/home/nvidia/f1tenth_ws/install/particle_filter:/home/nvidia/f1tenth_ws/install/mouse_teleop:/home/nvidia/f1tenth_ws/install/key_teleop:/home/nvidia/raceline_ws/install/raceline_studio:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/nvidia/ese-6150-lab-7-model-predictive-control-group-9/build/mpc -- -j6 -l6
+[0.219s] Built target ament_cmake_python_copy_mpc
+[0.219s] Built target ament_cmake_python_copy_mpc_setup
+[0.855s] running egg_info
+[0.920s] writing mpc.egg-info/PKG-INFO
+[0.922s] writing dependency_links to mpc.egg-info/dependency_links.txt
+[0.923s] writing top-level names to mpc.egg-info/top_level.txt
+[1.109s] reading manifest file 'mpc.egg-info/SOURCES.txt'
+[1.111s] writing manifest file 'mpc.egg-info/SOURCES.txt'
+[1.201s] Built target ament_cmake_python_build_mpc_egg
+[1.228s] Invoked command in '/home/nvidia/ese-6150-lab-7-model-predictive-control-group-9/build/mpc' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nvidia/f1tenth_ws/install/f1tenth_stack:/home/nvidia/f1tenth_ws/install/joy_teleop:/home/nvidia/f1tenth_ws/install/particle_filter:/home/nvidia/f1tenth_ws/install/mouse_teleop:/home/nvidia/f1tenth_ws/install/key_teleop:/home/nvidia/raceline_ws/install/raceline_studio:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/nvidia/ese-6150-lab-7-model-predictive-control-group-9/build/mpc -- -j6 -l6
+[1.252s] Invoking command in '/home/nvidia/ese-6150-lab-7-model-predictive-control-group-9/build/mpc': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nvidia/f1tenth_ws/install/f1tenth_stack:/home/nvidia/f1tenth_ws/install/joy_teleop:/home/nvidia/f1tenth_ws/install/particle_filter:/home/nvidia/f1tenth_ws/install/mouse_teleop:/home/nvidia/f1tenth_ws/install/key_teleop:/home/nvidia/raceline_ws/install/raceline_studio:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/nvidia/ese-6150-lab-7-model-predictive-control-group-9/build/mpc
+[1.271s] -- Install configuration: ""
+[1.272s] -- Up-to-date: /home/nvidia/ese-6150-lab-7-model-predictive-control-group-9/install/mpc/share/mpc/environment/pythonpath.sh
+[1.272s] -- Up-to-date: /home/nvidia/ese-6150-lab-7-model-predictive-control-group-9/install/mpc/share/mpc/environment/pythonpath.dsv
+[1.272s] -- Up-to-date: /home/nvidia/ese-6150-lab-7-model-predictive-control-group-9/install/mpc/lib/python3.12/site-packages/mpc-0.0.0-py3.12.egg-info
+[1.273s] -- Installing: /home/nvidia/ese-6150-lab-7-model-predictive-control-group-9/install/mpc/lib/python3.12/site-packages/mpc-0.0.0-py3.12.egg-info/PKG-INFO
+[1.273s] -- Installing: /home/nvidia/ese-6150-lab-7-model-predictive-control-group-9/install/mpc/lib/python3.12/site-packages/mpc-0.0.0-py3.12.egg-info/dependency_links.txt
+[1.273s] -- Installing: /home/nvidia/ese-6150-lab-7-model-predictive-control-group-9/install/mpc/lib/python3.12/site-packages/mpc-0.0.0-py3.12.egg-info/SOURCES.txt
+[1.273s] -- Installing: /home/nvidia/ese-6150-lab-7-model-predictive-control-group-9/install/mpc/lib/python3.12/site-packages/mpc-0.0.0-py3.12.egg-info/top_level.txt
+[1.274s] -- Up-to-date: /home/nvidia/ese-6150-lab-7-model-predictive-control-group-9/install/mpc/lib/python3.12/site-packages/mpc
+[1.274s] -- Up-to-date: /home/nvidia/ese-6150-lab-7-model-predictive-control-group-9/install/mpc/lib/python3.12/site-packages/mpc/__init__.py
+[1.379s] Listing '/home/nvidia/ese-6150-lab-7-model-predictive-control-group-9/install/mpc/lib/python3.12/site-packages/mpc'...
+[1.399s] -- Up-to-date: /home/nvidia/ese-6150-lab-7-model-predictive-control-group-9/install/mpc/lib/mpc/mpc_node.py
+[1.399s] -- Up-to-date: /home/nvidia/ese-6150-lab-7-model-predictive-control-group-9/install/mpc/lib/mpc/utils.py
+[1.399s] -- Up-to-date: /home/nvidia/ese-6150-lab-7-model-predictive-control-group-9/install/mpc/share/mpc/launch
+[1.400s] -- Up-to-date: /home/nvidia/ese-6150-lab-7-model-predictive-control-group-9/install/mpc/share/mpc/launch/spielberg_launch.py
+[1.400s] -- Installing: /home/nvidia/ese-6150-lab-7-model-predictive-control-group-9/install/mpc/share/mpc/launch/levine_launch.py
+[1.400s] -- Up-to-date: /home/nvidia/ese-6150-lab-7-model-predictive-control-group-9/install/mpc/share/mpc/waypoints
+[1.400s] -- Up-to-date: /home/nvidia/ese-6150-lab-7-model-predictive-control-group-9/install/mpc/share/mpc/waypoints/levine.csv.bak-2b6e749e5d9e4242a15296e736fd1efc
+[1.401s] -- Up-to-date: /home/nvidia/ese-6150-lab-7-model-predictive-control-group-9/install/mpc/share/mpc/waypoints/Spielberg.csv
+[1.401s] -- Up-to-date: /home/nvidia/ese-6150-lab-7-model-predictive-control-group-9/install/mpc/share/mpc/waypoints/.gitkeep
+[1.401s] -- Up-to-date: /home/nvidia/ese-6150-lab-7-model-predictive-control-group-9/install/mpc/share/mpc/waypoints/levine.csv.bak-4ae70d49b8424106ac675f7a5868d6ef
+[1.401s] -- Up-to-date: /home/nvidia/ese-6150-lab-7-model-predictive-control-group-9/install/mpc/share/mpc/waypoints/levine.csv.bak-4bcdcfbe8d5f46c586ff59783b300aaf
+[1.401s] -- Up-to-date: /home/nvidia/ese-6150-lab-7-model-predictive-control-group-9/install/mpc/share/mpc/waypoints/levine.csv.bak-a6ba7175a85e400db6c86fe1678b4b3a
+[1.402s] -- Up-to-date: /home/nvidia/ese-6150-lab-7-model-predictive-control-group-9/install/mpc/share/mpc/waypoints/levine.csv.bak-bd4cc72b10654787b0a7883223f62bb3
+[1.402s] -- Up-to-date: /home/nvidia/ese-6150-lab-7-model-predictive-control-group-9/install/mpc/share/mpc/waypoints/levine.csv
+[1.403s] -- Up-to-date: /home/nvidia/ese-6150-lab-7-model-predictive-control-group-9/install/mpc/share/ament_index/resource_index/package_run_dependencies/mpc
+[1.403s] -- Up-to-date: /home/nvidia/ese-6150-lab-7-model-predictive-control-group-9/install/mpc/share/ament_index/resource_index/parent_prefix_path/mpc
+[1.405s] -- Up-to-date: /home/nvidia/ese-6150-lab-7-model-predictive-control-group-9/install/mpc/share/mpc/environment/ament_prefix_path.sh
+[1.406s] -- Up-to-date: /home/nvidia/ese-6150-lab-7-model-predictive-control-group-9/install/mpc/share/mpc/environment/ament_prefix_path.dsv
+[1.407s] -- Up-to-date: /home/nvidia/ese-6150-lab-7-model-predictive-control-group-9/install/mpc/share/mpc/environment/path.sh
+[1.409s] -- Up-to-date: /home/nvidia/ese-6150-lab-7-model-predictive-control-group-9/install/mpc/share/mpc/environment/path.dsv
+[1.409s] -- Up-to-date: /home/nvidia/ese-6150-lab-7-model-predictive-control-group-9/install/mpc/share/mpc/local_setup.bash
+[1.411s] -- Up-to-date: /home/nvidia/ese-6150-lab-7-model-predictive-control-group-9/install/mpc/share/mpc/local_setup.sh
+[1.412s] -- Up-to-date: /home/nvidia/ese-6150-lab-7-model-predictive-control-group-9/install/mpc/share/mpc/local_setup.zsh
+[1.412s] -- Up-to-date: /home/nvidia/ese-6150-lab-7-model-predictive-control-group-9/install/mpc/share/mpc/local_setup.dsv
+[1.413s] -- Installing: /home/nvidia/ese-6150-lab-7-model-predictive-control-group-9/install/mpc/share/mpc/package.dsv
+[1.413s] -- Up-to-date: /home/nvidia/ese-6150-lab-7-model-predictive-control-group-9/install/mpc/share/ament_index/resource_index/packages/mpc
+[1.414s] -- Up-to-date: /home/nvidia/ese-6150-lab-7-model-predictive-control-group-9/install/mpc/share/mpc/cmake/mpcConfig.cmake
+[1.414s] -- Up-to-date: /home/nvidia/ese-6150-lab-7-model-predictive-control-group-9/install/mpc/share/mpc/cmake/mpcConfig-version.cmake
+[1.415s] -- Up-to-date: /home/nvidia/ese-6150-lab-7-model-predictive-control-group-9/install/mpc/share/mpc/package.xml
+[1.415s] Invoked command in '/home/nvidia/ese-6150-lab-7-model-predictive-control-group-9/build/mpc' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nvidia/f1tenth_ws/install/f1tenth_stack:/home/nvidia/f1tenth_ws/install/joy_teleop:/home/nvidia/f1tenth_ws/install/particle_filter:/home/nvidia/f1tenth_ws/install/mouse_teleop:/home/nvidia/f1tenth_ws/install/key_teleop:/home/nvidia/raceline_ws/install/raceline_studio:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/nvidia/ese-6150-lab-7-model-predictive-control-group-9/build/mpc

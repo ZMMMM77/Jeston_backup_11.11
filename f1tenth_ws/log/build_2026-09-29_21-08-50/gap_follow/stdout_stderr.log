@@ -1,0 +1,6 @@
+Error copying directory from "/home/nvidia/f1tenth_ws/src/111/ese-6150-lab-4-follow-the-gap-group-9-main 2/gap_follow/gap_follow" to "/home/nvidia/f1tenth_ws/build/gap_follow/ament_cmake_python/gap_follow/gap_follow".
+gmake[2]: *** [CMakeFiles/ament_cmake_python_copy_gap_follow.dir/build.make:70: CMakeFiles/ament_cmake_python_copy_gap_follow] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/ament_cmake_python_copy_gap_follow.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+Built target ament_cmake_python_copy_gap_follow_setup
+gmake: *** [Makefile:146: all] Error 2

@@ -1,0 +1,29 @@
+-- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found ament_cmake_pytest: 2.5.6 (/opt/ros/jazzy/share/ament_cmake_pytest/cmake)
+-- Configuring done (2.0s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/nvidia/Roboracer_race2_MPPI-RRT-/build/rrt_mppi
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/nvidia/Roboracer_race2_MPPI-RRT-/install/rrt_mppi/lib/rrt_mppi/rrt_mppi_node.py
+-- Symlinking: /home/nvidia/Roboracer_race2_MPPI-RRT-/install/rrt_mppi/share/rrt_mppi/launch/levine_launch.py
+-- Symlinking: /home/nvidia/Roboracer_race2_MPPI-RRT-/install/rrt_mppi/share/rrt_mppi/launch/spielberg_launch.py
+-- Symlinking: /home/nvidia/Roboracer_race2_MPPI-RRT-/install/rrt_mppi/share/rrt_mppi/waypoints/levine.csv
+-- Symlinking: /home/nvidia/Roboracer_race2_MPPI-RRT-/install/rrt_mppi/share/rrt_mppi/waypoints/levine1.csv
+-- Symlinking: /home/nvidia/Roboracer_race2_MPPI-RRT-/install/rrt_mppi/share/rrt_mppi/waypoints/race.csv
+-- Symlinking: /home/nvidia/Roboracer_race2_MPPI-RRT-/install/rrt_mppi/share/ament_index/resource_index/package_run_dependencies/rrt_mppi
+-- Symlinking: /home/nvidia/Roboracer_race2_MPPI-RRT-/install/rrt_mppi/share/ament_index/resource_index/parent_prefix_path/rrt_mppi
+-- Symlinking: /home/nvidia/Roboracer_race2_MPPI-RRT-/install/rrt_mppi/share/rrt_mppi/environment/ament_prefix_path.sh
+-- Symlinking: /home/nvidia/Roboracer_race2_MPPI-RRT-/install/rrt_mppi/share/rrt_mppi/environment/ament_prefix_path.dsv
+-- Symlinking: /home/nvidia/Roboracer_race2_MPPI-RRT-/install/rrt_mppi/share/rrt_mppi/environment/path.sh
+-- Symlinking: /home/nvidia/Roboracer_race2_MPPI-RRT-/install/rrt_mppi/share/rrt_mppi/environment/path.dsv
+-- Symlinking: /home/nvidia/Roboracer_race2_MPPI-RRT-/install/rrt_mppi/share/rrt_mppi/local_setup.bash
+-- Symlinking: /home/nvidia/Roboracer_race2_MPPI-RRT-/install/rrt_mppi/share/rrt_mppi/local_setup.sh
+-- Symlinking: /home/nvidia/Roboracer_race2_MPPI-RRT-/install/rrt_mppi/share/rrt_mppi/local_setup.zsh
+-- Symlinking: /home/nvidia/Roboracer_race2_MPPI-RRT-/install/rrt_mppi/share/rrt_mppi/local_setup.dsv
+-- Symlinking: /home/nvidia/Roboracer_race2_MPPI-RRT-/install/rrt_mppi/share/rrt_mppi/package.dsv
+-- Symlinking: /home/nvidia/Roboracer_race2_MPPI-RRT-/install/rrt_mppi/share/ament_index/resource_index/packages/rrt_mppi
+-- Symlinking: /home/nvidia/Roboracer_race2_MPPI-RRT-/install/rrt_mppi/share/rrt_mppi/cmake/rrt_mppiConfig.cmake
+-- Symlinking: /home/nvidia/Roboracer_race2_MPPI-RRT-/install/rrt_mppi/share/rrt_mppi/cmake/rrt_mppiConfig-version.cmake
+-- Symlinking: /home/nvidia/Roboracer_race2_MPPI-RRT-/install/rrt_mppi/share/rrt_mppi/package.xml

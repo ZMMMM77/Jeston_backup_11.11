@@ -1,0 +1,38 @@
+[0.019s] Invoking command in '/home/nvidia/f1tenth_ws/build/range_lib': /usr/bin/cmake /home/nvidia/f1tenth_ws/src/range_libc -DCMAKE_INSTALL_PREFIX=/home/nvidia/f1tenth_ws/install/range_lib
+[0.061s] [33mCMake Warning (dev) at CMakeLists.txt:1 (PROJECT):
+[0.061s]   cmake_minimum_required() should be called prior to this top-level project()
+[0.061s]   call.  Please see the cmake-commands(7) manual for usage documentation of
+[0.061s]   both commands.
+[0.062s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[0.062s] [0m
+[0.076s] [0mCMake Deprecation Warning at CMakeLists.txt:4 (cmake_minimum_required):
+[0.076s]   Compatibility with CMake < 3.5 will be removed from a future version of
+[0.076s]   CMake.
+[0.077s] 
+[0.080s]   Update the VERSION argument <min> value or use a ...<max> suffix to tell
+[0.081s]   CMake that the project does not need compatibility with older versions.
+[0.081s] 
+[0.081s] [0m
+[0.081s] [0mCMake Deprecation Warning at vendor/gflags/CMakeLists.txt:73 (cmake_minimum_required):
+[0.081s]   Compatibility with CMake < 3.5 will be removed from a future version of
+[0.082s]   CMake.
+[0.082s] 
+[0.082s]   Update the VERSION argument <min> value or use a ...<max> suffix to tell
+[0.082s]   CMake that the project does not need compatibility with older versions.
+[0.082s] 
+[0.082s] [0m
+[0.115s] [33mCMake Warning (dev) at CMakeLists.txt:61 (find_package):
+[0.115s]   Policy CMP0146 is not set: The FindCUDA module is removed.  Run "cmake
+[0.116s]   --help-policy CMP0146" for policy details.  Use the cmake_policy command to
+[0.116s]   set the policy and suppress this warning.
+[0.116s] 
+[0.116s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[0.119s] [0m
+[0.125s] [31mCMake Error at /usr/share/cmake-3.28/Modules/FindCUDA.cmake:883 (message):
+[0.126s]   Specify CUDA_TOOLKIT_ROOT_DIR
+[0.126s] Call Stack (most recent call first):
+[0.126s]   CMakeLists.txt:61 (find_package)
+[0.126s] 
+[0.126s] [0m
+[0.127s] -- Configuring incomplete, errors occurred!
+[0.140s] Invoked command in '/home/nvidia/f1tenth_ws/build/range_lib' returned '1': /usr/bin/cmake /home/nvidia/f1tenth_ws/src/range_libc -DCMAKE_INSTALL_PREFIX=/home/nvidia/f1tenth_ws/install/range_lib

@@ -1,0 +1,38 @@
+[2.697s] Invoking command in '/home/nvidia/f1tenth_ws/src/particle_filter': PYTHONPATH=/home/nvidia/f1tenth_ws/build/particle_filter/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/nvidia/f1tenth_ws/install/particle_filter/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/particle_filter build --build-base /home/nvidia/f1tenth_ws/build/particle_filter/build install --record /home/nvidia/f1tenth_ws/build/particle_filter/install.log --install-scripts $base/lib/particle_filter --single-version-externally-managed install_data
+[3.026s] /usr/lib/python3/dist-packages/setuptools/dist.py:744: SetuptoolsDeprecationWarning: Invalid dash-separated options
+[3.026s] !!
+[3.027s] 
+[3.027s]         ********************************************************************************
+[3.027s]         Usage of dash-separated 'script-dir' will not be supported in future
+[3.027s]         versions. Please use the underscore name 'script_dir' instead.
+[3.028s] 
+[3.028s]         This deprecation is overdue, please update your project and remove deprecated
+[3.028s]         calls to avoid build errors in the future.
+[3.028s] 
+[3.029s]         See https://setuptools.pypa.io/en/latest/userguide/declarative_config.html for details.
+[3.029s]         ********************************************************************************
+[3.029s] 
+[3.029s] !!
+[3.030s]   opt = self.warn_dash_deprecation(opt, section)
+[3.454s] running egg_info
+[3.517s] writing ../../build/particle_filter/particle_filter.egg-info/PKG-INFO
+[3.517s] writing dependency_links to ../../build/particle_filter/particle_filter.egg-info/dependency_links.txt
+[3.518s] writing entry points to ../../build/particle_filter/particle_filter.egg-info/entry_points.txt
+[3.518s] writing requirements to ../../build/particle_filter/particle_filter.egg-info/requires.txt
+[3.519s] writing top-level names to ../../build/particle_filter/particle_filter.egg-info/top_level.txt
+[3.647s] reading manifest file '../../build/particle_filter/particle_filter.egg-info/SOURCES.txt'
+[3.650s] writing manifest file '../../build/particle_filter/particle_filter.egg-info/SOURCES.txt'
+[3.650s] running build
+[3.650s] running build_py
+[3.651s] running install
+[3.667s] running install_lib
+[3.732s] running install_data
+[3.732s] copying maps/levine_2nd.pgm -> /home/nvidia/f1tenth_ws/install/particle_filter/share/particle_filter/maps
+[3.735s] copying maps/levine_2nd.yaml -> /home/nvidia/f1tenth_ws/install/particle_filter/share/particle_filter/maps
+[3.736s] running install_egg_info
+[3.798s] removing '/home/nvidia/f1tenth_ws/install/particle_filter/lib/python3.12/site-packages/particle_filter-0.2.0-py3.12.egg-info' (and everything under it)
+[3.798s] Copying ../../build/particle_filter/particle_filter.egg-info to /home/nvidia/f1tenth_ws/install/particle_filter/lib/python3.12/site-packages/particle_filter-0.2.0-py3.12.egg-info
+[3.801s] running install_scripts
+[4.202s] Installing particle_filter script to /home/nvidia/f1tenth_ws/install/particle_filter/lib/particle_filter
+[4.203s] writing list of installed files to '/home/nvidia/f1tenth_ws/build/particle_filter/install.log'
+[4.304s] Invoked command in '/home/nvidia/f1tenth_ws/src/particle_filter' returned '0': PYTHONPATH=/home/nvidia/f1tenth_ws/build/particle_filter/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/nvidia/f1tenth_ws/install/particle_filter/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/particle_filter build --build-base /home/nvidia/f1tenth_ws/build/particle_filter/build install --record /home/nvidia/f1tenth_ws/build/particle_filter/install.log --install-scripts $base/lib/particle_filter --single-version-externally-managed install_data

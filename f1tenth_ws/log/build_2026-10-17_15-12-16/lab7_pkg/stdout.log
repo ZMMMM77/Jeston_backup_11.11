@@ -1,0 +1,44 @@
+[  0%] Built target ament_cmake_python_copy_lab7_pkg_setup
+[  0%] Built target ament_cmake_python_copy_lab7_pkg
+[100%] Built target rrt_node
+running egg_info
+writing lab7_pkg.egg-info/PKG-INFO
+writing dependency_links to lab7_pkg.egg-info/dependency_links.txt
+writing top-level names to lab7_pkg.egg-info/top_level.txt
+reading manifest file 'lab7_pkg.egg-info/SOURCES.txt'
+writing manifest file 'lab7_pkg.egg-info/SOURCES.txt'
+[100%] Built target ament_cmake_python_build_lab7_pkg_egg
+-- Install configuration: ""
+-- Up-to-date: /home/nvidia/f1tenth_ws/install/lab7_pkg/lib/lab7_pkg/rrt_node
+-- Up-to-date: /home/nvidia/f1tenth_ws/install/lab7_pkg/share/lab7_pkg/environment/pythonpath.sh
+-- Up-to-date: /home/nvidia/f1tenth_ws/install/lab7_pkg/share/lab7_pkg/environment/pythonpath.dsv
+-- Up-to-date: /home/nvidia/f1tenth_ws/install/lab7_pkg/lib/python3.12/site-packages/lab7_pkg-0.0.0-py3.12.egg-info
+-- Installing: /home/nvidia/f1tenth_ws/install/lab7_pkg/lib/python3.12/site-packages/lab7_pkg-0.0.0-py3.12.egg-info/PKG-INFO
+-- Installing: /home/nvidia/f1tenth_ws/install/lab7_pkg/lib/python3.12/site-packages/lab7_pkg-0.0.0-py3.12.egg-info/dependency_links.txt
+-- Installing: /home/nvidia/f1tenth_ws/install/lab7_pkg/lib/python3.12/site-packages/lab7_pkg-0.0.0-py3.12.egg-info/SOURCES.txt
+-- Installing: /home/nvidia/f1tenth_ws/install/lab7_pkg/lib/python3.12/site-packages/lab7_pkg-0.0.0-py3.12.egg-info/top_level.txt
+-- Up-to-date: /home/nvidia/f1tenth_ws/install/lab7_pkg/lib/python3.12/site-packages/lab7_pkg
+-- Up-to-date: /home/nvidia/f1tenth_ws/install/lab7_pkg/lib/python3.12/site-packages/lab7_pkg/__init__.py
+Listing '/home/nvidia/f1tenth_ws/install/lab7_pkg/lib/python3.12/site-packages/lab7_pkg'...
+-- Up-to-date: /home/nvidia/f1tenth_ws/install/lab7_pkg/lib/lab7_pkg/rrt_node.py
+-- Up-to-date: /home/nvidia/f1tenth_ws/install/lab7_pkg/share/lab7_pkg/launch
+-- Installing: /home/nvidia/f1tenth_ws/install/lab7_pkg/share/lab7_pkg/launch/levine_launch.py
+-- Up-to-date: /home/nvidia/f1tenth_ws/install/lab7_pkg/share/lab7_pkg/waypoints
+-- Up-to-date: /home/nvidia/f1tenth_ws/install/lab7_pkg/share/lab7_pkg/waypoints/.gitkeep
+-- Up-to-date: /home/nvidia/f1tenth_ws/install/lab7_pkg/share/lab7_pkg/waypoints/levine_sim.csv
+-- Up-to-date: /home/nvidia/f1tenth_ws/install/lab7_pkg/share/lab7_pkg/waypoints/levine.csv
+-- Up-to-date: /home/nvidia/f1tenth_ws/install/lab7_pkg/share/ament_index/resource_index/package_run_dependencies/lab7_pkg
+-- Up-to-date: /home/nvidia/f1tenth_ws/install/lab7_pkg/share/ament_index/resource_index/parent_prefix_path/lab7_pkg
+-- Up-to-date: /home/nvidia/f1tenth_ws/install/lab7_pkg/share/lab7_pkg/environment/ament_prefix_path.sh
+-- Up-to-date: /home/nvidia/f1tenth_ws/install/lab7_pkg/share/lab7_pkg/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/nvidia/f1tenth_ws/install/lab7_pkg/share/lab7_pkg/environment/path.sh
+-- Up-to-date: /home/nvidia/f1tenth_ws/install/lab7_pkg/share/lab7_pkg/environment/path.dsv
+-- Up-to-date: /home/nvidia/f1tenth_ws/install/lab7_pkg/share/lab7_pkg/local_setup.bash
+-- Up-to-date: /home/nvidia/f1tenth_ws/install/lab7_pkg/share/lab7_pkg/local_setup.sh
+-- Up-to-date: /home/nvidia/f1tenth_ws/install/lab7_pkg/share/lab7_pkg/local_setup.zsh
+-- Up-to-date: /home/nvidia/f1tenth_ws/install/lab7_pkg/share/lab7_pkg/local_setup.dsv
+-- Installing: /home/nvidia/f1tenth_ws/install/lab7_pkg/share/lab7_pkg/package.dsv
+-- Up-to-date: /home/nvidia/f1tenth_ws/install/lab7_pkg/share/ament_index/resource_index/packages/lab7_pkg
+-- Up-to-date: /home/nvidia/f1tenth_ws/install/lab7_pkg/share/lab7_pkg/cmake/lab7_pkgConfig.cmake
+-- Up-to-date: /home/nvidia/f1tenth_ws/install/lab7_pkg/share/lab7_pkg/cmake/lab7_pkgConfig-version.cmake
+-- Up-to-date: /home/nvidia/f1tenth_ws/install/lab7_pkg/share/lab7_pkg/package.xml

@@ -1,0 +1,106 @@
+[2.495s] Invoking command in '/home/nvidia/raceline_ws/src/raceline_UI_f1tenth/raceline_studio': AMENT_PREFIX_PATH=/home/nvidia/raceline_ws/install/raceline_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nvidia/raceline_ws/install/raceline_msgs:${CMAKE_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/nvidia/raceline_ws/install/raceline_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/nvidia/raceline_ws/build/raceline_studio/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/nvidia/raceline_ws/install/raceline_studio/lib/python3.12/site-packages:/home/nvidia/raceline_ws/install/raceline_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/raceline_studio build --build-base /home/nvidia/raceline_ws/build/raceline_studio/build install --record /home/nvidia/raceline_ws/build/raceline_studio/install.log --install-scripts $base/lib/raceline_studio --single-version-externally-managed install_data
+[3.293s] running egg_info
+[3.353s] writing ../../../build/raceline_studio/raceline_studio.egg-info/PKG-INFO
+[3.354s] writing dependency_links to ../../../build/raceline_studio/raceline_studio.egg-info/dependency_links.txt
+[3.355s] writing entry points to ../../../build/raceline_studio/raceline_studio.egg-info/entry_points.txt
+[3.355s] writing requirements to ../../../build/raceline_studio/raceline_studio.egg-info/requires.txt
+[3.356s] writing top-level names to ../../../build/raceline_studio/raceline_studio.egg-info/top_level.txt
+[3.479s] reading manifest file '../../../build/raceline_studio/raceline_studio.egg-info/SOURCES.txt'
+[3.482s] writing manifest file '../../../build/raceline_studio/raceline_studio.egg-info/SOURCES.txt'
+[3.482s] running build
+[3.482s] running build_py
+[3.488s] copying raceline_studio/app.py -> /home/nvidia/raceline_ws/build/raceline_studio/build/lib/raceline_studio
+[3.493s] running install
+[3.497s] /usr/lib/python3/dist-packages/setuptools/command/build_py.py:204: _Warning: Package 'raceline_studio.static.vendor' is absent from the `packages` configuration.
+[3.498s] !!
+[3.498s] 
+[3.498s]         ********************************************************************************
+[3.498s]         ############################
+[3.499s]         # Package would be ignored #
+[3.502s]         ############################
+[3.502s]         Python recognizes 'raceline_studio.static.vendor' as an importable package[^1],
+[3.502s]         but it is absent from setuptools' `packages` configuration.
+[3.503s] 
+[3.503s]         This leads to an ambiguous overall configuration. If you want to distribute this
+[3.503s]         package, please make sure that 'raceline_studio.static.vendor' is explicitly added
+[3.504s]         to the `packages` configuration field.
+[3.504s] 
+[3.506s]         Alternatively, you can also rely on setuptools' discovery methods
+[3.506s]         (for example by using `find_namespace_packages(...)`/`find_namespace:`
+[3.507s]         instead of `find_packages(...)`/`find:`).
+[3.507s] 
+[3.507s]         You can read more about "package discovery" on setuptools documentation page:
+[3.507s] 
+[3.507s]         - https://setuptools.pypa.io/en/latest/userguide/package_discovery.html
+[3.508s] 
+[3.508s]         If you don't want 'raceline_studio.static.vendor' to be distributed and are
+[3.509s]         already explicitly excluding 'raceline_studio.static.vendor' via
+[3.509s]         `find_namespace_packages(...)/find_namespace` or `find_packages(...)/find`,
+[3.510s]         you can try to use `exclude_package_data`, or `include-package-data=False` in
+[3.510s]         combination with a more fine grained `package-data` configuration.
+[3.510s] 
+[3.510s]         You can read more about "package data files" on setuptools documentation page:
+[3.510s] 
+[3.511s]         - https://setuptools.pypa.io/en/latest/userguide/datafiles.html
+[3.511s] 
+[3.511s] 
+[3.511s]         [^1]: For Python, any directory (with suitable naming) can be imported,
+[3.511s]               even if it does not contain any `.py` files.
+[3.512s]               On the other hand, currently there is no concept of package data
+[3.512s]               directory, all directories are treated like packages.
+[3.513s]         ********************************************************************************
+[3.514s] 
+[3.514s] !!
+[3.514s]   check.warn(importable)
+[3.514s] /usr/lib/python3/dist-packages/setuptools/command/build_py.py:204: _Warning: Package 'raceline_studio.templates' is absent from the `packages` configuration.
+[3.515s] !!
+[3.515s] 
+[3.518s]         ********************************************************************************
+[3.518s]         ############################
+[3.518s]         # Package would be ignored #
+[3.518s]         ############################
+[3.518s]         Python recognizes 'raceline_studio.templates' as an importable package[^1],
+[3.519s]         but it is absent from setuptools' `packages` configuration.
+[3.519s] 
+[3.519s]         This leads to an ambiguous overall configuration. If you want to distribute this
+[3.520s]         package, please make sure that 'raceline_studio.templates' is explicitly added
+[3.520s]         to the `packages` configuration field.
+[3.521s] 
+[3.521s]         Alternatively, you can also rely on setuptools' discovery methods
+[3.521s]         (for example by using `find_namespace_packages(...)`/`find_namespace:`
+[3.522s]         instead of `find_packages(...)`/`find:`).
+[3.522s] 
+[3.522s]         You can read more about "package discovery" on setuptools documentation page:
+[3.522s] 
+[3.522s]         - https://setuptools.pypa.io/en/latest/userguide/package_discovery.html
+[3.524s] 
+[3.525s]         If you don't want 'raceline_studio.templates' to be distributed and are
+[3.526s]         already explicitly excluding 'raceline_studio.templates' via
+[3.526s]         `find_namespace_packages(...)/find_namespace` or `find_packages(...)/find`,
+[3.527s]         you can try to use `exclude_package_data`, or `include-package-data=False` in
+[3.527s]         combination with a more fine grained `package-data` configuration.
+[3.528s] 
+[3.529s]         You can read more about "package data files" on setuptools documentation page:
+[3.529s] 
+[3.530s]         - https://setuptools.pypa.io/en/latest/userguide/datafiles.html
+[3.530s] 
+[3.530s] 
+[3.530s]         [^1]: For Python, any directory (with suitable naming) can be imported,
+[3.530s]               even if it does not contain any `.py` files.
+[3.531s]               On the other hand, currently there is no concept of package data
+[3.531s]               directory, all directories are treated like packages.
+[3.531s]         ********************************************************************************
+[3.531s] 
+[3.531s] !!
+[3.532s]   check.warn(importable)
+[3.532s] running install_lib
+[3.567s] copying /home/nvidia/raceline_ws/build/raceline_studio/build/lib/raceline_studio/app.py -> /home/nvidia/raceline_ws/install/raceline_studio/lib/python3.12/site-packages/raceline_studio
+[3.567s] byte-compiling /home/nvidia/raceline_ws/install/raceline_studio/lib/python3.12/site-packages/raceline_studio/app.py to app.cpython-312.pyc
+[3.588s] running install_data
+[3.588s] running install_egg_info
+[3.657s] removing '/home/nvidia/raceline_ws/install/raceline_studio/lib/python3.12/site-packages/raceline_studio-0.0.1-py3.12.egg-info' (and everything under it)
+[3.658s] Copying ../../../build/raceline_studio/raceline_studio.egg-info to /home/nvidia/raceline_ws/install/raceline_studio/lib/python3.12/site-packages/raceline_studio-0.0.1-py3.12.egg-info
+[3.659s] running install_scripts
+[4.055s] Installing studio script to /home/nvidia/raceline_ws/install/raceline_studio/lib/raceline_studio
+[4.057s] writing list of installed files to '/home/nvidia/raceline_ws/build/raceline_studio/install.log'
+[4.166s] Invoked command in '/home/nvidia/raceline_ws/src/raceline_UI_f1tenth/raceline_studio' returned '0': AMENT_PREFIX_PATH=/home/nvidia/raceline_ws/install/raceline_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nvidia/raceline_ws/install/raceline_msgs:${CMAKE_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/nvidia/raceline_ws/install/raceline_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/nvidia/raceline_ws/build/raceline_studio/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/nvidia/raceline_ws/install/raceline_studio/lib/python3.12/site-packages:/home/nvidia/raceline_ws/install/raceline_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/raceline_studio build --build-base /home/nvidia/raceline_ws/build/raceline_studio/build install --record /home/nvidia/raceline_ws/build/raceline_studio/install.log --install-scripts $base/lib/raceline_studio --single-version-externally-managed install_data

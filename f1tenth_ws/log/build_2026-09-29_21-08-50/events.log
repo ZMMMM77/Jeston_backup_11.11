@@ -1,0 +1,456 @@
+[0.000000] (-) TimerEvent: {}
+[0.000606] (ackermann_mux) JobQueued: {'identifier': 'ackermann_mux', 'dependencies': OrderedDict()}
+[0.001282] (gap_follow) JobQueued: {'identifier': 'gap_follow', 'dependencies': OrderedDict()}
+[0.001335] (key_teleop) JobQueued: {'identifier': 'key_teleop', 'dependencies': OrderedDict()}
+[0.001374] (mouse_teleop) JobQueued: {'identifier': 'mouse_teleop', 'dependencies': OrderedDict()}
+[0.001622] (particle_filter) JobQueued: {'identifier': 'particle_filter', 'dependencies': OrderedDict()}
+[0.001660] (range_lib) JobQueued: {'identifier': 'range_lib', 'dependencies': OrderedDict()}
+[0.001691] (teleop_tools_msgs) JobQueued: {'identifier': 'teleop_tools_msgs', 'dependencies': OrderedDict()}
+[0.001720] (vesc_msgs) JobQueued: {'identifier': 'vesc_msgs', 'dependencies': OrderedDict()}
+[0.001748] (joy_teleop) JobQueued: {'identifier': 'joy_teleop', 'dependencies': OrderedDict({'teleop_tools_msgs': '/home/nvidia/f1tenth_ws/install/teleop_tools_msgs'})}
+[0.001788] (vesc_ackermann) JobQueued: {'identifier': 'vesc_ackermann', 'dependencies': OrderedDict({'vesc_msgs': '/home/nvidia/f1tenth_ws/install/vesc_msgs'})}
+[0.002121] (vesc_driver) JobQueued: {'identifier': 'vesc_driver', 'dependencies': OrderedDict({'vesc_msgs': '/home/nvidia/f1tenth_ws/install/vesc_msgs'})}
+[0.002164] (teleop_tools) JobQueued: {'identifier': 'teleop_tools', 'dependencies': OrderedDict({'key_teleop': '/home/nvidia/f1tenth_ws/install/key_teleop', 'teleop_tools_msgs': '/home/nvidia/f1tenth_ws/install/teleop_tools_msgs', 'joy_teleop': '/home/nvidia/f1tenth_ws/install/joy_teleop'})}
+[0.002207] (vesc) JobQueued: {'identifier': 'vesc', 'dependencies': OrderedDict({'vesc_msgs': '/home/nvidia/f1tenth_ws/install/vesc_msgs', 'vesc_ackermann': '/home/nvidia/f1tenth_ws/install/vesc_ackermann', 'vesc_driver': '/home/nvidia/f1tenth_ws/install/vesc_driver'})}
+[0.002246] (f1tenth_stack) JobQueued: {'identifier': 'f1tenth_stack', 'dependencies': OrderedDict({'ackermann_mux': '/home/nvidia/f1tenth_ws/install/ackermann_mux', 'teleop_tools_msgs': '/home/nvidia/f1tenth_ws/install/teleop_tools_msgs', 'vesc_msgs': '/home/nvidia/f1tenth_ws/install/vesc_msgs', 'joy_teleop': '/home/nvidia/f1tenth_ws/install/joy_teleop', 'vesc_ackermann': '/home/nvidia/f1tenth_ws/install/vesc_ackermann', 'vesc_driver': '/home/nvidia/f1tenth_ws/install/vesc_driver', 'vesc': '/home/nvidia/f1tenth_ws/install/vesc'})}
+[0.002356] (vesc_msgs) JobStarted: {'identifier': 'vesc_msgs'}
+[0.019093] (teleop_tools_msgs) JobStarted: {'identifier': 'teleop_tools_msgs'}
+[0.027842] (ackermann_mux) JobStarted: {'identifier': 'ackermann_mux'}
+[0.037537] (key_teleop) JobStarted: {'identifier': 'key_teleop'}
+[0.050598] (gap_follow) JobStarted: {'identifier': 'gap_follow'}
+[0.061010] (mouse_teleop) JobStarted: {'identifier': 'mouse_teleop'}
+[0.078158] (vesc_msgs) JobProgress: {'identifier': 'vesc_msgs', 'progress': 'cmake'}
+[0.080231] (vesc_msgs) JobProgress: {'identifier': 'vesc_msgs', 'progress': 'build'}
+[0.081729] (vesc_msgs) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/nvidia/f1tenth_ws/build/vesc_msgs', '--', '-j6', '-l6'], 'cwd': '/home/nvidia/f1tenth_ws/build/vesc_msgs', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'nvidia', 'XDG_SESSION_TYPE': 'x11', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib:/home/nvidia/f1tenth_ws/install/vesc_driver/lib:/home/nvidia/f1tenth_ws/install/vesc_ackermann/lib:/home/nvidia/f1tenth_ws/install/vesc_msgs/lib:/home/nvidia/f1tenth_ws/install/teleop_tools_msgs/lib', 'HOME': '/home/nvidia', 'OLDPWD': '/home/nvidia/f1tenth_ws/src/f1tenth_system', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '3735', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/2002/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'COLCON_PREFIX_PATH': '/home/nvidia/f1tenth_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'nvidia', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'nvidia', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'WINDOWPATH': '2', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/localhost.localdomain:@/tmp/.ICE-unix/3703,unix/localhost.localdomain:/tmp/.ICE-unix/3703', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/761d544f_95df_4f0e_9393_286d00ef323b', 'XDG_RUNTIME_DIR': '/run/user/2002', 'DISPLAY': ':1', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/2002/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.109', 'SSH_AUTH_SOCK': '/run/user/2002/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy:/home/nvidia/f1tenth_ws/install/wall_follow:/home/nvidia/f1tenth_ws/install/f1tenth_stack:/home/nvidia/f1tenth_ws/install/vesc:/home/nvidia/f1tenth_ws/install/vesc_driver:/home/nvidia/f1tenth_ws/install/vesc_ackermann:/home/nvidia/f1tenth_ws/install/vesc_msgs:/home/nvidia/f1tenth_ws/install/teleop_tools:/home/nvidia/f1tenth_ws/install/joy_teleop:/home/nvidia/f1tenth_ws/install/teleop_tools_msgs:/home/nvidia/f1tenth_ws/install/particle_filter:/home/nvidia/f1tenth_ws/install/mouse_teleop:/home/nvidia/f1tenth_ws/install/key_teleop:/home/nvidia/f1tenth_ws/install/gap_follow:/home/nvidia/f1tenth_ws/install/ackermann_mux', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/2002/gnupg/S.gpg-agent:0:1', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/nvidia/f1tenth_ws/build/vesc_msgs', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/opt/gz_math_vendor/lib/python:/opt/ros/jazzy/lib/python3.12/site-packages:/home/nvidia/f1tenth_ws/install/wall_follow/lib/python3.12/site-packages:/home/nvidia/f1tenth_ws/install/f1tenth_stack/lib/python3.12/site-packages:/home/nvidia/f1tenth_ws/install/vesc_msgs/lib/python3.12/site-packages:/home/nvidia/f1tenth_ws/install/joy_teleop/lib/python3.12/site-packages:/home/nvidia/f1tenth_ws/install/teleop_tools_msgs/lib/python3.12/site-packages:/home/nvidia/f1tenth_ws/install/particle_filter/lib/python3.12/site-packages:/home/nvidia/f1tenth_ws/install/mouse_teleop/lib/python3.12/site-packages:/home/nvidia/f1tenth_ws/install/key_teleop/lib/python3.12/site-packages:/home/nvidia/f1tenth_ws/install/gap_follow/lib/python3.12/site-packages', 'COLCON': '1', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/nvidia/f1tenth_ws/install/wall_follow:/home/nvidia/f1tenth_ws/install/vesc:/home/nvidia/f1tenth_ws/install/vesc_driver:/home/nvidia/f1tenth_ws/install/vesc_ackermann:/home/nvidia/f1tenth_ws/install/vesc_msgs:/home/nvidia/f1tenth_ws/install/teleop_tools:/home/nvidia/f1tenth_ws/install/teleop_tools_msgs:/home/nvidia/f1tenth_ws/install/gap_follow:/home/nvidia/f1tenth_ws/install/ackermann_mux:/opt/ros/jazzy:/home/nvidia/f1tenth_ws/install/f1tenth_stack:/home/nvidia/f1tenth_ws/install/joy_teleop:/home/nvidia/f1tenth_ws/install/particle_filter:/home/nvidia/f1tenth_ws/install/mouse_teleop:/home/nvidia/f1tenth_ws/install/key_teleop'}), 'shell': False}
+[0.088390] (teleop_tools_msgs) JobProgress: {'identifier': 'teleop_tools_msgs', 'progress': 'cmake'}
+[0.090245] (teleop_tools_msgs) JobProgress: {'identifier': 'teleop_tools_msgs', 'progress': 'build'}
+[0.090835] (teleop_tools_msgs) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/nvidia/f1tenth_ws/build/teleop_tools_msgs', '--', '-j6', '-l6'], 'cwd': '/home/nvidia/f1tenth_ws/build/teleop_tools_msgs', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'nvidia', 'XDG_SESSION_TYPE': 'x11', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib:/home/nvidia/f1tenth_ws/install/vesc_driver/lib:/home/nvidia/f1tenth_ws/install/vesc_ackermann/lib:/home/nvidia/f1tenth_ws/install/vesc_msgs/lib:/home/nvidia/f1tenth_ws/install/teleop_tools_msgs/lib', 'HOME': '/home/nvidia', 'OLDPWD': '/home/nvidia/f1tenth_ws/src/f1tenth_system', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '3735', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/2002/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'COLCON_PREFIX_PATH': '/home/nvidia/f1tenth_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'nvidia', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'nvidia', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'WINDOWPATH': '2', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/localhost.localdomain:@/tmp/.ICE-unix/3703,unix/localhost.localdomain:/tmp/.ICE-unix/3703', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/761d544f_95df_4f0e_9393_286d00ef323b', 'XDG_RUNTIME_DIR': '/run/user/2002', 'DISPLAY': ':1', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/2002/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.109', 'SSH_AUTH_SOCK': '/run/user/2002/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy:/home/nvidia/f1tenth_ws/install/wall_follow:/home/nvidia/f1tenth_ws/install/f1tenth_stack:/home/nvidia/f1tenth_ws/install/vesc:/home/nvidia/f1tenth_ws/install/vesc_driver:/home/nvidia/f1tenth_ws/install/vesc_ackermann:/home/nvidia/f1tenth_ws/install/vesc_msgs:/home/nvidia/f1tenth_ws/install/teleop_tools:/home/nvidia/f1tenth_ws/install/joy_teleop:/home/nvidia/f1tenth_ws/install/teleop_tools_msgs:/home/nvidia/f1tenth_ws/install/particle_filter:/home/nvidia/f1tenth_ws/install/mouse_teleop:/home/nvidia/f1tenth_ws/install/key_teleop:/home/nvidia/f1tenth_ws/install/gap_follow:/home/nvidia/f1tenth_ws/install/ackermann_mux', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/2002/gnupg/S.gpg-agent:0:1', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/nvidia/f1tenth_ws/build/teleop_tools_msgs', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/opt/gz_math_vendor/lib/python:/opt/ros/jazzy/lib/python3.12/site-packages:/home/nvidia/f1tenth_ws/install/wall_follow/lib/python3.12/site-packages:/home/nvidia/f1tenth_ws/install/f1tenth_stack/lib/python3.12/site-packages:/home/nvidia/f1tenth_ws/install/vesc_msgs/lib/python3.12/site-packages:/home/nvidia/f1tenth_ws/install/joy_teleop/lib/python3.12/site-packages:/home/nvidia/f1tenth_ws/install/teleop_tools_msgs/lib/python3.12/site-packages:/home/nvidia/f1tenth_ws/install/particle_filter/lib/python3.12/site-packages:/home/nvidia/f1tenth_ws/install/mouse_teleop/lib/python3.12/site-packages:/home/nvidia/f1tenth_ws/install/key_teleop/lib/python3.12/site-packages:/home/nvidia/f1tenth_ws/install/gap_follow/lib/python3.12/site-packages', 'COLCON': '1', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/nvidia/f1tenth_ws/install/wall_follow:/home/nvidia/f1tenth_ws/install/vesc:/home/nvidia/f1tenth_ws/install/vesc_driver:/home/nvidia/f1tenth_ws/install/vesc_ackermann:/home/nvidia/f1tenth_ws/install/vesc_msgs:/home/nvidia/f1tenth_ws/install/teleop_tools:/home/nvidia/f1tenth_ws/install/teleop_tools_msgs:/home/nvidia/f1tenth_ws/install/gap_follow:/home/nvidia/f1tenth_ws/install/ackermann_mux:/opt/ros/jazzy:/home/nvidia/f1tenth_ws/install/f1tenth_stack:/home/nvidia/f1tenth_ws/install/joy_teleop:/home/nvidia/f1tenth_ws/install/particle_filter:/home/nvidia/f1tenth_ws/install/mouse_teleop:/home/nvidia/f1tenth_ws/install/key_teleop'}), 'shell': False}
+[0.094372] (ackermann_mux) JobProgress: {'identifier': 'ackermann_mux', 'progress': 'cmake'}
+[0.096482] (ackermann_mux) JobProgress: {'identifier': 'ackermann_mux', 'progress': 'build'}
+[0.097008] (ackermann_mux) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/nvidia/f1tenth_ws/build/ackermann_mux', '--', '-j6', '-l6'], 'cwd': '/home/nvidia/f1tenth_ws/build/ackermann_mux', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'nvidia', 'XDG_SESSION_TYPE': 'x11', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib:/home/nvidia/f1tenth_ws/install/vesc_driver/lib:/home/nvidia/f1tenth_ws/install/vesc_ackermann/lib:/home/nvidia/f1tenth_ws/install/vesc_msgs/lib:/home/nvidia/f1tenth_ws/install/teleop_tools_msgs/lib', 'HOME': '/home/nvidia', 'OLDPWD': '/home/nvidia/f1tenth_ws/src/f1tenth_system', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '3735', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/2002/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'COLCON_PREFIX_PATH': '/home/nvidia/f1tenth_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'nvidia', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'nvidia', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'WINDOWPATH': '2', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/localhost.localdomain:@/tmp/.ICE-unix/3703,unix/localhost.localdomain:/tmp/.ICE-unix/3703', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/761d544f_95df_4f0e_9393_286d00ef323b', 'XDG_RUNTIME_DIR': '/run/user/2002', 'DISPLAY': ':1', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/2002/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.109', 'SSH_AUTH_SOCK': '/run/user/2002/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy:/home/nvidia/f1tenth_ws/install/wall_follow:/home/nvidia/f1tenth_ws/install/f1tenth_stack:/home/nvidia/f1tenth_ws/install/vesc:/home/nvidia/f1tenth_ws/install/vesc_driver:/home/nvidia/f1tenth_ws/install/vesc_ackermann:/home/nvidia/f1tenth_ws/install/vesc_msgs:/home/nvidia/f1tenth_ws/install/teleop_tools:/home/nvidia/f1tenth_ws/install/joy_teleop:/home/nvidia/f1tenth_ws/install/teleop_tools_msgs:/home/nvidia/f1tenth_ws/install/particle_filter:/home/nvidia/f1tenth_ws/install/mouse_teleop:/home/nvidia/f1tenth_ws/install/key_teleop:/home/nvidia/f1tenth_ws/install/gap_follow:/home/nvidia/f1tenth_ws/install/ackermann_mux', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/2002/gnupg/S.gpg-agent:0:1', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/nvidia/f1tenth_ws/build/ackermann_mux', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/opt/gz_math_vendor/lib/python:/opt/ros/jazzy/lib/python3.12/site-packages:/home/nvidia/f1tenth_ws/install/wall_follow/lib/python3.12/site-packages:/home/nvidia/f1tenth_ws/install/f1tenth_stack/lib/python3.12/site-packages:/home/nvidia/f1tenth_ws/install/vesc_msgs/lib/python3.12/site-packages:/home/nvidia/f1tenth_ws/install/joy_teleop/lib/python3.12/site-packages:/home/nvidia/f1tenth_ws/install/teleop_tools_msgs/lib/python3.12/site-packages:/home/nvidia/f1tenth_ws/install/particle_filter/lib/python3.12/site-packages:/home/nvidia/f1tenth_ws/install/mouse_teleop/lib/python3.12/site-packages:/home/nvidia/f1tenth_ws/install/key_teleop/lib/python3.12/site-packages:/home/nvidia/f1tenth_ws/install/gap_follow/lib/python3.12/site-packages', 'COLCON': '1', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/nvidia/f1tenth_ws/install/wall_follow:/home/nvidia/f1tenth_ws/install/vesc:/home/nvidia/f1tenth_ws/install/vesc_driver:/home/nvidia/f1tenth_ws/install/vesc_ackermann:/home/nvidia/f1tenth_ws/install/vesc_msgs:/home/nvidia/f1tenth_ws/install/teleop_tools:/home/nvidia/f1tenth_ws/install/teleop_tools_msgs:/home/nvidia/f1tenth_ws/install/gap_follow:/home/nvidia/f1tenth_ws/install/ackermann_mux:/opt/ros/jazzy:/home/nvidia/f1tenth_ws/install/f1tenth_stack:/home/nvidia/f1tenth_ws/install/joy_teleop:/home/nvidia/f1tenth_ws/install/particle_filter:/home/nvidia/f1tenth_ws/install/mouse_teleop:/home/nvidia/f1tenth_ws/install/key_teleop'}), 'shell': False}
+[0.099351] (-) TimerEvent: {}
+[0.200381] (-) TimerEvent: {}
+[0.301031] (-) TimerEvent: {}
+[0.401674] (-) TimerEvent: {}
+[0.502320] (-) TimerEvent: {}
+[0.602944] (-) TimerEvent: {}
+[0.704397] (-) TimerEvent: {}
+[0.705052] (gap_follow) JobProgress: {'identifier': 'gap_follow', 'progress': 'cmake'}
+[0.707847] (gap_follow) JobProgress: {'identifier': 'gap_follow', 'progress': 'build'}
+[0.709336] (gap_follow) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/nvidia/f1tenth_ws/build/gap_follow', '--', '-j6', '-l6'], 'cwd': '/home/nvidia/f1tenth_ws/build/gap_follow', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'nvidia', 'XDG_SESSION_TYPE': 'x11', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib:/home/nvidia/f1tenth_ws/install/vesc_driver/lib:/home/nvidia/f1tenth_ws/install/vesc_ackermann/lib:/home/nvidia/f1tenth_ws/install/vesc_msgs/lib:/home/nvidia/f1tenth_ws/install/teleop_tools_msgs/lib', 'HOME': '/home/nvidia', 'OLDPWD': '/home/nvidia/f1tenth_ws/src/f1tenth_system', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '3735', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/2002/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'COLCON_PREFIX_PATH': '/home/nvidia/f1tenth_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'nvidia', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'nvidia', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'WINDOWPATH': '2', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/localhost.localdomain:@/tmp/.ICE-unix/3703,unix/localhost.localdomain:/tmp/.ICE-unix/3703', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/761d544f_95df_4f0e_9393_286d00ef323b', 'XDG_RUNTIME_DIR': '/run/user/2002', 'DISPLAY': ':1', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/2002/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.109', 'SSH_AUTH_SOCK': '/run/user/2002/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy:/home/nvidia/f1tenth_ws/install/wall_follow:/home/nvidia/f1tenth_ws/install/f1tenth_stack:/home/nvidia/f1tenth_ws/install/vesc:/home/nvidia/f1tenth_ws/install/vesc_driver:/home/nvidia/f1tenth_ws/install/vesc_ackermann:/home/nvidia/f1tenth_ws/install/vesc_msgs:/home/nvidia/f1tenth_ws/install/teleop_tools:/home/nvidia/f1tenth_ws/install/joy_teleop:/home/nvidia/f1tenth_ws/install/teleop_tools_msgs:/home/nvidia/f1tenth_ws/install/particle_filter:/home/nvidia/f1tenth_ws/install/mouse_teleop:/home/nvidia/f1tenth_ws/install/key_teleop:/home/nvidia/f1tenth_ws/install/gap_follow:/home/nvidia/f1tenth_ws/install/ackermann_mux', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/2002/gnupg/S.gpg-agent:0:1', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/nvidia/f1tenth_ws/build/gap_follow', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/opt/gz_math_vendor/lib/python:/opt/ros/jazzy/lib/python3.12/site-packages:/home/nvidia/f1tenth_ws/install/wall_follow/lib/python3.12/site-packages:/home/nvidia/f1tenth_ws/install/f1tenth_stack/lib/python3.12/site-packages:/home/nvidia/f1tenth_ws/install/vesc_msgs/lib/python3.12/site-packages:/home/nvidia/f1tenth_ws/install/joy_teleop/lib/python3.12/site-packages:/home/nvidia/f1tenth_ws/install/teleop_tools_msgs/lib/python3.12/site-packages:/home/nvidia/f1tenth_ws/install/particle_filter/lib/python3.12/site-packages:/home/nvidia/f1tenth_ws/install/mouse_teleop/lib/python3.12/site-packages:/home/nvidia/f1tenth_ws/install/key_teleop/lib/python3.12/site-packages:/home/nvidia/f1tenth_ws/install/gap_follow/lib/python3.12/site-packages', 'COLCON': '1', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/nvidia/f1tenth_ws/install/wall_follow:/home/nvidia/f1tenth_ws/install/vesc:/home/nvidia/f1tenth_ws/install/vesc_driver:/home/nvidia/f1tenth_ws/install/vesc_ackermann:/home/nvidia/f1tenth_ws/install/vesc_msgs:/home/nvidia/f1tenth_ws/install/teleop_tools:/home/nvidia/f1tenth_ws/install/teleop_tools_msgs:/home/nvidia/f1tenth_ws/install/gap_follow:/home/nvidia/f1tenth_ws/install/ackermann_mux:/opt/ros/jazzy:/home/nvidia/f1tenth_ws/install/f1tenth_stack:/home/nvidia/f1tenth_ws/install/joy_teleop:/home/nvidia/f1tenth_ws/install/particle_filter:/home/nvidia/f1tenth_ws/install/mouse_teleop:/home/nvidia/f1tenth_ws/install/key_teleop'}), 'shell': False}
+[0.716770] (vesc_msgs) StdoutLine: {'line': b'-- Found ament_cmake_auto: 2.5.6 (/opt/ros/jazzy/share/ament_cmake_auto/cmake)\n'}
+[0.719783] (teleop_tools_msgs) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[0.721095] (teleop_tools_msgs) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.6.1 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)\n'}
+[0.724232] (teleop_tools_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.726073] (teleop_tools_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.726297] (teleop_tools_msgs) StdoutLine: {'line': b'-- Found rosidl_adapter: 4.6.9 (/opt/ros/jazzy/share/rosidl_adapter/cmake)\n'}
+[0.726475] (teleop_tools_msgs) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.17.5 (/opt/ros/jazzy/share/ament_lint_auto/cmake)\n'}
+[0.726651] (ackermann_mux) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[0.761000] (vesc_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.768758] (ackermann_mux) StdoutLine: {'line': b'-- Found rclcpp: 28.1.22 (/opt/ros/jazzy/share/rclcpp/cmake)\n'}
+[0.804621] (-) TimerEvent: {}
+[0.845685] (gap_follow) StderrLine: {'line': b'Error copying directory from "/home/nvidia/f1tenth_ws/src/111/ese-6150-lab-4-follow-the-gap-group-9-main 2/gap_follow/gap_follow" to "/home/nvidia/f1tenth_ws/build/gap_follow/ament_cmake_python/gap_follow/gap_follow".\n'}
+[0.846306] (vesc_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.846676] (gap_follow) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/ament_cmake_python_copy_gap_follow.dir/build.make:70: CMakeFiles/ament_cmake_python_copy_gap_follow] Error 1\n'}
+[0.846894] (gap_follow) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/ament_cmake_python_copy_gap_follow.dir/all] Error 2\n'}
+[0.847065] (gap_follow) StderrLine: {'line': b'gmake[1]: *** Waiting for unfinished jobs....\n'}
+[0.849102] (ackermann_mux) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.6.9 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)\n'}
+[0.870268] (gap_follow) StdoutLine: {'line': b'Built target ament_cmake_python_copy_gap_follow_setup\n'}
+[0.871872] (ackermann_mux) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.6.9 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)\n'}
+[0.873343] (gap_follow) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[0.900284] (ackermann_mux) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.904694] (-) TimerEvent: {}
+[0.918052] (vesc_msgs) StdoutLine: {'line': b'-- Found rosidl_adapter: 4.6.9 (/opt/ros/jazzy/share/rosidl_adapter/cmake)\n'}
+[0.933026] (ackermann_mux) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.004905] (-) TimerEvent: {}
+[1.084344] (ackermann_mux) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)\n'}
+[1.089476] (ackermann_mux) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 8.4.4 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)\n'}
+[1.105008] (-) TimerEvent: {}
+[1.205578] (-) TimerEvent: {}
+[1.258753] (ackermann_mux) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.305783] (-) TimerEvent: {}
+[1.352159] (gap_follow) CommandEnded: {'returncode': 2}
+[1.385390] (gap_follow) JobEnded: {'identifier': 'gap_follow', 'rc': 2}
+[1.388986] (mouse_teleop) JobEnded: {'identifier': 'mouse_teleop', 'rc': 'SIGINT'}
+[1.390495] (key_teleop) JobEnded: {'identifier': 'key_teleop', 'rc': 'SIGINT'}
+[1.405962] (-) TimerEvent: {}
+[1.425345] (ackermann_mux) StdoutLine: {'line': b'-- Found std_msgs: 5.3.8 (/opt/ros/jazzy/share/std_msgs/cmake)\n'}
+[1.451817] (ackermann_mux) StdoutLine: {'line': b'-- Found ackermann_msgs: 2.0.2 (/opt/ros/jazzy/share/ackermann_msgs/cmake)\n'}
+[1.486281] (ackermann_mux) StdoutLine: {'line': b'-- Found diagnostic_updater: 4.2.7 (/opt/ros/jazzy/share/diagnostic_updater/cmake)\n'}
+[1.506148] (-) TimerEvent: {}
+[1.518075] (teleop_tools_msgs) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.12.1 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)\n'}
+[1.543112] (ackermann_mux) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.17.5 (/opt/ros/jazzy/share/ament_lint_auto/cmake)\n'}
+[1.606313] (-) TimerEvent: {}
+[1.617529] (vesc_msgs) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.12.1 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)\n'}
+[1.706496] (-) TimerEvent: {}
+[1.807122] (-) TimerEvent: {}
+[1.810829] (teleop_tools_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.856469] (ackermann_mux) StdoutLine: {'line': b'-- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)\n'}
+[1.907284] (-) TimerEvent: {}
+[2.007885] (-) TimerEvent: {}
+[2.040447] (vesc_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[2.108038] (-) TimerEvent: {}
+[2.144627] (teleop_tools_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.152047] (teleop_tools_msgs) StdoutLine: {'line': b'-- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)\n'}
+[2.208208] (-) TimerEvent: {}
+[2.250953] (ackermann_mux) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[2.251759] (ackermann_mux) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[2.255406] (ackermann_mux) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[2.255892] (ackermann_mux) StdoutLine: {'line': b'-- Configured cppcheck include dirs: /home/nvidia/f1tenth_ws/src/f1tenth_system/ackermann_mux/include\n'}
+[2.256120] (ackermann_mux) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[2.259066] (ackermann_mux) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[2.259363] (ackermann_mux) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[2.260434] (ackermann_mux) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[2.260626] (ackermann_mux) StdoutLine: {'line': b"-- Configured 'flake8' exclude dirs and/or files: \n"}
+[2.261947] (ackermann_mux) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[2.263164] (ackermann_mux) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[2.266151] (ackermann_mux) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[2.266483] (ackermann_mux) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[2.271569] (ackermann_mux) StdoutLine: {'line': b'-- Configuring done (2.1s)\n'}
+[2.305295] (ackermann_mux) StdoutLine: {'line': b'-- Generating done (0.0s)\n'}
+[2.308316] (-) TimerEvent: {}
+[2.315634] (ackermann_mux) StdoutLine: {'line': b'-- Build files have been written to: /home/nvidia/f1tenth_ws/build/ackermann_mux\n'}
+[2.408487] (-) TimerEvent: {}
+[2.439114] (ackermann_mux) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/ackermann_mux.dir/src/ackermann_mux_node.cpp.o\x1b[0m\n'}
+[2.439715] (ackermann_mux) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/ackermann_mux.dir/src/ackermann_mux_diagnostics.cpp.o\x1b[0m\n'}
+[2.441576] (ackermann_mux) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/ackermann_mux.dir/src/ackermann_mux.cpp.o\x1b[0m\n'}
+[2.509182] (-) TimerEvent: {}
+[2.605832] (vesc_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.606413] (vesc_msgs) StdoutLine: {'line': b'-- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)\n'}
+[2.609285] (-) TimerEvent: {}
+[2.709782] (-) TimerEvent: {}
+[2.814019] (-) TimerEvent: {}
+[2.912972] (teleop_tools_msgs) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed \n'}
+[2.914090] (-) TimerEvent: {}
+[3.014543] (-) TimerEvent: {}
+[3.043364] (teleop_tools_msgs) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter \n'}
+[3.053755] (teleop_tools_msgs) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[3.057895] (teleop_tools_msgs) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[3.059018] (teleop_tools_msgs) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[3.072372] (teleop_tools_msgs) StdoutLine: {'line': b'-- Configuring done (2.9s)\n'}
+[3.114668] (-) TimerEvent: {}
+[3.200083] (teleop_tools_msgs) StdoutLine: {'line': b'-- Generating done (0.1s)\n'}
+[3.214793] (-) TimerEvent: {}
+[3.237974] (teleop_tools_msgs) StdoutLine: {'line': b'-- Build files have been written to: /home/nvidia/f1tenth_ws/build/teleop_tools_msgs\n'}
+[3.316844] (-) TimerEvent: {}
+[3.342212] (teleop_tools_msgs) StdoutLine: {'line': b'[  2%] Built target teleop_tools_msgs__rs\n'}
+[3.353162] (teleop_tools_msgs) StdoutLine: {'line': b'[  5%] Built target teleop_tools_msgs__rosidl_generator_type_description\n'}
+[3.374560] (vesc_msgs) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed \n'}
+[3.406344] (teleop_tools_msgs) StdoutLine: {'line': b'[  5%] Built target ament_cmake_python_copy_teleop_tools_msgs\n'}
+[3.417093] (-) TimerEvent: {}
+[3.423235] (teleop_tools_msgs) StdoutLine: {'line': b'[ 20%] Built target teleop_tools_msgs__rosidl_generator_c\n'}
+[3.450050] (teleop_tools_msgs) StdoutLine: {'line': b'[ 22%] Built target teleop_tools_msgs__cpp\n'}
+[3.505073] (teleop_tools_msgs) StdoutLine: {'line': b'[ 31%] Built target teleop_tools_msgs__rosidl_typesupport_introspection_c\n'}
+[3.517306] (-) TimerEvent: {}
+[3.526361] (teleop_tools_msgs) StdoutLine: {'line': b'[ 40%] Built target teleop_tools_msgs__rosidl_typesupport_c\n'}
+[3.555181] (teleop_tools_msgs) StdoutLine: {'line': b'[ 48%] Built target teleop_tools_msgs__rosidl_typesupport_fastrtps_c\n'}
+[3.559961] (teleop_tools_msgs) StdoutLine: {'line': b'[ 57%] Built target teleop_tools_msgs__rosidl_typesupport_fastrtps_cpp\n'}
+[3.573961] (teleop_tools_msgs) StdoutLine: {'line': b'[ 65%] Built target teleop_tools_msgs__rosidl_typesupport_introspection_cpp\n'}
+[3.597123] (teleop_tools_msgs) StdoutLine: {'line': b'[ 74%] Built target teleop_tools_msgs__rosidl_typesupport_cpp\n'}
+[3.621960] (-) TimerEvent: {}
+[3.643312] (teleop_tools_msgs) StdoutLine: {'line': b'[ 74%] Built target teleop_tools_msgs\n'}
+[3.670044] (vesc_msgs) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter \n'}
+[3.670584] (vesc_msgs) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.17.5 (/opt/ros/jazzy/share/ament_lint_auto/cmake)\n'}
+[3.694002] (teleop_tools_msgs) StdoutLine: {'line': b'[ 77%] Built target teleop_tools_msgs__py\n'}
+[3.696688] (vesc_msgs) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[3.701287] (vesc_msgs) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[3.708332] (vesc_msgs) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[3.717918] (vesc_msgs) StdoutLine: {'line': b'-- Configuring done (3.6s)\n'}
+[3.725988] (-) TimerEvent: {}
+[3.742626] (teleop_tools_msgs) StdoutLine: {'line': b'[ 82%] Built target teleop_tools_msgs__rosidl_generator_py\n'}
+[3.821943] (teleop_tools_msgs) StdoutLine: {'line': b'[ 88%] Built target teleop_tools_msgs_s__rosidl_typesupport_introspection_c\n'}
+[3.826137] (-) TimerEvent: {}
+[3.847201] (teleop_tools_msgs) StdoutLine: {'line': b'[ 94%] Built target teleop_tools_msgs_s__rosidl_typesupport_c\n'}
+[3.857862] (teleop_tools_msgs) StdoutLine: {'line': b'[100%] Built target teleop_tools_msgs_s__rosidl_typesupport_fastrtps_c\n'}
+[3.926508] (-) TimerEvent: {}
+[3.930137] (vesc_msgs) StdoutLine: {'line': b'-- Generating done (0.2s)\n'}
+[3.961356] (vesc_msgs) StdoutLine: {'line': b'-- Build files have been written to: /home/nvidia/f1tenth_ws/build/vesc_msgs\n'}
+[4.030040] (-) TimerEvent: {}
+[4.089223] (vesc_msgs) StdoutLine: {'line': b'[  1%] Built target vesc_msgs__rs\n'}
+[4.103941] (vesc_msgs) StdoutLine: {'line': b'[  3%] Built target vesc_msgs__rosidl_generator_type_description\n'}
+[4.104462] (vesc_msgs) StdoutLine: {'line': b'[  3%] Built target ament_cmake_python_copy_vesc_msgs\n'}
+[4.132740] (-) TimerEvent: {}
+[4.189966] (vesc_msgs) StdoutLine: {'line': b'[  4%] Built target vesc_msgs__cpp\n'}
+[4.190628] (teleop_tools_msgs) StdoutLine: {'line': b'running egg_info\n'}
+[4.209021] (vesc_msgs) StdoutLine: {'line': b'[ 26%] Built target vesc_msgs__rosidl_generator_c\n'}
+[4.232871] (-) TimerEvent: {}
+[4.255493] (teleop_tools_msgs) StdoutLine: {'line': b'writing teleop_tools_msgs.egg-info/PKG-INFO\n'}
+[4.270377] (teleop_tools_msgs) StdoutLine: {'line': b'writing dependency_links to teleop_tools_msgs.egg-info/dependency_links.txt\n'}
+[4.270889] (teleop_tools_msgs) StdoutLine: {'line': b'writing top-level names to teleop_tools_msgs.egg-info/top_level.txt\n'}
+[4.333067] (-) TimerEvent: {}
+[4.341958] (vesc_msgs) StdoutLine: {'line': b'[ 35%] Built target vesc_msgs__rosidl_typesupport_c\n'}
+[4.353125] (vesc_msgs) StdoutLine: {'line': b'[ 44%] Built target vesc_msgs__rosidl_typesupport_introspection_cpp\n'}
+[4.367018] (vesc_msgs) StdoutLine: {'line': b'[ 53%] Built target vesc_msgs__rosidl_typesupport_introspection_c\n'}
+[4.378324] (vesc_msgs) StdoutLine: {'line': b'[ 63%] Built target vesc_msgs__rosidl_typesupport_fastrtps_cpp\n'}
+[4.384485] (vesc_msgs) StdoutLine: {'line': b'[ 72%] Built target vesc_msgs__rosidl_typesupport_fastrtps_c\n'}
+[4.433271] (-) TimerEvent: {}
+[4.433834] (vesc_msgs) StdoutLine: {'line': b'[ 81%] Built target vesc_msgs__rosidl_typesupport_cpp\n'}
+[4.473855] (teleop_tools_msgs) StdoutLine: {'line': b"reading manifest file 'teleop_tools_msgs.egg-info/SOURCES.txt'\n"}
+[4.475793] (teleop_tools_msgs) StdoutLine: {'line': b"writing manifest file 'teleop_tools_msgs.egg-info/SOURCES.txt'\n"}
+[4.496921] (vesc_msgs) StdoutLine: {'line': b'[ 81%] Built target vesc_msgs\n'}
+[4.537959] (-) TimerEvent: {}
+[4.551074] (vesc_msgs) StdoutLine: {'line': b'[ 83%] Built target vesc_msgs__py\n'}
+[4.598689] (teleop_tools_msgs) StdoutLine: {'line': b'[100%] Built target ament_cmake_python_build_teleop_tools_msgs_egg\n'}
+[4.625738] (vesc_msgs) StdoutLine: {'line': b'[ 90%] Built target vesc_msgs__rosidl_generator_py\n'}
+[4.627121] (teleop_tools_msgs) JobEnded: {'identifier': 'teleop_tools_msgs', 'rc': 'SIGINT'}
+[4.638110] (-) TimerEvent: {}
+[4.705957] (vesc_msgs) StdoutLine: {'line': b'[ 93%] Built target vesc_msgs_s__rosidl_typesupport_c\n'}
+[4.713330] (vesc_msgs) StdoutLine: {'line': b'[ 96%] Built target vesc_msgs_s__rosidl_typesupport_introspection_c\n'}
+[4.719778] (vesc_msgs) StdoutLine: {'line': b'[100%] Built target vesc_msgs_s__rosidl_typesupport_fastrtps_c\n'}
+[4.738438] (-) TimerEvent: {}
+[4.837410] (vesc_msgs) StdoutLine: {'line': b'running egg_info\n'}
+[4.838516] (-) TimerEvent: {}
+[4.903949] (vesc_msgs) StdoutLine: {'line': b'writing vesc_msgs.egg-info/PKG-INFO\n'}
+[4.904590] (vesc_msgs) StdoutLine: {'line': b'writing dependency_links to vesc_msgs.egg-info/dependency_links.txt\n'}
+[4.904914] (vesc_msgs) StdoutLine: {'line': b'writing top-level names to vesc_msgs.egg-info/top_level.txt\n'}
+[4.938649] (-) TimerEvent: {}
+[5.039275] (-) TimerEvent: {}
+[5.090841] (vesc_msgs) StdoutLine: {'line': b"reading manifest file 'vesc_msgs.egg-info/SOURCES.txt'\n"}
+[5.092676] (vesc_msgs) StdoutLine: {'line': b"writing manifest file 'vesc_msgs.egg-info/SOURCES.txt'\n"}
+[5.139489] (-) TimerEvent: {}
+[5.199735] (vesc_msgs) StdoutLine: {'line': b'[100%] Built target ament_cmake_python_build_vesc_msgs_egg\n'}
+[5.225212] (vesc_msgs) JobEnded: {'identifier': 'vesc_msgs', 'rc': 'SIGINT'}
+[5.239631] (-) TimerEvent: {}
+[5.340232] (-) TimerEvent: {}
+[5.440883] (-) TimerEvent: {}
+[5.541557] (-) TimerEvent: {}
+[5.642273] (-) TimerEvent: {}
+[5.742976] (-) TimerEvent: {}
+[5.843649] (-) TimerEvent: {}
+[5.944367] (-) TimerEvent: {}
+[6.045044] (-) TimerEvent: {}
+[6.145698] (-) TimerEvent: {}
+[6.246422] (-) TimerEvent: {}
+[6.347090] (-) TimerEvent: {}
+[6.447801] (-) TimerEvent: {}
+[6.548533] (-) TimerEvent: {}
+[6.649212] (-) TimerEvent: {}
+[6.749939] (-) TimerEvent: {}
+[6.850629] (-) TimerEvent: {}
+[6.951326] (-) TimerEvent: {}
+[7.051997] (-) TimerEvent: {}
+[7.152660] (-) TimerEvent: {}
+[7.253484] (-) TimerEvent: {}
+[7.354213] (-) TimerEvent: {}
+[7.454882] (-) TimerEvent: {}
+[7.555546] (-) TimerEvent: {}
+[7.656210] (-) TimerEvent: {}
+[7.756867] (-) TimerEvent: {}
+[7.857525] (-) TimerEvent: {}
+[7.958225] (-) TimerEvent: {}
+[8.058895] (-) TimerEvent: {}
+[8.159724] (-) TimerEvent: {}
+[8.260435] (-) TimerEvent: {}
+[8.361105] (-) TimerEvent: {}
+[8.461783] (-) TimerEvent: {}
+[8.562508] (-) TimerEvent: {}
+[8.663180] (-) TimerEvent: {}
+[8.763836] (-) TimerEvent: {}
+[8.864496] (-) TimerEvent: {}
+[8.965139] (-) TimerEvent: {}
+[9.065785] (-) TimerEvent: {}
+[9.166462] (-) TimerEvent: {}
+[9.267165] (-) TimerEvent: {}
+[9.367845] (-) TimerEvent: {}
+[9.468497] (-) TimerEvent: {}
+[9.569155] (-) TimerEvent: {}
+[9.669849] (-) TimerEvent: {}
+[9.770528] (-) TimerEvent: {}
+[9.871220] (-) TimerEvent: {}
+[9.971884] (-) TimerEvent: {}
+[10.072535] (-) TimerEvent: {}
+[10.173238] (-) TimerEvent: {}
+[10.273907] (-) TimerEvent: {}
+[10.374537] (-) TimerEvent: {}
+[10.475197] (-) TimerEvent: {}
+[10.575840] (-) TimerEvent: {}
+[10.676489] (-) TimerEvent: {}
+[10.777156] (-) TimerEvent: {}
+[10.877844] (-) TimerEvent: {}
+[10.978506] (-) TimerEvent: {}
+[11.079151] (-) TimerEvent: {}
+[11.179793] (-) TimerEvent: {}
+[11.280447] (-) TimerEvent: {}
+[11.381100] (-) TimerEvent: {}
+[11.481769] (-) TimerEvent: {}
+[11.582441] (-) TimerEvent: {}
+[11.683088] (-) TimerEvent: {}
+[11.783737] (-) TimerEvent: {}
+[11.884363] (-) TimerEvent: {}
+[11.984991] (-) TimerEvent: {}
+[12.085619] (-) TimerEvent: {}
+[12.186300] (-) TimerEvent: {}
+[12.286945] (-) TimerEvent: {}
+[12.387574] (-) TimerEvent: {}
+[12.488224] (-) TimerEvent: {}
+[12.588875] (-) TimerEvent: {}
+[12.689521] (-) TimerEvent: {}
+[12.790202] (-) TimerEvent: {}
+[12.890843] (-) TimerEvent: {}
+[12.991484] (-) TimerEvent: {}
+[13.092124] (-) TimerEvent: {}
+[13.192761] (-) TimerEvent: {}
+[13.293401] (-) TimerEvent: {}
+[13.394087] (-) TimerEvent: {}
+[13.494741] (-) TimerEvent: {}
+[13.595380] (-) TimerEvent: {}
+[13.696019] (-) TimerEvent: {}
+[13.796659] (-) TimerEvent: {}
+[13.897303] (-) TimerEvent: {}
+[13.997950] (-) TimerEvent: {}
+[14.098590] (-) TimerEvent: {}
+[14.199213] (-) TimerEvent: {}
+[14.299851] (-) TimerEvent: {}
+[14.400500] (-) TimerEvent: {}
+[14.501159] (-) TimerEvent: {}
+[14.601838] (-) TimerEvent: {}
+[14.702472] (-) TimerEvent: {}
+[14.803081] (-) TimerEvent: {}
+[14.903702] (-) TimerEvent: {}
+[15.004315] (-) TimerEvent: {}
+[15.104937] (-) TimerEvent: {}
+[15.205573] (-) TimerEvent: {}
+[15.306228] (-) TimerEvent: {}
+[15.406858] (-) TimerEvent: {}
+[15.507509] (-) TimerEvent: {}
+[15.608154] (-) TimerEvent: {}
+[15.708771] (-) TimerEvent: {}
+[15.809399] (-) TimerEvent: {}
+[15.910049] (-) TimerEvent: {}
+[16.010662] (-) TimerEvent: {}
+[16.111279] (-) TimerEvent: {}
+[16.211884] (-) TimerEvent: {}
+[16.312492] (-) TimerEvent: {}
+[16.413099] (-) TimerEvent: {}
+[16.513728] (-) TimerEvent: {}
+[16.614377] (-) TimerEvent: {}
+[16.715003] (-) TimerEvent: {}
+[16.815637] (-) TimerEvent: {}
+[16.916272] (-) TimerEvent: {}
+[17.016871] (-) TimerEvent: {}
+[17.117471] (-) TimerEvent: {}
+[17.218098] (-) TimerEvent: {}
+[17.318685] (-) TimerEvent: {}
+[17.419279] (-) TimerEvent: {}
+[17.519897] (-) TimerEvent: {}
+[17.620493] (-) TimerEvent: {}
+[17.721088] (-) TimerEvent: {}
+[17.821684] (-) TimerEvent: {}
+[17.922309] (-) TimerEvent: {}
+[18.022899] (-) TimerEvent: {}
+[18.123493] (-) TimerEvent: {}
+[18.224094] (-) TimerEvent: {}
+[18.324691] (-) TimerEvent: {}
+[18.425286] (-) TimerEvent: {}
+[18.525920] (-) TimerEvent: {}
+[18.626509] (-) TimerEvent: {}
+[18.727096] (-) TimerEvent: {}
+[18.827678] (-) TimerEvent: {}
+[18.928279] (-) TimerEvent: {}
+[19.028884] (-) TimerEvent: {}
+[19.129481] (-) TimerEvent: {}
+[19.230121] (-) TimerEvent: {}
+[19.330693] (-) TimerEvent: {}
+[19.431277] (-) TimerEvent: {}
+[19.531881] (-) TimerEvent: {}
+[19.632486] (-) TimerEvent: {}
+[19.733071] (-) TimerEvent: {}
+[19.833659] (-) TimerEvent: {}
+[19.934293] (-) TimerEvent: {}
+[20.034891] (-) TimerEvent: {}
+[20.135478] (-) TimerEvent: {}
+[20.236063] (-) TimerEvent: {}
+[20.336628] (-) TimerEvent: {}
+[20.437207] (-) TimerEvent: {}
+[20.537842] (-) TimerEvent: {}
+[20.638446] (-) TimerEvent: {}
+[20.739037] (-) TimerEvent: {}
+[20.839629] (-) TimerEvent: {}
+[20.940222] (-) TimerEvent: {}
+[21.040814] (-) TimerEvent: {}
+[21.141398] (-) TimerEvent: {}
+[21.241943] (-) TimerEvent: {}
+[21.342525] (-) TimerEvent: {}
+[21.443130] (-) TimerEvent: {}
+[21.543737] (-) TimerEvent: {}
+[21.644355] (-) TimerEvent: {}
+[21.744952] (-) TimerEvent: {}
+[21.845559] (-) TimerEvent: {}
+[21.946193] (-) TimerEvent: {}
+[22.046761] (-) TimerEvent: {}
+[22.147339] (-) TimerEvent: {}
+[22.247950] (-) TimerEvent: {}
+[22.348537] (-) TimerEvent: {}
+[22.449140] (-) TimerEvent: {}
+[22.549755] (-) TimerEvent: {}
+[22.650388] (-) TimerEvent: {}
+[22.750978] (-) TimerEvent: {}
+[22.851563] (-) TimerEvent: {}
+[22.952155] (-) TimerEvent: {}
+[23.052721] (-) TimerEvent: {}
+[23.153307] (-) TimerEvent: {}
+[23.253949] (-) TimerEvent: {}
+[23.354559] (-) TimerEvent: {}
+[23.455214] (-) TimerEvent: {}
+[23.555831] (-) TimerEvent: {}
+[23.656444] (-) TimerEvent: {}
+[23.757033] (-) TimerEvent: {}
+[23.857558] (-) TimerEvent: {}
+[23.958205] (-) TimerEvent: {}
+[24.058825] (-) TimerEvent: {}
+[24.159438] (-) TimerEvent: {}
+[24.260050] (-) TimerEvent: {}
+[24.360635] (-) TimerEvent: {}
+[24.461229] (-) TimerEvent: {}
+[24.561870] (-) TimerEvent: {}
+[24.662466] (-) TimerEvent: {}
+[24.763055] (-) TimerEvent: {}
+[24.863659] (-) TimerEvent: {}
+[24.964267] (-) TimerEvent: {}
+[25.064850] (-) TimerEvent: {}
+[25.165427] (-) TimerEvent: {}
+[25.266061] (-) TimerEvent: {}
+[25.366643] (-) TimerEvent: {}
+[25.467247] (-) TimerEvent: {}
+[25.567854] (-) TimerEvent: {}
+[25.668457] (-) TimerEvent: {}
+[25.769053] (-) TimerEvent: {}
+[25.869669] (-) TimerEvent: {}
+[25.970338] (-) TimerEvent: {}
+[26.070949] (-) TimerEvent: {}
+[26.171569] (-) TimerEvent: {}
+[26.272197] (-) TimerEvent: {}
+[26.372798] (-) TimerEvent: {}
+[26.473414] (-) TimerEvent: {}
+[26.574059] (-) TimerEvent: {}
+[26.674696] (-) TimerEvent: {}
+[26.775311] (-) TimerEvent: {}
+[26.875927] (-) TimerEvent: {}
+[26.976549] (-) TimerEvent: {}
+[27.077151] (-) TimerEvent: {}
+[27.177767] (-) TimerEvent: {}
+[27.278427] (-) TimerEvent: {}
+[27.379065] (-) TimerEvent: {}
+[27.479665] (-) TimerEvent: {}
+[27.529874] (ackermann_mux) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable ackermann_mux\x1b[0m\n'}
+[27.579837] (-) TimerEvent: {}
+[27.680474] (-) TimerEvent: {}
+[27.781130] (-) TimerEvent: {}
+[27.881837] (-) TimerEvent: {}
+[27.982514] (-) TimerEvent: {}
+[28.083141] (-) TimerEvent: {}
+[28.183793] (-) TimerEvent: {}
+[28.284429] (-) TimerEvent: {}
+[28.385005] (-) TimerEvent: {}
+[28.451935] (ackermann_mux) StdoutLine: {'line': b'[100%] Built target ackermann_mux\n'}
+[28.477110] (ackermann_mux) JobEnded: {'identifier': 'ackermann_mux', 'rc': 'SIGINT'}
+[28.485130] (-) TimerEvent: {}
+[28.488680] (particle_filter) JobSkipped: {'identifier': 'particle_filter'}
+[28.488965] (range_lib) JobSkipped: {'identifier': 'range_lib'}
+[28.489153] (joy_teleop) JobSkipped: {'identifier': 'joy_teleop'}
+[28.489218] (vesc_ackermann) JobSkipped: {'identifier': 'vesc_ackermann'}
+[28.489279] (vesc_driver) JobSkipped: {'identifier': 'vesc_driver'}
+[28.489333] (teleop_tools) JobSkipped: {'identifier': 'teleop_tools'}
+[28.489385] (vesc) JobSkipped: {'identifier': 'vesc'}
+[28.489436] (f1tenth_stack) JobSkipped: {'identifier': 'f1tenth_stack'}
+[28.489491] (-) EventReactorShutdown: {}

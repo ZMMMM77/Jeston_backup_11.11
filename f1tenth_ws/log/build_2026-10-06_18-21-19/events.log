@@ -1,0 +1,600 @@
+[0.000000] (-) TimerEvent: {}
+[0.000319] (-) JobUnselected: {'identifier': 'ackermann_mux'}
+[0.000485] (-) JobUnselected: {'identifier': 'f1tenth_stack'}
+[0.000889] (-) JobUnselected: {'identifier': 'joy_teleop'}
+[0.001154] (-) JobUnselected: {'identifier': 'key_teleop'}
+[0.001466] (-) JobUnselected: {'identifier': 'mouse_teleop'}
+[0.001559] (-) JobUnselected: {'identifier': 'particle_filter'}
+[0.001630] (-) JobUnselected: {'identifier': 'pure_pursuit'}
+[0.001696] (-) JobUnselected: {'identifier': 'range_lib'}
+[0.001780] (-) JobUnselected: {'identifier': 'teleop_tools'}
+[0.002063] (-) JobUnselected: {'identifier': 'teleop_tools_msgs'}
+[0.002293] (-) JobUnselected: {'identifier': 'vesc'}
+[0.002366] (-) JobUnselected: {'identifier': 'vesc_ackermann'}
+[0.002451] (-) JobUnselected: {'identifier': 'vesc_driver'}
+[0.002518] (-) JobUnselected: {'identifier': 'vesc_msgs'}
+[0.002634] (raceline_msgs) JobQueued: {'identifier': 'raceline_msgs', 'dependencies': OrderedDict()}
+[0.002827] (raceline_studio) JobQueued: {'identifier': 'raceline_studio', 'dependencies': OrderedDict({'raceline_msgs': '/home/nvidia/f1tenth_ws/install/raceline_msgs'})}
+[0.002974] (raceline_msgs) JobStarted: {'identifier': 'raceline_msgs'}
+[0.018832] (raceline_msgs) JobProgress: {'identifier': 'raceline_msgs', 'progress': 'cmake'}
+[0.020174] (raceline_msgs) Command: {'cmd': ['/usr/bin/cmake', '/home/nvidia/f1tenth_ws/src/raceline_UI_f1tenth/raceline_msgs', '-DCMAKE_INSTALL_PREFIX=/home/nvidia/f1tenth_ws/install/raceline_msgs'], 'cwd': '/home/nvidia/f1tenth_ws/build/raceline_msgs', 'env': OrderedDict({'USER': 'nvidia', 'SSH_CLIENT': '100.121.16.63 52543 22', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '0', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/nvidia', 'OLDPWD': '/home/nvidia', 'ROS_PYTHON_VERSION': '3', 'LC_CTYPE': 'C.UTF-8', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/2002/bus', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'nvidia', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'XDG_SESSION_ID': '28', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/2002', 'LANG': 'en_US.UTF-8', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/nvidia/f1tenth_ws/build/raceline_msgs', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '100.121.16.63 52543 100.122.20.107 22', 'PYTHONPATH': '/opt/ros/jazzy/opt/gz_math_vendor/lib/python:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[0.099343] (-) TimerEvent: {}
+[0.199712] (-) TimerEvent: {}
+[0.216075] (raceline_msgs) StdoutLine: {'line': b'-- The C compiler identification is GNU 13.3.0\n'}
+[0.299876] (-) TimerEvent: {}
+[0.398198] (raceline_msgs) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 13.3.0\n'}
+[0.399952] (-) TimerEvent: {}
+[0.439226] (raceline_msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.500207] (-) TimerEvent: {}
+[0.600898] (-) TimerEvent: {}
+[0.636122] (raceline_msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.662590] (raceline_msgs) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.663594] (raceline_msgs) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.665629] (raceline_msgs) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.688180] (raceline_msgs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.701062] (-) TimerEvent: {}
+[0.801414] (-) TimerEvent: {}
+[0.903097] (raceline_msgs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.903870] (-) TimerEvent: {}
+[0.936424] (raceline_msgs) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.937176] (raceline_msgs) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.938267] (raceline_msgs) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.945104] (raceline_msgs) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[1.004039] (-) TimerEvent: {}
+[1.104596] (-) TimerEvent: {}
+[1.204952] (-) TimerEvent: {}
+[1.305317] (-) TimerEvent: {}
+[1.327244] (raceline_msgs) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter \n'}
+[1.405479] (-) TimerEvent: {}
+[1.505911] (-) TimerEvent: {}
+[1.606239] (-) TimerEvent: {}
+[1.613706] (raceline_msgs) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.6.1 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)\n'}
+[1.629291] (raceline_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.706389] (-) TimerEvent: {}
+[1.754987] (raceline_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.806538] (-) TimerEvent: {}
+[1.858817] (raceline_msgs) StdoutLine: {'line': b'-- Found rosidl_adapter: 4.6.9 (/opt/ros/jazzy/share/rosidl_adapter/cmake)\n'}
+[1.906792] (-) TimerEvent: {}
+[2.007140] (-) TimerEvent: {}
+[2.107492] (-) TimerEvent: {}
+[2.207846] (-) TimerEvent: {}
+[2.308194] (-) TimerEvent: {}
+[2.409149] (-) TimerEvent: {}
+[2.509498] (-) TimerEvent: {}
+[2.609841] (-) TimerEvent: {}
+[2.710219] (-) TimerEvent: {}
+[2.811251] (-) TimerEvent: {}
+[2.911613] (-) TimerEvent: {}
+[3.011984] (-) TimerEvent: {}
+[3.112334] (-) TimerEvent: {}
+[3.212707] (-) TimerEvent: {}
+[3.313044] (-) TimerEvent: {}
+[3.372595] (raceline_msgs) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.12.1 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)\n'}
+[3.413211] (-) TimerEvent: {}
+[3.513554] (-) TimerEvent: {}
+[3.613928] (-) TimerEvent: {}
+[3.714295] (-) TimerEvent: {}
+[3.814713] (-) TimerEvent: {}
+[3.915084] (-) TimerEvent: {}
+[4.015457] (-) TimerEvent: {}
+[4.115808] (-) TimerEvent: {}
+[4.216170] (-) TimerEvent: {}
+[4.316528] (-) TimerEvent: {}
+[4.417061] (-) TimerEvent: {}
+[4.445552] (raceline_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[4.517220] (-) TimerEvent: {}
+[4.617794] (-) TimerEvent: {}
+[4.718793] (-) TimerEvent: {}
+[4.819227] (-) TimerEvent: {}
+[4.919630] (-) TimerEvent: {}
+[5.020008] (-) TimerEvent: {}
+[5.120847] (-) TimerEvent: {}
+[5.221245] (-) TimerEvent: {}
+[5.321613] (-) TimerEvent: {}
+[5.422766] (-) TimerEvent: {}
+[5.523137] (-) TimerEvent: {}
+[5.623589] (-) TimerEvent: {}
+[5.723960] (-) TimerEvent: {}
+[5.824335] (-) TimerEvent: {}
+[5.833841] (raceline_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[5.840457] (raceline_msgs) StdoutLine: {'line': b'-- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)\n'}
+[5.924482] (-) TimerEvent: {}
+[6.024827] (-) TimerEvent: {}
+[6.125159] (-) TimerEvent: {}
+[6.175094] (raceline_msgs) StdoutLine: {'line': b'-- Found PythonExtra: /usr/bin/python3  \n'}
+[6.225325] (-) TimerEvent: {}
+[6.326344] (-) TimerEvent: {}
+[6.426706] (-) TimerEvent: {}
+[6.527988] (-) TimerEvent: {}
+[6.628408] (-) TimerEvent: {}
+[6.728862] (-) TimerEvent: {}
+[6.829269] (-) TimerEvent: {}
+[6.930763] (-) TimerEvent: {}
+[7.031134] (-) TimerEvent: {}
+[7.131479] (-) TimerEvent: {}
+[7.231815] (-) TimerEvent: {}
+[7.305875] (raceline_msgs) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed \n'}
+[7.332043] (-) TimerEvent: {}
+[7.432394] (-) TimerEvent: {}
+[7.464681] (raceline_msgs) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter \n'}
+[7.488021] (raceline_msgs) StdoutLine: {'line': b'-- Configuring done (7.4s)\n'}
+[7.532542] (-) TimerEvent: {}
+[7.570402] (raceline_msgs) StdoutLine: {'line': b'-- Generating done (0.1s)\n'}
+[7.598097] (raceline_msgs) StdoutLine: {'line': b'-- Build files have been written to: /home/nvidia/f1tenth_ws/build/raceline_msgs\n'}
+[7.627878] (raceline_msgs) CommandEnded: {'returncode': 0}
+[7.629129] (raceline_msgs) JobProgress: {'identifier': 'raceline_msgs', 'progress': 'build'}
+[7.630803] (raceline_msgs) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/nvidia/f1tenth_ws/build/raceline_msgs', '--', '-j6', '-l6'], 'cwd': '/home/nvidia/f1tenth_ws/build/raceline_msgs', 'env': OrderedDict({'USER': 'nvidia', 'SSH_CLIENT': '100.121.16.63 52543 22', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '0', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/nvidia', 'OLDPWD': '/home/nvidia', 'ROS_PYTHON_VERSION': '3', 'LC_CTYPE': 'C.UTF-8', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/2002/bus', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'nvidia', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'XDG_SESSION_ID': '28', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/2002', 'LANG': 'en_US.UTF-8', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/nvidia/f1tenth_ws/build/raceline_msgs', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '100.121.16.63 52543 100.122.20.107 22', 'PYTHONPATH': '/opt/ros/jazzy/opt/gz_math_vendor/lib/python:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[7.632622] (-) TimerEvent: {}
+[7.733993] (-) TimerEvent: {}
+[7.746398] (raceline_msgs) StdoutLine: {'line': b'[  2%] Generating type hashes for ROS interfaces\n'}
+[7.764047] (raceline_msgs) StdoutLine: {'line': b'[  5%] Generating Rust code for ROS interfaces\n'}
+[7.771002] (raceline_msgs) StdoutLine: {'line': b'[  5%] Built target ament_cmake_python_copy_raceline_msgs\n'}
+[7.834456] (-) TimerEvent: {}
+[7.934985] (-) TimerEvent: {}
+[8.035621] (-) TimerEvent: {}
+[8.135967] (-) TimerEvent: {}
+[8.236307] (-) TimerEvent: {}
+[8.307001] (raceline_msgs) StdoutLine: {'line': b'[  5%] Built target raceline_msgs__rosidl_generator_type_description\n'}
+[8.341298] (raceline_msgs) StdoutLine: {'line': b'[  8%] Generating C code for ROS interfaces\n'}
+[8.342940] (-) TimerEvent: {}
+[8.359010] (raceline_msgs) StdoutLine: {'line': b'[ 11%] Generating C++ code for ROS interfaces\n'}
+[8.449035] (-) TimerEvent: {}
+[8.490652] (raceline_msgs) StdoutLine: {'line': b'[ 11%] Built target raceline_msgs__rs\n'}
+[8.545247] (raceline_msgs) StdoutLine: {'line': b'running egg_info\n'}
+[8.553091] (-) TimerEvent: {}
+[8.553177] (raceline_msgs) StdoutLine: {'line': b'creating raceline_msgs.egg-info\n'}
+[8.638697] (raceline_msgs) StdoutLine: {'line': b'writing raceline_msgs.egg-info/PKG-INFO\n'}
+[8.639209] (raceline_msgs) StdoutLine: {'line': b'writing dependency_links to raceline_msgs.egg-info/dependency_links.txt\n'}
+[8.639431] (raceline_msgs) StdoutLine: {'line': b'writing top-level names to raceline_msgs.egg-info/top_level.txt\n'}
+[8.639631] (raceline_msgs) StdoutLine: {'line': b"writing manifest file 'raceline_msgs.egg-info/SOURCES.txt'\n"}
+[8.653261] (-) TimerEvent: {}
+[8.753807] (-) TimerEvent: {}
+[8.853465] (raceline_msgs) StdoutLine: {'line': b"reading manifest file 'raceline_msgs.egg-info/SOURCES.txt'\n"}
+[8.854942] (-) TimerEvent: {}
+[8.855153] (raceline_msgs) StdoutLine: {'line': b"writing manifest file 'raceline_msgs.egg-info/SOURCES.txt'\n"}
+[8.958620] (-) TimerEvent: {}
+[8.960554] (raceline_msgs) StdoutLine: {'line': b'[ 11%] Built target ament_cmake_python_build_raceline_msgs_egg\n'}
+[9.058762] (-) TimerEvent: {}
+[9.164644] (-) TimerEvent: {}
+[9.210915] (raceline_msgs) StdoutLine: {'line': b'[ 14%] Building C object CMakeFiles/raceline_msgs__rosidl_generator_c.dir/rosidl_generator_c/raceline_msgs/srv/detail/update_raceline__description.c.o\n'}
+[9.217950] (raceline_msgs) StdoutLine: {'line': b'[ 17%] Building C object CMakeFiles/raceline_msgs__rosidl_generator_c.dir/rosidl_generator_c/raceline_msgs/srv/detail/update_raceline__type_support.c.o\n'}
+[9.219436] (raceline_msgs) StdoutLine: {'line': b'[ 20%] Building C object CMakeFiles/raceline_msgs__rosidl_generator_c.dir/rosidl_generator_c/raceline_msgs/srv/detail/update_raceline__functions.c.o\n'}
+[9.265531] (-) TimerEvent: {}
+[9.356722] (raceline_msgs) StdoutLine: {'line': b'[ 20%] Built target raceline_msgs__cpp\n'}
+[9.366259] (-) TimerEvent: {}
+[9.467364] (-) TimerEvent: {}
+[9.497293] (raceline_msgs) StdoutLine: {'line': b'[ 22%] Linking C shared library libraceline_msgs__rosidl_generator_c.so\n'}
+[9.567522] (-) TimerEvent: {}
+[9.575132] (raceline_msgs) StdoutLine: {'line': b'[ 22%] Built target raceline_msgs__rosidl_generator_c\n'}
+[9.601604] (raceline_msgs) StdoutLine: {'line': b'[ 25%] Generating C++ type support for eProsima Fast-RTPS\n'}
+[9.606273] (raceline_msgs) StdoutLine: {'line': b'[ 28%] Generating C++ introspection for ROS interfaces\n'}
+[9.607148] (raceline_msgs) StdoutLine: {'line': b'[ 31%] Generating C introspection for ROS interfaces\n'}
+[9.608625] (raceline_msgs) StdoutLine: {'line': b'[ 34%] Generating C type support dispatch for ROS interfaces\n'}
+[9.609674] (raceline_msgs) StdoutLine: {'line': b'[ 37%] Generating C type support for eProsima Fast-RTPS\n'}
+[9.632222] (raceline_msgs) StdoutLine: {'line': b'[ 40%] Generating C++ type support dispatch for ROS interfaces\n'}
+[9.668555] (-) TimerEvent: {}
+[9.776324] (-) TimerEvent: {}
+[9.876989] (-) TimerEvent: {}
+[9.978728] (-) TimerEvent: {}
+[10.079288] (-) TimerEvent: {}
+[10.179818] (-) TimerEvent: {}
+[10.280345] (-) TimerEvent: {}
+[10.380882] (-) TimerEvent: {}
+[10.481449] (-) TimerEvent: {}
+[10.581991] (-) TimerEvent: {}
+[10.682012] (raceline_msgs) StdoutLine: {'line': b'[ 42%] Building CXX object CMakeFiles/raceline_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/raceline_msgs/srv/detail/update_raceline__type_support.cpp.o\n'}
+[10.682888] (-) TimerEvent: {}
+[10.754794] (raceline_msgs) StdoutLine: {'line': b'[ 45%] Building CXX object CMakeFiles/raceline_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/raceline_msgs/srv/update_raceline__type_support.cpp.o\n'}
+[10.782790] (-) TimerEvent: {}
+[10.843811] (raceline_msgs) StdoutLine: {'line': b'[ 48%] Building CXX object CMakeFiles/raceline_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/raceline_msgs/srv/update_raceline__type_support.cpp.o\n'}
+[10.867754] (raceline_msgs) StdoutLine: {'line': b'[ 51%] Building C object CMakeFiles/raceline_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/raceline_msgs/srv/detail/update_raceline__type_support.c.o\n'}
+[10.882964] (-) TimerEvent: {}
+[10.955163] (raceline_msgs) StdoutLine: {'line': b'[ 54%] Building CXX object CMakeFiles/raceline_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/raceline_msgs/srv/detail/update_raceline__type_support_c.cpp.o\n'}
+[10.981996] (raceline_msgs) StdoutLine: {'line': b'[ 57%] Building CXX object CMakeFiles/raceline_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/raceline_msgs/srv/detail/dds_fastrtps/update_raceline__type_support.cpp.o\n'}
+[10.982994] (-) TimerEvent: {}
+[11.008437] (raceline_msgs) StdoutLine: {'line': b'[ 60%] Linking CXX shared library libraceline_msgs__rosidl_typesupport_c.so\n'}
+[11.062841] (raceline_msgs) StdoutLine: {'line': b'[ 62%] Linking C shared library libraceline_msgs__rosidl_typesupport_introspection_c.so\n'}
+[11.089110] (-) TimerEvent: {}
+[11.198742] (raceline_msgs) StdoutLine: {'line': b'[ 62%] Built target raceline_msgs__rosidl_typesupport_c\n'}
+[11.199363] (-) TimerEvent: {}
+[11.207283] (raceline_msgs) StdoutLine: {'line': b'[ 62%] Built target raceline_msgs__rosidl_typesupport_introspection_c\n'}
+[11.299638] (-) TimerEvent: {}
+[11.400279] (-) TimerEvent: {}
+[11.501007] (-) TimerEvent: {}
+[11.603845] (-) TimerEvent: {}
+[11.705086] (-) TimerEvent: {}
+[11.809631] (-) TimerEvent: {}
+[11.910157] (-) TimerEvent: {}
+[12.024038] (-) TimerEvent: {}
+[12.085983] (raceline_msgs) StdoutLine: {'line': b'[ 65%] Linking CXX shared library libraceline_msgs__rosidl_typesupport_cpp.so\n'}
+[12.125977] (-) TimerEvent: {}
+[12.228542] (-) TimerEvent: {}
+[12.306668] (raceline_msgs) StdoutLine: {'line': b'[ 65%] Built target raceline_msgs__rosidl_typesupport_cpp\n'}
+[12.328776] (-) TimerEvent: {}
+[12.345958] (raceline_msgs) StdoutLine: {'line': b'[ 68%] Linking CXX shared library libraceline_msgs__rosidl_typesupport_introspection_cpp.so\n'}
+[12.423331] (raceline_msgs) StdoutLine: {'line': b'[ 71%] Linking CXX shared library libraceline_msgs__rosidl_typesupport_fastrtps_c.so\n'}
+[12.429481] (-) TimerEvent: {}
+[12.531580] (-) TimerEvent: {}
+[12.564208] (raceline_msgs) StdoutLine: {'line': b'[ 71%] Built target raceline_msgs__rosidl_typesupport_introspection_cpp\n'}
+[12.633821] (raceline_msgs) StdoutLine: {'line': b'[ 71%] Built target raceline_msgs__rosidl_typesupport_fastrtps_c\n'}
+[12.634372] (-) TimerEvent: {}
+[12.734760] (-) TimerEvent: {}
+[12.835082] (-) TimerEvent: {}
+[12.937422] (-) TimerEvent: {}
+[13.020527] (raceline_msgs) StdoutLine: {'line': b'[ 74%] Linking CXX shared library libraceline_msgs__rosidl_typesupport_fastrtps_cpp.so\n'}
+[13.037666] (-) TimerEvent: {}
+[13.138044] (-) TimerEvent: {}
+[13.193827] (raceline_msgs) StdoutLine: {'line': b'[ 74%] Built target raceline_msgs__rosidl_typesupport_fastrtps_cpp\n'}
+[13.236502] (raceline_msgs) StdoutLine: {'line': b'[ 74%] Built target raceline_msgs\n'}
+[13.238234] (-) TimerEvent: {}
+[13.280375] (raceline_msgs) StdoutLine: {'line': b'[ 77%] Generating Python code for ROS interfaces\n'}
+[13.338401] (-) TimerEvent: {}
+[13.438762] (-) TimerEvent: {}
+[13.539981] (-) TimerEvent: {}
+[13.640335] (-) TimerEvent: {}
+[13.740703] (-) TimerEvent: {}
+[13.841073] (-) TimerEvent: {}
+[13.941421] (-) TimerEvent: {}
+[14.041996] (-) TimerEvent: {}
+[14.142345] (-) TimerEvent: {}
+[14.242702] (-) TimerEvent: {}
+[14.303622] (raceline_msgs) StdoutLine: {'line': b'[ 77%] Built target raceline_msgs__py\n'}
+[14.345728] (-) TimerEvent: {}
+[14.346936] (raceline_msgs) StdoutLine: {'line': b'[ 80%] Building C object CMakeFiles/raceline_msgs__rosidl_generator_py.dir/rosidl_generator_py/raceline_msgs/srv/_update_raceline_s.c.o\n'}
+[14.445889] (-) TimerEvent: {}
+[14.546817] (-) TimerEvent: {}
+[14.648187] (-) TimerEvent: {}
+[14.748625] (-) TimerEvent: {}
+[14.750234] (raceline_msgs) StdoutLine: {'line': b'[ 82%] Linking C shared library libraceline_msgs__rosidl_generator_py.so\n'}
+[14.839654] (raceline_msgs) StdoutLine: {'line': b'[ 82%] Built target raceline_msgs__rosidl_generator_py\n'}
+[14.849083] (-) TimerEvent: {}
+[14.886920] (raceline_msgs) StdoutLine: {'line': b'[ 88%] Building C object CMakeFiles/raceline_msgs_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/raceline_msgs/_raceline_msgs_s.ep.rosidl_typesupport_introspection_c.c.o\n'}
+[14.890781] (raceline_msgs) StdoutLine: {'line': b'[ 88%] Building C object CMakeFiles/raceline_msgs_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/raceline_msgs/_raceline_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o\n'}
+[14.893619] (raceline_msgs) StdoutLine: {'line': b'[ 91%] Building C object CMakeFiles/raceline_msgs_s__rosidl_typesupport_c.dir/rosidl_generator_py/raceline_msgs/_raceline_msgs_s.ep.rosidl_typesupport_c.c.o\n'}
+[14.951511] (-) TimerEvent: {}
+[15.051874] (-) TimerEvent: {}
+[15.137529] (raceline_msgs) StdoutLine: {'line': b'[ 94%] Linking C shared module rosidl_generator_py/raceline_msgs/raceline_msgs_s__rosidl_typesupport_c.so\n'}
+[15.152048] (-) TimerEvent: {}
+[15.155407] (raceline_msgs) StdoutLine: {'line': b'[ 97%] Linking C shared module rosidl_generator_py/raceline_msgs/raceline_msgs_s__rosidl_typesupport_introspection_c.so\n'}
+[15.175278] (raceline_msgs) StdoutLine: {'line': b'[100%] Linking C shared module rosidl_generator_py/raceline_msgs/raceline_msgs_s__rosidl_typesupport_fastrtps_c.so\n'}
+[15.212843] (raceline_msgs) StdoutLine: {'line': b'[100%] Built target raceline_msgs_s__rosidl_typesupport_c\n'}
+[15.228242] (raceline_msgs) StdoutLine: {'line': b'[100%] Built target raceline_msgs_s__rosidl_typesupport_introspection_c\n'}
+[15.247859] (raceline_msgs) StdoutLine: {'line': b'[100%] Built target raceline_msgs_s__rosidl_typesupport_fastrtps_c\n'}
+[15.252147] (-) TimerEvent: {}
+[15.278556] (raceline_msgs) CommandEnded: {'returncode': 0}
+[15.280278] (raceline_msgs) JobProgress: {'identifier': 'raceline_msgs', 'progress': 'install'}
+[15.304945] (raceline_msgs) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/nvidia/f1tenth_ws/build/raceline_msgs'], 'cwd': '/home/nvidia/f1tenth_ws/build/raceline_msgs', 'env': OrderedDict({'USER': 'nvidia', 'SSH_CLIENT': '100.121.16.63 52543 22', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '0', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/nvidia', 'OLDPWD': '/home/nvidia', 'ROS_PYTHON_VERSION': '3', 'LC_CTYPE': 'C.UTF-8', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/2002/bus', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'nvidia', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'XDG_SESSION_ID': '28', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/2002', 'LANG': 'en_US.UTF-8', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/nvidia/f1tenth_ws/build/raceline_msgs', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '100.121.16.63 52543 100.122.20.107 22', 'PYTHONPATH': '/opt/ros/jazzy/opt/gz_math_vendor/lib/python:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[15.324422] (raceline_msgs) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[15.326091] (raceline_msgs) StdoutLine: {'line': b'-- Installing: /home/nvidia/f1tenth_ws/install/raceline_msgs/share/ament_index/resource_index/rosidl_interfaces/raceline_msgs\n'}
+[15.326887] (raceline_msgs) StdoutLine: {'line': b'-- Installing: /home/nvidia/f1tenth_ws/install/raceline_msgs/share/raceline_msgs/srv/UpdateRaceline.json\n'}
+[15.328486] (raceline_msgs) StdoutLine: {'line': b'-- Installing: /home/nvidia/f1tenth_ws/install/raceline_msgs/include/raceline_msgs/raceline_msgs\n'}
+[15.328719] (raceline_msgs) StdoutLine: {'line': b'-- Installing: /home/nvidia/f1tenth_ws/install/raceline_msgs/include/raceline_msgs/raceline_msgs/msg\n'}
+[15.328931] (raceline_msgs) StdoutLine: {'line': b'-- Installing: /home/nvidia/f1tenth_ws/install/raceline_msgs/include/raceline_msgs/raceline_msgs/msg/rosidl_generator_c__visibility_control.h\n'}
+[15.329109] (raceline_msgs) StdoutLine: {'line': b'-- Installing: /home/nvidia/f1tenth_ws/install/raceline_msgs/include/raceline_msgs/raceline_msgs/srv\n'}
+[15.329284] (raceline_msgs) StdoutLine: {'line': b'-- Installing: /home/nvidia/f1tenth_ws/install/raceline_msgs/include/raceline_msgs/raceline_msgs/srv/update_raceline.h\n'}
+[15.329454] (raceline_msgs) StdoutLine: {'line': b'-- Installing: /home/nvidia/f1tenth_ws/install/raceline_msgs/include/raceline_msgs/raceline_msgs/srv/detail\n'}
+[15.329639] (raceline_msgs) StdoutLine: {'line': b'-- Installing: /home/nvidia/f1tenth_ws/install/raceline_msgs/include/raceline_msgs/raceline_msgs/srv/detail/update_raceline__struct.h\n'}
+[15.329813] (raceline_msgs) StdoutLine: {'line': b'-- Installing: /home/nvidia/f1tenth_ws/install/raceline_msgs/include/raceline_msgs/raceline_msgs/srv/detail/update_raceline__functions.c\n'}
+[15.335180] (raceline_msgs) StdoutLine: {'line': b'-- Installing: /home/nvidia/f1tenth_ws/install/raceline_msgs/include/raceline_msgs/raceline_msgs/srv/detail/update_raceline__functions.h\n'}
+[15.337122] (raceline_msgs) StdoutLine: {'line': b'-- Installing: /home/nvidia/f1tenth_ws/install/raceline_msgs/include/raceline_msgs/raceline_msgs/srv/detail/update_raceline__description.c\n'}
+[15.338762] (raceline_msgs) StdoutLine: {'line': b'-- Installing: /home/nvidia/f1tenth_ws/install/raceline_msgs/include/raceline_msgs/raceline_msgs/srv/detail/update_raceline__type_support.h\n'}
+[15.339050] (raceline_msgs) StdoutLine: {'line': b'-- Installing: /home/nvidia/f1tenth_ws/install/raceline_msgs/include/raceline_msgs/raceline_msgs/srv/detail/update_raceline__type_support.c\n'}
+[15.339427] (raceline_msgs) StdoutLine: {'line': b'-- Installing: /home/nvidia/f1tenth_ws/install/raceline_msgs/share/raceline_msgs/environment/library_path.sh\n'}
+[15.339682] (raceline_msgs) StdoutLine: {'line': b'-- Installing: /home/nvidia/f1tenth_ws/install/raceline_msgs/share/raceline_msgs/environment/library_path.dsv\n'}
+[15.339877] (raceline_msgs) StdoutLine: {'line': b'-- Installing: /home/nvidia/f1tenth_ws/install/raceline_msgs/lib/libraceline_msgs__rosidl_generator_c.so\n'}
+[15.340059] (raceline_msgs) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/nvidia/f1tenth_ws/install/raceline_msgs/lib/libraceline_msgs__rosidl_generator_c.so" to ""\n'}
+[15.340258] (raceline_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/f1tenth_ws/install/raceline_msgs/include/raceline_msgs/raceline_msgs\n'}
+[15.340434] (raceline_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/f1tenth_ws/install/raceline_msgs/include/raceline_msgs/raceline_msgs/msg\n'}
+[15.340607] (raceline_msgs) StdoutLine: {'line': b'-- Installing: /home/nvidia/f1tenth_ws/install/raceline_msgs/include/raceline_msgs/raceline_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[15.340778] (raceline_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/f1tenth_ws/install/raceline_msgs/include/raceline_msgs/raceline_msgs/srv\n'}
+[15.340950] (raceline_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/f1tenth_ws/install/raceline_msgs/include/raceline_msgs/raceline_msgs/srv/detail\n'}
+[15.341119] (raceline_msgs) StdoutLine: {'line': b'-- Installing: /home/nvidia/f1tenth_ws/install/raceline_msgs/include/raceline_msgs/raceline_msgs/srv/detail/update_raceline__rosidl_typesupport_fastrtps_c.h\n'}
+[15.341289] (raceline_msgs) StdoutLine: {'line': b'-- Installing: /home/nvidia/f1tenth_ws/install/raceline_msgs/lib/libraceline_msgs__rosidl_typesupport_fastrtps_c.so\n'}
+[15.341478] (raceline_msgs) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/nvidia/f1tenth_ws/install/raceline_msgs/lib/libraceline_msgs__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[15.341652] (raceline_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/f1tenth_ws/install/raceline_msgs/include/raceline_msgs/raceline_msgs\n'}
+[15.341823] (raceline_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/f1tenth_ws/install/raceline_msgs/include/raceline_msgs/raceline_msgs/msg\n'}
+[15.343308] (raceline_msgs) StdoutLine: {'line': b'-- Installing: /home/nvidia/f1tenth_ws/install/raceline_msgs/include/raceline_msgs/raceline_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[15.344136] (raceline_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/f1tenth_ws/install/raceline_msgs/include/raceline_msgs/raceline_msgs/srv\n'}
+[15.344370] (raceline_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/f1tenth_ws/install/raceline_msgs/include/raceline_msgs/raceline_msgs/srv/detail\n'}
+[15.344589] (raceline_msgs) StdoutLine: {'line': b'-- Installing: /home/nvidia/f1tenth_ws/install/raceline_msgs/include/raceline_msgs/raceline_msgs/srv/detail/update_raceline__rosidl_typesupport_introspection_c.h\n'}
+[15.344787] (raceline_msgs) StdoutLine: {'line': b'-- Installing: /home/nvidia/f1tenth_ws/install/raceline_msgs/include/raceline_msgs/raceline_msgs/srv/detail/update_raceline__type_support.c\n'}
+[15.345008] (raceline_msgs) StdoutLine: {'line': b'-- Installing: /home/nvidia/f1tenth_ws/install/raceline_msgs/lib/libraceline_msgs__rosidl_typesupport_introspection_c.so\n'}
+[15.345194] (raceline_msgs) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/nvidia/f1tenth_ws/install/raceline_msgs/lib/libraceline_msgs__rosidl_typesupport_introspection_c.so" to ""\n'}
+[15.345380] (raceline_msgs) StdoutLine: {'line': b'-- Installing: /home/nvidia/f1tenth_ws/install/raceline_msgs/lib/libraceline_msgs__rosidl_typesupport_c.so\n'}
+[15.345564] (raceline_msgs) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/nvidia/f1tenth_ws/install/raceline_msgs/lib/libraceline_msgs__rosidl_typesupport_c.so" to ""\n'}
+[15.345745] (raceline_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/f1tenth_ws/install/raceline_msgs/include/raceline_msgs/raceline_msgs\n'}
+[15.345923] (raceline_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/f1tenth_ws/install/raceline_msgs/include/raceline_msgs/raceline_msgs/msg\n'}
+[15.346100] (raceline_msgs) StdoutLine: {'line': b'-- Installing: /home/nvidia/f1tenth_ws/install/raceline_msgs/include/raceline_msgs/raceline_msgs/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[15.346529] (raceline_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/f1tenth_ws/install/raceline_msgs/include/raceline_msgs/raceline_msgs/srv\n'}
+[15.346799] (raceline_msgs) StdoutLine: {'line': b'-- Installing: /home/nvidia/f1tenth_ws/install/raceline_msgs/include/raceline_msgs/raceline_msgs/srv/update_raceline.hpp\n'}
+[15.347001] (raceline_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/f1tenth_ws/install/raceline_msgs/include/raceline_msgs/raceline_msgs/srv/detail\n'}
+[15.347220] (raceline_msgs) StdoutLine: {'line': b'-- Installing: /home/nvidia/f1tenth_ws/install/raceline_msgs/include/raceline_msgs/raceline_msgs/srv/detail/update_raceline__type_support.hpp\n'}
+[15.347562] (raceline_msgs) StdoutLine: {'line': b'-- Installing: /home/nvidia/f1tenth_ws/install/raceline_msgs/include/raceline_msgs/raceline_msgs/srv/detail/update_raceline__struct.hpp\n'}
+[15.348804] (raceline_msgs) StdoutLine: {'line': b'-- Installing: /home/nvidia/f1tenth_ws/install/raceline_msgs/include/raceline_msgs/raceline_msgs/srv/detail/update_raceline__builder.hpp\n'}
+[15.349009] (raceline_msgs) StdoutLine: {'line': b'-- Installing: /home/nvidia/f1tenth_ws/install/raceline_msgs/include/raceline_msgs/raceline_msgs/srv/detail/update_raceline__traits.hpp\n'}
+[15.349384] (raceline_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/f1tenth_ws/install/raceline_msgs/include/raceline_msgs/raceline_msgs\n'}
+[15.349573] (raceline_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/f1tenth_ws/install/raceline_msgs/include/raceline_msgs/raceline_msgs/msg\n'}
+[15.349906] (raceline_msgs) StdoutLine: {'line': b'-- Installing: /home/nvidia/f1tenth_ws/install/raceline_msgs/include/raceline_msgs/raceline_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[15.350104] (raceline_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/f1tenth_ws/install/raceline_msgs/include/raceline_msgs/raceline_msgs/srv\n'}
+[15.350292] (raceline_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/f1tenth_ws/install/raceline_msgs/include/raceline_msgs/raceline_msgs/srv/detail\n'}
+[15.350476] (raceline_msgs) StdoutLine: {'line': b'-- Installing: /home/nvidia/f1tenth_ws/install/raceline_msgs/include/raceline_msgs/raceline_msgs/srv/detail/dds_fastrtps\n'}
+[15.350751] (raceline_msgs) StdoutLine: {'line': b'-- Installing: /home/nvidia/f1tenth_ws/install/raceline_msgs/include/raceline_msgs/raceline_msgs/srv/detail/update_raceline__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[15.351003] (raceline_msgs) StdoutLine: {'line': b'-- Installing: /home/nvidia/f1tenth_ws/install/raceline_msgs/lib/libraceline_msgs__rosidl_typesupport_fastrtps_cpp.so\n'}
+[15.351220] (raceline_msgs) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/nvidia/f1tenth_ws/install/raceline_msgs/lib/libraceline_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[15.351422] (raceline_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/f1tenth_ws/install/raceline_msgs/include/raceline_msgs/raceline_msgs\n'}
+[15.351602] (raceline_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/f1tenth_ws/install/raceline_msgs/include/raceline_msgs/raceline_msgs/srv\n'}
+[15.351825] (raceline_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/f1tenth_ws/install/raceline_msgs/include/raceline_msgs/raceline_msgs/srv/detail\n'}
+[15.352038] (raceline_msgs) StdoutLine: {'line': b'-- Installing: /home/nvidia/f1tenth_ws/install/raceline_msgs/include/raceline_msgs/raceline_msgs/srv/detail/update_raceline__type_support.cpp\n'}
+[15.352224] (-) TimerEvent: {}
+[15.352263] (raceline_msgs) StdoutLine: {'line': b'-- Installing: /home/nvidia/f1tenth_ws/install/raceline_msgs/include/raceline_msgs/raceline_msgs/srv/detail/update_raceline__rosidl_typesupport_introspection_cpp.hpp\n'}
+[15.352529] (raceline_msgs) StdoutLine: {'line': b'-- Installing: /home/nvidia/f1tenth_ws/install/raceline_msgs/lib/libraceline_msgs__rosidl_typesupport_introspection_cpp.so\n'}
+[15.352722] (raceline_msgs) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/nvidia/f1tenth_ws/install/raceline_msgs/lib/libraceline_msgs__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[15.352993] (raceline_msgs) StdoutLine: {'line': b'-- Installing: /home/nvidia/f1tenth_ws/install/raceline_msgs/lib/libraceline_msgs__rosidl_typesupport_cpp.so\n'}
+[15.353200] (raceline_msgs) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/nvidia/f1tenth_ws/install/raceline_msgs/lib/libraceline_msgs__rosidl_typesupport_cpp.so" to ""\n'}
+[15.353386] (raceline_msgs) StdoutLine: {'line': b'-- Installing: /home/nvidia/f1tenth_ws/install/raceline_msgs/share/raceline_msgs/environment/pythonpath.sh\n'}
+[15.353567] (raceline_msgs) StdoutLine: {'line': b'-- Installing: /home/nvidia/f1tenth_ws/install/raceline_msgs/share/raceline_msgs/environment/pythonpath.dsv\n'}
+[15.353745] (raceline_msgs) StdoutLine: {'line': b'-- Installing: /home/nvidia/f1tenth_ws/install/raceline_msgs/lib/python3.12/site-packages/raceline_msgs-0.0.0-py3.12.egg-info\n'}
+[15.353922] (raceline_msgs) StdoutLine: {'line': b'-- Installing: /home/nvidia/f1tenth_ws/install/raceline_msgs/lib/python3.12/site-packages/raceline_msgs-0.0.0-py3.12.egg-info/PKG-INFO\n'}
+[15.354196] (raceline_msgs) StdoutLine: {'line': b'-- Installing: /home/nvidia/f1tenth_ws/install/raceline_msgs/lib/python3.12/site-packages/raceline_msgs-0.0.0-py3.12.egg-info/dependency_links.txt\n'}
+[15.354393] (raceline_msgs) StdoutLine: {'line': b'-- Installing: /home/nvidia/f1tenth_ws/install/raceline_msgs/lib/python3.12/site-packages/raceline_msgs-0.0.0-py3.12.egg-info/SOURCES.txt\n'}
+[15.354582] (raceline_msgs) StdoutLine: {'line': b'-- Installing: /home/nvidia/f1tenth_ws/install/raceline_msgs/lib/python3.12/site-packages/raceline_msgs-0.0.0-py3.12.egg-info/top_level.txt\n'}
+[15.354806] (raceline_msgs) StdoutLine: {'line': b'-- Installing: /home/nvidia/f1tenth_ws/install/raceline_msgs/lib/python3.12/site-packages/raceline_msgs\n'}
+[15.354988] (raceline_msgs) StdoutLine: {'line': b'-- Installing: /home/nvidia/f1tenth_ws/install/raceline_msgs/lib/python3.12/site-packages/raceline_msgs/_raceline_msgs_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[15.355440] (raceline_msgs) StdoutLine: {'line': b'-- Installing: /home/nvidia/f1tenth_ws/install/raceline_msgs/lib/python3.12/site-packages/raceline_msgs/raceline_msgs_s__rosidl_typesupport_introspection_c.so\n'}
+[15.355687] (raceline_msgs) StdoutLine: {'line': b'-- Installing: /home/nvidia/f1tenth_ws/install/raceline_msgs/lib/python3.12/site-packages/raceline_msgs/raceline_msgs_s__rosidl_typesupport_c.so\n'}
+[15.355879] (raceline_msgs) StdoutLine: {'line': b'-- Installing: /home/nvidia/f1tenth_ws/install/raceline_msgs/lib/python3.12/site-packages/raceline_msgs/_raceline_msgs_s.ep.rosidl_typesupport_c.c\n'}
+[15.356077] (raceline_msgs) StdoutLine: {'line': b'-- Installing: /home/nvidia/f1tenth_ws/install/raceline_msgs/lib/python3.12/site-packages/raceline_msgs/srv\n'}
+[15.356317] (raceline_msgs) StdoutLine: {'line': b'-- Installing: /home/nvidia/f1tenth_ws/install/raceline_msgs/lib/python3.12/site-packages/raceline_msgs/srv/_update_raceline.py\n'}
+[15.362325] (raceline_msgs) StdoutLine: {'line': b'-- Installing: /home/nvidia/f1tenth_ws/install/raceline_msgs/lib/python3.12/site-packages/raceline_msgs/srv/_update_raceline_s.c\n'}
+[15.362725] (raceline_msgs) StdoutLine: {'line': b'-- Installing: /home/nvidia/f1tenth_ws/install/raceline_msgs/lib/python3.12/site-packages/raceline_msgs/srv/__init__.py\n'}
+[15.362961] (raceline_msgs) StdoutLine: {'line': b'-- Installing: /home/nvidia/f1tenth_ws/install/raceline_msgs/lib/python3.12/site-packages/raceline_msgs/raceline_msgs_s__rosidl_typesupport_fastrtps_c.so\n'}
+[15.363240] (raceline_msgs) StdoutLine: {'line': b'-- Installing: /home/nvidia/f1tenth_ws/install/raceline_msgs/lib/python3.12/site-packages/raceline_msgs/_raceline_msgs_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[15.363800] (raceline_msgs) StdoutLine: {'line': b'-- Installing: /home/nvidia/f1tenth_ws/install/raceline_msgs/lib/python3.12/site-packages/raceline_msgs/__init__.py\n'}
+[15.445922] (raceline_msgs) StdoutLine: {'line': b"Listing '/home/nvidia/f1tenth_ws/install/raceline_msgs/lib/python3.12/site-packages/raceline_msgs'...\n"}
+[15.446456] (raceline_msgs) StdoutLine: {'line': b"Compiling '/home/nvidia/f1tenth_ws/install/raceline_msgs/lib/python3.12/site-packages/raceline_msgs/__init__.py'...\n"}
+[15.446939] (raceline_msgs) StdoutLine: {'line': b"Listing '/home/nvidia/f1tenth_ws/install/raceline_msgs/lib/python3.12/site-packages/raceline_msgs/srv'...\n"}
+[15.447172] (raceline_msgs) StdoutLine: {'line': b"Compiling '/home/nvidia/f1tenth_ws/install/raceline_msgs/lib/python3.12/site-packages/raceline_msgs/srv/__init__.py'...\n"}
+[15.447372] (raceline_msgs) StdoutLine: {'line': b"Compiling '/home/nvidia/f1tenth_ws/install/raceline_msgs/lib/python3.12/site-packages/raceline_msgs/srv/_update_raceline.py'...\n"}
+[15.452365] (-) TimerEvent: {}
+[15.465736] (raceline_msgs) StdoutLine: {'line': b'-- Installing: /home/nvidia/f1tenth_ws/install/raceline_msgs/lib/python3.12/site-packages/raceline_msgs/raceline_msgs_s__rosidl_typesupport_fastrtps_c.so\n'}
+[15.466478] (raceline_msgs) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/nvidia/f1tenth_ws/install/raceline_msgs/lib/python3.12/site-packages/raceline_msgs/raceline_msgs_s__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[15.466965] (raceline_msgs) StdoutLine: {'line': b'-- Installing: /home/nvidia/f1tenth_ws/install/raceline_msgs/lib/python3.12/site-packages/raceline_msgs/raceline_msgs_s__rosidl_typesupport_introspection_c.so\n'}
+[15.471108] (raceline_msgs) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/nvidia/f1tenth_ws/install/raceline_msgs/lib/python3.12/site-packages/raceline_msgs/raceline_msgs_s__rosidl_typesupport_introspection_c.so" to ""\n'}
+[15.471879] (raceline_msgs) StdoutLine: {'line': b'-- Installing: /home/nvidia/f1tenth_ws/install/raceline_msgs/lib/python3.12/site-packages/raceline_msgs/raceline_msgs_s__rosidl_typesupport_c.so\n'}
+[15.472254] (raceline_msgs) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/nvidia/f1tenth_ws/install/raceline_msgs/lib/python3.12/site-packages/raceline_msgs/raceline_msgs_s__rosidl_typesupport_c.so" to ""\n'}
+[15.472688] (raceline_msgs) StdoutLine: {'line': b'-- Installing: /home/nvidia/f1tenth_ws/install/raceline_msgs/lib/libraceline_msgs__rosidl_generator_py.so\n'}
+[15.472892] (raceline_msgs) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/nvidia/f1tenth_ws/install/raceline_msgs/lib/libraceline_msgs__rosidl_generator_py.so" to ""\n'}
+[15.473086] (raceline_msgs) StdoutLine: {'line': b'-- Installing: /home/nvidia/f1tenth_ws/install/raceline_msgs/share/raceline_msgs/rust\n'}
+[15.473277] (raceline_msgs) StdoutLine: {'line': b'-- Installing: /home/nvidia/f1tenth_ws/install/raceline_msgs/share/raceline_msgs/rust/build.rs\n'}
+[15.473496] (raceline_msgs) StdoutLine: {'line': b'-- Installing: /home/nvidia/f1tenth_ws/install/raceline_msgs/share/raceline_msgs/rust/Cargo.toml\n'}
+[15.473680] (raceline_msgs) StdoutLine: {'line': b'-- Installing: /home/nvidia/f1tenth_ws/install/raceline_msgs/share/raceline_msgs/rust/src\n'}
+[15.473860] (raceline_msgs) StdoutLine: {'line': b'-- Installing: /home/nvidia/f1tenth_ws/install/raceline_msgs/share/raceline_msgs/rust/src/lib.rs\n'}
+[15.474040] (raceline_msgs) StdoutLine: {'line': b'-- Installing: /home/nvidia/f1tenth_ws/install/raceline_msgs/share/raceline_msgs/rust/src/srv.rs\n'}
+[15.474219] (raceline_msgs) StdoutLine: {'line': b'-- Installing: /home/nvidia/f1tenth_ws/install/raceline_msgs/share/raceline_msgs/rust/src/srv\n'}
+[15.474397] (raceline_msgs) StdoutLine: {'line': b'-- Installing: /home/nvidia/f1tenth_ws/install/raceline_msgs/share/raceline_msgs/rust/src/srv/rmw.rs\n'}
+[15.474573] (raceline_msgs) StdoutLine: {'line': b'-- Installing: /home/nvidia/f1tenth_ws/install/raceline_msgs/share/raceline_msgs/srv/UpdateRaceline.idl\n'}
+[15.475000] (raceline_msgs) StdoutLine: {'line': b'-- Installing: /home/nvidia/f1tenth_ws/install/raceline_msgs/share/raceline_msgs/srv/UpdateRaceline.srv\n'}
+[15.476516] (raceline_msgs) StdoutLine: {'line': b'-- Installing: /home/nvidia/f1tenth_ws/install/raceline_msgs/share/ament_index/resource_index/package_run_dependencies/raceline_msgs\n'}
+[15.477346] (raceline_msgs) StdoutLine: {'line': b'-- Installing: /home/nvidia/f1tenth_ws/install/raceline_msgs/share/ament_index/resource_index/parent_prefix_path/raceline_msgs\n'}
+[15.477604] (raceline_msgs) StdoutLine: {'line': b'-- Installing: /home/nvidia/f1tenth_ws/install/raceline_msgs/share/raceline_msgs/environment/ament_prefix_path.sh\n'}
+[15.477799] (raceline_msgs) StdoutLine: {'line': b'-- Installing: /home/nvidia/f1tenth_ws/install/raceline_msgs/share/raceline_msgs/environment/ament_prefix_path.dsv\n'}
+[15.477979] (raceline_msgs) StdoutLine: {'line': b'-- Installing: /home/nvidia/f1tenth_ws/install/raceline_msgs/share/raceline_msgs/environment/path.sh\n'}
+[15.478154] (raceline_msgs) StdoutLine: {'line': b'-- Installing: /home/nvidia/f1tenth_ws/install/raceline_msgs/share/raceline_msgs/environment/path.dsv\n'}
+[15.478325] (raceline_msgs) StdoutLine: {'line': b'-- Installing: /home/nvidia/f1tenth_ws/install/raceline_msgs/share/raceline_msgs/local_setup.bash\n'}
+[15.478496] (raceline_msgs) StdoutLine: {'line': b'-- Installing: /home/nvidia/f1tenth_ws/install/raceline_msgs/share/raceline_msgs/local_setup.sh\n'}
+[15.478756] (raceline_msgs) StdoutLine: {'line': b'-- Installing: /home/nvidia/f1tenth_ws/install/raceline_msgs/share/raceline_msgs/local_setup.zsh\n'}
+[15.478947] (raceline_msgs) StdoutLine: {'line': b'-- Installing: /home/nvidia/f1tenth_ws/install/raceline_msgs/share/raceline_msgs/local_setup.dsv\n'}
+[15.479128] (raceline_msgs) StdoutLine: {'line': b'-- Installing: /home/nvidia/f1tenth_ws/install/raceline_msgs/share/raceline_msgs/package.dsv\n'}
+[15.479313] (raceline_msgs) StdoutLine: {'line': b'-- Installing: /home/nvidia/f1tenth_ws/install/raceline_msgs/share/ament_index/resource_index/packages/raceline_msgs\n'}
+[15.479493] (raceline_msgs) StdoutLine: {'line': b'-- Installing: /home/nvidia/f1tenth_ws/install/raceline_msgs/share/raceline_msgs/cmake/export_raceline_msgs__rosidl_generator_cExport.cmake\n'}
+[15.479673] (raceline_msgs) StdoutLine: {'line': b'-- Installing: /home/nvidia/f1tenth_ws/install/raceline_msgs/share/raceline_msgs/cmake/export_raceline_msgs__rosidl_generator_cExport-noconfig.cmake\n'}
+[15.479850] (raceline_msgs) StdoutLine: {'line': b'-- Installing: /home/nvidia/f1tenth_ws/install/raceline_msgs/share/raceline_msgs/cmake/export_raceline_msgs__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[15.480674] (raceline_msgs) StdoutLine: {'line': b'-- Installing: /home/nvidia/f1tenth_ws/install/raceline_msgs/share/raceline_msgs/cmake/export_raceline_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[15.480900] (raceline_msgs) StdoutLine: {'line': b'-- Installing: /home/nvidia/f1tenth_ws/install/raceline_msgs/share/raceline_msgs/cmake/raceline_msgs__rosidl_typesupport_introspection_cExport.cmake\n'}
+[15.481076] (raceline_msgs) StdoutLine: {'line': b'-- Installing: /home/nvidia/f1tenth_ws/install/raceline_msgs/share/raceline_msgs/cmake/raceline_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[15.481247] (raceline_msgs) StdoutLine: {'line': b'-- Installing: /home/nvidia/f1tenth_ws/install/raceline_msgs/share/raceline_msgs/cmake/raceline_msgs__rosidl_typesupport_cExport.cmake\n'}
+[15.481416] (raceline_msgs) StdoutLine: {'line': b'-- Installing: /home/nvidia/f1tenth_ws/install/raceline_msgs/share/raceline_msgs/cmake/raceline_msgs__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[15.481583] (raceline_msgs) StdoutLine: {'line': b'-- Installing: /home/nvidia/f1tenth_ws/install/raceline_msgs/share/raceline_msgs/cmake/export_raceline_msgs__rosidl_generator_cppExport.cmake\n'}
+[15.481751] (raceline_msgs) StdoutLine: {'line': b'-- Installing: /home/nvidia/f1tenth_ws/install/raceline_msgs/share/raceline_msgs/cmake/export_raceline_msgs__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[15.483033] (raceline_msgs) StdoutLine: {'line': b'-- Installing: /home/nvidia/f1tenth_ws/install/raceline_msgs/share/raceline_msgs/cmake/export_raceline_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[15.484333] (raceline_msgs) StdoutLine: {'line': b'-- Installing: /home/nvidia/f1tenth_ws/install/raceline_msgs/share/raceline_msgs/cmake/raceline_msgs__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[15.485279] (raceline_msgs) StdoutLine: {'line': b'-- Installing: /home/nvidia/f1tenth_ws/install/raceline_msgs/share/raceline_msgs/cmake/raceline_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[15.485504] (raceline_msgs) StdoutLine: {'line': b'-- Installing: /home/nvidia/f1tenth_ws/install/raceline_msgs/share/raceline_msgs/cmake/raceline_msgs__rosidl_typesupport_cppExport.cmake\n'}
+[15.485693] (raceline_msgs) StdoutLine: {'line': b'-- Installing: /home/nvidia/f1tenth_ws/install/raceline_msgs/share/raceline_msgs/cmake/raceline_msgs__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[15.485877] (raceline_msgs) StdoutLine: {'line': b'-- Installing: /home/nvidia/f1tenth_ws/install/raceline_msgs/share/raceline_msgs/cmake/export_raceline_msgs__rosidl_generator_pyExport.cmake\n'}
+[15.486055] (raceline_msgs) StdoutLine: {'line': b'-- Installing: /home/nvidia/f1tenth_ws/install/raceline_msgs/share/raceline_msgs/cmake/export_raceline_msgs__rosidl_generator_pyExport-noconfig.cmake\n'}
+[15.486233] (raceline_msgs) StdoutLine: {'line': b'-- Installing: /home/nvidia/f1tenth_ws/install/raceline_msgs/share/raceline_msgs/cmake/rosidl_cmake-extras.cmake\n'}
+[15.486412] (raceline_msgs) StdoutLine: {'line': b'-- Installing: /home/nvidia/f1tenth_ws/install/raceline_msgs/share/raceline_msgs/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[15.486985] (raceline_msgs) StdoutLine: {'line': b'-- Installing: /home/nvidia/f1tenth_ws/install/raceline_msgs/share/raceline_msgs/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[15.487905] (raceline_msgs) StdoutLine: {'line': b'-- Installing: /home/nvidia/f1tenth_ws/install/raceline_msgs/share/raceline_msgs/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[15.488629] (raceline_msgs) StdoutLine: {'line': b'-- Installing: /home/nvidia/f1tenth_ws/install/raceline_msgs/share/raceline_msgs/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[15.489176] (raceline_msgs) StdoutLine: {'line': b'-- Installing: /home/nvidia/f1tenth_ws/install/raceline_msgs/share/raceline_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[15.489588] (raceline_msgs) StdoutLine: {'line': b'-- Installing: /home/nvidia/f1tenth_ws/install/raceline_msgs/share/raceline_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[15.490028] (raceline_msgs) StdoutLine: {'line': b'-- Installing: /home/nvidia/f1tenth_ws/install/raceline_msgs/share/raceline_msgs/cmake/rosidl_cmake_aggregate_target-extras.cmake\n'}
+[15.490225] (raceline_msgs) StdoutLine: {'line': b'-- Installing: /home/nvidia/f1tenth_ws/install/raceline_msgs/share/raceline_msgs/cmake/raceline_msgsConfig.cmake\n'}
+[15.490402] (raceline_msgs) StdoutLine: {'line': b'-- Installing: /home/nvidia/f1tenth_ws/install/raceline_msgs/share/raceline_msgs/cmake/raceline_msgsConfig-version.cmake\n'}
+[15.490665] (raceline_msgs) StdoutLine: {'line': b'-- Installing: /home/nvidia/f1tenth_ws/install/raceline_msgs/share/raceline_msgs/package.xml\n'}
+[15.491142] (raceline_msgs) CommandEnded: {'returncode': 0}
+[15.548334] (raceline_msgs) JobEnded: {'identifier': 'raceline_msgs', 'rc': 0}
+[15.551003] (raceline_studio) JobStarted: {'identifier': 'raceline_studio'}
+[15.552471] (-) TimerEvent: {}
+[15.652776] (-) TimerEvent: {}
+[15.753129] (-) TimerEvent: {}
+[15.853478] (-) TimerEvent: {}
+[15.953821] (-) TimerEvent: {}
+[16.054171] (-) TimerEvent: {}
+[16.154519] (-) TimerEvent: {}
+[16.254912] (-) TimerEvent: {}
+[16.355279] (-) TimerEvent: {}
+[16.455634] (-) TimerEvent: {}
+[16.555975] (-) TimerEvent: {}
+[16.656401] (-) TimerEvent: {}
+[16.756759] (-) TimerEvent: {}
+[16.857107] (-) TimerEvent: {}
+[16.957650] (-) TimerEvent: {}
+[17.057993] (-) TimerEvent: {}
+[17.158344] (-) TimerEvent: {}
+[17.258723] (-) TimerEvent: {}
+[17.359072] (-) TimerEvent: {}
+[17.459452] (-) TimerEvent: {}
+[17.559962] (-) TimerEvent: {}
+[17.660341] (-) TimerEvent: {}
+[17.760708] (-) TimerEvent: {}
+[17.861061] (-) TimerEvent: {}
+[17.961401] (-) TimerEvent: {}
+[18.061755] (-) TimerEvent: {}
+[18.162139] (-) TimerEvent: {}
+[18.262497] (-) TimerEvent: {}
+[18.314041] (raceline_studio) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../../build/raceline_studio', 'build', '--build-base', '/home/nvidia/f1tenth_ws/build/raceline_studio/build', 'install', '--record', '/home/nvidia/f1tenth_ws/build/raceline_studio/install.log', '--install-scripts', '$base/lib/raceline_studio', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/nvidia/f1tenth_ws/src/raceline_UI_f1tenth/raceline_studio', 'env': OrderedDict({'USER': 'nvidia', 'SSH_CLIENT': '100.121.16.63 52543 22', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '0', 'LD_LIBRARY_PATH': '/home/nvidia/f1tenth_ws/install/raceline_msgs/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/nvidia', 'OLDPWD': '/home/nvidia', 'ROS_PYTHON_VERSION': '3', 'LC_CTYPE': 'C.UTF-8', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/2002/bus', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'nvidia', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'XDG_SESSION_ID': '28', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/2002', 'LANG': 'en_US.UTF-8', 'AMENT_PREFIX_PATH': '/home/nvidia/f1tenth_ws/install/raceline_msgs:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/nvidia/f1tenth_ws/build/raceline_studio', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '100.121.16.63 52543 100.122.20.107 22', 'PYTHONPATH': '/home/nvidia/f1tenth_ws/build/raceline_studio/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/nvidia/f1tenth_ws/install/raceline_studio/lib/python3.12/site-packages:/home/nvidia/f1tenth_ws/install/raceline_msgs/lib/python3.12/site-packages:/opt/ros/jazzy/opt/gz_math_vendor/lib/python:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/nvidia/f1tenth_ws/install/raceline_msgs:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor'}), 'shell': False}
+[18.362675] (-) TimerEvent: {}
+[18.462999] (-) TimerEvent: {}
+[18.563355] (-) TimerEvent: {}
+[18.663706] (-) TimerEvent: {}
+[18.764078] (-) TimerEvent: {}
+[18.864415] (-) TimerEvent: {}
+[18.964745] (-) TimerEvent: {}
+[19.065090] (-) TimerEvent: {}
+[19.082131] (raceline_studio) StdoutLine: {'line': b'running egg_info\n'}
+[19.083300] (raceline_studio) StdoutLine: {'line': b'creating ../../../build/raceline_studio/raceline_studio.egg-info\n'}
+[19.142975] (raceline_studio) StdoutLine: {'line': b'writing ../../../build/raceline_studio/raceline_studio.egg-info/PKG-INFO\n'}
+[19.146978] (raceline_studio) StdoutLine: {'line': b'writing dependency_links to ../../../build/raceline_studio/raceline_studio.egg-info/dependency_links.txt\n'}
+[19.147432] (raceline_studio) StdoutLine: {'line': b'writing entry points to ../../../build/raceline_studio/raceline_studio.egg-info/entry_points.txt\n'}
+[19.147654] (raceline_studio) StdoutLine: {'line': b'writing requirements to ../../../build/raceline_studio/raceline_studio.egg-info/requires.txt\n'}
+[19.147861] (raceline_studio) StdoutLine: {'line': b'writing top-level names to ../../../build/raceline_studio/raceline_studio.egg-info/top_level.txt\n'}
+[19.148053] (raceline_studio) StdoutLine: {'line': b"writing manifest file '../../../build/raceline_studio/raceline_studio.egg-info/SOURCES.txt'\n"}
+[19.165233] (-) TimerEvent: {}
+[19.265578] (-) TimerEvent: {}
+[19.267568] (raceline_studio) StdoutLine: {'line': b"reading manifest file '../../../build/raceline_studio/raceline_studio.egg-info/SOURCES.txt'\n"}
+[19.268996] (raceline_studio) StdoutLine: {'line': b"writing manifest file '../../../build/raceline_studio/raceline_studio.egg-info/SOURCES.txt'\n"}
+[19.269612] (raceline_studio) StdoutLine: {'line': b'running build\n'}
+[19.269980] (raceline_studio) StdoutLine: {'line': b'running build_py\n'}
+[19.270459] (raceline_studio) StdoutLine: {'line': b'creating /home/nvidia/f1tenth_ws/build/raceline_studio/build\n'}
+[19.271184] (raceline_studio) StdoutLine: {'line': b'creating /home/nvidia/f1tenth_ws/build/raceline_studio/build/lib\n'}
+[19.271401] (raceline_studio) StdoutLine: {'line': b'creating /home/nvidia/f1tenth_ws/build/raceline_studio/build/lib/raceline_studio\n'}
+[19.271595] (raceline_studio) StdoutLine: {'line': b'copying raceline_studio/app.py -> /home/nvidia/f1tenth_ws/build/raceline_studio/build/lib/raceline_studio\n'}
+[19.271806] (raceline_studio) StdoutLine: {'line': b'copying raceline_studio/raceline_optimizer.py -> /home/nvidia/f1tenth_ws/build/raceline_studio/build/lib/raceline_studio\n'}
+[19.272451] (raceline_studio) StdoutLine: {'line': b'copying raceline_studio/__init__.py -> /home/nvidia/f1tenth_ws/build/raceline_studio/build/lib/raceline_studio\n'}
+[19.273149] (raceline_studio) StderrLine: {'line': b"/usr/lib/python3/dist-packages/setuptools/command/build_py.py:204: _Warning: Package 'raceline_studio.static.vendor' is absent from the `packages` configuration.\n"}
+[19.273979] (raceline_studio) StderrLine: {'line': b'!!\n'}
+[19.274226] (raceline_studio) StderrLine: {'line': b'\n'}
+[19.274430] (raceline_studio) StderrLine: {'line': b'        ********************************************************************************\n'}
+[19.274910] (raceline_studio) StderrLine: {'line': b'        ############################\n'}
+[19.275322] (raceline_studio) StderrLine: {'line': b'        # Package would be ignored #\n'}
+[19.276525] (raceline_studio) StderrLine: {'line': b'        ############################\n'}
+[19.277268] (raceline_studio) StderrLine: {'line': b"        Python recognizes 'raceline_studio.static.vendor' as an importable package[^1],\n"}
+[19.277512] (raceline_studio) StderrLine: {'line': b"        but it is absent from setuptools' `packages` configuration.\n"}
+[19.277713] (raceline_studio) StderrLine: {'line': b'\n'}
+[19.277898] (raceline_studio) StderrLine: {'line': b'        This leads to an ambiguous overall configuration. If you want to distribute this\n'}
+[19.278083] (raceline_studio) StderrLine: {'line': b"        package, please make sure that 'raceline_studio.static.vendor' is explicitly added\n"}
+[19.278263] (raceline_studio) StderrLine: {'line': b'        to the `packages` configuration field.\n'}
+[19.278464] (raceline_studio) StderrLine: {'line': b'\n'}
+[19.278729] (raceline_studio) StderrLine: {'line': b"        Alternatively, you can also rely on setuptools' discovery methods\n"}
+[19.278955] (raceline_studio) StderrLine: {'line': b'        (for example by using `find_namespace_packages(...)`/`find_namespace:`\n'}
+[19.279140] (raceline_studio) StderrLine: {'line': b'        instead of `find_packages(...)`/`find:`).\n'}
+[19.279321] (raceline_studio) StderrLine: {'line': b'\n'}
+[19.279495] (raceline_studio) StderrLine: {'line': b'        You can read more about "package discovery" on setuptools documentation page:\n'}
+[19.279673] (raceline_studio) StderrLine: {'line': b'\n'}
+[19.279843] (raceline_studio) StderrLine: {'line': b'        - https://setuptools.pypa.io/en/latest/userguide/package_discovery.html\n'}
+[19.280015] (raceline_studio) StderrLine: {'line': b'\n'}
+[19.280184] (raceline_studio) StderrLine: {'line': b"        If you don't want 'raceline_studio.static.vendor' to be distributed and are\n"}
+[19.280355] (raceline_studio) StderrLine: {'line': b"        already explicitly excluding 'raceline_studio.static.vendor' via\n"}
+[19.280557] (raceline_studio) StderrLine: {'line': b'        `find_namespace_packages(...)/find_namespace` or `find_packages(...)/find`,\n'}
+[19.280735] (raceline_studio) StderrLine: {'line': b'        you can try to use `exclude_package_data`, or `include-package-data=False` in\n'}
+[19.280905] (raceline_studio) StderrLine: {'line': b'        combination with a more fine grained `package-data` configuration.\n'}
+[19.281078] (raceline_studio) StderrLine: {'line': b'\n'}
+[19.281242] (raceline_studio) StderrLine: {'line': b'        You can read more about "package data files" on setuptools documentation page:\n'}
+[19.281409] (raceline_studio) StderrLine: {'line': b'\n'}
+[19.281571] (raceline_studio) StderrLine: {'line': b'        - https://setuptools.pypa.io/en/latest/userguide/datafiles.html\n'}
+[19.281737] (raceline_studio) StderrLine: {'line': b'\n'}
+[19.281903] (raceline_studio) StderrLine: {'line': b'\n'}
+[19.282068] (raceline_studio) StderrLine: {'line': b'        [^1]: For Python, any directory (with suitable naming) can be imported,\n'}
+[19.282233] (raceline_studio) StderrLine: {'line': b'              even if it does not contain any `.py` files.\n'}
+[19.282398] (raceline_studio) StderrLine: {'line': b'              On the other hand, currently there is no concept of package data\n'}
+[19.282560] (raceline_studio) StderrLine: {'line': b'              directory, all directories are treated like packages.\n'}
+[19.291150] (raceline_studio) StderrLine: {'line': b'        ********************************************************************************\n'}
+[19.291433] (raceline_studio) StderrLine: {'line': b'\n'}
+[19.291627] (raceline_studio) StderrLine: {'line': b'!!\n'}
+[19.291811] (raceline_studio) StderrLine: {'line': b'  check.warn(importable)\n'}
+[19.292945] (raceline_studio) StderrLine: {'line': b"/usr/lib/python3/dist-packages/setuptools/command/build_py.py:204: _Warning: Package 'raceline_studio.templates' is absent from the `packages` configuration.\n"}
+[19.293460] (raceline_studio) StderrLine: {'line': b'!!\n'}
+[19.293678] (raceline_studio) StderrLine: {'line': b'\n'}
+[19.293881] (raceline_studio) StderrLine: {'line': b'        ********************************************************************************\n'}
+[19.294466] (raceline_studio) StderrLine: {'line': b'        ############################\n'}
+[19.295047] (raceline_studio) StderrLine: {'line': b'        # Package would be ignored #\n'}
+[19.295261] (raceline_studio) StderrLine: {'line': b'        ############################\n'}
+[19.295461] (raceline_studio) StderrLine: {'line': b"        Python recognizes 'raceline_studio.templates' as an importable package[^1],\n"}
+[19.295658] (raceline_studio) StderrLine: {'line': b"        but it is absent from setuptools' `packages` configuration.\n"}
+[19.295850] (raceline_studio) StderrLine: {'line': b'\n'}
+[19.296029] (raceline_studio) StderrLine: {'line': b'        This leads to an ambiguous overall configuration. If you want to distribute this\n'}
+[19.296234] (raceline_studio) StderrLine: {'line': b"        package, please make sure that 'raceline_studio.templates' is explicitly added\n"}
+[19.296429] (raceline_studio) StderrLine: {'line': b'        to the `packages` configuration field.\n'}
+[19.296598] (raceline_studio) StderrLine: {'line': b'\n'}
+[19.296762] (raceline_studio) StderrLine: {'line': b"        Alternatively, you can also rely on setuptools' discovery methods\n"}
+[19.296929] (raceline_studio) StderrLine: {'line': b'        (for example by using `find_namespace_packages(...)`/`find_namespace:`\n'}
+[19.297094] (raceline_studio) StderrLine: {'line': b'        instead of `find_packages(...)`/`find:`).\n'}
+[19.297259] (raceline_studio) StderrLine: {'line': b'\n'}
+[19.297420] (raceline_studio) StderrLine: {'line': b'        You can read more about "package discovery" on setuptools documentation page:\n'}
+[19.297583] (raceline_studio) StderrLine: {'line': b'\n'}
+[19.297937] (raceline_studio) StderrLine: {'line': b'        - https://setuptools.pypa.io/en/latest/userguide/package_discovery.html\n'}
+[19.298163] (raceline_studio) StderrLine: {'line': b'\n'}
+[19.298339] (raceline_studio) StderrLine: {'line': b"        If you don't want 'raceline_studio.templates' to be distributed and are\n"}
+[19.298510] (raceline_studio) StderrLine: {'line': b"        already explicitly excluding 'raceline_studio.templates' via\n"}
+[19.299201] (raceline_studio) StderrLine: {'line': b'        `find_namespace_packages(...)/find_namespace` or `find_packages(...)/find`,\n'}
+[19.299445] (raceline_studio) StderrLine: {'line': b'        you can try to use `exclude_package_data`, or `include-package-data=False` in\n'}
+[19.299627] (raceline_studio) StderrLine: {'line': b'        combination with a more fine grained `package-data` configuration.\n'}
+[19.299873] (raceline_studio) StderrLine: {'line': b'\n'}
+[19.300067] (raceline_studio) StderrLine: {'line': b'        You can read more about "package data files" on setuptools documentation page:\n'}
+[19.300276] (raceline_studio) StderrLine: {'line': b'\n'}
+[19.300460] (raceline_studio) StderrLine: {'line': b'        - https://setuptools.pypa.io/en/latest/userguide/datafiles.html\n'}
+[19.300645] (raceline_studio) StderrLine: {'line': b'\n'}
+[19.300816] (raceline_studio) StderrLine: {'line': b'\n'}
+[19.300987] (raceline_studio) StderrLine: {'line': b'        [^1]: For Python, any directory (with suitable naming) can be imported,\n'}
+[19.301153] (raceline_studio) StderrLine: {'line': b'              even if it does not contain any `.py` files.\n'}
+[19.301323] (raceline_studio) StderrLine: {'line': b'              On the other hand, currently there is no concept of package data\n'}
+[19.301495] (raceline_studio) StderrLine: {'line': b'              directory, all directories are treated like packages.\n'}
+[19.301674] (raceline_studio) StderrLine: {'line': b'        ********************************************************************************\n'}
+[19.301917] (raceline_studio) StderrLine: {'line': b'\n'}
+[19.302090] (raceline_studio) StderrLine: {'line': b'!!\n'}
+[19.302259] (raceline_studio) StderrLine: {'line': b'  check.warn(importable)\n'}
+[19.302427] (raceline_studio) StdoutLine: {'line': b'creating /home/nvidia/f1tenth_ws/build/raceline_studio/build/lib/raceline_studio/static\n'}
+[19.302656] (raceline_studio) StdoutLine: {'line': b'creating /home/nvidia/f1tenth_ws/build/raceline_studio/build/lib/raceline_studio/static/vendor\n'}
+[19.302854] (raceline_studio) StdoutLine: {'line': b'copying raceline_studio/static/vendor/chart.umd.min.js -> /home/nvidia/f1tenth_ws/build/raceline_studio/build/lib/raceline_studio/static/vendor\n'}
+[19.303027] (raceline_studio) StdoutLine: {'line': b'copying raceline_studio/static/vendor/tailwind.css -> /home/nvidia/f1tenth_ws/build/raceline_studio/build/lib/raceline_studio/static/vendor\n'}
+[19.303202] (raceline_studio) StdoutLine: {'line': b'creating /home/nvidia/f1tenth_ws/build/raceline_studio/build/lib/raceline_studio/templates\n'}
+[19.303400] (raceline_studio) StdoutLine: {'line': b'copying raceline_studio/templates/index.html -> /home/nvidia/f1tenth_ws/build/raceline_studio/build/lib/raceline_studio/templates\n'}
+[19.303590] (raceline_studio) StdoutLine: {'line': b'running install\n'}
+[19.304539] (raceline_studio) StdoutLine: {'line': b'running install_lib\n'}
+[19.358951] (raceline_studio) StdoutLine: {'line': b'creating /home/nvidia/f1tenth_ws/install/raceline_studio/lib/python3.12/site-packages/raceline_studio\n'}
+[19.359670] (raceline_studio) StdoutLine: {'line': b'copying /home/nvidia/f1tenth_ws/build/raceline_studio/build/lib/raceline_studio/app.py -> /home/nvidia/f1tenth_ws/install/raceline_studio/lib/python3.12/site-packages/raceline_studio\n'}
+[19.360117] (raceline_studio) StdoutLine: {'line': b'creating /home/nvidia/f1tenth_ws/install/raceline_studio/lib/python3.12/site-packages/raceline_studio/static\n'}
+[19.360729] (raceline_studio) StdoutLine: {'line': b'creating /home/nvidia/f1tenth_ws/install/raceline_studio/lib/python3.12/site-packages/raceline_studio/static/vendor\n'}
+[19.361140] (raceline_studio) StdoutLine: {'line': b'copying /home/nvidia/f1tenth_ws/build/raceline_studio/build/lib/raceline_studio/static/vendor/tailwind.css -> /home/nvidia/f1tenth_ws/install/raceline_studio/lib/python3.12/site-packages/raceline_studio/static/vendor\n'}
+[19.361371] (raceline_studio) StdoutLine: {'line': b'copying /home/nvidia/f1tenth_ws/build/raceline_studio/build/lib/raceline_studio/static/vendor/chart.umd.min.js -> /home/nvidia/f1tenth_ws/install/raceline_studio/lib/python3.12/site-packages/raceline_studio/static/vendor\n'}
+[19.361837] (raceline_studio) StdoutLine: {'line': b'creating /home/nvidia/f1tenth_ws/install/raceline_studio/lib/python3.12/site-packages/raceline_studio/templates\n'}
+[19.362377] (raceline_studio) StdoutLine: {'line': b'copying /home/nvidia/f1tenth_ws/build/raceline_studio/build/lib/raceline_studio/templates/index.html -> /home/nvidia/f1tenth_ws/install/raceline_studio/lib/python3.12/site-packages/raceline_studio/templates\n'}
+[19.362814] (raceline_studio) StdoutLine: {'line': b'copying /home/nvidia/f1tenth_ws/build/raceline_studio/build/lib/raceline_studio/raceline_optimizer.py -> /home/nvidia/f1tenth_ws/install/raceline_studio/lib/python3.12/site-packages/raceline_studio\n'}
+[19.363371] (raceline_studio) StdoutLine: {'line': b'copying /home/nvidia/f1tenth_ws/build/raceline_studio/build/lib/raceline_studio/__init__.py -> /home/nvidia/f1tenth_ws/install/raceline_studio/lib/python3.12/site-packages/raceline_studio\n'}
+[19.364609] (raceline_studio) StdoutLine: {'line': b'byte-compiling /home/nvidia/f1tenth_ws/install/raceline_studio/lib/python3.12/site-packages/raceline_studio/app.py to app.cpython-312.pyc\n'}
+[19.365637] (-) TimerEvent: {}
+[19.383463] (raceline_studio) StdoutLine: {'line': b'byte-compiling /home/nvidia/f1tenth_ws/install/raceline_studio/lib/python3.12/site-packages/raceline_studio/raceline_optimizer.py to raceline_optimizer.cpython-312.pyc\n'}
+[19.405405] (raceline_studio) StdoutLine: {'line': b'byte-compiling /home/nvidia/f1tenth_ws/install/raceline_studio/lib/python3.12/site-packages/raceline_studio/__init__.py to __init__.cpython-312.pyc\n'}
+[19.407860] (raceline_studio) StdoutLine: {'line': b'running install_data\n'}
+[19.408274] (raceline_studio) StdoutLine: {'line': b'creating /home/nvidia/f1tenth_ws/install/raceline_studio/share/ament_index\n'}
+[19.408518] (raceline_studio) StdoutLine: {'line': b'creating /home/nvidia/f1tenth_ws/install/raceline_studio/share/ament_index/resource_index\n'}
+[19.408724] (raceline_studio) StdoutLine: {'line': b'creating /home/nvidia/f1tenth_ws/install/raceline_studio/share/ament_index/resource_index/packages\n'}
+[19.408919] (raceline_studio) StdoutLine: {'line': b'copying resource/raceline_studio -> /home/nvidia/f1tenth_ws/install/raceline_studio/share/ament_index/resource_index/packages\n'}
+[19.409098] (raceline_studio) StdoutLine: {'line': b'copying package.xml -> /home/nvidia/f1tenth_ws/install/raceline_studio/share/raceline_studio\n'}
+[19.409272] (raceline_studio) StdoutLine: {'line': b'running install_egg_info\n'}
+[19.465807] (-) TimerEvent: {}
+[19.478811] (raceline_studio) StdoutLine: {'line': b'Copying ../../../build/raceline_studio/raceline_studio.egg-info to /home/nvidia/f1tenth_ws/install/raceline_studio/lib/python3.12/site-packages/raceline_studio-0.0.1-py3.12.egg-info\n'}
+[19.479307] (raceline_studio) StdoutLine: {'line': b'running install_scripts\n'}
+[19.565950] (-) TimerEvent: {}
+[19.666290] (-) TimerEvent: {}
+[19.766695] (-) TimerEvent: {}
+[19.867018] (-) TimerEvent: {}
+[19.897568] (raceline_studio) StdoutLine: {'line': b'Installing studio script to /home/nvidia/f1tenth_ws/install/raceline_studio/lib/raceline_studio\n'}
+[19.898553] (raceline_studio) StdoutLine: {'line': b"writing list of installed files to '/home/nvidia/f1tenth_ws/build/raceline_studio/install.log'\n"}
+[19.967190] (-) TimerEvent: {}
+[20.006480] (raceline_studio) CommandEnded: {'returncode': 0}
+[20.026782] (raceline_studio) JobEnded: {'identifier': 'raceline_studio', 'rc': 0}
+[20.028651] (-) EventReactorShutdown: {}

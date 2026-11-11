@@ -1,0 +1,106 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-b5bd285a771813aae8c8.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "pure_pursuit",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_pure_pursuit_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_pure_pursuit_egg-02adc84b967582861403.json",
+					"name" : "ament_cmake_python_build_pure_pursuit_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_symlink_pure_pursuit::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_symlink_pure_pursuit-7d4fcbbd2b1084eea5b2.json",
+					"name" : "ament_cmake_python_symlink_pure_pursuit",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_symlink_pure_pursuit_setup::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_symlink_pure_pursuit_setup-b6a55818299ce14fae7d.json",
+					"name" : "ament_cmake_python_symlink_pure_pursuit_setup",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "pure_pursuit_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-pure_pursuit_node-b654178d4e2ed9bb5ba1.json",
+					"name" : "pure_pursuit_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "pure_pursuit_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-pure_pursuit_uninstall-de585aebcca8e7d503c5.json",
+					"name" : "pure_pursuit_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-932eba7d26e6625779d7.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/nvidia/f1tenth_ws/build/pure_pursuit",
+		"source" : "/home/nvidia/f1tenth_ws/src/pure-pursuit/pure_pursuit"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

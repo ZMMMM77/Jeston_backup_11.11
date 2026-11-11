@@ -1,0 +1,537 @@
+#!/usr/bin/env python3
+import math
+
+import rclpy
+from rclpy.node import Node
+
+import numpy as np
+from sensor_msgs.msg import LaserScan
+from ackermann_msgs.msg import AckermannDriveStamped, AckermannDrive
+from std_msgs.msg import Float32MultiArray
+
+class ReactiveFollowGap(Node):
+    """
+    Implement Wall Following on the car
+    This is just a template, you are free to implement your own node!
+    """
+    def __init__(self):
+        super().__init__('reactive_node')
+        lidarscan_topic = '/scan'
+        drive_topic = '/drive'
+
+        # Scans arrive at ~240 Hz; every one leaves no CPU headroom
+        self.declare_parameter('control_hz', 60.0)      # 0 disables the limit
+        self.declare_parameter('fov_deg', 120.0)        # beams kept, centred ahead
+        self.declare_parameter('max_range', 6.0)        # m; must exceed any wall to reject
+        self.declare_parameter('smooth_window', 5)      # beams averaged per sample
+        self.declare_parameter('bubble_radius', 0.35)   # m zeroed around the closest point
+        self.declare_parameter('bubble_max_deg', 30.0)  # cap; else it blinds the car
+        self.declare_parameter('deep_tol', 0.15)        # m; how far below max still counts as deep
+        self.declare_parameter('forward_below', 3.0)    # m; below this, prefer forward
+        # Disparity extender
+        self.declare_parameter('disparity_enable', True)
+        self.declare_parameter('disparity_threshold', 0.30)  # m step between adjacent beams
+        self.declare_parameter('car_half_width', 0.17)       # m projected past a near edge
+        # Footprint erosion: fit test on every beam
+        self.declare_parameter('erode_enable', True)
+        self.declare_parameter('erode_margin', 0.05)    # m clearance beyond the body
+        self.declare_parameter('erode_exact_k', 48)     # beams; below this, no bucketing
+        self.declare_parameter('erode_levels', 8)       # buckets above that
+        self.declare_parameter('max_steer', 0.40)       # rad (~23 deg)
+        # Corridor centring: gap alone never recovers the middle
+        self.declare_parameter('center_gain', 0.15)     # rad per m of imbalance
+        self.declare_parameter('center_cap', 1.5)       # m; an open side cannot dominate
+        self.declare_parameter('center_limit', 0.15)    # rad; ceiling on the term
+        self.declare_parameter('center_band_lo', 25.0)  # deg; oblique, not abeam
+        self.declare_parameter('center_band_hi', 65.0)  # deg, outer edge
+        self.declare_parameter('center_gate_deg', 12.0)  # gap angle that mutes centring
+        # Lateral-shift planner: a bearing cannot encode a lane change
+        self.declare_parameter('plan_enable', True)
+        self.declare_parameter('plan_horizon', 8.0)      # m rolled out
+        self.declare_parameter('plan_shift_dists', [0.6, 1.4, 2.8])  # m; searched, not fixed
+        self.declare_parameter('plan_max_offset', 1.2)   # m of lateral shift offered
+        self.declare_parameter('plan_offsets', 49)       # odd, so 0 is a candidate
+        self.declare_parameter('plan_step', 0.15)        # m between path samples
+        self.declare_parameter('plan_cell', 0.03)        # m; collision grid
+        self.declare_parameter('plan_clear', 0.17)       # m half-width for rollouts
+        self.declare_parameter('plan_margin', 1.5)       # m a shift must beat straight by
+        self.declare_parameter('plan_trap', 5.0)         # m; gap bearing shorter than this
+        self.declare_parameter('plan_lookahead', 1.2)    # m for pure pursuit
+        self.declare_parameter('plan_stick', 0.6)        # m bonus for holding a choice
+        self.declare_parameter('plan_keep_right', 0.8)  # right-hand rule, breaks reach ties
+        self.declare_parameter('plan_hold_margin', 0.2)  # m to keep going, vs to start
+        # Reach vs offset is spiky; hold a route or the choice thrashes
+        self.declare_parameter('plan_hold_scans', 30)    # scans a side survives
+        self.declare_parameter('wheelbase', 0.33)        # m
+        # Speed steps down as the steering angle grows.
+        self.declare_parameter('speed_hi', 5.0)         # |steer| < 10 deg 2.0
+        self.declare_parameter('speed_mid', 4.0)        # 10..20 deg 1.2
+        self.declare_parameter('speed_lo', 2.0)         # > 20 deg 0.6
+        # ...then capped on room ahead; steering alone lags
+        self.declare_parameter('path_half_width', 0.25)  # m; corridor tested ahead
+        self.declare_parameter('clear_near', 1.5)       # m; at or below -> speed_lo
+        self.declare_parameter('clear_far', 3.5)        # m; at or above -> no cap
+
+        # LaserScan geometry, refreshed from every message
+        self.angle_min = None
+        self.angle_increment = None
+        self.range_min = 0.
+        self._lo = 0                                    # FOV slice into the raw scan
+        self._plan_offset = 0.0                         # lateral shift being held
+        self._plan_hold = 0                             # scans the side survives
+        self._sharp = None                              # unsmoothed scan, for the planner
+        self._last_t = None                             # last processed scan time
+
+        self.drive_pub = self.create_publisher(AckermannDriveStamped, drive_topic, 10)
+        self.scan_sub = self.create_subscription(
+            LaserScan, lidarscan_topic, self.lidar_callback, 10)
+
+        # debug: [best_angle, steering, speed, gap_start, gap_end, closest_range,
+        #         forward_clearance, planning, lateral_offset]
+        self.debug_pub = self.create_publisher(Float32MultiArray, '/gap_debug', 10)
+
+        self.get_logger().info('reactive_node up: follow the gap')
+
+    def preprocess_lidar(self, ranges):
+        """ Preprocess the LiDAR scan array. Expert implementation includes:
+            1.Setting each value to the mean over some window
+            2.Rejecting high values (eg. > 3m)
+        """
+        r = np.asarray(ranges, dtype=float)
+
+        # Forward FOV only; rear beams look like a huge gap
+        half = math.radians(float(self.get_parameter('fov_deg').value) / 2.0)
+        lo = max(0, int(math.ceil((-half - self.angle_min) / self.angle_increment)))
+        hi = min(r.size,
+                 int(math.floor((half - self.angle_min) / self.angle_increment)) + 1)
+        self._lo = lo
+        r = r[lo:hi]
+
+        # Dropouts read as blocked, never open
+        bad = ~np.isfinite(r) | (r < self.range_min)
+        r = np.where(bad, 0.0, r)
+
+        rmax = float(self.get_parameter('max_range').value)
+        r = np.clip(r, 0.0, rmax)
+
+        self._sharp = r.copy()          # unsmoothed; the mean invents edges
+        # Normalise by contributing beams; zero-padding reads 40% short
+        kern = np.ones(max(1, int(self.get_parameter('smooth_window').value)))
+        return np.convolve(r, kern, mode='same') / np.convolve(
+            np.ones_like(r), kern, mode='same')
+
+    def extend_disparities(self, proc_ranges):
+        """Project near edges across the width the car needs."""
+        if not self.get_parameter('disparity_enable').value:
+            return proc_ranges
+
+        out = proc_ranges.copy()
+        thr = float(self.get_parameter('disparity_threshold').value)
+        width = float(self.get_parameter('car_half_width').value)
+        inc = self.angle_increment
+        n = out.size
+
+        d = np.diff(proc_ranges)
+        for i in np.nonzero(np.abs(d) > thr)[0]:
+            near = proc_ranges[i] if d[i] > 0.0 else proc_ranges[i + 1]
+            if not (near > 0.0):
+                continue
+            k = int(math.ceil(math.atan2(width, near) / inc))
+            if d[i] > 0.0:
+                a, b = i + 1, min(n, i + 1 + k)
+            else:
+                a, b = max(0, i + 1 - k), i + 1
+            if a < b:
+                out[a:b] = np.minimum(out[a:b], near)
+        return out
+
+    @staticmethod
+    def _window_min(a, k):
+        """Exact min over every +/-k window, in O(log k) passes."""
+        n = a.size
+        w = 2 * k + 1
+        b = np.concatenate([np.full(k, np.inf), a, np.full(k, np.inf)])
+        span = 1 << int(math.floor(math.log2(w)))
+        m = b.copy()
+        s = 1
+        while s < span:                     # m[i] becomes min(b[i : i + 2s])
+            m = np.minimum(m, np.concatenate([m[s:], np.full(s, np.inf)]))
+            s <<= 1
+        return np.minimum(m[:n], m[w - span:w - span + n])
+
+    def erode_for_width(self, proc_ranges):
+        """Shrink each reading by the room the car needs beside it.
+
+        An obstacle at range r blocks every bearing within asin(w / r).
+        """
+        if not self.get_parameter('erode_enable').value:
+            return proc_ranges
+
+        w = (float(self.get_parameter('car_half_width').value)
+             + float(self.get_parameter('erode_margin').value))
+        # Zeros stay blocked but cannot erode others
+        r = np.where(proc_ranges > 0.0, proc_ranges, np.inf)
+        k = np.ceil(np.arcsin(np.clip(w / r, 0.0, 1.0))
+                    / self.angle_increment).astype(int)
+        kmax = int(k.max())
+        if kmax <= 0:
+            return proc_ranges
+
+        # Bucket window sizes; exact where small, rounding up errs safe
+        exact = int(self.get_parameter('erode_exact_k').value)
+        levels = np.arange(1, min(kmax, exact) + 1)
+        if kmax > exact:
+            levels = np.concatenate([levels, np.geomspace(
+                exact + 1.0, float(kmax),
+                max(1, int(self.get_parameter('erode_levels').value))
+            ).astype(int)])
+        levels = np.unique(levels)
+        out = proc_ranges.copy()
+        prev = 0
+        for kk in levels:
+            sel = (k > prev) & (k <= kk)
+            if sel.any():
+                out = np.minimum(out, self._window_min(
+                    np.where(sel, proc_ranges, np.inf), int(kk)))
+            prev = int(kk)
+        return out
+
+    def find_max_gap(self, free_space_ranges):
+        """ Return the start index & end index of the max gap in free_space_ranges
+        """
+        r = np.asarray(free_space_ranges, dtype=float)
+        free = r > 0.0
+        if not free.any():
+            return 0, r.size - 1
+
+        # Longest run of non-zero entries, O(n)
+        edges = np.diff(np.concatenate(([0], free.view(np.int8), [0])))
+        starts = np.nonzero(edges == 1)[0]
+        ends = np.nonzero(edges == -1)[0]          # exclusive
+        widest = int(np.argmax(ends - starts))
+        return int(starts[widest]), int(ends[widest] - 1)
+
+    def find_best_point(self, start_i, end_i, ranges):
+        """Start_i & end_i are start and end indicies of max-gap range, respectively
+        Return index of best point in ranges
+	    Naive: Choose the furthest point within ranges and go there
+        """
+        r = np.asarray(ranges, dtype=float)
+        if end_i < start_i:
+            return start_i
+        seg = r[start_i:end_i + 1]
+        if seg.size == 0:
+            return start_i
+
+        # Middle of the deepest CONTIGUOUS run; furthest point weaves.
+        # Boxed in -- a corner -- rank by forward progress instead, or a
+        # side pocket out-ranges the way on.
+        if float(np.max(seg)) < float(self.get_parameter('forward_below').value):
+            bear = (self.angle_min + (np.arange(start_i, end_i + 1) + self._lo)
+                    * self.angle_increment)
+            seg = seg * np.maximum(np.cos(bear), 0.0)
+        deepest = float(np.max(seg))
+        tol = float(self.get_parameter('deep_tol').value)
+        deep = (seg >= max(0.0, deepest - tol)).view(np.int8)
+        edges = np.diff(np.concatenate(([0], deep, [0])))
+        starts = np.nonzero(edges == 1)[0]
+        ends = np.nonzero(edges == -1)[0]          # exclusive
+        widest = int(np.argmax(ends - starts))
+        return int(start_i + (starts[widest] + ends[widest] - 1) // 2)
+
+    def forward_clearance(self, proc_ranges):
+        """Distance to the nearest obstacle in the car's own path.
+
+        Lateral offset, not a fixed cone: a cone brakes on the side walls.
+        """
+        idx = np.arange(proc_ranges.size) + self._lo
+        phi = self.angle_min + idx * self.angle_increment
+        width = float(self.get_parameter('path_half_width').value)
+        fwd = proc_ranges * np.cos(phi)
+        lat = np.abs(proc_ranges * np.sin(phi))
+        # fwd > width drops sideways beams already level with the car
+        in_path = (proc_ranges > 0.0) & (lat <= width) & (fwd > width)
+        if not in_path.any():
+            return float('inf')
+        return float(np.min(fwd[in_path]))
+
+    def plan_lateral(self, proc_ranges, phi, gap_depth):
+        """Pick a lane-change path when a way through is visible but unaimable.
+
+        Smooth lateral shifts scored on reach, checked in Cartesian space: a
+        path curving around an obstacle is hidden behind it in polar space.
+        Returns (steering_angle, offset) or (None, 0.0).
+        """
+        if not self.get_parameter('plan_enable').value:
+            return None, 0.0
+
+        # Only when the gap's own choice runs out, but never mid-shift: the
+        # bearing looks fine exactly then, and dropping it steers back in.
+        if (self._plan_hold <= 0
+                and gap_depth >= float(self.get_parameter('plan_trap').value)):
+            self._release()
+            return None, 0.0
+
+        sharp = self._sharp if self._sharp is not None else proc_ranges
+
+        clear = float(self.get_parameter('plan_clear').value)
+        horizon = float(self.get_parameter('plan_horizon').value)
+        dists = [float(v) for v in
+                 self.get_parameter('plan_shift_dists').value] or [2.0]
+        step = float(self.get_parameter('plan_step').value)
+        n_off = max(3, int(self.get_parameter('plan_offsets').value) | 1)
+        max_off = float(self.get_parameter('plan_max_offset').value)
+
+        live = sharp > 0.0
+        if not live.any():
+            return None, 0.0
+        ox_all = sharp[live] * np.cos(phi[live])
+        oy_all = sharp[live] * np.sin(phi[live])
+        # Prune returns that can never touch a forward path
+        band = max_off + clear + 0.2
+        near = ((ox_all > -clear) & (ox_all < horizon + clear)
+                & (np.abs(oy_all) < band))
+        if not near.any():
+            return None, 0.0
+        ox, oy = ox_all[near], oy_all[near]
+        stride = max(1, ox.size // 160)
+        ox, oy = ox[::stride], oy[::stride]
+
+        s = np.arange(0.0, horizon, step)
+        base = np.linspace(-max_off, max_off, n_off)
+        # One candidate per (lateral offset, distance over which it completes).
+        shapes = np.stack([3.0 * np.clip(s / max(dd, 1e-3), 0.0, 1.0) ** 2
+                           - 2.0 * np.clip(s / max(dd, 1e-3), 0.0, 1.0) ** 3
+                           for dd in dists])                    # (nd, ns)
+        ys = (base[None, :, None] * shapes[:, None, :]).reshape(-1, s.size)
+        offs = np.tile(base, len(dists))
+        xs = np.broadcast_to(s, ys.shape)
+
+        # Obstacles into a grid pre-inflated by `clear`: one lookup per sample
+        cell = float(self.get_parameter('plan_cell').value)
+        nx = int(horizon / cell) + 2
+        ny = int(2.0 * band / cell) + 2
+        grid = np.zeros((ny, nx), dtype=bool)
+        rad = int(math.ceil(clear / cell))
+        gy0, gx0 = np.mgrid[-rad:rad + 1, -rad:rad + 1]
+        disc = (gx0 * gx0 + gy0 * gy0) * cell * cell <= clear * clear
+        gx0, gy0 = gx0[disc], gy0[disc]
+        ix = (ox / cell).astype(np.int32)
+        iy = ((oy + band) / cell).astype(np.int32)
+        cx = (ix[:, None] + gx0[None, :]).ravel()
+        cy = (iy[:, None] + gy0[None, :]).ravel()
+        keep = (cx >= 0) & (cx < nx) & (cy >= 0) & (cy < ny)
+        grid[cy[keep], cx[keep]] = True
+
+        px = np.clip((xs / cell).astype(np.int32), 0, nx - 1)
+        py = np.clip(((ys + band) / cell).astype(np.int32), 0, ny - 1)
+        any_hit = grid[py, px]
+        first = np.where(any_hit.any(axis=1), np.argmax(any_hit, axis=1), s.size - 1)
+        reach = s[first]
+
+        # Discard shifts the car cannot steer: a cubic dy over D peaks at
+        # curvature 6*dy/D^2, against tan(max_steer)/wheelbase.
+        kappa_max = (math.tan(float(self.get_parameter('max_steer').value))
+                     / float(self.get_parameter('wheelbase').value))
+        dd = np.repeat(np.asarray(dists, dtype=float), n_off)
+        reach = np.where(6.0 * np.abs(offs) / (dd * dd) <= kappa_max, reach, 0.0)
+        zero = int(np.argmin(np.abs(offs)))
+
+        stick = float(self.get_parameter('plan_stick').value)
+        keep_r = float(self.get_parameter('plan_keep_right').value)
+        # Right-hand rule. Reach still decides; equal ways through go right.
+        score = (reach + stick * (np.abs(offs - self._plan_offset) <= 0.25)
+                 - 0.05 * np.abs(offs) - keep_r * offs)
+        straight = float(reach[zero])
+
+        def steer_for(k):
+            look = float(self.get_parameter('plan_lookahead').value)
+            j = int(min(max(np.searchsorted(s, look), 0), s.size - 1))
+            tx, ty = float(xs[k, j]), float(ys[k, j])
+            wb = float(self.get_parameter('wheelbase').value)
+            return math.atan2(2.0 * wb * ty, tx * tx + ty * ty)
+
+        # The lock guards against drifting left mid-move, not against
+        # crossing back to the preferred side while that side still reaches.
+        right = offs < -0.05
+        if (keep_r > 0.0 and self._plan_offset > 0.0 and right.any()
+                and float(np.max(reach[right])) >= float(np.max(reach[~right]))):
+            self._plan_hold = 0
+            self._plan_offset = 0.0
+
+        # Lock to the side already chosen; argmax swaps sides mid-move
+        if self._plan_hold > 0 and abs(self._plan_offset) > 1e-6:
+            same = (offs * self._plan_offset) > 1e-9
+            if same.any():
+                k = int(np.argmax(np.where(same, score, -np.inf)))
+                if (reach[k] >= straight + float(
+                        self.get_parameter('plan_hold_margin').value)
+                        and reach[k] > 1.0):
+                    self._plan_offset = float(offs[k])
+                    self._plan_hold = int(
+                        self.get_parameter('plan_hold_scans').value)
+                    return steer_for(k), float(offs[k])
+            self._plan_hold -= 1
+            if self._plan_hold <= 0:
+                self._plan_offset = 0.0
+
+        # Cross only if straight runs out, decisively. A path that ends is a
+        # pocket however far it goes, so prefer open-ended ones.
+        open_path = reach >= horizon - step
+        if open_path.any():
+            k = int(np.argmax(np.where(open_path, score, -np.inf)))
+        else:
+            k = int(np.argmax(score))
+        if straight >= horizon - step or reach[k] < straight + float(
+                self.get_parameter('plan_margin').value):
+            self._release()
+            return None, 0.0
+        self._plan_offset = float(offs[k])
+        self._plan_hold = int(self.get_parameter('plan_hold_scans').value)
+        return steer_for(k), float(offs[k])
+
+    def _release(self):
+        """Let a held shift lapse, one scan at a time."""
+        if self._plan_hold > 0:
+            self._plan_hold -= 1
+        if self._plan_hold <= 0:
+            self._plan_offset = 0.0
+
+    def wall_balance(self, proc_ranges):
+        """Signed room imbalance; positive means more room left.
+
+        Each side is clamped first, so an open side cannot swamp the gap.
+        """
+        lo = math.radians(float(self.get_parameter('center_band_lo').value))
+        hi = math.radians(float(self.get_parameter('center_band_hi').value))
+        cap = float(self.get_parameter('center_cap').value)
+        idx = np.arange(proc_ranges.size) + self._lo
+        phi = self.angle_min + idx * self.angle_increment
+        live = proc_ranges > 0.0
+        left = live & (phi >= lo) & (phi <= hi)
+        right = live & (phi <= -lo) & (phi >= -hi)
+        if not left.any() or not right.any():
+            return 0.0
+        d_left = min(cap, float(np.median(proc_ranges[left])))
+        d_right = min(cap, float(np.median(proc_ranges[right])))
+        return d_left - d_right
+
+    def speed_for(self, steering_angle, fwd_clear):
+        """Step down with steering angle, then cap on room ahead."""
+        mag = abs(math.degrees(steering_angle))
+        hi = float(self.get_parameter('speed_hi').value)
+        mid = float(self.get_parameter('speed_mid').value)
+        lo = float(self.get_parameter('speed_lo').value)
+        if mag < 10.0:
+            v = hi
+        elif mag < 20.0:
+            v = mid
+        else:
+            v = lo
+
+        near = float(self.get_parameter('clear_near').value)
+        far = float(self.get_parameter('clear_far').value)
+        if math.isfinite(fwd_clear) and far > near:
+            t = (fwd_clear - near) / (far - near)
+            v = min(v, lo + (hi - lo) * float(np.clip(t, 0.0, 1.0)))
+        return v
+
+    def lidar_callback(self, data):
+        """ Process each LiDAR scan as per the Follow Gap algorithm & publish an AckermannDriveStamped Message
+        """
+        hz = float(self.get_parameter('control_hz').value)
+        if hz > 0.0:
+            now = self.get_clock().now().nanoseconds * 1e-9
+            if self._last_t is not None and now - self._last_t < 1.0 / hz:
+                return
+            self._last_t = now
+
+        self.angle_min = data.angle_min
+        self.angle_increment = data.angle_increment
+        self.range_min = data.range_min
+
+        ranges = data.ranges
+        proc_ranges = self.preprocess_lidar(ranges)
+        if proc_ranges.size == 0:
+            return
+
+        proc_ranges = self.extend_disparities(proc_ranges)
+
+        # Before the bubble, else clearance reads zero
+        fwd_clear = self.forward_clearance(proc_ranges)
+
+        #Find closest point to LiDAR
+        closest = int(np.argmin(np.where(proc_ranges > 0.0, proc_ranges,
+                                         np.inf)))
+        closest_range = float(proc_ranges[closest])
+
+        #Eliminate all points inside 'bubble' (set them to zero)
+        bubble = float(self.get_parameter('bubble_radius').value)
+        cap = int(math.radians(float(self.get_parameter('bubble_max_deg').value))
+                  / self.angle_increment)
+        if math.isfinite(closest_range) and closest_range > 1e-3:
+            half = int(math.ceil(math.atan2(bubble, closest_range)
+                                 / self.angle_increment))
+            half = min(half, cap)
+        else:
+            half = cap
+        free = self.erode_for_width(proc_ranges)
+        lo = max(0, closest - half)
+        hi = min(free.size, closest + half + 1)
+        free[lo:hi] = 0.0
+
+        #Find max length gap
+        start_i, end_i = self.find_max_gap(free)
+
+        #Find the best point in the gap
+        best = self.find_best_point(start_i, end_i, free)
+
+        #Publish Drive message
+        # Index back through the FOV slice
+        angle = self.angle_min + (best + self._lo) * self.angle_increment
+        gap_angle = angle                       # before planner and centring
+        max_steer = float(self.get_parameter('max_steer').value)
+
+        # A planned shift supersedes gap bearing and centring
+        idx = np.arange(proc_ranges.size) + self._lo
+        phi = self.angle_min + idx * self.angle_increment
+        planned, plan_off = self.plan_lateral(proc_ranges, phi, float(free[best]))
+        if planned is not None:
+            angle = float(np.clip(planned, -max_steer, max_steer))
+        else:
+            gate = math.radians(float(self.get_parameter('center_gate_deg').value))
+            mute = max(0.0, 1.0 - abs(angle) / gate) if gate > 0.0 else 0.0
+            bias = mute * float(np.clip(
+                float(self.get_parameter('center_gain').value)
+                * self.wall_balance(proc_ranges),
+                -float(self.get_parameter('center_limit').value),
+                float(self.get_parameter('center_limit').value)))
+            angle = float(np.clip(angle + bias, -max_steer, max_steer))
+        speed = self.speed_for(angle, fwd_clear)
+
+        drive_msg = AckermannDriveStamped()
+        drive_msg.header.stamp = self.get_clock().now().to_msg()
+        drive_msg.drive.steering_angle = angle
+        drive_msg.drive.speed = speed
+        self.drive_pub.publish(drive_msg)
+
+        dbg = Float32MultiArray()
+        dbg.data = [float(gap_angle), float(angle), float(speed),
+                    float(start_i), float(end_i), float(closest_range),
+                    float(fwd_clear), 1.0 if planned is not None else 0.0,
+                    float(plan_off)]
+        self.debug_pub.publish(dbg)
+
+
+def main(args=None):
+    rclpy.init(args=args)
+    print("WallFollow Initialized")
+    reactive_node = ReactiveFollowGap()
+    rclpy.spin(reactive_node)
+
+    reactive_node.destroy_node()
+    rclpy.shutdown()
+
+
+if __name__ == '__main__':
+    main()

@@ -1,0 +1,130 @@
+[0.020s] Invoking command in '/home/nvidia/f1tenth_ws/build/wall_follow': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/nvidia/f1tenth_ws/src/ese-6150-lab-3-wall-following-zmmmm77/wall_follow -DCMAKE_INSTALL_PREFIX=/home/nvidia/f1tenth_ws/install/wall_follow
+[0.233s] -- The C compiler identification is GNU 13.3.0
+[0.412s] -- The CXX compiler identification is GNU 13.3.0
+[0.454s] -- Detecting C compiler ABI info
+[0.633s] -- Detecting C compiler ABI info - done
+[0.669s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.670s] -- Detecting C compile features
+[0.672s] -- Detecting C compile features - done
+[0.693s] -- Detecting CXX compiler ABI info
+[0.889s] -- Detecting CXX compiler ABI info - done
+[0.926s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.927s] -- Detecting CXX compile features
+[0.928s] -- Detecting CXX compile features - done
+[0.941s] -- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[1.272s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[1.558s] -- Found rclcpp: 28.1.22 (/opt/ros/jazzy/share/rclcpp/cmake)
+[1.675s] -- Found rosidl_generator_c: 4.6.9 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[1.706s] -- Found rosidl_generator_cpp: 4.6.9 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[1.744s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.785s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.951s] -- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[1.958s] -- Found rmw_fastrtps_cpp: 8.4.4 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[2.111s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[2.160s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[2.210s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.380s] -- Found rclpy: 7.1.12 (/opt/ros/jazzy/share/rclpy/cmake)
+[2.383s] -- Found geometry_msgs: 5.3.8 (/opt/ros/jazzy/share/geometry_msgs/cmake)
+[2.456s] -- Found nav_msgs: 5.3.8 (/opt/ros/jazzy/share/nav_msgs/cmake)
+[2.510s] -- Found ackermann_msgs: 2.0.2 (/opt/ros/jazzy/share/ackermann_msgs/cmake)
+[2.546s] -- Found sensor_msgs: 5.3.8 (/opt/ros/jazzy/share/sensor_msgs/cmake)
+[2.860s] -- Found ament_lint_auto: 0.17.5 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[3.146s] -- Added test 'copyright' to check source files copyright and LICENSE
+[3.150s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[3.151s] -- Configured cppcheck include dirs: /home/nvidia/f1tenth_ws/src/ese-6150-lab-3-wall-following-zmmmm77/wall_follow/include
+[3.151s] -- Configured cppcheck exclude dirs and/or files: 
+[3.154s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[3.155s] -- Configured cpplint exclude dirs and/or files: 
+[3.156s] -- Added test 'flake8' to check Python code syntax and style conventions
+[3.157s] -- Configured 'flake8' exclude dirs and/or files: 
+[3.159s] -- Added test 'lint_cmake' to check CMake code style
+[3.161s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[3.164s] -- Added test 'uncrustify' to check C / C++ code style
+[3.164s] -- Configured uncrustify additional arguments: 
+[3.166s] -- Added test 'xmllint' to check XML markup files
+[3.170s] -- Configuring done (3.1s)
+[3.210s] -- Generating done (0.0s)
+[3.220s] -- Build files have been written to: /home/nvidia/f1tenth_ws/build/wall_follow
+[3.248s] Invoked command in '/home/nvidia/f1tenth_ws/build/wall_follow' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/nvidia/f1tenth_ws/src/ese-6150-lab-3-wall-following-zmmmm77/wall_follow -DCMAKE_INSTALL_PREFIX=/home/nvidia/f1tenth_ws/install/wall_follow
+[3.252s] Invoking command in '/home/nvidia/f1tenth_ws/build/wall_follow': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/nvidia/f1tenth_ws/build/wall_follow -- -j6 -l6
+[3.355s] [ 50%] [32mBuilding CXX object CMakeFiles/wall_follow_node.dir/src/wall_follow_node.cpp.o[0m
+[3.372s] [ 50%] Built target ament_cmake_python_copy_wall_follow_setup
+[3.373s] [ 50%] Built target ament_cmake_python_copy_wall_follow
+[3.929s] running egg_info
+[3.931s] creating wall_follow.egg-info
+[3.986s] writing wall_follow.egg-info/PKG-INFO
+[3.986s] writing dependency_links to wall_follow.egg-info/dependency_links.txt
+[3.986s] writing top-level names to wall_follow.egg-info/top_level.txt
+[3.987s] writing manifest file 'wall_follow.egg-info/SOURCES.txt'
+[4.151s] reading manifest file 'wall_follow.egg-info/SOURCES.txt'
+[4.151s] writing manifest file 'wall_follow.egg-info/SOURCES.txt'
+[4.229s] [ 50%] Built target ament_cmake_python_build_wall_follow_egg
+[8.497s] [01m[K/home/nvidia/f1tenth_ws/src/ese-6150-lab-3-wall-following-zmmmm77/wall_follow/src/wall_follow_node.cpp:[m[K In member function ‘[01m[Kdouble WallFollow::[01;32m[Kget_range[m[K(float*, double)[m[K’:
+[8.497s] [01m[K/home/nvidia/f1tenth_ws/src/ese-6150-lab-3-wall-following-zmmmm77/wall_follow/src/wall_follow_node.cpp:30:29:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Krange_data[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[8.497s]    30 |     double get_range([01;35m[Kfloat* range_data[m[K, double angle)
+[8.497s]       |                      [01;35m[K~~~~~~~^~~~~~~~~~[m[K
+[8.498s] [01m[K/home/nvidia/f1tenth_ws/src/ese-6150-lab-3-wall-following-zmmmm77/wall_follow/src/wall_follow_node.cpp:30:48:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kangle[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[8.498s]    30 |     double get_range(float* range_data, [01;35m[Kdouble angle[m[K)
+[8.498s]       |                                         [01;35m[K~~~~~~~^~~~~[m[K
+[8.498s] [01m[K/home/nvidia/f1tenth_ws/src/ese-6150-lab-3-wall-following-zmmmm77/wall_follow/src/wall_follow_node.cpp:[m[K In member function ‘[01m[Kdouble WallFollow::[01;32m[Kget_error[m[K(float*, double)[m[K’:
+[8.498s] [01m[K/home/nvidia/f1tenth_ws/src/ese-6150-lab-3-wall-following-zmmmm77/wall_follow/src/wall_follow_node.cpp:47:29:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Krange_data[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[8.498s]    47 |     double get_error([01;35m[Kfloat* range_data[m[K, double dist)
+[8.499s]       |                      [01;35m[K~~~~~~~^~~~~~~~~~[m[K
+[8.499s] [01m[K/home/nvidia/f1tenth_ws/src/ese-6150-lab-3-wall-following-zmmmm77/wall_follow/src/wall_follow_node.cpp:47:48:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kdist[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[8.499s]    47 |     double get_error(float* range_data, [01;35m[Kdouble dist[m[K)
+[8.499s]       |                                         [01;35m[K~~~~~~~^~~~[m[K
+[8.499s] [01m[K/home/nvidia/f1tenth_ws/src/ese-6150-lab-3-wall-following-zmmmm77/wall_follow/src/wall_follow_node.cpp:[m[K In member function ‘[01m[Kvoid WallFollow::[01;32m[Kpid_control[m[K(double, double)[m[K’:
+[8.500s] [01m[K/home/nvidia/f1tenth_ws/src/ese-6150-lab-3-wall-following-zmmmm77/wall_follow/src/wall_follow_node.cpp:76:16:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kangle[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[8.500s]    76 |         double [01;35m[Kangle[m[K = 0.0;
+[8.500s]       |                [01;35m[K^~~~~[m[K
+[8.500s] [01m[K/home/nvidia/f1tenth_ws/src/ese-6150-lab-3-wall-following-zmmmm77/wall_follow/src/wall_follow_node.cpp:64:29:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kerror[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[8.500s]    64 |     void pid_control([01;35m[Kdouble error[m[K, double velocity)
+[8.500s]       |                      [01;35m[K~~~~~~~^~~~~[m[K
+[8.500s] [01m[K/home/nvidia/f1tenth_ws/src/ese-6150-lab-3-wall-following-zmmmm77/wall_follow/src/wall_follow_node.cpp:64:43:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kvelocity[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[8.501s]    64 |     void pid_control(double error, [01;35m[Kdouble velocity[m[K)
+[8.501s]       |                                    [01;35m[K~~~~~~~^~~~~~~~[m[K
+[8.501s] [01m[K/home/nvidia/f1tenth_ws/src/ese-6150-lab-3-wall-following-zmmmm77/wall_follow/src/wall_follow_node.cpp:[m[K In member function ‘[01m[Kvoid WallFollow::[01;32m[Kscan_callback[m[K(sensor_msgs::msg::LaserScan_<std::allocator<void> >::ConstSharedPtr)[m[K’:
+[8.501s] [01m[K/home/nvidia/f1tenth_ws/src/ese-6150-lab-3-wall-following-zmmmm77/wall_follow/src/wall_follow_node.cpp:93:16:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kerror[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[8.501s]    93 |         double [01;35m[Kerror[m[K = 0.0; // TODO: replace with error calculated by get_error()
+[8.501s]       |                [01;35m[K^~~~~[m[K
+[8.502s] [01m[K/home/nvidia/f1tenth_ws/src/ese-6150-lab-3-wall-following-zmmmm77/wall_follow/src/wall_follow_node.cpp:94:16:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kvelocity[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[8.502s]    94 |         double [01;35m[Kvelocity[m[K = 0.0; // TODO: calculate desired car velocity based on error
+[8.502s]       |                [01;35m[K^~~~~~~~[m[K
+[8.502s] [01m[K/home/nvidia/f1tenth_ws/src/ese-6150-lab-3-wall-following-zmmmm77/wall_follow/src/wall_follow_node.cpp:82:74:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kscan_msg[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[8.502s]    82 |     void scan_callback([01;35m[Kconst sensor_msgs::msg::LaserScan::ConstSharedPtr scan_msg[m[K)
+[8.502s]       |                        [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~[m[K
+[10.305s] [100%] [32m[1mLinking CXX executable wall_follow_node[0m
+[10.646s] [100%] Built target wall_follow_node
+[10.670s] Invoked command in '/home/nvidia/f1tenth_ws/build/wall_follow' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/nvidia/f1tenth_ws/build/wall_follow -- -j6 -l6
+[10.692s] Invoking command in '/home/nvidia/f1tenth_ws/build/wall_follow': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/nvidia/f1tenth_ws/build/wall_follow
+[10.708s] -- Install configuration: ""
+[10.708s] -- Installing: /home/nvidia/f1tenth_ws/install/wall_follow/lib/wall_follow/wall_follow_node
+[10.709s] -- Set non-toolchain portion of runtime path of "/home/nvidia/f1tenth_ws/install/wall_follow/lib/wall_follow/wall_follow_node" to ""
+[10.710s] -- Installing: /home/nvidia/f1tenth_ws/install/wall_follow/share/wall_follow/environment/pythonpath.sh
+[10.710s] -- Installing: /home/nvidia/f1tenth_ws/install/wall_follow/share/wall_follow/environment/pythonpath.dsv
+[10.710s] -- Installing: /home/nvidia/f1tenth_ws/install/wall_follow/lib/python3.12/site-packages/wall_follow-0.0.0-py3.12.egg-info
+[10.710s] -- Installing: /home/nvidia/f1tenth_ws/install/wall_follow/lib/python3.12/site-packages/wall_follow-0.0.0-py3.12.egg-info/PKG-INFO
+[10.711s] -- Installing: /home/nvidia/f1tenth_ws/install/wall_follow/lib/python3.12/site-packages/wall_follow-0.0.0-py3.12.egg-info/dependency_links.txt
+[10.711s] -- Installing: /home/nvidia/f1tenth_ws/install/wall_follow/lib/python3.12/site-packages/wall_follow-0.0.0-py3.12.egg-info/SOURCES.txt
+[10.711s] -- Installing: /home/nvidia/f1tenth_ws/install/wall_follow/lib/python3.12/site-packages/wall_follow-0.0.0-py3.12.egg-info/top_level.txt
+[10.711s] -- Installing: /home/nvidia/f1tenth_ws/install/wall_follow/lib/python3.12/site-packages/wall_follow
+[10.711s] -- Installing: /home/nvidia/f1tenth_ws/install/wall_follow/lib/python3.12/site-packages/wall_follow/__init__.py
+[10.792s] Listing '/home/nvidia/f1tenth_ws/install/wall_follow/lib/python3.12/site-packages/wall_follow'...
+[10.792s] Compiling '/home/nvidia/f1tenth_ws/install/wall_follow/lib/python3.12/site-packages/wall_follow/__init__.py'...
+[10.807s] -- Installing: /home/nvidia/f1tenth_ws/install/wall_follow/lib/wall_follow/wall_follow_node.py
+[10.807s] -- Installing: /home/nvidia/f1tenth_ws/install/wall_follow/share/ament_index/resource_index/package_run_dependencies/wall_follow
+[10.808s] -- Installing: /home/nvidia/f1tenth_ws/install/wall_follow/share/ament_index/resource_index/parent_prefix_path/wall_follow
+[10.808s] -- Installing: /home/nvidia/f1tenth_ws/install/wall_follow/share/wall_follow/environment/ament_prefix_path.sh
+[10.808s] -- Installing: /home/nvidia/f1tenth_ws/install/wall_follow/share/wall_follow/environment/ament_prefix_path.dsv
+[10.808s] -- Installing: /home/nvidia/f1tenth_ws/install/wall_follow/share/wall_follow/environment/path.sh
+[10.809s] -- Installing: /home/nvidia/f1tenth_ws/install/wall_follow/share/wall_follow/environment/path.dsv
+[10.809s] -- Installing: /home/nvidia/f1tenth_ws/install/wall_follow/share/wall_follow/local_setup.bash
+[10.809s] -- Installing: /home/nvidia/f1tenth_ws/install/wall_follow/share/wall_follow/local_setup.sh
+[10.809s] -- Installing: /home/nvidia/f1tenth_ws/install/wall_follow/share/wall_follow/local_setup.zsh
+[10.810s] -- Installing: /home/nvidia/f1tenth_ws/install/wall_follow/share/wall_follow/local_setup.dsv
+[10.810s] -- Installing: /home/nvidia/f1tenth_ws/install/wall_follow/share/wall_follow/package.dsv
+[10.810s] -- Installing: /home/nvidia/f1tenth_ws/install/wall_follow/share/ament_index/resource_index/packages/wall_follow
+[10.811s] -- Installing: /home/nvidia/f1tenth_ws/install/wall_follow/share/wall_follow/cmake/wall_followConfig.cmake
+[10.811s] -- Installing: /home/nvidia/f1tenth_ws/install/wall_follow/share/wall_follow/cmake/wall_followConfig-version.cmake
+[10.811s] -- Installing: /home/nvidia/f1tenth_ws/install/wall_follow/share/wall_follow/package.xml
+[10.817s] Invoked command in '/home/nvidia/f1tenth_ws/build/wall_follow' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/nvidia/f1tenth_ws/build/wall_follow

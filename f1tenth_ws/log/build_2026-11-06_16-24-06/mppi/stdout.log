@@ -1,0 +1,44 @@
+Built target ament_cmake_python_copy_mppi
+running egg_info
+writing mppi.egg-info/PKG-INFO
+writing dependency_links to mppi.egg-info/dependency_links.txt
+writing top-level names to mppi.egg-info/top_level.txt
+reading manifest file 'mppi.egg-info/SOURCES.txt'
+writing manifest file 'mppi.egg-info/SOURCES.txt'
+Built target ament_cmake_python_build_mppi_egg
+-- Install configuration: ""
+-- Up-to-date: /home/nvidia/f1tenth_ws/install/mppi/share/mppi/environment/pythonpath.sh
+-- Up-to-date: /home/nvidia/f1tenth_ws/install/mppi/share/mppi/environment/pythonpath.dsv
+-- Up-to-date: /home/nvidia/f1tenth_ws/install/mppi/lib/python3.12/site-packages/mppi-0.0.0-py3.12.egg-info
+-- Installing: /home/nvidia/f1tenth_ws/install/mppi/lib/python3.12/site-packages/mppi-0.0.0-py3.12.egg-info/PKG-INFO
+-- Installing: /home/nvidia/f1tenth_ws/install/mppi/lib/python3.12/site-packages/mppi-0.0.0-py3.12.egg-info/dependency_links.txt
+-- Installing: /home/nvidia/f1tenth_ws/install/mppi/lib/python3.12/site-packages/mppi-0.0.0-py3.12.egg-info/SOURCES.txt
+-- Installing: /home/nvidia/f1tenth_ws/install/mppi/lib/python3.12/site-packages/mppi-0.0.0-py3.12.egg-info/top_level.txt
+-- Up-to-date: /home/nvidia/f1tenth_ws/install/mppi/lib/python3.12/site-packages/mppi
+-- Up-to-date: /home/nvidia/f1tenth_ws/install/mppi/lib/python3.12/site-packages/mppi/__init__.py
+Listing '/home/nvidia/f1tenth_ws/install/mppi/lib/python3.12/site-packages/mppi'...
+-- Up-to-date: /home/nvidia/f1tenth_ws/install/mppi/lib/mppi/mppi_node.py
+-- Up-to-date: /home/nvidia/f1tenth_ws/install/mppi/lib/mppi/utils.py
+-- Up-to-date: /home/nvidia/f1tenth_ws/install/mppi/share/mppi/launch
+-- Up-to-date: /home/nvidia/f1tenth_ws/install/mppi/share/mppi/launch/spielberg_launch.py
+-- Up-to-date: /home/nvidia/f1tenth_ws/install/mppi/share/mppi/launch/levine_launch.py
+-- Up-to-date: /home/nvidia/f1tenth_ws/install/mppi/share/mppi/waypoints
+-- Up-to-date: /home/nvidia/f1tenth_ws/install/mppi/share/mppi/waypoints/.gitkeep
+-- Up-to-date: /home/nvidia/f1tenth_ws/install/mppi/share/mppi/waypoints/race.csv
+-- Up-to-date: /home/nvidia/f1tenth_ws/install/mppi/share/mppi/waypoints/levine.csv
+-- Up-to-date: /home/nvidia/f1tenth_ws/install/mppi/share/mppi/waypoints/levine1.csv
+-- Up-to-date: /home/nvidia/f1tenth_ws/install/mppi/share/ament_index/resource_index/package_run_dependencies/mppi
+-- Up-to-date: /home/nvidia/f1tenth_ws/install/mppi/share/ament_index/resource_index/parent_prefix_path/mppi
+-- Up-to-date: /home/nvidia/f1tenth_ws/install/mppi/share/mppi/environment/ament_prefix_path.sh
+-- Up-to-date: /home/nvidia/f1tenth_ws/install/mppi/share/mppi/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/nvidia/f1tenth_ws/install/mppi/share/mppi/environment/path.sh
+-- Up-to-date: /home/nvidia/f1tenth_ws/install/mppi/share/mppi/environment/path.dsv
+-- Up-to-date: /home/nvidia/f1tenth_ws/install/mppi/share/mppi/local_setup.bash
+-- Up-to-date: /home/nvidia/f1tenth_ws/install/mppi/share/mppi/local_setup.sh
+-- Up-to-date: /home/nvidia/f1tenth_ws/install/mppi/share/mppi/local_setup.zsh
+-- Up-to-date: /home/nvidia/f1tenth_ws/install/mppi/share/mppi/local_setup.dsv
+-- Installing: /home/nvidia/f1tenth_ws/install/mppi/share/mppi/package.dsv
+-- Up-to-date: /home/nvidia/f1tenth_ws/install/mppi/share/ament_index/resource_index/packages/mppi
+-- Up-to-date: /home/nvidia/f1tenth_ws/install/mppi/share/mppi/cmake/mppiConfig.cmake
+-- Up-to-date: /home/nvidia/f1tenth_ws/install/mppi/share/mppi/cmake/mppiConfig-version.cmake
+-- Up-to-date: /home/nvidia/f1tenth_ws/install/mppi/share/mppi/package.xml

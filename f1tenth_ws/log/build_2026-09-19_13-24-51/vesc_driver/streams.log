@@ -1,0 +1,106 @@
+[0.029s] Invoking command in '/home/nvidia/f1tenth_ws/build/vesc_driver': AMENT_PREFIX_PATH=/home/nvidia/f1tenth_ws/install/vesc_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nvidia/f1tenth_ws/install/vesc_msgs:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/nvidia/f1tenth_ws/install/vesc_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/nvidia/f1tenth_ws/install/vesc_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake /home/nvidia/f1tenth_ws/src/f1tenth_system/vesc/vesc_driver -DCMAKE_INSTALL_PREFIX=/home/nvidia/f1tenth_ws/install/vesc_driver
+[0.198s] -- The C compiler identification is GNU 13.3.0
+[0.325s] -- The CXX compiler identification is GNU 13.3.0
+[0.361s] -- Detecting C compiler ABI info
+[0.559s] -- Detecting C compiler ABI info - done
+[0.580s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.581s] -- Detecting C compile features
+[0.582s] -- Detecting C compile features - done
+[0.602s] -- Detecting CXX compiler ABI info
+[0.811s] -- Detecting CXX compiler ABI info - done
+[0.834s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.834s] -- Detecting CXX compile features
+[0.835s] -- Detecting CXX compile features - done
+[0.840s] -- Found ament_cmake_auto: 2.5.6 (/opt/ros/jazzy/share/ament_cmake_auto/cmake)
+[1.194s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[1.782s] -- Found rosidl_generator_c: 4.6.9 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[1.815s] -- Found rosidl_generator_cpp: 4.6.9 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[1.850s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.889s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.052s] -- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[2.058s] -- Found rmw_fastrtps_cpp: 8.4.4 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[2.224s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[2.268s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[2.328s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.782s] -- Found asio_cmake_module: 1.2.0 (/opt/ros/jazzy/share/asio_cmake_module/cmake)
+[2.785s] -- Found ASIO: /usr/include  
+[2.946s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[3.153s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[3.153s] -- Found Threads: TRUE  
+[3.192s] -- Found ament_lint_auto: 0.17.5 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[3.232s] [0mIn this package, headers install destination is set to `include` by ament_auto_package. It is recommended to install `include/vesc_driver` instead and will be the default behavior of ament_auto_package from ROS 2 Kilted Kaiju. On distributions before Kilted, ament_auto_package behaves the same way when you use USE_SCOPED_HEADER_INSTALL_DIR option.[0m
+[3.240s] -- Added test 'copyright' to check source files copyright and LICENSE
+[3.244s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[3.245s] -- Configured cppcheck include dirs: /home/nvidia/f1tenth_ws/src/f1tenth_system/vesc/vesc_driver/include
+[3.245s] -- Configured cppcheck exclude dirs and/or files: 
+[3.248s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[3.249s] -- Configured cpplint exclude dirs and/or files: 
+[3.250s] -- Added test 'flake8' to check Python code syntax and style conventions
+[3.253s] -- Configured 'flake8' exclude dirs and/or files: 
+[3.253s] -- Added test 'lint_cmake' to check CMake code style
+[3.255s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[3.256s] -- Added test 'uncrustify' to check C / C++ code style
+[3.256s] -- Configured uncrustify additional arguments: 
+[3.257s] -- Added test 'xmllint' to check XML markup files
+[3.264s] -- Configuring done (3.2s)
+[3.384s] -- Generating done (0.1s)
+[3.419s] -- Build files have been written to: /home/nvidia/f1tenth_ws/build/vesc_driver
+[3.468s] Invoked command in '/home/nvidia/f1tenth_ws/build/vesc_driver' returned '0': AMENT_PREFIX_PATH=/home/nvidia/f1tenth_ws/install/vesc_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nvidia/f1tenth_ws/install/vesc_msgs:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/nvidia/f1tenth_ws/install/vesc_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/nvidia/f1tenth_ws/install/vesc_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake /home/nvidia/f1tenth_ws/src/f1tenth_system/vesc/vesc_driver -DCMAKE_INSTALL_PREFIX=/home/nvidia/f1tenth_ws/install/vesc_driver
+[3.469s] Invoking command in '/home/nvidia/f1tenth_ws/build/vesc_driver': AMENT_PREFIX_PATH=/home/nvidia/f1tenth_ws/install/vesc_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nvidia/f1tenth_ws/install/vesc_msgs:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/nvidia/f1tenth_ws/install/vesc_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/nvidia/f1tenth_ws/install/vesc_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/nvidia/f1tenth_ws/build/vesc_driver -- -j6 -l6
+[3.660s] [ 10%] [32mBuilding CXX object CMakeFiles/vesc_driver_node.dir/rclcpp_components/node_main_vesc_driver_node.cpp.o[0m
+[3.672s] [ 20%] [32mBuilding CXX object CMakeFiles/vesc_driver.dir/src/vesc_packet.cpp.o[0m
+[3.679s] [ 40%] [32mBuilding CXX object CMakeFiles/vesc_driver.dir/src/vesc_interface.cpp.o[0m
+[3.688s] [ 30%] [32mBuilding CXX object CMakeFiles/vesc_driver.dir/src/vesc_driver.cpp.o[0m
+[3.689s] [ 50%] [32mBuilding CXX object CMakeFiles/vesc_driver.dir/src/vesc_packet_factory.cpp.o[0m
+[17.546s] [ 60%] [32m[1mLinking CXX executable vesc_driver_node[0m
+[17.854s] [ 60%] Built target vesc_driver_node
+[36.014s] [ 70%] [32m[1mLinking CXX shared library libvesc_driver.so[0m
+[37.266s] [ 70%] Built target vesc_driver
+[37.314s] [ 90%] [32mBuilding CXX object CMakeFiles/vesc_device_namer.dir/src/vesc_device_namer.cpp.o[0m
+[37.314s] [ 90%] [32mBuilding CXX object CMakeFiles/vesc_device_namer.dir/src/vesc_device_uuid_lookup.cpp.o[0m
+[39.025s] [100%] [32m[1mLinking CXX executable vesc_device_namer[0m
+[39.745s] [100%] Built target vesc_device_namer
+[39.772s] Invoked command in '/home/nvidia/f1tenth_ws/build/vesc_driver' returned '0': AMENT_PREFIX_PATH=/home/nvidia/f1tenth_ws/install/vesc_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nvidia/f1tenth_ws/install/vesc_msgs:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/nvidia/f1tenth_ws/install/vesc_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/nvidia/f1tenth_ws/install/vesc_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/nvidia/f1tenth_ws/build/vesc_driver -- -j6 -l6
+[39.777s] Invoking command in '/home/nvidia/f1tenth_ws/build/vesc_driver': AMENT_PREFIX_PATH=/home/nvidia/f1tenth_ws/install/vesc_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nvidia/f1tenth_ws/install/vesc_msgs:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/nvidia/f1tenth_ws/install/vesc_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/nvidia/f1tenth_ws/install/vesc_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/nvidia/f1tenth_ws/build/vesc_driver
+[39.795s] -- Install configuration: ""
+[39.796s] -- Installing: /home/nvidia/f1tenth_ws/install/vesc_driver/lib/vesc_driver/vesc_driver_node
+[39.797s] -- Set non-toolchain portion of runtime path of "/home/nvidia/f1tenth_ws/install/vesc_driver/lib/vesc_driver/vesc_driver_node" to ""
+[39.797s] -- Installing: /home/nvidia/f1tenth_ws/install/vesc_driver/include
+[39.798s] -- Installing: /home/nvidia/f1tenth_ws/install/vesc_driver/include/vesc_driver
+[39.798s] -- Installing: /home/nvidia/f1tenth_ws/install/vesc_driver/include/vesc_driver/vesc_driver.hpp
+[39.799s] -- Installing: /home/nvidia/f1tenth_ws/install/vesc_driver/include/vesc_driver/crc.hpp
+[39.799s] -- Installing: /home/nvidia/f1tenth_ws/install/vesc_driver/include/vesc_driver/vesc_device_uuid_lookup.hpp
+[39.799s] -- Installing: /home/nvidia/f1tenth_ws/install/vesc_driver/include/vesc_driver/datatypes.hpp
+[39.800s] -- Installing: /home/nvidia/f1tenth_ws/install/vesc_driver/include/vesc_driver/vesc_packet.hpp
+[39.800s] -- Installing: /home/nvidia/f1tenth_ws/install/vesc_driver/include/vesc_driver/vesc_packet_factory.hpp
+[39.800s] -- Installing: /home/nvidia/f1tenth_ws/install/vesc_driver/include/vesc_driver/vesc_interface.hpp
+[39.801s] -- Installing: /home/nvidia/f1tenth_ws/install/vesc_driver/share/vesc_driver/environment/library_path.sh
+[39.801s] -- Installing: /home/nvidia/f1tenth_ws/install/vesc_driver/share/vesc_driver/environment/library_path.dsv
+[39.801s] -- Installing: /home/nvidia/f1tenth_ws/install/vesc_driver/lib/libvesc_driver.so
+[39.812s] -- Set non-toolchain portion of runtime path of "/home/nvidia/f1tenth_ws/install/vesc_driver/lib/libvesc_driver.so" to ""
+[39.813s] -- Installing: /home/nvidia/f1tenth_ws/install/vesc_driver/lib/vesc_driver/vesc_device_namer
+[39.813s] -- Set non-toolchain portion of runtime path of "/home/nvidia/f1tenth_ws/install/vesc_driver/lib/vesc_driver/vesc_device_namer" to ""
+[39.814s] -- Installing: /home/nvidia/f1tenth_ws/install/vesc_driver/share/vesc_driver/launch
+[39.814s] -- Installing: /home/nvidia/f1tenth_ws/install/vesc_driver/share/vesc_driver/launch/vesc_driver_node.launch.py
+[39.814s] -- Installing: /home/nvidia/f1tenth_ws/install/vesc_driver/share/vesc_driver/params
+[39.814s] -- Installing: /home/nvidia/f1tenth_ws/install/vesc_driver/share/vesc_driver/params/vesc_config.yaml
+[39.815s] -- Installing: /home/nvidia/f1tenth_ws/install/vesc_driver/share/ament_index/resource_index/package_run_dependencies/vesc_driver
+[39.815s] -- Installing: /home/nvidia/f1tenth_ws/install/vesc_driver/share/ament_index/resource_index/parent_prefix_path/vesc_driver
+[39.815s] -- Installing: /home/nvidia/f1tenth_ws/install/vesc_driver/share/vesc_driver/environment/ament_prefix_path.sh
+[39.816s] -- Installing: /home/nvidia/f1tenth_ws/install/vesc_driver/share/vesc_driver/environment/ament_prefix_path.dsv
+[39.816s] -- Installing: /home/nvidia/f1tenth_ws/install/vesc_driver/share/vesc_driver/environment/path.sh
+[39.817s] -- Installing: /home/nvidia/f1tenth_ws/install/vesc_driver/share/vesc_driver/environment/path.dsv
+[39.817s] -- Installing: /home/nvidia/f1tenth_ws/install/vesc_driver/share/vesc_driver/local_setup.bash
+[39.817s] -- Installing: /home/nvidia/f1tenth_ws/install/vesc_driver/share/vesc_driver/local_setup.sh
+[39.817s] -- Installing: /home/nvidia/f1tenth_ws/install/vesc_driver/share/vesc_driver/local_setup.zsh
+[39.818s] -- Installing: /home/nvidia/f1tenth_ws/install/vesc_driver/share/vesc_driver/local_setup.dsv
+[39.818s] -- Installing: /home/nvidia/f1tenth_ws/install/vesc_driver/share/vesc_driver/package.dsv
+[39.818s] -- Installing: /home/nvidia/f1tenth_ws/install/vesc_driver/share/ament_index/resource_index/packages/vesc_driver
+[39.819s] -- Installing: /home/nvidia/f1tenth_ws/install/vesc_driver/share/ament_index/resource_index/rclcpp_components/vesc_driver
+[39.819s] -- Installing: /home/nvidia/f1tenth_ws/install/vesc_driver/share/vesc_driver/cmake/ament_cmake_export_dependencies-extras.cmake
+[39.819s] -- Installing: /home/nvidia/f1tenth_ws/install/vesc_driver/share/vesc_driver/cmake/ament_cmake_export_include_directories-extras.cmake
+[39.820s] -- Installing: /home/nvidia/f1tenth_ws/install/vesc_driver/share/vesc_driver/cmake/ament_cmake_export_libraries-extras.cmake
+[39.820s] -- Installing: /home/nvidia/f1tenth_ws/install/vesc_driver/share/vesc_driver/cmake/vesc_driverConfig.cmake
+[39.820s] -- Installing: /home/nvidia/f1tenth_ws/install/vesc_driver/share/vesc_driver/cmake/vesc_driverConfig-version.cmake
+[39.821s] -- Installing: /home/nvidia/f1tenth_ws/install/vesc_driver/share/vesc_driver/package.xml
+[39.827s] Invoked command in '/home/nvidia/f1tenth_ws/build/vesc_driver' returned '0': AMENT_PREFIX_PATH=/home/nvidia/f1tenth_ws/install/vesc_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nvidia/f1tenth_ws/install/vesc_msgs:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/nvidia/f1tenth_ws/install/vesc_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/nvidia/f1tenth_ws/install/vesc_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/nvidia/f1tenth_ws/build/vesc_driver

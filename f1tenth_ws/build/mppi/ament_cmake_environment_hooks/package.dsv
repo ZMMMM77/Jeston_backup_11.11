@@ -1,0 +1,4 @@
+source;share/mppi/local_setup.bash
+source;share/mppi/local_setup.dsv
+source;share/mppi/local_setup.sh
+source;share/mppi/local_setup.zsh

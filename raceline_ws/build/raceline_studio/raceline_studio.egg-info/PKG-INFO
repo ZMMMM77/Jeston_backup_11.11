@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: raceline-studio
+Version: 0.0.1
+Summary: Flask-based raceline editor with live push to pure_pursuit and MPPI nodes.
+Maintainer: cedric
+Maintainer-email: cedrich@seas.upenn.edu
+License: MIT

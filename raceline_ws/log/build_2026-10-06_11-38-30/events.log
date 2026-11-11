@@ -1,0 +1,147 @@
+[0.000000] (-) TimerEvent: {}
+[0.000671] (-) JobUnselected: {'identifier': 'raceline_msgs'}
+[0.000788] (raceline_studio) JobQueued: {'identifier': 'raceline_studio', 'dependencies': OrderedDict({'raceline_msgs': '/home/nvidia/raceline_ws/install/raceline_msgs'})}
+[0.000894] (raceline_studio) JobStarted: {'identifier': 'raceline_studio'}
+[0.098300] (-) TimerEvent: {}
+[0.198883] (-) TimerEvent: {}
+[0.299430] (-) TimerEvent: {}
+[0.399969] (-) TimerEvent: {}
+[0.500508] (-) TimerEvent: {}
+[0.601083] (-) TimerEvent: {}
+[0.701729] (-) TimerEvent: {}
+[0.802271] (-) TimerEvent: {}
+[0.902791] (-) TimerEvent: {}
+[1.003288] (-) TimerEvent: {}
+[1.103781] (-) TimerEvent: {}
+[1.204287] (-) TimerEvent: {}
+[1.304801] (-) TimerEvent: {}
+[1.405320] (-) TimerEvent: {}
+[1.505853] (-) TimerEvent: {}
+[1.606360] (-) TimerEvent: {}
+[1.706864] (-) TimerEvent: {}
+[1.807356] (-) TimerEvent: {}
+[1.907840] (-) TimerEvent: {}
+[2.008331] (-) TimerEvent: {}
+[2.108830] (-) TimerEvent: {}
+[2.209351] (-) TimerEvent: {}
+[2.309918] (-) TimerEvent: {}
+[2.410522] (-) TimerEvent: {}
+[2.423394] (raceline_studio) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../../build/raceline_studio', 'build', '--build-base', '/home/nvidia/raceline_ws/build/raceline_studio/build', 'install', '--record', '/home/nvidia/raceline_ws/build/raceline_studio/install.log', '--install-scripts', '$base/lib/raceline_studio', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/nvidia/raceline_ws/src/raceline_UI_f1tenth/raceline_studio', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'nvidia', 'SSH_CLIENT': '100.71.166.67 55826 22', 'XDG_SESSION_TYPE': 'tty', 'GIT_ASKPASS': '/home/nvidia/.vscode-server/cli/servers/Stable-07f806f999227108933c2e30515b26eecc1fda74/server/extensions/git/dist/askpass.sh', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/nvidia/raceline_ws/install/raceline_msgs/lib:/home/nvidia/f1tenth_ws/install/vesc_driver/lib:/home/nvidia/f1tenth_ws/install/vesc_ackermann/lib:/home/nvidia/f1tenth_ws/install/vesc_msgs/lib:/home/nvidia/f1tenth_ws/install/teleop_tools_msgs/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'BROWSER': '/home/nvidia/.vscode-server/cli/servers/Stable-07f806f999227108933c2e30515b26eecc1fda74/server/bin/helpers/browser.sh', 'HOME': '/home/nvidia', 'OLDPWD': '/home/nvidia/f1tenth_ws/src', 'TERM_PROGRAM_VERSION': '1.140.0', 'VSCODE_IPC_HOOK_CLI': '/run/user/2002/vscode-ipc-0827334c-3590-4dc1-8807-0571047bbe31.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/nvidia/.vscode-server/cli/servers/Stable-07f806f999227108933c2e30515b26eecc1fda74/server/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/home/nvidia/.vscode-server/cli/servers/Stable-07f806f999227108933c2e30515b26eecc1fda74/server/node', 'VSCODE_PYTHON_AUTOACTIVATE_GUARD': '1', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/2002/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'COLCON_PREFIX_PATH': '/home/nvidia/f1tenth_ws/install:/home/nvidia/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'nvidia', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '6', 'PATH': '/home/nvidia/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand:/home/nvidia/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli:/home/nvidia/.vscode-server/cli/servers/Stable-07f806f999227108933c2e30515b26eecc1fda74/server/bin/remote-cli:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/2002', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/2002/vscode-git-5f19d4b666.sock', 'TERM_PROGRAM': 'vscode', 'ROS_DOMAIN_ID': '9', 'AMENT_PREFIX_PATH': '/home/nvidia/raceline_ws/install/raceline_msgs:/home/nvidia/f1tenth_ws/install/wall_follow:/home/nvidia/f1tenth_ws/install/f1tenth_stack:/home/nvidia/f1tenth_ws/install/vesc:/home/nvidia/f1tenth_ws/install/vesc_driver:/home/nvidia/f1tenth_ws/install/vesc_ackermann:/home/nvidia/f1tenth_ws/install/vesc_msgs:/home/nvidia/f1tenth_ws/install/teleop_tools:/home/nvidia/f1tenth_ws/install/joy_teleop:/home/nvidia/f1tenth_ws/install/teleop_tools_msgs:/home/nvidia/f1tenth_ws/install/pure_pursuit:/home/nvidia/f1tenth_ws/install/particle_filter:/home/nvidia/f1tenth_ws/install/mouse_teleop:/home/nvidia/f1tenth_ws/install/key_teleop:/home/nvidia/f1tenth_ws/install/gap_follow:/home/nvidia/f1tenth_ws/install/ackermann_mux:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/nvidia/raceline_ws/build/raceline_studio', 'LC_ALL': 'en_US.UTF-8', 'COPILOT_DEBUG_NONCE': 'd940cf68e3aae3c20896314132a3324b', 'SSH_CONNECTION': '100.71.166.67 55826 100.122.20.107 22', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/nvidia/raceline_ws/build/raceline_studio/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/nvidia/raceline_ws/install/raceline_studio/lib/python3.12/site-packages:/home/nvidia/raceline_ws/install/raceline_msgs/lib/python3.12/site-packages:/home/nvidia/f1tenth_ws/install/wall_follow/lib/python3.12/site-packages:/home/nvidia/f1tenth_ws/install/f1tenth_stack/lib/python3.12/site-packages:/home/nvidia/f1tenth_ws/install/vesc_msgs/lib/python3.12/site-packages:/home/nvidia/f1tenth_ws/install/joy_teleop/lib/python3.12/site-packages:/home/nvidia/f1tenth_ws/install/teleop_tools_msgs/lib/python3.12/site-packages:/home/nvidia/f1tenth_ws/install/pure_pursuit/lib/python3.12/site-packages:/home/nvidia/f1tenth_ws/install/particle_filter/lib/python3.12/site-packages:/home/nvidia/f1tenth_ws/install/mouse_teleop/lib/python3.12/site-packages:/home/nvidia/f1tenth_ws/install/key_teleop/lib/python3.12/site-packages:/home/nvidia/f1tenth_ws/install/gap_follow/lib/python3.12/site-packages:/opt/ros/jazzy/opt/gz_math_vendor/lib/python:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/nvidia/raceline_ws/install/raceline_msgs:/home/nvidia/f1tenth_ws/install/wall_follow:/home/nvidia/f1tenth_ws/install/vesc:/home/nvidia/f1tenth_ws/install/vesc_driver:/home/nvidia/f1tenth_ws/install/vesc_ackermann:/home/nvidia/f1tenth_ws/install/vesc_msgs:/home/nvidia/f1tenth_ws/install/teleop_tools:/home/nvidia/f1tenth_ws/install/teleop_tools_msgs:/home/nvidia/f1tenth_ws/install/pure_pursuit:/home/nvidia/f1tenth_ws/install/gap_follow:/home/nvidia/f1tenth_ws/install/ackermann_mux:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor'}), 'shell': False}
+[2.510671] (-) TimerEvent: {}
+[2.611192] (-) TimerEvent: {}
+[2.711705] (-) TimerEvent: {}
+[2.812216] (-) TimerEvent: {}
+[2.912724] (-) TimerEvent: {}
+[3.013222] (-) TimerEvent: {}
+[3.113759] (-) TimerEvent: {}
+[3.177827] (raceline_studio) StdoutLine: {'line': b'running egg_info\n'}
+[3.213893] (-) TimerEvent: {}
+[3.236820] (raceline_studio) StdoutLine: {'line': b'writing ../../../build/raceline_studio/raceline_studio.egg-info/PKG-INFO\n'}
+[3.237432] (raceline_studio) StdoutLine: {'line': b'writing dependency_links to ../../../build/raceline_studio/raceline_studio.egg-info/dependency_links.txt\n'}
+[3.237930] (raceline_studio) StdoutLine: {'line': b'writing entry points to ../../../build/raceline_studio/raceline_studio.egg-info/entry_points.txt\n'}
+[3.238312] (raceline_studio) StdoutLine: {'line': b'writing requirements to ../../../build/raceline_studio/raceline_studio.egg-info/requires.txt\n'}
+[3.238581] (raceline_studio) StdoutLine: {'line': b'writing top-level names to ../../../build/raceline_studio/raceline_studio.egg-info/top_level.txt\n'}
+[3.314004] (-) TimerEvent: {}
+[3.357558] (raceline_studio) StdoutLine: {'line': b"reading manifest file '../../../build/raceline_studio/raceline_studio.egg-info/SOURCES.txt'\n"}
+[3.359274] (raceline_studio) StdoutLine: {'line': b"writing manifest file '../../../build/raceline_studio/raceline_studio.egg-info/SOURCES.txt'\n"}
+[3.359576] (raceline_studio) StdoutLine: {'line': b'running build\n'}
+[3.359864] (raceline_studio) StdoutLine: {'line': b'running build_py\n'}
+[3.361533] (raceline_studio) StderrLine: {'line': b"/usr/lib/python3/dist-packages/setuptools/command/build_py.py:204: _Warning: Package 'raceline_studio.static.vendor' is absent from the `packages` configuration.\n"}
+[3.362010] (raceline_studio) StderrLine: {'line': b'!!\n'}
+[3.362194] (raceline_studio) StderrLine: {'line': b'\n'}
+[3.362363] (raceline_studio) StderrLine: {'line': b'        ********************************************************************************\n'}
+[3.362535] (raceline_studio) StderrLine: {'line': b'        ############################\n'}
+[3.362758] (raceline_studio) StderrLine: {'line': b'        # Package would be ignored #\n'}
+[3.362920] (raceline_studio) StderrLine: {'line': b'        ############################\n'}
+[3.363069] (raceline_studio) StderrLine: {'line': b"        Python recognizes 'raceline_studio.static.vendor' as an importable package[^1],\n"}
+[3.363217] (raceline_studio) StderrLine: {'line': b"        but it is absent from setuptools' `packages` configuration.\n"}
+[3.363363] (raceline_studio) StderrLine: {'line': b'\n'}
+[3.363508] (raceline_studio) StderrLine: {'line': b'        This leads to an ambiguous overall configuration. If you want to distribute this\n'}
+[3.363650] (raceline_studio) StderrLine: {'line': b"        package, please make sure that 'raceline_studio.static.vendor' is explicitly added\n"}
+[3.363792] (raceline_studio) StderrLine: {'line': b'        to the `packages` configuration field.\n'}
+[3.363932] (raceline_studio) StderrLine: {'line': b'\n'}
+[3.364071] (raceline_studio) StderrLine: {'line': b"        Alternatively, you can also rely on setuptools' discovery methods\n"}
+[3.364209] (raceline_studio) StderrLine: {'line': b'        (for example by using `find_namespace_packages(...)`/`find_namespace:`\n'}
+[3.364351] (raceline_studio) StderrLine: {'line': b'        instead of `find_packages(...)`/`find:`).\n'}
+[3.364515] (raceline_studio) StderrLine: {'line': b'\n'}
+[3.364658] (raceline_studio) StderrLine: {'line': b'        You can read more about "package discovery" on setuptools documentation page:\n'}
+[3.364801] (raceline_studio) StderrLine: {'line': b'\n'}
+[3.364942] (raceline_studio) StderrLine: {'line': b'        - https://setuptools.pypa.io/en/latest/userguide/package_discovery.html\n'}
+[3.365084] (raceline_studio) StderrLine: {'line': b'\n'}
+[3.365225] (raceline_studio) StderrLine: {'line': b"        If you don't want 'raceline_studio.static.vendor' to be distributed and are\n"}
+[3.365366] (raceline_studio) StderrLine: {'line': b"        already explicitly excluding 'raceline_studio.static.vendor' via\n"}
+[3.365504] (raceline_studio) StderrLine: {'line': b'        `find_namespace_packages(...)/find_namespace` or `find_packages(...)/find`,\n'}
+[3.365668] (raceline_studio) StderrLine: {'line': b'        you can try to use `exclude_package_data`, or `include-package-data=False` in\n'}
+[3.365838] (raceline_studio) StderrLine: {'line': b'        combination with a more fine grained `package-data` configuration.\n'}
+[3.365985] (raceline_studio) StderrLine: {'line': b'\n'}
+[3.366126] (raceline_studio) StderrLine: {'line': b'        You can read more about "package data files" on setuptools documentation page:\n'}
+[3.366264] (raceline_studio) StderrLine: {'line': b'\n'}
+[3.366402] (raceline_studio) StderrLine: {'line': b'        - https://setuptools.pypa.io/en/latest/userguide/datafiles.html\n'}
+[3.366540] (raceline_studio) StderrLine: {'line': b'\n'}
+[3.366676] (raceline_studio) StderrLine: {'line': b'\n'}
+[3.366814] (raceline_studio) StderrLine: {'line': b'        [^1]: For Python, any directory (with suitable naming) can be imported,\n'}
+[3.366953] (raceline_studio) StderrLine: {'line': b'              even if it does not contain any `.py` files.\n'}
+[3.367091] (raceline_studio) StderrLine: {'line': b'              On the other hand, currently there is no concept of package data\n'}
+[3.367251] (raceline_studio) StderrLine: {'line': b'              directory, all directories are treated like packages.\n'}
+[3.367398] (raceline_studio) StderrLine: {'line': b'        ********************************************************************************\n'}
+[3.367541] (raceline_studio) StderrLine: {'line': b'\n'}
+[3.367680] (raceline_studio) StderrLine: {'line': b'!!\n'}
+[3.367819] (raceline_studio) StderrLine: {'line': b'  check.warn(importable)\n'}
+[3.367957] (raceline_studio) StderrLine: {'line': b"/usr/lib/python3/dist-packages/setuptools/command/build_py.py:204: _Warning: Package 'raceline_studio.templates' is absent from the `packages` configuration.\n"}
+[3.368100] (raceline_studio) StderrLine: {'line': b'!!\n'}
+[3.368240] (raceline_studio) StderrLine: {'line': b'\n'}
+[3.368379] (raceline_studio) StderrLine: {'line': b'        ********************************************************************************\n'}
+[3.368518] (raceline_studio) StderrLine: {'line': b'        ############################\n'}
+[3.368653] (raceline_studio) StderrLine: {'line': b'        # Package would be ignored #\n'}
+[3.368790] (raceline_studio) StderrLine: {'line': b'        ############################\n'}
+[3.368928] (raceline_studio) StderrLine: {'line': b"        Python recognizes 'raceline_studio.templates' as an importable package[^1],\n"}
+[3.369066] (raceline_studio) StderrLine: {'line': b"        but it is absent from setuptools' `packages` configuration.\n"}
+[3.369203] (raceline_studio) StderrLine: {'line': b'\n'}
+[3.369341] (raceline_studio) StderrLine: {'line': b'        This leads to an ambiguous overall configuration. If you want to distribute this\n'}
+[3.369478] (raceline_studio) StderrLine: {'line': b"        package, please make sure that 'raceline_studio.templates' is explicitly added\n"}
+[3.369616] (raceline_studio) StderrLine: {'line': b'        to the `packages` configuration field.\n'}
+[3.369794] (raceline_studio) StderrLine: {'line': b'\n'}
+[3.369940] (raceline_studio) StderrLine: {'line': b"        Alternatively, you can also rely on setuptools' discovery methods\n"}
+[3.370095] (raceline_studio) StderrLine: {'line': b'        (for example by using `find_namespace_packages(...)`/`find_namespace:`\n'}
+[3.370235] (raceline_studio) StderrLine: {'line': b'        instead of `find_packages(...)`/`find:`).\n'}
+[3.370374] (raceline_studio) StderrLine: {'line': b'\n'}
+[3.370512] (raceline_studio) StderrLine: {'line': b'        You can read more about "package discovery" on setuptools documentation page:\n'}
+[3.370650] (raceline_studio) StderrLine: {'line': b'\n'}
+[3.370786] (raceline_studio) StderrLine: {'line': b'        - https://setuptools.pypa.io/en/latest/userguide/package_discovery.html\n'}
+[3.370924] (raceline_studio) StderrLine: {'line': b'\n'}
+[3.371060] (raceline_studio) StderrLine: {'line': b"        If you don't want 'raceline_studio.templates' to be distributed and are\n"}
+[3.371197] (raceline_studio) StderrLine: {'line': b"        already explicitly excluding 'raceline_studio.templates' via\n"}
+[3.371337] (raceline_studio) StderrLine: {'line': b'        `find_namespace_packages(...)/find_namespace` or `find_packages(...)/find`,\n'}
+[3.371494] (raceline_studio) StderrLine: {'line': b'        you can try to use `exclude_package_data`, or `include-package-data=False` in\n'}
+[3.371636] (raceline_studio) StderrLine: {'line': b'        combination with a more fine grained `package-data` configuration.\n'}
+[3.371778] (raceline_studio) StderrLine: {'line': b'\n'}
+[3.371916] (raceline_studio) StderrLine: {'line': b'        You can read more about "package data files" on setuptools documentation page:\n'}
+[3.372054] (raceline_studio) StderrLine: {'line': b'\n'}
+[3.372191] (raceline_studio) StderrLine: {'line': b'        - https://setuptools.pypa.io/en/latest/userguide/datafiles.html\n'}
+[3.372328] (raceline_studio) StderrLine: {'line': b'\n'}
+[3.372468] (raceline_studio) StderrLine: {'line': b'\n'}
+[3.372607] (raceline_studio) StderrLine: {'line': b'        [^1]: For Python, any directory (with suitable naming) can be imported,\n'}
+[3.372746] (raceline_studio) StderrLine: {'line': b'              even if it does not contain any `.py` files.\n'}
+[3.372883] (raceline_studio) StderrLine: {'line': b'              On the other hand, currently there is no concept of package data\n'}
+[3.373022] (raceline_studio) StderrLine: {'line': b'              directory, all directories are treated like packages.\n'}
+[3.373160] (raceline_studio) StderrLine: {'line': b'        ********************************************************************************\n'}
+[3.373315] (raceline_studio) StderrLine: {'line': b'\n'}
+[3.373454] (raceline_studio) StderrLine: {'line': b'!!\n'}
+[3.373591] (raceline_studio) StderrLine: {'line': b'  check.warn(importable)\n'}
+[3.373766] (raceline_studio) StdoutLine: {'line': b'running install\n'}
+[3.377272] (raceline_studio) StdoutLine: {'line': b'running install_lib\n'}
+[3.414122] (-) TimerEvent: {}
+[3.438173] (raceline_studio) StdoutLine: {'line': b'running install_data\n'}
+[3.438594] (raceline_studio) StdoutLine: {'line': b'running install_egg_info\n'}
+[3.500214] (raceline_studio) StdoutLine: {'line': b"removing '/home/nvidia/raceline_ws/install/raceline_studio/lib/python3.12/site-packages/raceline_studio-0.0.1-py3.12.egg-info' (and everything under it)\n"}
+[3.500849] (raceline_studio) StdoutLine: {'line': b'Copying ../../../build/raceline_studio/raceline_studio.egg-info to /home/nvidia/raceline_ws/install/raceline_studio/lib/python3.12/site-packages/raceline_studio-0.0.1-py3.12.egg-info\n'}
+[3.502946] (raceline_studio) StdoutLine: {'line': b'running install_scripts\n'}
+[3.514195] (-) TimerEvent: {}
+[3.614582] (-) TimerEvent: {}
+[3.715067] (-) TimerEvent: {}
+[3.815521] (-) TimerEvent: {}
+[3.870132] (raceline_studio) StderrLine: {'line': b'interrupted\n'}
+[3.915657] (-) TimerEvent: {}
+[3.957251] (raceline_studio) CommandEnded: {'returncode': 1}
+[3.958392] (raceline_studio) JobEnded: {'identifier': 'raceline_studio', 'rc': 'SIGINT'}
+[3.968565] (-) EventReactorShutdown: {}

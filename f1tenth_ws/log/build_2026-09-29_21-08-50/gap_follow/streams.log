@@ -1,0 +1,8 @@
+[0.659s] Invoking command in '/home/nvidia/f1tenth_ws/build/gap_follow': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy:/home/nvidia/f1tenth_ws/install/f1tenth_stack:/home/nvidia/f1tenth_ws/install/joy_teleop:/home/nvidia/f1tenth_ws/install/particle_filter:/home/nvidia/f1tenth_ws/install/mouse_teleop:/home/nvidia/f1tenth_ws/install/key_teleop DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/nvidia/f1tenth_ws/build/gap_follow -- -j6 -l6
+[0.795s] Error copying directory from "/home/nvidia/f1tenth_ws/src/111/ese-6150-lab-4-follow-the-gap-group-9-main 2/gap_follow/gap_follow" to "/home/nvidia/f1tenth_ws/build/gap_follow/ament_cmake_python/gap_follow/gap_follow".
+[0.795s] gmake[2]: *** [CMakeFiles/ament_cmake_python_copy_gap_follow.dir/build.make:70: CMakeFiles/ament_cmake_python_copy_gap_follow] Error 1
+[0.795s] gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/ament_cmake_python_copy_gap_follow.dir/all] Error 2
+[0.796s] gmake[1]: *** Waiting for unfinished jobs....
+[0.819s] Built target ament_cmake_python_copy_gap_follow_setup
+[0.822s] gmake: *** [Makefile:146: all] Error 2
+[1.301s] Invoked command in '/home/nvidia/f1tenth_ws/build/gap_follow' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy:/home/nvidia/f1tenth_ws/install/f1tenth_stack:/home/nvidia/f1tenth_ws/install/joy_teleop:/home/nvidia/f1tenth_ws/install/particle_filter:/home/nvidia/f1tenth_ws/install/mouse_teleop:/home/nvidia/f1tenth_ws/install/key_teleop DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/nvidia/f1tenth_ws/build/gap_follow -- -j6 -l6

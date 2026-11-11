@@ -1,0 +1,12 @@
+schema: "classroom50/repo-config/v1"
+classroom: "ese-6150"
+assignment: "lab-6-motion-planning"
+owner:
+  username: "ZMMMM77"
+  id: 240956184
+  accepted_at: "2026-10-13T21:24:58Z"
+source:
+  owner: "f1tenth"
+  owner_id: 38742763
+  repo: "f1tenth_lab6_template"
+  branch: "main"

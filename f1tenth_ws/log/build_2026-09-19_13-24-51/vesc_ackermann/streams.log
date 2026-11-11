@@ -1,0 +1,89 @@
+[0.024s] Invoking command in '/home/nvidia/f1tenth_ws/build/vesc_ackermann': AMENT_PREFIX_PATH=/home/nvidia/f1tenth_ws/install/vesc_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nvidia/f1tenth_ws/install/vesc_msgs:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/nvidia/f1tenth_ws/install/vesc_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/nvidia/f1tenth_ws/install/vesc_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake /home/nvidia/f1tenth_ws/src/f1tenth_system/vesc/vesc_ackermann -DCMAKE_INSTALL_PREFIX=/home/nvidia/f1tenth_ws/install/vesc_ackermann
+[0.182s] -- The C compiler identification is GNU 13.3.0
+[0.302s] -- The CXX compiler identification is GNU 13.3.0
+[0.343s] -- Detecting C compiler ABI info
+[0.537s] -- Detecting C compiler ABI info - done
+[0.557s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.557s] -- Detecting C compile features
+[0.559s] -- Detecting C compile features - done
+[0.578s] -- Detecting CXX compiler ABI info
+[0.785s] -- Detecting CXX compiler ABI info - done
+[0.809s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.811s] -- Detecting CXX compile features
+[0.812s] -- Detecting CXX compile features - done
+[0.816s] -- Found ament_cmake_auto: 2.5.6 (/opt/ros/jazzy/share/ament_cmake_auto/cmake)
+[1.181s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[1.812s] -- Found rosidl_generator_c: 4.6.9 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[1.844s] -- Found rosidl_generator_cpp: 4.6.9 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[1.878s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.921s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.268s] -- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[2.274s] -- Found rmw_fastrtps_cpp: 8.4.4 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[2.445s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[2.494s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[2.554s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[3.085s] -- Found ament_lint_auto: 0.17.5 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[3.127s] [0mIn this package, headers install destination is set to `include` by ament_auto_package. It is recommended to install `include/vesc_ackermann` instead and will be the default behavior of ament_auto_package from ROS 2 Kilted Kaiju. On distributions before Kilted, ament_auto_package behaves the same way when you use USE_SCOPED_HEADER_INSTALL_DIR option.[0m
+[3.131s] -- Added test 'copyright' to check source files copyright and LICENSE
+[3.133s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[3.133s] -- Configured cppcheck include dirs: /home/nvidia/f1tenth_ws/src/f1tenth_system/vesc/vesc_ackermann/include
+[3.133s] -- Configured cppcheck exclude dirs and/or files: 
+[3.136s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[3.136s] -- Configured cpplint exclude dirs and/or files: 
+[3.137s] -- Added test 'lint_cmake' to check CMake code style
+[3.140s] -- Added test 'uncrustify' to check C / C++ code style
+[3.140s] -- Configured uncrustify additional arguments: 
+[3.141s] -- Added test 'xmllint' to check XML markup files
+[3.148s] -- Configuring done (3.1s)
+[3.207s] -- Generating done (0.0s)
+[3.223s] -- Build files have been written to: /home/nvidia/f1tenth_ws/build/vesc_ackermann
+[3.261s] Invoked command in '/home/nvidia/f1tenth_ws/build/vesc_ackermann' returned '0': AMENT_PREFIX_PATH=/home/nvidia/f1tenth_ws/install/vesc_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nvidia/f1tenth_ws/install/vesc_msgs:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/nvidia/f1tenth_ws/install/vesc_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/nvidia/f1tenth_ws/install/vesc_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake /home/nvidia/f1tenth_ws/src/f1tenth_system/vesc/vesc_ackermann -DCMAKE_INSTALL_PREFIX=/home/nvidia/f1tenth_ws/install/vesc_ackermann
+[3.263s] Invoking command in '/home/nvidia/f1tenth_ws/build/vesc_ackermann': AMENT_PREFIX_PATH=/home/nvidia/f1tenth_ws/install/vesc_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nvidia/f1tenth_ws/install/vesc_msgs:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/nvidia/f1tenth_ws/install/vesc_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/nvidia/f1tenth_ws/install/vesc_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/nvidia/f1tenth_ws/build/vesc_ackermann -- -j6 -l6
+[3.389s] [ 14%] [32mBuilding CXX object CMakeFiles/ackermann_to_vesc_node.dir/rclcpp_components/node_main_ackermann_to_vesc_node.cpp.o[0m
+[3.395s] [ 28%] [32mBuilding CXX object CMakeFiles/vesc_ackermann.dir/src/vesc_to_odom.cpp.o[0m
+[3.397s] [ 57%] [32mBuilding CXX object CMakeFiles/vesc_ackermann.dir/src/ackermann_to_vesc.cpp.o[0m
+[3.400s] [ 42%] [32mBuilding CXX object CMakeFiles/vesc_to_odom_node.dir/rclcpp_components/node_main_vesc_to_odom_node.cpp.o[0m
+[16.871s] [ 71%] [32m[1mLinking CXX executable vesc_to_odom_node[0m
+[16.977s] [ 85%] [32m[1mLinking CXX executable ackermann_to_vesc_node[0m
+[17.217s] [ 85%] Built target vesc_to_odom_node
+[17.329s] [ 85%] Built target ackermann_to_vesc_node
+[36.933s] [100%] [32m[1mLinking CXX shared library libvesc_ackermann.so[0m
+[38.589s] [100%] Built target vesc_ackermann
+[38.617s] Invoked command in '/home/nvidia/f1tenth_ws/build/vesc_ackermann' returned '0': AMENT_PREFIX_PATH=/home/nvidia/f1tenth_ws/install/vesc_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nvidia/f1tenth_ws/install/vesc_msgs:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/nvidia/f1tenth_ws/install/vesc_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/nvidia/f1tenth_ws/install/vesc_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/nvidia/f1tenth_ws/build/vesc_ackermann -- -j6 -l6
+[38.620s] Invoking command in '/home/nvidia/f1tenth_ws/build/vesc_ackermann': AMENT_PREFIX_PATH=/home/nvidia/f1tenth_ws/install/vesc_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nvidia/f1tenth_ws/install/vesc_msgs:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/nvidia/f1tenth_ws/install/vesc_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/nvidia/f1tenth_ws/install/vesc_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/nvidia/f1tenth_ws/build/vesc_ackermann
+[38.637s] -- Install configuration: ""
+[38.638s] -- Installing: /home/nvidia/f1tenth_ws/install/vesc_ackermann/lib/vesc_ackermann/ackermann_to_vesc_node
+[38.639s] -- Set non-toolchain portion of runtime path of "/home/nvidia/f1tenth_ws/install/vesc_ackermann/lib/vesc_ackermann/ackermann_to_vesc_node" to ""
+[38.639s] -- Installing: /home/nvidia/f1tenth_ws/install/vesc_ackermann/lib/vesc_ackermann/vesc_to_odom_node
+[38.640s] -- Set non-toolchain portion of runtime path of "/home/nvidia/f1tenth_ws/install/vesc_ackermann/lib/vesc_ackermann/vesc_to_odom_node" to ""
+[38.641s] -- Installing: /home/nvidia/f1tenth_ws/install/vesc_ackermann/include
+[38.641s] -- Installing: /home/nvidia/f1tenth_ws/install/vesc_ackermann/include/vesc_ackermann
+[38.641s] -- Installing: /home/nvidia/f1tenth_ws/install/vesc_ackermann/include/vesc_ackermann/vesc_to_odom.hpp
+[38.641s] -- Installing: /home/nvidia/f1tenth_ws/install/vesc_ackermann/include/vesc_ackermann/ackermann_to_vesc.hpp
+[38.642s] -- Installing: /home/nvidia/f1tenth_ws/install/vesc_ackermann/share/vesc_ackermann/environment/library_path.sh
+[38.642s] -- Installing: /home/nvidia/f1tenth_ws/install/vesc_ackermann/share/vesc_ackermann/environment/library_path.dsv
+[38.642s] -- Installing: /home/nvidia/f1tenth_ws/install/vesc_ackermann/lib/libvesc_ackermann.so
+[38.663s] -- Set non-toolchain portion of runtime path of "/home/nvidia/f1tenth_ws/install/vesc_ackermann/lib/libvesc_ackermann.so" to ""
+[38.663s] -- Installing: /home/nvidia/f1tenth_ws/install/vesc_ackermann/share/vesc_ackermann/launch
+[38.664s] -- Installing: /home/nvidia/f1tenth_ws/install/vesc_ackermann/share/vesc_ackermann/launch/ackermann_to_vesc_node.launch.xml
+[38.664s] -- Installing: /home/nvidia/f1tenth_ws/install/vesc_ackermann/share/vesc_ackermann/launch/vesc_to_odom_node.launch.xml
+[38.664s] -- Installing: /home/nvidia/f1tenth_ws/install/vesc_ackermann/share/ament_index/resource_index/package_run_dependencies/vesc_ackermann
+[38.665s] -- Installing: /home/nvidia/f1tenth_ws/install/vesc_ackermann/share/ament_index/resource_index/parent_prefix_path/vesc_ackermann
+[38.665s] -- Installing: /home/nvidia/f1tenth_ws/install/vesc_ackermann/share/vesc_ackermann/environment/ament_prefix_path.sh
+[38.666s] -- Installing: /home/nvidia/f1tenth_ws/install/vesc_ackermann/share/vesc_ackermann/environment/ament_prefix_path.dsv
+[38.666s] -- Installing: /home/nvidia/f1tenth_ws/install/vesc_ackermann/share/vesc_ackermann/environment/path.sh
+[38.666s] -- Installing: /home/nvidia/f1tenth_ws/install/vesc_ackermann/share/vesc_ackermann/environment/path.dsv
+[38.666s] -- Installing: /home/nvidia/f1tenth_ws/install/vesc_ackermann/share/vesc_ackermann/local_setup.bash
+[38.667s] -- Installing: /home/nvidia/f1tenth_ws/install/vesc_ackermann/share/vesc_ackermann/local_setup.sh
+[38.667s] -- Installing: /home/nvidia/f1tenth_ws/install/vesc_ackermann/share/vesc_ackermann/local_setup.zsh
+[38.667s] -- Installing: /home/nvidia/f1tenth_ws/install/vesc_ackermann/share/vesc_ackermann/local_setup.dsv
+[38.668s] -- Installing: /home/nvidia/f1tenth_ws/install/vesc_ackermann/share/vesc_ackermann/package.dsv
+[38.668s] -- Installing: /home/nvidia/f1tenth_ws/install/vesc_ackermann/share/ament_index/resource_index/packages/vesc_ackermann
+[38.668s] -- Installing: /home/nvidia/f1tenth_ws/install/vesc_ackermann/share/ament_index/resource_index/rclcpp_components/vesc_ackermann
+[38.669s] -- Installing: /home/nvidia/f1tenth_ws/install/vesc_ackermann/share/vesc_ackermann/cmake/ament_cmake_export_dependencies-extras.cmake
+[38.669s] -- Installing: /home/nvidia/f1tenth_ws/install/vesc_ackermann/share/vesc_ackermann/cmake/ament_cmake_export_include_directories-extras.cmake
+[38.669s] -- Installing: /home/nvidia/f1tenth_ws/install/vesc_ackermann/share/vesc_ackermann/cmake/ament_cmake_export_libraries-extras.cmake
+[38.670s] -- Installing: /home/nvidia/f1tenth_ws/install/vesc_ackermann/share/vesc_ackermann/cmake/vesc_ackermannConfig.cmake
+[38.670s] -- Installing: /home/nvidia/f1tenth_ws/install/vesc_ackermann/share/vesc_ackermann/cmake/vesc_ackermannConfig-version.cmake
+[38.671s] -- Installing: /home/nvidia/f1tenth_ws/install/vesc_ackermann/share/vesc_ackermann/package.xml
+[38.677s] Invoked command in '/home/nvidia/f1tenth_ws/build/vesc_ackermann' returned '0': AMENT_PREFIX_PATH=/home/nvidia/f1tenth_ws/install/vesc_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nvidia/f1tenth_ws/install/vesc_msgs:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/nvidia/f1tenth_ws/install/vesc_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/nvidia/f1tenth_ws/install/vesc_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/nvidia/f1tenth_ws/build/vesc_ackermann

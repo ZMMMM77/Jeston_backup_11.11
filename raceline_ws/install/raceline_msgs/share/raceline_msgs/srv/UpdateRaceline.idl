@@ -1,0 +1,29 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from raceline_msgs/srv/UpdateRaceline.srv
+// generated code does not contain a copyright notice
+
+
+module raceline_msgs {
+  module srv {
+    @verbatim (language="comment", text=
+      "UpdateRaceline.srv")
+    struct UpdateRaceline_Request {
+      @verbatim (language="comment", text=
+        "flattened row-major")
+      sequence<double> data;
+
+      uint32 rows;
+
+      uint32 cols;
+
+      @verbatim (language="comment", text=
+        "\"pure_pursuit\" (cols=4) or \"mppi\" (cols=9)")
+      string format;
+    };
+    struct UpdateRaceline_Response {
+      boolean success;
+
+      string message;
+    };
+  };
+};

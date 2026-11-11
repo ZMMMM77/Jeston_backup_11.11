@@ -1,0 +1,53 @@
+[  0%] Built target ament_cmake_python_symlink_pure_pursuit
+[100%] Built target pure_pursuit_node
+[100%] Built target ament_cmake_python_symlink_pure_pursuit_setup
+running egg_info
+writing pure_pursuit.egg-info/PKG-INFO
+writing dependency_links to pure_pursuit.egg-info/dependency_links.txt
+writing top-level names to pure_pursuit.egg-info/top_level.txt
+reading manifest file 'pure_pursuit.egg-info/SOURCES.txt'
+writing manifest file 'pure_pursuit.egg-info/SOURCES.txt'
+[100%] Built target ament_cmake_python_build_pure_pursuit_egg
+-- Install configuration: ""
+-- Execute custom install script
+-- Up-to-date symlink: /home/nvidia/f1tenth_ws/install/pure_pursuit/lib/pure_pursuit/pure_pursuit_node
+-- Up-to-date symlink: /home/nvidia/f1tenth_ws/install/pure_pursuit/share/pure_pursuit/environment/pythonpath.sh
+-- Up-to-date symlink: /home/nvidia/f1tenth_ws/install/pure_pursuit/share/pure_pursuit/environment/pythonpath.dsv
+-- Up-to-date symlink: /home/nvidia/f1tenth_ws/install/pure_pursuit/lib/python3.12/site-packages/pure_pursuit-0.0.0-py3.12.egg-info/PKG-INFO
+-- Up-to-date symlink: /home/nvidia/f1tenth_ws/install/pure_pursuit/lib/python3.12/site-packages/pure_pursuit-0.0.0-py3.12.egg-info/SOURCES.txt
+-- Up-to-date symlink: /home/nvidia/f1tenth_ws/install/pure_pursuit/lib/python3.12/site-packages/pure_pursuit-0.0.0-py3.12.egg-info/dependency_links.txt
+-- Up-to-date symlink: /home/nvidia/f1tenth_ws/install/pure_pursuit/lib/python3.12/site-packages/pure_pursuit-0.0.0-py3.12.egg-info/top_level.txt
+-- Up-to-date symlink: /home/nvidia/f1tenth_ws/install/pure_pursuit/lib/python3.12/site-packages/pure_pursuit/__init__.py
+-- Up-to-date symlink: /home/nvidia/f1tenth_ws/install/pure_pursuit/lib/pure_pursuit/pure_pursuit_node.py
+-- Up-to-date symlink: /home/nvidia/f1tenth_ws/install/pure_pursuit/share/pure_pursuit/launch/levine_1st_launch.py
+-- Up-to-date symlink: /home/nvidia/f1tenth_ws/install/pure_pursuit/share/pure_pursuit/launch/levine_2nd_launch.py
+-- Up-to-date symlink: /home/nvidia/f1tenth_ws/install/pure_pursuit/share/pure_pursuit/launch/levine_launch.py
+-- Up-to-date symlink: /home/nvidia/f1tenth_ws/install/pure_pursuit/share/pure_pursuit/launch/spielberg_launch.py
+-- Up-to-date symlink: /home/nvidia/f1tenth_ws/install/pure_pursuit/share/pure_pursuit/waypoints/.gitkeep
+-- Up-to-date symlink: /home/nvidia/f1tenth_ws/install/pure_pursuit/share/pure_pursuit/waypoints/levine.csv
+-- Up-to-date symlink: /home/nvidia/f1tenth_ws/install/pure_pursuit/share/pure_pursuit/waypoints/levine_0700.csv
+-- Up-to-date symlink: /home/nvidia/f1tenth_ws/install/pure_pursuit/share/pure_pursuit/waypoints/levine_1st_drawn.csv
+-- Up-to-date symlink: /home/nvidia/f1tenth_ws/install/pure_pursuit/share/pure_pursuit/waypoints/levine_1st_raw.csv
+-- Up-to-date symlink: /home/nvidia/f1tenth_ws/install/pure_pursuit/share/pure_pursuit/waypoints/levine_2nd.csv
+-- Up-to-date symlink: /home/nvidia/f1tenth_ws/install/pure_pursuit/share/pure_pursuit/waypoints/levine_2nd_raw.csv
+-- Up-to-date symlink: /home/nvidia/f1tenth_ws/install/pure_pursuit/share/pure_pursuit/waypoints/race/levine_0700_smooth_100.csv
+-- Symlinking: /home/nvidia/f1tenth_ws/install/pure_pursuit/share/pure_pursuit/waypoints/race/levine_0700_smooth_100_xy_speed_1200.csv
+-- Symlinking: /home/nvidia/f1tenth_ws/install/pure_pursuit/share/pure_pursuit/waypoints/race/levine_0700_smooth_100_xy_speed_20261006.csv
+-- Up-to-date symlink: /home/nvidia/f1tenth_ws/install/pure_pursuit/share/pure_pursuit/waypoints/spielberg.csv
+-- Up-to-date symlink: /home/nvidia/f1tenth_ws/install/pure_pursuit/share/pure_pursuit/waypoints/spielberg.csv.bak
+-- Up-to-date symlink: /home/nvidia/f1tenth_ws/install/pure_pursuit/share/ament_index/resource_index/package_run_dependencies/pure_pursuit
+-- Up-to-date symlink: /home/nvidia/f1tenth_ws/install/pure_pursuit/share/ament_index/resource_index/parent_prefix_path/pure_pursuit
+-- Up-to-date symlink: /home/nvidia/f1tenth_ws/install/pure_pursuit/share/pure_pursuit/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /home/nvidia/f1tenth_ws/install/pure_pursuit/share/pure_pursuit/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /home/nvidia/f1tenth_ws/install/pure_pursuit/share/pure_pursuit/environment/path.sh
+-- Up-to-date symlink: /home/nvidia/f1tenth_ws/install/pure_pursuit/share/pure_pursuit/environment/path.dsv
+-- Up-to-date symlink: /home/nvidia/f1tenth_ws/install/pure_pursuit/share/pure_pursuit/local_setup.bash
+-- Up-to-date symlink: /home/nvidia/f1tenth_ws/install/pure_pursuit/share/pure_pursuit/local_setup.sh
+-- Up-to-date symlink: /home/nvidia/f1tenth_ws/install/pure_pursuit/share/pure_pursuit/local_setup.zsh
+-- Up-to-date symlink: /home/nvidia/f1tenth_ws/install/pure_pursuit/share/pure_pursuit/local_setup.dsv
+-- Symlinking: /home/nvidia/f1tenth_ws/install/pure_pursuit/share/pure_pursuit/package.dsv
+-- Up-to-date symlink: /home/nvidia/f1tenth_ws/install/pure_pursuit/share/ament_index/resource_index/packages/pure_pursuit
+-- Up-to-date symlink: /home/nvidia/f1tenth_ws/install/pure_pursuit/share/pure_pursuit/cmake/pure_pursuitConfig.cmake
+-- Up-to-date symlink: /home/nvidia/f1tenth_ws/install/pure_pursuit/share/pure_pursuit/cmake/pure_pursuitConfig-version.cmake
+-- Up-to-date symlink: /home/nvidia/f1tenth_ws/install/pure_pursuit/share/pure_pursuit/package.xml
+Listing '/home/nvidia/f1tenth_ws/install/pure_pursuit/lib/python3.12/site-packages/pure_pursuit'...

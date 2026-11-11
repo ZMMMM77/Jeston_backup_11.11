@@ -1,0 +1,420 @@
+[0.000000] (-) TimerEvent: {}
+[0.000547] (-) JobUnselected: {'identifier': 'ackermann_mux'}
+[0.000636] (-) JobUnselected: {'identifier': 'f1tenth_stack'}
+[0.000687] (-) JobUnselected: {'identifier': 'joy_teleop'}
+[0.000724] (-) JobUnselected: {'identifier': 'key_teleop'}
+[0.000759] (-) JobUnselected: {'identifier': 'mouse_teleop'}
+[0.000792] (-) JobUnselected: {'identifier': 'particle_filter'}
+[0.000821] (-) JobUnselected: {'identifier': 'pure_pursuit'}
+[0.000850] (-) JobUnselected: {'identifier': 'range_lib'}
+[0.000879] (-) JobUnselected: {'identifier': 'teleop_tools'}
+[0.000906] (-) JobUnselected: {'identifier': 'teleop_tools_msgs'}
+[0.000935] (-) JobUnselected: {'identifier': 'vesc'}
+[0.000965] (-) JobUnselected: {'identifier': 'vesc_ackermann'}
+[0.000994] (-) JobUnselected: {'identifier': 'vesc_driver'}
+[0.001022] (-) JobUnselected: {'identifier': 'vesc_msgs'}
+[0.001058] (lab7_pkg) JobQueued: {'identifier': 'lab7_pkg', 'dependencies': OrderedDict()}
+[0.002666] (lab7_pkg) JobStarted: {'identifier': 'lab7_pkg'}
+[0.025962] (lab7_pkg) JobProgress: {'identifier': 'lab7_pkg', 'progress': 'cmake'}
+[0.027498] (lab7_pkg) Command: {'cmd': ['/usr/bin/cmake', '/home/nvidia/f1tenth_ws/src/ese-6150-lab-6-motion-planning-group-9/lab7_pkg', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/nvidia/f1tenth_ws/install/lab7_pkg'], 'cwd': '/home/nvidia/f1tenth_ws/build/lab7_pkg', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'nvidia', 'SSH_CLIENT': '100.104.208.13 50127 22', 'XDG_SESSION_TYPE': 'tty', 'GIT_ASKPASS': '/home/nvidia/.vscode-server/cli/servers/Stable-6d62b1d5dace93a33b3a6d3eca1317bd5e15bcb1/server/extensions/git/dist/askpass.sh', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/home/nvidia/f1tenth_ws/install/vesc_driver/lib:/home/nvidia/f1tenth_ws/install/vesc_ackermann/lib:/home/nvidia/f1tenth_ws/install/vesc_msgs/lib:/home/nvidia/f1tenth_ws/install/teleop_tools_msgs/lib:/home/nvidia/raceline_ws/install/raceline_msgs/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'BROWSER': '/home/nvidia/.vscode-server/cli/servers/Stable-6d62b1d5dace93a33b3a6d3eca1317bd5e15bcb1/server/bin/helpers/browser.sh', 'HOME': '/home/nvidia', 'OLDPWD': '/home/nvidia/f1tenth_ws/src/ese-6150-lab-6-motion-planning-group-9', 'TERM_PROGRAM_VERSION': '1.142.0', 'VSCODE_IPC_HOOK_CLI': '/run/user/2002/vscode-ipc-0ddee6f4-8a1e-4671-9f59-a74630bb6900.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/nvidia/.vscode-server/cli/servers/Stable-6d62b1d5dace93a33b3a6d3eca1317bd5e15bcb1/server/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/home/nvidia/.vscode-server/cli/servers/Stable-6d62b1d5dace93a33b3a6d3eca1317bd5e15bcb1/server/node', 'VSCODE_PYTHON_AUTOACTIVATE_GUARD': '1', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/2002/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'COLCON_PREFIX_PATH': '/home/nvidia/f1tenth_ws/src/ese-6150-lab-6-motion-planning-group-9/install:/home/nvidia/f1tenth_ws/install:/home/nvidia/raceline_ws/install:/home/nvidia/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'nvidia', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '4', 'PATH': '/home/nvidia/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand:/home/nvidia/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli:/home/nvidia/.vscode-server/cli/servers/Stable-6d62b1d5dace93a33b3a6d3eca1317bd5e15bcb1/server/bin/remote-cli:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/2002', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/2002/vscode-git-2598b6e532.sock', 'TERM_PROGRAM': 'vscode', 'ROS_DOMAIN_ID': '9', 'AMENT_PREFIX_PATH': '/home/nvidia/f1tenth_ws/src/ese-6150-lab-6-motion-planning-group-9/install/lab7_pkg:/home/nvidia/f1tenth_ws/install/wall_follow:/home/nvidia/f1tenth_ws/install/f1tenth_stack:/home/nvidia/f1tenth_ws/install/vesc:/home/nvidia/f1tenth_ws/install/vesc_driver:/home/nvidia/f1tenth_ws/install/vesc_ackermann:/home/nvidia/f1tenth_ws/install/vesc_msgs:/home/nvidia/f1tenth_ws/install/teleop_tools:/home/nvidia/f1tenth_ws/install/joy_teleop:/home/nvidia/f1tenth_ws/install/teleop_tools_msgs:/home/nvidia/f1tenth_ws/install/pure_pursuit:/home/nvidia/f1tenth_ws/install/particle_filter:/home/nvidia/f1tenth_ws/install/mouse_teleop:/home/nvidia/f1tenth_ws/install/key_teleop:/home/nvidia/f1tenth_ws/install/gap_follow:/home/nvidia/f1tenth_ws/install/ackermann_mux:/home/nvidia/raceline_ws/install/raceline_studio:/home/nvidia/raceline_ws/install/raceline_msgs:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/nvidia/f1tenth_ws/build/lab7_pkg', 'LC_ALL': 'en_US.UTF-8', 'COPILOT_DEBUG_NONCE': 'dcf2af6fc5c3599be55763ede4857722', 'SSH_CONNECTION': '100.104.208.13 50127 100.122.20.107 22', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/nvidia/f1tenth_ws/src/ese-6150-lab-6-motion-planning-group-9/install/lab7_pkg/lib/python3.12/site-packages:/home/nvidia/f1tenth_ws/install/wall_follow/lib/python3.12/site-packages:/home/nvidia/f1tenth_ws/install/f1tenth_stack/lib/python3.12/site-packages:/home/nvidia/f1tenth_ws/install/vesc_msgs/lib/python3.12/site-packages:/home/nvidia/f1tenth_ws/install/joy_teleop/lib/python3.12/site-packages:/home/nvidia/f1tenth_ws/install/teleop_tools_msgs/lib/python3.12/site-packages:/home/nvidia/f1tenth_ws/install/pure_pursuit/lib/python3.12/site-packages:/home/nvidia/f1tenth_ws/install/particle_filter/lib/python3.12/site-packages:/home/nvidia/f1tenth_ws/install/mouse_teleop/lib/python3.12/site-packages:/home/nvidia/f1tenth_ws/install/key_teleop/lib/python3.12/site-packages:/home/nvidia/f1tenth_ws/install/gap_follow/lib/python3.12/site-packages:/home/nvidia/raceline_ws/install/raceline_studio/lib/python3.12/site-packages:/home/nvidia/raceline_ws/install/raceline_msgs/lib/python3.12/site-packages:/opt/ros/jazzy/opt/gz_math_vendor/lib/python:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/nvidia/f1tenth_ws/src/ese-6150-lab-6-motion-planning-group-9/install/lab7_pkg:/home/nvidia/f1tenth_ws/install/wall_follow:/home/nvidia/f1tenth_ws/install/vesc:/home/nvidia/f1tenth_ws/install/vesc_driver:/home/nvidia/f1tenth_ws/install/vesc_ackermann:/home/nvidia/f1tenth_ws/install/vesc_msgs:/home/nvidia/f1tenth_ws/install/teleop_tools:/home/nvidia/f1tenth_ws/install/teleop_tools_msgs:/home/nvidia/f1tenth_ws/install/pure_pursuit:/home/nvidia/f1tenth_ws/install/gap_follow:/home/nvidia/f1tenth_ws/install/ackermann_mux:/home/nvidia/raceline_ws/install/raceline_msgs:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/nvidia/f1tenth_ws/install/f1tenth_stack:/home/nvidia/f1tenth_ws/install/joy_teleop:/home/nvidia/f1tenth_ws/install/particle_filter:/home/nvidia/f1tenth_ws/install/mouse_teleop:/home/nvidia/f1tenth_ws/install/key_teleop:/home/nvidia/raceline_ws/install/raceline_studio:/opt/ros/jazzy'}), 'shell': False}
+[0.064124] (lab7_pkg) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[0.099294] (-) TimerEvent: {}
+[0.199896] (-) TimerEvent: {}
+[0.301121] (-) TimerEvent: {}
+[0.401717] (-) TimerEvent: {}
+[0.502283] (-) TimerEvent: {}
+[0.603738] (-) TimerEvent: {}
+[0.671748] (lab7_pkg) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.694484] (lab7_pkg) StdoutLine: {'line': b'-- Found rclcpp: 28.1.22 (/opt/ros/jazzy/share/rclcpp/cmake)\n'}
+[0.703883] (-) TimerEvent: {}
+[0.757623] (lab7_pkg) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.6.9 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)\n'}
+[0.780319] (lab7_pkg) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.6.9 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)\n'}
+[0.804046] (-) TimerEvent: {}
+[0.808397] (lab7_pkg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.841771] (lab7_pkg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.904189] (-) TimerEvent: {}
+[0.976758] (lab7_pkg) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)\n'}
+[0.981207] (lab7_pkg) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 8.4.4 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)\n'}
+[1.004384] (-) TimerEvent: {}
+[1.104982] (-) TimerEvent: {}
+[1.133312] (lab7_pkg) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.205149] (-) TimerEvent: {}
+[1.283139] (lab7_pkg) StdoutLine: {'line': b'-- Found rclpy: 7.1.12 (/opt/ros/jazzy/share/rclpy/cmake)\n'}
+[1.283705] (lab7_pkg) StdoutLine: {'line': b'-- Found geometry_msgs: 5.3.8 (/opt/ros/jazzy/share/geometry_msgs/cmake)\n'}
+[1.305298] (-) TimerEvent: {}
+[1.348854] (lab7_pkg) StdoutLine: {'line': b'-- Found nav_msgs: 5.3.8 (/opt/ros/jazzy/share/nav_msgs/cmake)\n'}
+[1.400862] (lab7_pkg) StdoutLine: {'line': b'-- Found ackermann_msgs: 2.0.2 (/opt/ros/jazzy/share/ackermann_msgs/cmake)\n'}
+[1.405398] (-) TimerEvent: {}
+[1.431599] (lab7_pkg) StdoutLine: {'line': b'-- Found sensor_msgs: 5.3.8 (/opt/ros/jazzy/share/sensor_msgs/cmake)\n'}
+[1.478792] (lab7_pkg) StdoutLine: {'line': b'-- Found visualization_msgs: 5.3.8 (/opt/ros/jazzy/share/visualization_msgs/cmake)\n'}
+[1.505561] (-) TimerEvent: {}
+[1.534051] (lab7_pkg) StdoutLine: {'line': b'-- Found tf2_ros: 0.36.22 (/opt/ros/jazzy/share/tf2_ros/cmake)\n'}
+[1.605797] (-) TimerEvent: {}
+[1.706403] (-) TimerEvent: {}
+[1.807348] (-) TimerEvent: {}
+[1.907892] (-) TimerEvent: {}
+[2.008478] (-) TimerEvent: {}
+[2.048654] (lab7_pkg) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.17.5 (/opt/ros/jazzy/share/ament_lint_auto/cmake)\n'}
+[2.108635] (-) TimerEvent: {}
+[2.209184] (-) TimerEvent: {}
+[2.309765] (-) TimerEvent: {}
+[2.330832] (lab7_pkg) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[2.333787] (lab7_pkg) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[2.335255] (lab7_pkg) StdoutLine: {'line': b'-- Configured cppcheck include dirs: /home/nvidia/f1tenth_ws/src/ese-6150-lab-6-motion-planning-group-9/lab7_pkg/include\n'}
+[2.335628] (lab7_pkg) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[2.337125] (lab7_pkg) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[2.337393] (lab7_pkg) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[2.339051] (lab7_pkg) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[2.339415] (lab7_pkg) StdoutLine: {'line': b"-- Configured 'flake8' exclude dirs and/or files: \n"}
+[2.339740] (lab7_pkg) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[2.340374] (lab7_pkg) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[2.342596] (lab7_pkg) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[2.342908] (lab7_pkg) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[2.343560] (lab7_pkg) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[2.345983] (lab7_pkg) StdoutLine: {'line': b'-- Configuring done (2.3s)\n'}
+[2.389467] (lab7_pkg) StdoutLine: {'line': b'-- Generating done (0.0s)\n'}
+[2.401955] (lab7_pkg) StdoutLine: {'line': b'-- Build files have been written to: /home/nvidia/f1tenth_ws/build/lab7_pkg\n'}
+[2.409854] (-) TimerEvent: {}
+[2.433564] (lab7_pkg) CommandEnded: {'returncode': 0}
+[2.436623] (lab7_pkg) JobProgress: {'identifier': 'lab7_pkg', 'progress': 'build'}
+[2.436777] (lab7_pkg) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/nvidia/f1tenth_ws/build/lab7_pkg', '--', '-j6', '-l6'], 'cwd': '/home/nvidia/f1tenth_ws/build/lab7_pkg', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'nvidia', 'SSH_CLIENT': '100.104.208.13 50127 22', 'XDG_SESSION_TYPE': 'tty', 'GIT_ASKPASS': '/home/nvidia/.vscode-server/cli/servers/Stable-6d62b1d5dace93a33b3a6d3eca1317bd5e15bcb1/server/extensions/git/dist/askpass.sh', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/home/nvidia/f1tenth_ws/install/vesc_driver/lib:/home/nvidia/f1tenth_ws/install/vesc_ackermann/lib:/home/nvidia/f1tenth_ws/install/vesc_msgs/lib:/home/nvidia/f1tenth_ws/install/teleop_tools_msgs/lib:/home/nvidia/raceline_ws/install/raceline_msgs/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'BROWSER': '/home/nvidia/.vscode-server/cli/servers/Stable-6d62b1d5dace93a33b3a6d3eca1317bd5e15bcb1/server/bin/helpers/browser.sh', 'HOME': '/home/nvidia', 'OLDPWD': '/home/nvidia/f1tenth_ws/src/ese-6150-lab-6-motion-planning-group-9', 'TERM_PROGRAM_VERSION': '1.142.0', 'VSCODE_IPC_HOOK_CLI': '/run/user/2002/vscode-ipc-0ddee6f4-8a1e-4671-9f59-a74630bb6900.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/nvidia/.vscode-server/cli/servers/Stable-6d62b1d5dace93a33b3a6d3eca1317bd5e15bcb1/server/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/home/nvidia/.vscode-server/cli/servers/Stable-6d62b1d5dace93a33b3a6d3eca1317bd5e15bcb1/server/node', 'VSCODE_PYTHON_AUTOACTIVATE_GUARD': '1', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/2002/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'COLCON_PREFIX_PATH': '/home/nvidia/f1tenth_ws/src/ese-6150-lab-6-motion-planning-group-9/install:/home/nvidia/f1tenth_ws/install:/home/nvidia/raceline_ws/install:/home/nvidia/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'nvidia', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '4', 'PATH': '/home/nvidia/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand:/home/nvidia/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli:/home/nvidia/.vscode-server/cli/servers/Stable-6d62b1d5dace93a33b3a6d3eca1317bd5e15bcb1/server/bin/remote-cli:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/2002', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/2002/vscode-git-2598b6e532.sock', 'TERM_PROGRAM': 'vscode', 'ROS_DOMAIN_ID': '9', 'AMENT_PREFIX_PATH': '/home/nvidia/f1tenth_ws/src/ese-6150-lab-6-motion-planning-group-9/install/lab7_pkg:/home/nvidia/f1tenth_ws/install/wall_follow:/home/nvidia/f1tenth_ws/install/f1tenth_stack:/home/nvidia/f1tenth_ws/install/vesc:/home/nvidia/f1tenth_ws/install/vesc_driver:/home/nvidia/f1tenth_ws/install/vesc_ackermann:/home/nvidia/f1tenth_ws/install/vesc_msgs:/home/nvidia/f1tenth_ws/install/teleop_tools:/home/nvidia/f1tenth_ws/install/joy_teleop:/home/nvidia/f1tenth_ws/install/teleop_tools_msgs:/home/nvidia/f1tenth_ws/install/pure_pursuit:/home/nvidia/f1tenth_ws/install/particle_filter:/home/nvidia/f1tenth_ws/install/mouse_teleop:/home/nvidia/f1tenth_ws/install/key_teleop:/home/nvidia/f1tenth_ws/install/gap_follow:/home/nvidia/f1tenth_ws/install/ackermann_mux:/home/nvidia/raceline_ws/install/raceline_studio:/home/nvidia/raceline_ws/install/raceline_msgs:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/nvidia/f1tenth_ws/build/lab7_pkg', 'LC_ALL': 'en_US.UTF-8', 'COPILOT_DEBUG_NONCE': 'dcf2af6fc5c3599be55763ede4857722', 'SSH_CONNECTION': '100.104.208.13 50127 100.122.20.107 22', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/nvidia/f1tenth_ws/src/ese-6150-lab-6-motion-planning-group-9/install/lab7_pkg/lib/python3.12/site-packages:/home/nvidia/f1tenth_ws/install/wall_follow/lib/python3.12/site-packages:/home/nvidia/f1tenth_ws/install/f1tenth_stack/lib/python3.12/site-packages:/home/nvidia/f1tenth_ws/install/vesc_msgs/lib/python3.12/site-packages:/home/nvidia/f1tenth_ws/install/joy_teleop/lib/python3.12/site-packages:/home/nvidia/f1tenth_ws/install/teleop_tools_msgs/lib/python3.12/site-packages:/home/nvidia/f1tenth_ws/install/pure_pursuit/lib/python3.12/site-packages:/home/nvidia/f1tenth_ws/install/particle_filter/lib/python3.12/site-packages:/home/nvidia/f1tenth_ws/install/mouse_teleop/lib/python3.12/site-packages:/home/nvidia/f1tenth_ws/install/key_teleop/lib/python3.12/site-packages:/home/nvidia/f1tenth_ws/install/gap_follow/lib/python3.12/site-packages:/home/nvidia/raceline_ws/install/raceline_studio/lib/python3.12/site-packages:/home/nvidia/raceline_ws/install/raceline_msgs/lib/python3.12/site-packages:/opt/ros/jazzy/opt/gz_math_vendor/lib/python:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/nvidia/f1tenth_ws/src/ese-6150-lab-6-motion-planning-group-9/install/lab7_pkg:/home/nvidia/f1tenth_ws/install/wall_follow:/home/nvidia/f1tenth_ws/install/vesc:/home/nvidia/f1tenth_ws/install/vesc_driver:/home/nvidia/f1tenth_ws/install/vesc_ackermann:/home/nvidia/f1tenth_ws/install/vesc_msgs:/home/nvidia/f1tenth_ws/install/teleop_tools:/home/nvidia/f1tenth_ws/install/teleop_tools_msgs:/home/nvidia/f1tenth_ws/install/pure_pursuit:/home/nvidia/f1tenth_ws/install/gap_follow:/home/nvidia/f1tenth_ws/install/ackermann_mux:/home/nvidia/raceline_ws/install/raceline_msgs:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/nvidia/f1tenth_ws/install/f1tenth_stack:/home/nvidia/f1tenth_ws/install/joy_teleop:/home/nvidia/f1tenth_ws/install/particle_filter:/home/nvidia/f1tenth_ws/install/mouse_teleop:/home/nvidia/f1tenth_ws/install/key_teleop:/home/nvidia/raceline_ws/install/raceline_studio:/opt/ros/jazzy'}), 'shell': False}
+[2.510078] (-) TimerEvent: {}
+[2.559963] (lab7_pkg) StderrLine: {'line': b"failed to create symbolic link '/home/nvidia/f1tenth_ws/build/lab7_pkg/ament_cmake_python/lab7_pkg/lab7_pkg' because existing path cannot be removed: Is a directory\n"}
+[2.564413] (lab7_pkg) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/ament_cmake_python_symlink_lab7_pkg.dir/build.make:70: CMakeFiles/ament_cmake_python_symlink_lab7_pkg] Error 1\n'}
+[2.564938] (lab7_pkg) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:167: CMakeFiles/ament_cmake_python_symlink_lab7_pkg.dir/all] Error 2\n'}
+[2.565149] (lab7_pkg) StderrLine: {'line': b'gmake[1]: *** Waiting for unfinished jobs....\n'}
+[2.583197] (lab7_pkg) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/rrt_node.dir/src/rrt.cpp.o\x1b[0m\n'}
+[2.590694] (lab7_pkg) StdoutLine: {'line': b'[ 33%] Built target ament_cmake_python_symlink_lab7_pkg_setup\n'}
+[2.610237] (-) TimerEvent: {}
+[2.710833] (-) TimerEvent: {}
+[2.811420] (-) TimerEvent: {}
+[2.911988] (-) TimerEvent: {}
+[3.012613] (-) TimerEvent: {}
+[3.113295] (-) TimerEvent: {}
+[3.213852] (-) TimerEvent: {}
+[3.314424] (-) TimerEvent: {}
+[3.415034] (-) TimerEvent: {}
+[3.515639] (-) TimerEvent: {}
+[3.616236] (-) TimerEvent: {}
+[3.721696] (-) TimerEvent: {}
+[3.823041] (-) TimerEvent: {}
+[3.923996] (-) TimerEvent: {}
+[4.024573] (-) TimerEvent: {}
+[4.125103] (-) TimerEvent: {}
+[4.225695] (-) TimerEvent: {}
+[4.326259] (-) TimerEvent: {}
+[4.427019] (-) TimerEvent: {}
+[4.527616] (-) TimerEvent: {}
+[4.628238] (-) TimerEvent: {}
+[4.731132] (-) TimerEvent: {}
+[4.831845] (-) TimerEvent: {}
+[4.932597] (-) TimerEvent: {}
+[5.033696] (-) TimerEvent: {}
+[5.134338] (-) TimerEvent: {}
+[5.235511] (-) TimerEvent: {}
+[5.336511] (-) TimerEvent: {}
+[5.437102] (-) TimerEvent: {}
+[5.537677] (-) TimerEvent: {}
+[5.638273] (-) TimerEvent: {}
+[5.738847] (-) TimerEvent: {}
+[5.839734] (-) TimerEvent: {}
+[5.940576] (-) TimerEvent: {}
+[6.041203] (-) TimerEvent: {}
+[6.141810] (-) TimerEvent: {}
+[6.242624] (-) TimerEvent: {}
+[6.343400] (-) TimerEvent: {}
+[6.444003] (-) TimerEvent: {}
+[6.544642] (-) TimerEvent: {}
+[6.645269] (-) TimerEvent: {}
+[6.745983] (-) TimerEvent: {}
+[6.846579] (-) TimerEvent: {}
+[6.947560] (-) TimerEvent: {}
+[7.048110] (-) TimerEvent: {}
+[7.148673] (-) TimerEvent: {}
+[7.249231] (-) TimerEvent: {}
+[7.349836] (-) TimerEvent: {}
+[7.450471] (-) TimerEvent: {}
+[7.551059] (-) TimerEvent: {}
+[7.651661] (-) TimerEvent: {}
+[7.752246] (-) TimerEvent: {}
+[7.852826] (-) TimerEvent: {}
+[7.953531] (-) TimerEvent: {}
+[8.054113] (-) TimerEvent: {}
+[8.154774] (-) TimerEvent: {}
+[8.255461] (-) TimerEvent: {}
+[8.356109] (-) TimerEvent: {}
+[8.456663] (-) TimerEvent: {}
+[8.557279] (-) TimerEvent: {}
+[8.657897] (-) TimerEvent: {}
+[8.758677] (-) TimerEvent: {}
+[8.795795] (lab7_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nvidia/f1tenth_ws/src/ese-6150-lab-6-motion-planning-group-9/lab7_pkg/src/rrt.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid RRT::\x1b[01;32m\x1b[Kscan_callback\x1b[m\x1b[K(sensor_msgs::msg::LaserScan_<std::allocator<void> >::ConstSharedPtr)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[8.796334] (lab7_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nvidia/f1tenth_ws/src/ese-6150-lab-6-motion-planning-group-9/lab7_pkg/src/rrt.cpp:33:75:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kscan_msg\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[8.796556] (lab7_pkg) StderrLine: {'line': b'   33 | void RRT::scan_callback(\x1b[01;35m\x1b[Kconst sensor_msgs::msg::LaserScan::ConstSharedPtr scan_msg\x1b[m\x1b[K) {\n'}
+[8.796730] (lab7_pkg) StderrLine: {'line': b'      |                         \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~\x1b[m\x1b[K\n'}
+[8.805064] (lab7_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nvidia/f1tenth_ws/src/ese-6150-lab-6-motion-planning-group-9/lab7_pkg/src/rrt.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid RRT::\x1b[01;32m\x1b[Kpose_callback\x1b[m\x1b[K(nav_msgs::msg::Odometry_<std::allocator<void> >::ConstSharedPtr)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[8.805389] (lab7_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nvidia/f1tenth_ws/src/ese-6150-lab-6-motion-planning-group-9/lab7_pkg/src/rrt.cpp:43:71:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kpose_msg\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[8.805632] (lab7_pkg) StderrLine: {'line': b'   43 | void RRT::pose_callback(\x1b[01;35m\x1b[Kconst nav_msgs::msg::Odometry::ConstSharedPtr pose_msg\x1b[m\x1b[K) {\n'}
+[8.805799] (lab7_pkg) StderrLine: {'line': b'      |                         \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~\x1b[m\x1b[K\n'}
+[8.806464] (lab7_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nvidia/f1tenth_ws/src/ese-6150-lab-6-motion-planning-group-9/lab7_pkg/src/rrt.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kint RRT::\x1b[01;32m\x1b[Knearest\x1b[m\x1b[K(std::vector<RRT_Node>&, std::vector<double>&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[8.806657] (lab7_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nvidia/f1tenth_ws/src/ese-6150-lab-6-motion-planning-group-9/lab7_pkg/src/rrt.cpp:79:41:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Ktree\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[8.806844] (lab7_pkg) StderrLine: {'line': b'   79 | int RRT::nearest(\x1b[01;35m\x1b[Kstd::vector<RRT_Node> &tree\x1b[m\x1b[K, std::vector<double> &sampled_point) {\n'}
+[8.807050] (lab7_pkg) StderrLine: {'line': b'      |                  \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~^~~~\x1b[m\x1b[K\n'}
+[8.807228] (lab7_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nvidia/f1tenth_ws/src/ese-6150-lab-6-motion-planning-group-9/lab7_pkg/src/rrt.cpp:79:68:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Ksampled_point\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[8.807412] (lab7_pkg) StderrLine: {'line': b'   79 | int RRT::nearest(std::vector<RRT_Node> &tree, \x1b[01;35m\x1b[Kstd::vector<double> &sampled_point\x1b[m\x1b[K) {\n'}
+[8.807562] (lab7_pkg) StderrLine: {'line': b'      |                                               \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[8.808178] (lab7_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nvidia/f1tenth_ws/src/ese-6150-lab-6-motion-planning-group-9/lab7_pkg/src/rrt.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[KRRT_Node RRT::\x1b[01;32m\x1b[Ksteer\x1b[m\x1b[K(RRT_Node&, std::vector<double>&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[8.808621] (lab7_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nvidia/f1tenth_ws/src/ese-6150-lab-6-motion-planning-group-9/lab7_pkg/src/rrt.cpp:93:31:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Knearest_node\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[8.808924] (lab7_pkg) StderrLine: {'line': b'   93 | RRT_Node RRT::steer(\x1b[01;35m\x1b[KRRT_Node &nearest_node\x1b[m\x1b[K, std::vector<double> &sampled_point) {\n'}
+[8.809090] (lab7_pkg) StderrLine: {'line': b'      |                     \x1b[01;35m\x1b[K~~~~~~~~~~^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[8.809242] (lab7_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nvidia/f1tenth_ws/src/ese-6150-lab-6-motion-planning-group-9/lab7_pkg/src/rrt.cpp:93:66:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Ksampled_point\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[8.809424] (lab7_pkg) StderrLine: {'line': b'   93 | RRT_Node RRT::steer(RRT_Node &nearest_node, \x1b[01;35m\x1b[Kstd::vector<double> &sampled_point\x1b[m\x1b[K) {\n'}
+[8.809572] (lab7_pkg) StderrLine: {'line': b'      |                                             \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[8.809714] (lab7_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nvidia/f1tenth_ws/src/ese-6150-lab-6-motion-planning-group-9/lab7_pkg/src/rrt.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kbool RRT::\x1b[01;32m\x1b[Kcheck_collision\x1b[m\x1b[K(RRT_Node&, RRT_Node&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[8.809861] (lab7_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nvidia/f1tenth_ws/src/ese-6150-lab-6-motion-planning-group-9/lab7_pkg/src/rrt.cpp:113:37:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Knearest_node\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[8.810021] (lab7_pkg) StderrLine: {'line': b'  113 | bool RRT::check_collision(\x1b[01;35m\x1b[KRRT_Node &nearest_node\x1b[m\x1b[K, RRT_Node &new_node) {\n'}
+[8.810186] (lab7_pkg) StderrLine: {'line': b'      |                           \x1b[01;35m\x1b[K~~~~~~~~~~^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[8.810353] (lab7_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nvidia/f1tenth_ws/src/ese-6150-lab-6-motion-planning-group-9/lab7_pkg/src/rrt.cpp:113:61:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Knew_node\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[8.810525] (lab7_pkg) StderrLine: {'line': b'  113 | bool RRT::check_collision(RRT_Node &nearest_node, \x1b[01;35m\x1b[KRRT_Node &new_node\x1b[m\x1b[K) {\n'}
+[8.810863] (lab7_pkg) StderrLine: {'line': b'      |                                                   \x1b[01;35m\x1b[K~~~~~~~~~~^~~~~~~~\x1b[m\x1b[K\n'}
+[8.811122] (lab7_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nvidia/f1tenth_ws/src/ese-6150-lab-6-motion-planning-group-9/lab7_pkg/src/rrt.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kbool RRT::\x1b[01;32m\x1b[Kis_goal\x1b[m\x1b[K(RRT_Node&, double, double)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[8.811320] (lab7_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nvidia/f1tenth_ws/src/ese-6150-lab-6-motion-planning-group-9/lab7_pkg/src/rrt.cpp:128:29:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Klatest_added_node\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[8.811481] (lab7_pkg) StderrLine: {'line': b'  128 | bool RRT::is_goal(\x1b[01;35m\x1b[KRRT_Node &latest_added_node\x1b[m\x1b[K, double goal_x, double goal_y) {\n'}
+[8.811640] (lab7_pkg) StderrLine: {'line': b'      |                   \x1b[01;35m\x1b[K~~~~~~~~~~^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[8.811784] (lab7_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nvidia/f1tenth_ws/src/ese-6150-lab-6-motion-planning-group-9/lab7_pkg/src/rrt.cpp:128:55:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kgoal_x\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[8.811948] (lab7_pkg) StderrLine: {'line': b'  128 | bool RRT::is_goal(RRT_Node &latest_added_node, \x1b[01;35m\x1b[Kdouble goal_x\x1b[m\x1b[K, double goal_y) {\n'}
+[8.812092] (lab7_pkg) StderrLine: {'line': b'      |                                                \x1b[01;35m\x1b[K~~~~~~~^~~~~~\x1b[m\x1b[K\n'}
+[8.812235] (lab7_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nvidia/f1tenth_ws/src/ese-6150-lab-6-motion-planning-group-9/lab7_pkg/src/rrt.cpp:128:70:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kgoal_y\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[8.812388] (lab7_pkg) StderrLine: {'line': b'  128 | bool RRT::is_goal(RRT_Node &latest_added_node, double goal_x, \x1b[01;35m\x1b[Kdouble goal_y\x1b[m\x1b[K) {\n'}
+[8.812565] (lab7_pkg) StderrLine: {'line': b'      |                                                               \x1b[01;35m\x1b[K~~~~~~~^~~~~~\x1b[m\x1b[K\n'}
+[8.812734] (lab7_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nvidia/f1tenth_ws/src/ese-6150-lab-6-motion-planning-group-9/lab7_pkg/src/rrt.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<RRT_Node> RRT::\x1b[01;32m\x1b[Kfind_path\x1b[m\x1b[K(std::vector<RRT_Node>&, RRT_Node&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[8.812887] (lab7_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nvidia/f1tenth_ws/src/ese-6150-lab-6-motion-planning-group-9/lab7_pkg/src/rrt.cpp:145:61:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Ktree\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[8.813042] (lab7_pkg) StderrLine: {'line': b'  145 | std::vector<RRT_Node> RRT::find_path(\x1b[01;35m\x1b[Kstd::vector<RRT_Node> &tree\x1b[m\x1b[K, RRT_Node &latest_added_node) {\n'}
+[8.813188] (lab7_pkg) StderrLine: {'line': b'      |                                      \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~^~~~\x1b[m\x1b[K\n'}
+[8.813330] (lab7_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nvidia/f1tenth_ws/src/ese-6150-lab-6-motion-planning-group-9/lab7_pkg/src/rrt.cpp:145:77:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Klatest_added_node\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[8.813496] (lab7_pkg) StderrLine: {'line': b'  145 | std::vector<RRT_Node> RRT::find_path(std::vector<RRT_Node> &tree, \x1b[01;35m\x1b[KRRT_Node &latest_added_node\x1b[m\x1b[K) {\n'}
+[8.813652] (lab7_pkg) StderrLine: {'line': b'      |                                                                   \x1b[01;35m\x1b[K~~~~~~~~~~^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[8.813796] (lab7_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nvidia/f1tenth_ws/src/ese-6150-lab-6-motion-planning-group-9/lab7_pkg/src/rrt.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kdouble RRT::\x1b[01;32m\x1b[Kcost\x1b[m\x1b[K(std::vector<RRT_Node>&, RRT_Node&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[8.813950] (lab7_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nvidia/f1tenth_ws/src/ese-6150-lab-6-motion-planning-group-9/lab7_pkg/src/rrt.cpp:162:41:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Ktree\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[8.814106] (lab7_pkg) StderrLine: {'line': b'  162 | double RRT::cost(\x1b[01;35m\x1b[Kstd::vector<RRT_Node> &tree\x1b[m\x1b[K, RRT_Node &node) {\n'}
+[8.814251] (lab7_pkg) StderrLine: {'line': b'      |                  \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~^~~~\x1b[m\x1b[K\n'}
+[8.814392] (lab7_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nvidia/f1tenth_ws/src/ese-6150-lab-6-motion-planning-group-9/lab7_pkg/src/rrt.cpp:162:57:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Knode\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[8.814541] (lab7_pkg) StderrLine: {'line': b'  162 | double RRT::cost(std::vector<RRT_Node> &tree, \x1b[01;35m\x1b[KRRT_Node &node\x1b[m\x1b[K) {\n'}
+[8.814698] (lab7_pkg) StderrLine: {'line': b'      |                                               \x1b[01;35m\x1b[K~~~~~~~~~~^~~~\x1b[m\x1b[K\n'}
+[8.814842] (lab7_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nvidia/f1tenth_ws/src/ese-6150-lab-6-motion-planning-group-9/lab7_pkg/src/rrt.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kdouble RRT::\x1b[01;32m\x1b[Kline_cost\x1b[m\x1b[K(RRT_Node&, RRT_Node&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[8.815632] (lab7_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nvidia/f1tenth_ws/src/ese-6150-lab-6-motion-planning-group-9/lab7_pkg/src/rrt.cpp:176:33:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kn1\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[8.815978] (lab7_pkg) StderrLine: {'line': b'  176 | double RRT::line_cost(\x1b[01;35m\x1b[KRRT_Node &n1\x1b[m\x1b[K, RRT_Node &n2) {\n'}
+[8.816211] (lab7_pkg) StderrLine: {'line': b'      |                       \x1b[01;35m\x1b[K~~~~~~~~~~^~\x1b[m\x1b[K\n'}
+[8.816368] (lab7_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nvidia/f1tenth_ws/src/ese-6150-lab-6-motion-planning-group-9/lab7_pkg/src/rrt.cpp:176:47:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kn2\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[8.816525] (lab7_pkg) StderrLine: {'line': b'  176 | double RRT::line_cost(RRT_Node &n1, \x1b[01;35m\x1b[KRRT_Node &n2\x1b[m\x1b[K) {\n'}
+[8.816673] (lab7_pkg) StderrLine: {'line': b'      |                                     \x1b[01;35m\x1b[K~~~~~~~~~~^~\x1b[m\x1b[K\n'}
+[8.816820] (lab7_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nvidia/f1tenth_ws/src/ese-6150-lab-6-motion-planning-group-9/lab7_pkg/src/rrt.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<int> RRT::\x1b[01;32m\x1b[Knear\x1b[m\x1b[K(std::vector<RRT_Node>&, RRT_Node&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[8.817009] (lab7_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nvidia/f1tenth_ws/src/ese-6150-lab-6-motion-planning-group-9/lab7_pkg/src/rrt.cpp:190:51:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Ktree\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[8.817166] (lab7_pkg) StderrLine: {'line': b'  190 | std::vector<int> RRT::near(\x1b[01;35m\x1b[Kstd::vector<RRT_Node> &tree\x1b[m\x1b[K, RRT_Node &node) {\n'}
+[8.817312] (lab7_pkg) StderrLine: {'line': b'      |                            \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~^~~~\x1b[m\x1b[K\n'}
+[8.817453] (lab7_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nvidia/f1tenth_ws/src/ese-6150-lab-6-motion-planning-group-9/lab7_pkg/src/rrt.cpp:190:67:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Knode\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[8.817602] (lab7_pkg) StderrLine: {'line': b'  190 | std::vector<int> RRT::near(std::vector<RRT_Node> &tree, \x1b[01;35m\x1b[KRRT_Node &node\x1b[m\x1b[K) {\n'}
+[8.817742] (lab7_pkg) StderrLine: {'line': b'      |                                                         \x1b[01;35m\x1b[K~~~~~~~~~~^~~~\x1b[m\x1b[K\n'}
+[8.859321] (-) TimerEvent: {}
+[8.960989] (-) TimerEvent: {}
+[9.061613] (-) TimerEvent: {}
+[9.162228] (-) TimerEvent: {}
+[9.262855] (-) TimerEvent: {}
+[9.363744] (-) TimerEvent: {}
+[9.464385] (-) TimerEvent: {}
+[9.565290] (-) TimerEvent: {}
+[9.665902] (-) TimerEvent: {}
+[9.766538] (-) TimerEvent: {}
+[9.867208] (-) TimerEvent: {}
+[9.967811] (-) TimerEvent: {}
+[10.068605] (-) TimerEvent: {}
+[10.169215] (-) TimerEvent: {}
+[10.269862] (-) TimerEvent: {}
+[10.370458] (-) TimerEvent: {}
+[10.471046] (-) TimerEvent: {}
+[10.571977] (-) TimerEvent: {}
+[10.672680] (-) TimerEvent: {}
+[10.774033] (-) TimerEvent: {}
+[10.874554] (-) TimerEvent: {}
+[10.975051] (-) TimerEvent: {}
+[11.075634] (-) TimerEvent: {}
+[11.176242] (-) TimerEvent: {}
+[11.276821] (-) TimerEvent: {}
+[11.377365] (-) TimerEvent: {}
+[11.478398] (-) TimerEvent: {}
+[11.578968] (-) TimerEvent: {}
+[11.679599] (-) TimerEvent: {}
+[11.780185] (-) TimerEvent: {}
+[11.880800] (-) TimerEvent: {}
+[11.981377] (-) TimerEvent: {}
+[12.081955] (-) TimerEvent: {}
+[12.182559] (-) TimerEvent: {}
+[12.283179] (-) TimerEvent: {}
+[12.383764] (-) TimerEvent: {}
+[12.484347] (-) TimerEvent: {}
+[12.584935] (-) TimerEvent: {}
+[12.685584] (-) TimerEvent: {}
+[12.786197] (-) TimerEvent: {}
+[12.886789] (-) TimerEvent: {}
+[12.987382] (-) TimerEvent: {}
+[13.088013] (-) TimerEvent: {}
+[13.188935] (-) TimerEvent: {}
+[13.289537] (-) TimerEvent: {}
+[13.390093] (-) TimerEvent: {}
+[13.490782] (-) TimerEvent: {}
+[13.591436] (-) TimerEvent: {}
+[13.692159] (-) TimerEvent: {}
+[13.792855] (-) TimerEvent: {}
+[13.893425] (-) TimerEvent: {}
+[13.994008] (-) TimerEvent: {}
+[14.094612] (-) TimerEvent: {}
+[14.195222] (-) TimerEvent: {}
+[14.295777] (-) TimerEvent: {}
+[14.396357] (-) TimerEvent: {}
+[14.496953] (-) TimerEvent: {}
+[14.597553] (-) TimerEvent: {}
+[14.698129] (-) TimerEvent: {}
+[14.798704] (-) TimerEvent: {}
+[14.899355] (-) TimerEvent: {}
+[15.000111] (-) TimerEvent: {}
+[15.100720] (-) TimerEvent: {}
+[15.201275] (-) TimerEvent: {}
+[15.301851] (-) TimerEvent: {}
+[15.402441] (-) TimerEvent: {}
+[15.503050] (-) TimerEvent: {}
+[15.603630] (-) TimerEvent: {}
+[15.704386] (-) TimerEvent: {}
+[15.805157] (-) TimerEvent: {}
+[15.905763] (-) TimerEvent: {}
+[16.006444] (-) TimerEvent: {}
+[16.107069] (-) TimerEvent: {}
+[16.207656] (-) TimerEvent: {}
+[16.308252] (-) TimerEvent: {}
+[16.408870] (-) TimerEvent: {}
+[16.509442] (-) TimerEvent: {}
+[16.610028] (-) TimerEvent: {}
+[16.710620] (-) TimerEvent: {}
+[16.811256] (-) TimerEvent: {}
+[16.911864] (-) TimerEvent: {}
+[17.012509] (-) TimerEvent: {}
+[17.113346] (-) TimerEvent: {}
+[17.214011] (-) TimerEvent: {}
+[17.314651] (-) TimerEvent: {}
+[17.415243] (-) TimerEvent: {}
+[17.515793] (-) TimerEvent: {}
+[17.616370] (-) TimerEvent: {}
+[17.716951] (-) TimerEvent: {}
+[17.817513] (-) TimerEvent: {}
+[17.918062] (-) TimerEvent: {}
+[18.018640] (-) TimerEvent: {}
+[18.119303] (-) TimerEvent: {}
+[18.219860] (-) TimerEvent: {}
+[18.320413] (-) TimerEvent: {}
+[18.420994] (-) TimerEvent: {}
+[18.521593] (-) TimerEvent: {}
+[18.622189] (-) TimerEvent: {}
+[18.722757] (-) TimerEvent: {}
+[18.823379] (-) TimerEvent: {}
+[18.923953] (-) TimerEvent: {}
+[19.024526] (-) TimerEvent: {}
+[19.125073] (-) TimerEvent: {}
+[19.225639] (-) TimerEvent: {}
+[19.326247] (-) TimerEvent: {}
+[19.426826] (-) TimerEvent: {}
+[19.527439] (-) TimerEvent: {}
+[19.628007] (-) TimerEvent: {}
+[19.728586] (-) TimerEvent: {}
+[19.829170] (-) TimerEvent: {}
+[19.929754] (-) TimerEvent: {}
+[20.030319] (-) TimerEvent: {}
+[20.130906] (-) TimerEvent: {}
+[20.231475] (-) TimerEvent: {}
+[20.332061] (-) TimerEvent: {}
+[20.432636] (-) TimerEvent: {}
+[20.533212] (-) TimerEvent: {}
+[20.633772] (-) TimerEvent: {}
+[20.734350] (-) TimerEvent: {}
+[20.834953] (-) TimerEvent: {}
+[20.935516] (-) TimerEvent: {}
+[21.036090] (-) TimerEvent: {}
+[21.136653] (-) TimerEvent: {}
+[21.237227] (-) TimerEvent: {}
+[21.337805] (-) TimerEvent: {}
+[21.438365] (-) TimerEvent: {}
+[21.538961] (-) TimerEvent: {}
+[21.639550] (-) TimerEvent: {}
+[21.740202] (-) TimerEvent: {}
+[21.840766] (-) TimerEvent: {}
+[21.941318] (-) TimerEvent: {}
+[22.041892] (-) TimerEvent: {}
+[22.142475] (-) TimerEvent: {}
+[22.243071] (-) TimerEvent: {}
+[22.343628] (-) TimerEvent: {}
+[22.444201] (-) TimerEvent: {}
+[22.544765] (-) TimerEvent: {}
+[22.645381] (-) TimerEvent: {}
+[22.745971] (-) TimerEvent: {}
+[22.846531] (-) TimerEvent: {}
+[22.947091] (-) TimerEvent: {}
+[23.047677] (-) TimerEvent: {}
+[23.148262] (-) TimerEvent: {}
+[23.248817] (-) TimerEvent: {}
+[23.349364] (-) TimerEvent: {}
+[23.449923] (-) TimerEvent: {}
+[23.550510] (-) TimerEvent: {}
+[23.651069] (-) TimerEvent: {}
+[23.751647] (-) TimerEvent: {}
+[23.852220] (-) TimerEvent: {}
+[23.952789] (-) TimerEvent: {}
+[24.053406] (-) TimerEvent: {}
+[24.153974] (-) TimerEvent: {}
+[24.254540] (-) TimerEvent: {}
+[24.355108] (-) TimerEvent: {}
+[24.455695] (-) TimerEvent: {}
+[24.556288] (-) TimerEvent: {}
+[24.656874] (-) TimerEvent: {}
+[24.757441] (-) TimerEvent: {}
+[24.858029] (-) TimerEvent: {}
+[24.958637] (-) TimerEvent: {}
+[25.059297] (-) TimerEvent: {}
+[25.160747] (-) TimerEvent: {}
+[25.261324] (-) TimerEvent: {}
+[25.361884] (-) TimerEvent: {}
+[25.462441] (-) TimerEvent: {}
+[25.563041] (-) TimerEvent: {}
+[25.663769] (-) TimerEvent: {}
+[25.764322] (-) TimerEvent: {}
+[25.864875] (-) TimerEvent: {}
+[25.965471] (-) TimerEvent: {}
+[26.066113] (-) TimerEvent: {}
+[26.166753] (-) TimerEvent: {}
+[26.267364] (-) TimerEvent: {}
+[26.367940] (-) TimerEvent: {}
+[26.468539] (-) TimerEvent: {}
+[26.569122] (-) TimerEvent: {}
+[26.669689] (-) TimerEvent: {}
+[26.770282] (-) TimerEvent: {}
+[26.870880] (-) TimerEvent: {}
+[26.971488] (-) TimerEvent: {}
+[27.072062] (-) TimerEvent: {}
+[27.172686] (-) TimerEvent: {}
+[27.273356] (-) TimerEvent: {}
+[27.374613] (-) TimerEvent: {}
+[27.475371] (-) TimerEvent: {}
+[27.575964] (-) TimerEvent: {}
+[27.665685] (lab7_pkg) StdoutLine: {'line': b'\x1b[32m\x1b[1mLinking CXX executable rrt_node\x1b[0m\n'}
+[27.676057] (-) TimerEvent: {}
+[27.776501] (-) TimerEvent: {}
+[27.877072] (-) TimerEvent: {}
+[27.977694] (-) TimerEvent: {}
+[28.078306] (-) TimerEvent: {}
+[28.179004] (-) TimerEvent: {}
+[28.279629] (-) TimerEvent: {}
+[28.380632] (-) TimerEvent: {}
+[28.481243] (-) TimerEvent: {}
+[28.581918] (-) TimerEvent: {}
+[28.682562] (-) TimerEvent: {}
+[28.712166] (lab7_pkg) StdoutLine: {'line': b'Built target rrt_node\n'}
+[28.715305] (lab7_pkg) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[28.720561] (lab7_pkg) CommandEnded: {'returncode': 2}
+[28.755141] (lab7_pkg) JobEnded: {'identifier': 'lab7_pkg', 'rc': 2}
+[28.766594] (-) EventReactorShutdown: {}
