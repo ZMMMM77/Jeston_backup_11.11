@@ -1,0 +1,71 @@
+[2.569s] Invoking command in '/home/nvidia/drift_sensors': PYTHONPATH=/home/nvidia/drift_sensors/build/drift_sensors/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/nvidia/drift_sensors/install/drift_sensors/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base build/drift_sensors build --build-base /home/nvidia/drift_sensors/build/drift_sensors/build install --record /home/nvidia/drift_sensors/build/drift_sensors/install.log --install-scripts $base/lib/drift_sensors --single-version-externally-managed install_data
+[2.885s] /usr/lib/python3/dist-packages/setuptools/dist.py:744: SetuptoolsDeprecationWarning: Invalid dash-separated options
+[2.886s] !!
+[2.886s] 
+[2.886s]         ********************************************************************************
+[2.886s]         Usage of dash-separated 'script-dir' will not be supported in future
+[2.886s]         versions. Please use the underscore name 'script_dir' instead.
+[2.886s] 
+[2.887s]         This deprecation is overdue, please update your project and remove deprecated
+[2.887s]         calls to avoid build errors in the future.
+[2.887s] 
+[2.887s]         See https://setuptools.pypa.io/en/latest/userguide/declarative_config.html for details.
+[2.887s]         ********************************************************************************
+[2.887s] 
+[2.888s] !!
+[2.888s]   opt = self.warn_dash_deprecation(opt, section)
+[3.308s] running egg_info
+[3.369s] writing build/drift_sensors/drift_sensors.egg-info/PKG-INFO
+[3.370s] writing dependency_links to build/drift_sensors/drift_sensors.egg-info/dependency_links.txt
+[3.371s] writing entry points to build/drift_sensors/drift_sensors.egg-info/entry_points.txt
+[3.371s] writing requirements to build/drift_sensors/drift_sensors.egg-info/requires.txt
+[3.371s] writing top-level names to build/drift_sensors/drift_sensors.egg-info/top_level.txt
+[3.492s] reading manifest file 'build/drift_sensors/drift_sensors.egg-info/SOURCES.txt'
+[3.494s] writing manifest file 'build/drift_sensors/drift_sensors.egg-info/SOURCES.txt'
+[3.494s] running build
+[3.494s] running build_py
+[3.495s] copying drift_sensors/state_merge.py -> /home/nvidia/drift_sensors/build/drift_sensors/build/lib/drift_sensors
+[3.495s] copying drift_sensors/utils.py -> /home/nvidia/drift_sensors/build/drift_sensors/build/lib/drift_sensors
+[3.496s] copying drift_sensors/particle_filter.py -> /home/nvidia/drift_sensors/build/drift_sensors/build/lib/drift_sensors
+[3.496s] copying drift_sensors/__init__.py -> /home/nvidia/drift_sensors/build/drift_sensors/build/lib/drift_sensors
+[3.497s] copying drift_sensors/d435i_imu.py -> /home/nvidia/drift_sensors/build/drift_sensors/build/lib/drift_sensors
+[3.497s] running install
+[3.512s] running install_lib
+[3.573s] copying /home/nvidia/drift_sensors/build/drift_sensors/build/lib/drift_sensors/state_merge.py -> /home/nvidia/drift_sensors/install/drift_sensors/lib/python3.12/site-packages/drift_sensors
+[3.574s] copying /home/nvidia/drift_sensors/build/drift_sensors/build/lib/drift_sensors/utils.py -> /home/nvidia/drift_sensors/install/drift_sensors/lib/python3.12/site-packages/drift_sensors
+[3.574s] copying /home/nvidia/drift_sensors/build/drift_sensors/build/lib/drift_sensors/particle_filter.py -> /home/nvidia/drift_sensors/install/drift_sensors/lib/python3.12/site-packages/drift_sensors
+[3.574s] copying /home/nvidia/drift_sensors/build/drift_sensors/build/lib/drift_sensors/__init__.py -> /home/nvidia/drift_sensors/install/drift_sensors/lib/python3.12/site-packages/drift_sensors
+[3.574s] copying /home/nvidia/drift_sensors/build/drift_sensors/build/lib/drift_sensors/d435i_imu.py -> /home/nvidia/drift_sensors/install/drift_sensors/lib/python3.12/site-packages/drift_sensors
+[3.576s] byte-compiling /home/nvidia/drift_sensors/install/drift_sensors/lib/python3.12/site-packages/drift_sensors/state_merge.py to state_merge.cpython-312.pyc
+[3.578s] byte-compiling /home/nvidia/drift_sensors/install/drift_sensors/lib/python3.12/site-packages/drift_sensors/utils.py to utils.cpython-312.pyc
+[3.581s] byte-compiling /home/nvidia/drift_sensors/install/drift_sensors/lib/python3.12/site-packages/drift_sensors/particle_filter.py to particle_filter.cpython-312.pyc
+[3.593s] byte-compiling /home/nvidia/drift_sensors/install/drift_sensors/lib/python3.12/site-packages/drift_sensors/__init__.py to __init__.cpython-312.pyc
+[3.594s] byte-compiling /home/nvidia/drift_sensors/install/drift_sensors/lib/python3.12/site-packages/drift_sensors/d435i_imu.py to d435i_imu.cpython-312.pyc
+[3.596s] running install_data
+[3.596s] copying launch/drift_sensors_launch.py -> /home/nvidia/drift_sensors/install/drift_sensors/share/drift_sensors/launch
+[3.596s] copying launch/icp_launch.py -> /home/nvidia/drift_sensors/install/drift_sensors/share/drift_sensors/launch
+[3.597s] copying config/localize.yaml -> /home/nvidia/drift_sensors/install/drift_sensors/share/drift_sensors/config
+[3.597s] copying config/ekf.yaml -> /home/nvidia/drift_sensors/install/drift_sensors/share/drift_sensors/config
+[3.598s] copying config/vesc.yaml -> /home/nvidia/drift_sensors/install/drift_sensors/share/drift_sensors/config
+[3.598s] creating /home/nvidia/drift_sensors/install/drift_sensors/share/drift_sensors/maps
+[3.598s] copying maps/drift_1_circle.pgm -> /home/nvidia/drift_sensors/install/drift_sensors/share/drift_sensors/maps
+[3.598s] copying maps/levine.yaml -> /home/nvidia/drift_sensors/install/drift_sensors/share/drift_sensors/maps
+[3.599s] copying maps/levine_1st_map.yaml -> /home/nvidia/drift_sensors/install/drift_sensors/share/drift_sensors/maps
+[3.599s] copying maps/drift_1_circle.yaml -> /home/nvidia/drift_sensors/install/drift_sensors/share/drift_sensors/maps
+[3.599s] copying maps/levine_race_2.yaml -> /home/nvidia/drift_sensors/install/drift_sensors/share/drift_sensors/maps
+[3.600s] copying maps/levine_2nd.pgm -> /home/nvidia/drift_sensors/install/drift_sensors/share/drift_sensors/maps
+[3.601s] copying maps/levine_race_2.pgm -> /home/nvidia/drift_sensors/install/drift_sensors/share/drift_sensors/maps
+[3.601s] copying maps/basement_fixed.png -> /home/nvidia/drift_sensors/install/drift_sensors/share/drift_sensors/maps
+[3.602s] copying maps/levine_1st_map.pgm -> /home/nvidia/drift_sensors/install/drift_sensors/share/drift_sensors/maps
+[3.602s] copying maps/levine_2nd.yaml -> /home/nvidia/drift_sensors/install/drift_sensors/share/drift_sensors/maps
+[3.602s] copying maps/basement_fixed.map.yaml -> /home/nvidia/drift_sensors/install/drift_sensors/share/drift_sensors/maps
+[3.603s] copying maps/levine.pgm -> /home/nvidia/drift_sensors/install/drift_sensors/share/drift_sensors/maps
+[3.609s] running install_egg_info
+[3.673s] removing '/home/nvidia/drift_sensors/install/drift_sensors/lib/python3.12/site-packages/drift_sensors-0.1.0-py3.12.egg-info' (and everything under it)
+[3.674s] Copying build/drift_sensors/drift_sensors.egg-info to /home/nvidia/drift_sensors/install/drift_sensors/lib/python3.12/site-packages/drift_sensors-0.1.0-py3.12.egg-info
+[3.676s] running install_scripts
+[4.059s] Installing d435i_imu script to /home/nvidia/drift_sensors/install/drift_sensors/lib/drift_sensors
+[4.059s] Installing particle_filter script to /home/nvidia/drift_sensors/install/drift_sensors/lib/drift_sensors
+[4.059s] Installing state_merge script to /home/nvidia/drift_sensors/install/drift_sensors/lib/drift_sensors
+[4.060s] writing list of installed files to '/home/nvidia/drift_sensors/build/drift_sensors/install.log'
+[4.152s] Invoked command in '/home/nvidia/drift_sensors' returned '0': PYTHONPATH=/home/nvidia/drift_sensors/build/drift_sensors/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/nvidia/drift_sensors/install/drift_sensors/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base build/drift_sensors build --build-base /home/nvidia/drift_sensors/build/drift_sensors/build install --record /home/nvidia/drift_sensors/build/drift_sensors/install.log --install-scripts $base/lib/drift_sensors --single-version-externally-managed install_data

@@ -1,0 +1,97 @@
+[0.000000] (-) TimerEvent: {}
+[0.000594] (drift_sensors) JobQueued: {'identifier': 'drift_sensors', 'dependencies': OrderedDict()}
+[0.000683] (drift_sensors) JobStarted: {'identifier': 'drift_sensors'}
+[0.098606] (-) TimerEvent: {}
+[0.198916] (-) TimerEvent: {}
+[0.299228] (-) TimerEvent: {}
+[0.399607] (-) TimerEvent: {}
+[0.499904] (-) TimerEvent: {}
+[0.600245] (-) TimerEvent: {}
+[0.700569] (-) TimerEvent: {}
+[0.800863] (-) TimerEvent: {}
+[0.901151] (-) TimerEvent: {}
+[1.001448] (-) TimerEvent: {}
+[1.101750] (-) TimerEvent: {}
+[1.202042] (-) TimerEvent: {}
+[1.302394] (-) TimerEvent: {}
+[1.402750] (-) TimerEvent: {}
+[1.503111] (-) TimerEvent: {}
+[1.603522] (-) TimerEvent: {}
+[1.703894] (-) TimerEvent: {}
+[1.804262] (-) TimerEvent: {}
+[1.904631] (-) TimerEvent: {}
+[2.005000] (-) TimerEvent: {}
+[2.105371] (-) TimerEvent: {}
+[2.205744] (-) TimerEvent: {}
+[2.306118] (-) TimerEvent: {}
+[2.406469] (-) TimerEvent: {}
+[2.506783] (-) TimerEvent: {}
+[2.607116] (-) TimerEvent: {}
+[2.658224] (drift_sensors) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', 'build/drift_sensors', 'build', '--build-base', '/home/nvidia/drift_sensors/build/drift_sensors/build', 'install', '--record', '/home/nvidia/drift_sensors/build/drift_sensors/install.log', '--install-scripts', '$base/lib/drift_sensors', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/nvidia/drift_sensors', 'env': OrderedDict({'USER': 'nvidia', 'SSH_CLIENT': '100.115.51.92 44030 22', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/nvidia', 'OLDPWD': '/home/nvidia', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/2002/bus', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'nvidia', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'XDG_SESSION_ID': '38', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/2002', 'LANG': 'en_US.UTF-8', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/nvidia/drift_sensors/build/drift_sensors', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '100.115.51.92 44030 100.122.20.107 22', 'PYTHONPATH': '/home/nvidia/drift_sensors/build/drift_sensors/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/nvidia/drift_sensors/install/drift_sensors/lib/python3.12/site-packages:/opt/ros/jazzy/opt/gz_math_vendor/lib/python:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor'}), 'shell': False}
+[2.707228] (-) TimerEvent: {}
+[2.807524] (-) TimerEvent: {}
+[2.907816] (-) TimerEvent: {}
+[2.982816] (drift_sensors) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/dist.py:744: SetuptoolsDeprecationWarning: Invalid dash-separated options\n'}
+[2.983394] (drift_sensors) StderrLine: {'line': b'!!\n'}
+[2.983634] (drift_sensors) StderrLine: {'line': b'\n'}
+[2.983812] (drift_sensors) StderrLine: {'line': b'        ********************************************************************************\n'}
+[2.983978] (drift_sensors) StderrLine: {'line': b"        Usage of dash-separated 'script-dir' will not be supported in future\n"}
+[2.984136] (drift_sensors) StderrLine: {'line': b"        versions. Please use the underscore name 'script_dir' instead.\n"}
+[2.984293] (drift_sensors) StderrLine: {'line': b'\n'}
+[2.984444] (drift_sensors) StderrLine: {'line': b'        This deprecation is overdue, please update your project and remove deprecated\n'}
+[2.984595] (drift_sensors) StderrLine: {'line': b'        calls to avoid build errors in the future.\n'}
+[2.984772] (drift_sensors) StderrLine: {'line': b'\n'}
+[2.984915] (drift_sensors) StderrLine: {'line': b'        See https://setuptools.pypa.io/en/latest/userguide/declarative_config.html for details.\n'}
+[2.985058] (drift_sensors) StderrLine: {'line': b'        ********************************************************************************\n'}
+[2.985196] (drift_sensors) StderrLine: {'line': b'\n'}
+[2.985332] (drift_sensors) StderrLine: {'line': b'!!\n'}
+[2.985468] (drift_sensors) StderrLine: {'line': b'  opt = self.warn_dash_deprecation(opt, section)\n'}
+[3.007949] (-) TimerEvent: {}
+[3.108208] (-) TimerEvent: {}
+[3.208492] (-) TimerEvent: {}
+[3.308774] (-) TimerEvent: {}
+[3.406154] (drift_sensors) StdoutLine: {'line': b'running egg_info\n'}
+[3.406898] (drift_sensors) StdoutLine: {'line': b'creating build/drift_sensors/drift_sensors.egg-info\n'}
+[3.408848] (-) TimerEvent: {}
+[3.465728] (drift_sensors) StdoutLine: {'line': b'writing build/drift_sensors/drift_sensors.egg-info/PKG-INFO\n'}
+[3.466306] (drift_sensors) StdoutLine: {'line': b'writing dependency_links to build/drift_sensors/drift_sensors.egg-info/dependency_links.txt\n'}
+[3.466748] (drift_sensors) StdoutLine: {'line': b'writing requirements to build/drift_sensors/drift_sensors.egg-info/requires.txt\n'}
+[3.467025] (drift_sensors) StdoutLine: {'line': b'writing top-level names to build/drift_sensors/drift_sensors.egg-info/top_level.txt\n'}
+[3.467279] (drift_sensors) StdoutLine: {'line': b"writing manifest file 'build/drift_sensors/drift_sensors.egg-info/SOURCES.txt'\n"}
+[3.508985] (-) TimerEvent: {}
+[3.586260] (drift_sensors) StdoutLine: {'line': b"reading manifest file 'build/drift_sensors/drift_sensors.egg-info/SOURCES.txt'\n"}
+[3.587772] (drift_sensors) StdoutLine: {'line': b"writing manifest file 'build/drift_sensors/drift_sensors.egg-info/SOURCES.txt'\n"}
+[3.588406] (drift_sensors) StdoutLine: {'line': b'running build\n'}
+[3.588683] (drift_sensors) StdoutLine: {'line': b'running build_py\n'}
+[3.589482] (drift_sensors) StdoutLine: {'line': b'creating /home/nvidia/drift_sensors/build/drift_sensors/build\n'}
+[3.589686] (drift_sensors) StdoutLine: {'line': b'creating /home/nvidia/drift_sensors/build/drift_sensors/build/lib\n'}
+[3.590033] (drift_sensors) StdoutLine: {'line': b'creating /home/nvidia/drift_sensors/build/drift_sensors/build/lib/drift_sensors\n'}
+[3.590206] (drift_sensors) StdoutLine: {'line': b'copying drift_sensors/__init__.py -> /home/nvidia/drift_sensors/build/drift_sensors/build/lib/drift_sensors\n'}
+[3.590364] (drift_sensors) StdoutLine: {'line': b'running install\n'}
+[3.604445] (drift_sensors) StdoutLine: {'line': b'running install_lib\n'}
+[3.609073] (-) TimerEvent: {}
+[3.663906] (drift_sensors) StdoutLine: {'line': b'creating /home/nvidia/drift_sensors/install/drift_sensors/lib/python3.12/site-packages/drift_sensors\n'}
+[3.664352] (drift_sensors) StdoutLine: {'line': b'copying /home/nvidia/drift_sensors/build/drift_sensors/build/lib/drift_sensors/__init__.py -> /home/nvidia/drift_sensors/install/drift_sensors/lib/python3.12/site-packages/drift_sensors\n'}
+[3.665393] (drift_sensors) StdoutLine: {'line': b'byte-compiling /home/nvidia/drift_sensors/install/drift_sensors/lib/python3.12/site-packages/drift_sensors/__init__.py to __init__.cpython-312.pyc\n'}
+[3.665948] (drift_sensors) StdoutLine: {'line': b'running install_data\n'}
+[3.666232] (drift_sensors) StdoutLine: {'line': b'creating /home/nvidia/drift_sensors/install/drift_sensors/share/ament_index\n'}
+[3.667249] (drift_sensors) StdoutLine: {'line': b'creating /home/nvidia/drift_sensors/install/drift_sensors/share/ament_index/resource_index\n'}
+[3.667929] (drift_sensors) StdoutLine: {'line': b'creating /home/nvidia/drift_sensors/install/drift_sensors/share/ament_index/resource_index/packages\n'}
+[3.668472] (drift_sensors) StdoutLine: {'line': b'copying resource/drift_sensors -> /home/nvidia/drift_sensors/install/drift_sensors/share/ament_index/resource_index/packages\n'}
+[3.668770] (drift_sensors) StdoutLine: {'line': b'copying package.xml -> /home/nvidia/drift_sensors/install/drift_sensors/share/drift_sensors\n'}
+[3.669095] (drift_sensors) StdoutLine: {'line': b'creating /home/nvidia/drift_sensors/install/drift_sensors/share/drift_sensors/launch\n'}
+[3.669358] (drift_sensors) StdoutLine: {'line': b'copying launch/icp_launch.py -> /home/nvidia/drift_sensors/install/drift_sensors/share/drift_sensors/launch\n'}
+[3.669613] (drift_sensors) StdoutLine: {'line': b'creating /home/nvidia/drift_sensors/install/drift_sensors/share/drift_sensors/config\n'}
+[3.669854] (drift_sensors) StdoutLine: {'line': b'running install_egg_info\n'}
+[3.709301] (-) TimerEvent: {}
+[3.731177] (drift_sensors) StdoutLine: {'line': b'Copying build/drift_sensors/drift_sensors.egg-info to /home/nvidia/drift_sensors/install/drift_sensors/lib/python3.12/site-packages/drift_sensors-0.1.0-py3.12.egg-info\n'}
+[3.733221] (drift_sensors) StdoutLine: {'line': b'running install_scripts\n'}
+[3.809451] (-) TimerEvent: {}
+[3.909773] (-) TimerEvent: {}
+[4.010097] (-) TimerEvent: {}
+[4.110428] (-) TimerEvent: {}
+[4.113669] (drift_sensors) StdoutLine: {'line': b"writing list of installed files to '/home/nvidia/drift_sensors/build/drift_sensors/install.log'\n"}
+[4.207102] (drift_sensors) CommandEnded: {'returncode': 0}
+[4.210561] (-) TimerEvent: {}
+[4.251141] (drift_sensors) JobEnded: {'identifier': 'drift_sensors', 'rc': 0}
+[4.253164] (-) EventReactorShutdown: {}

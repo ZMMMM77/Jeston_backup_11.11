@@ -1,0 +1,24 @@
+# Parameters for state_estimator_node (PF pose + VESC IMU -> /drift/state_odom).
+# Defaults match this car: f1tenth particle_filter (laser pose, publish-time stamps)
+# and the VESC IMU (50 Hz, g and deg/s). Measure the marked values on the car.
+drift_state_estimator:
+  ros__parameters:
+    pose_topic: /pf/pose/odom
+    pose_type: odometry
+    pose_offset_x: 0.27          # base_link -> laser x from the static TF in sick_bringup_launch.py
+    pose_latency_s: 0.03         # MEASURE: /pf/pose/odom stamp minus the /scan stamp it used
+    imu_topic: /sensors/imu/raw
+    use_imu: true
+    imu_ax_sign: 1.0             # CHECK: the node logs an error if a sign is wrong
+    imu_ay_sign: 1.0
+    imu_gz_sign: 1.0
+    imu_accel_scale: 9.80665     # VESC reports g
+    imu_gyro_scale: 0.0174533    # VESC reports deg/s
+    imu_offset_x: 0.0            # MEASURE: VESC (IMU) position ahead of the rear axle [m]
+    calib_seconds: 2.0           # keep the car still this long after start
+    out_topic: /drift/state_odom
+    frame_id: map
+    child_frame_id: base_link
+    publish_hz: 100.0
+    pose_timeout_s: 0.15
+    imu_timeout_s: 0.1

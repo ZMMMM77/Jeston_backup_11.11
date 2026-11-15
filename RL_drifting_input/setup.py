@@ -2,7 +2,7 @@ from setuptools import setup
 import os
 from glob import glob
 
-package_name = 'particle_filter'
+package_name = 'rl_drifting_input'
 
 setup(
     name=package_name,
@@ -25,7 +25,8 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-            'particle_filter = particle_filter.particle_filter:main'
+            'particle_filter = rl_drifting_input.particle_filter:main',
+            'state_estimator = rl_drifting_input.state_estimator_node:main'
         ],
     },
 )

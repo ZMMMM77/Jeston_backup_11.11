@@ -1,0 +1,33 @@
+running egg_info
+creating build/drift_sensors/drift_sensors.egg-info
+writing build/drift_sensors/drift_sensors.egg-info/PKG-INFO
+writing dependency_links to build/drift_sensors/drift_sensors.egg-info/dependency_links.txt
+writing requirements to build/drift_sensors/drift_sensors.egg-info/requires.txt
+writing top-level names to build/drift_sensors/drift_sensors.egg-info/top_level.txt
+writing manifest file 'build/drift_sensors/drift_sensors.egg-info/SOURCES.txt'
+reading manifest file 'build/drift_sensors/drift_sensors.egg-info/SOURCES.txt'
+writing manifest file 'build/drift_sensors/drift_sensors.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/nvidia/drift_sensors/build/drift_sensors/build
+creating /home/nvidia/drift_sensors/build/drift_sensors/build/lib
+creating /home/nvidia/drift_sensors/build/drift_sensors/build/lib/drift_sensors
+copying drift_sensors/__init__.py -> /home/nvidia/drift_sensors/build/drift_sensors/build/lib/drift_sensors
+running install
+running install_lib
+creating /home/nvidia/drift_sensors/install/drift_sensors/lib/python3.12/site-packages/drift_sensors
+copying /home/nvidia/drift_sensors/build/drift_sensors/build/lib/drift_sensors/__init__.py -> /home/nvidia/drift_sensors/install/drift_sensors/lib/python3.12/site-packages/drift_sensors
+byte-compiling /home/nvidia/drift_sensors/install/drift_sensors/lib/python3.12/site-packages/drift_sensors/__init__.py to __init__.cpython-312.pyc
+running install_data
+creating /home/nvidia/drift_sensors/install/drift_sensors/share/ament_index
+creating /home/nvidia/drift_sensors/install/drift_sensors/share/ament_index/resource_index
+creating /home/nvidia/drift_sensors/install/drift_sensors/share/ament_index/resource_index/packages
+copying resource/drift_sensors -> /home/nvidia/drift_sensors/install/drift_sensors/share/ament_index/resource_index/packages
+copying package.xml -> /home/nvidia/drift_sensors/install/drift_sensors/share/drift_sensors
+creating /home/nvidia/drift_sensors/install/drift_sensors/share/drift_sensors/launch
+copying launch/icp_launch.py -> /home/nvidia/drift_sensors/install/drift_sensors/share/drift_sensors/launch
+creating /home/nvidia/drift_sensors/install/drift_sensors/share/drift_sensors/config
+running install_egg_info
+Copying build/drift_sensors/drift_sensors.egg-info to /home/nvidia/drift_sensors/install/drift_sensors/lib/python3.12/site-packages/drift_sensors-0.1.0-py3.12.egg-info
+running install_scripts
+writing list of installed files to '/home/nvidia/drift_sensors/build/drift_sensors/install.log'

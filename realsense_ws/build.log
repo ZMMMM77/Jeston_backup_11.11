@@ -1,0 +1,132 @@
+nohup: ignoring input
+Starting >>> realsense2_camera_msgs
+Starting >>> librealsense2
+--- stderr: realsense2_camera_msgs
+CMake Warning:
+  Manually-specified variables were not used by the project:
+
+    BUILD_EXAMPLES
+    BUILD_GRAPHICAL_EXAMPLES
+    BUILD_PYTHON_BINDINGS
+    FORCE_RSUSB_BACKEND
+
+
+---
+[Processing: librealsense2, realsense2_camera_msgs]
+[Processing: librealsense2, realsense2_camera_msgs]
+Finished <<< realsense2_camera_msgs [1min 28s]
+Starting >>> realsense2_description
+--- stderr: realsense2_description
+CMake Warning:
+  Manually-specified variables were not used by the project:
+
+    BUILD_EXAMPLES
+    BUILD_GRAPHICAL_EXAMPLES
+    BUILD_PYTHON_BINDINGS
+    FORCE_RSUSB_BACKEND
+
+
+---
+Finished <<< realsense2_description [2.12s]
+--- stderr: librealsense2
+Cloning into 'json'...
+Cloning into '/home/nvidia/realsense_ws/build/librealsense2/third-party/fastcdr'...
+Note: switching to 'd6069f345be2e5b34534815a82c3ecfaecb37406'.
+
+You are in 'detached HEAD' state. You can look around, make experimental
+changes and commit them, and you can discard any commits you make in this
+state without impacting any branches by switching back to a branch.
+
+If you want to create a new branch to retain commits you create, you may
+do so (now or later) by using -c with the switch command. Example:
+
+  git switch -c <new-branch-name>
+
+Or undo this operation with:
+
+  git switch -
+
+Turn off this advice by setting config variable advice.detachedHead to false
+
+CMake Deprecation Warning at /home/nvidia/realsense_ws/build/librealsense2/third-party/fastcdr/CMakeLists.txt:18 (cmake_minimum_required):
+  Compatibility with CMake < 3.5 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value or use a ...<max> suffix to tell
+  CMake that the project does not need compatibility with older versions.
+
+
+Cloning into 'yaml_cpp'...
+HEAD is now at 0579ae3 Update version to 0.7.0.
+In file included from /usr/include/features.h:502,
+                 from /usr/include/aarch64-linux-gnu/c++/13/bits/os_defines.h:39,
+                 from /usr/include/aarch64-linux-gnu/c++/13/bits/c++config.h:679,
+                 from /usr/include/c++/13/ctime:41,
+                 from /home/nvidia/realsense_ws/src/librealsense/third-party/easyloggingpp/src/easylogging++.h:354,
+                 from /home/nvidia/realsense_ws/src/librealsense/third-party/easyloggingpp/src/easylogging++.cc:17:
+In function ‘size_t wcstombs(char*, const wchar_t*, size_t)’,
+    inlined from ‘static char* el::base::utils::Str::wcharPtrToCharPtr(const wchar_t*)’ at /home/nvidia/realsense_ws/src/librealsense/third-party/easyloggingpp/src/easylogging++.cc:1022:16:
+/usr/include/aarch64-linux-gnu/bits/stdlib.h:146:10: warning: ‘size_t __wcstombs_alias(char*, const wchar_t*, size_t)’ specified size 18446744073709551614 exceeds maximum object size 9223372036854775807 [-Wstringop-overflow=]
+  146 |   return __glibc_fortify (wcstombs, __len, sizeof (char),
+      |          ^~~~~~~~~~~~~~~
+/usr/include/aarch64-linux-gnu/bits/stdlib.h: In static member function ‘static char* el::base::utils::Str::wcharPtrToCharPtr(const wchar_t*)’:
+/usr/include/aarch64-linux-gnu/bits/stdlib.h:131:15: note: in a call to function ‘size_t __wcstombs_alias(char*, const wchar_t*, size_t)’ declared with attribute ‘access (read_only, 2)’
+  131 | extern size_t __REDIRECT_NTH (__wcstombs_alias,
+      |               ^~~~~~~~~~~~~~
+/home/nvidia/realsense_ws/src/librealsense/src/sync.cpp: In function ‘std::pair<double, double> librealsense::extract_timestamps(frame_holder&, frame_holder&)’:
+/home/nvidia/realsense_ws/src/librealsense/src/sync.cpp:547:84: note: parameter passing for argument of type ‘std::pair<double, double>’ when C++17 is enabled changed to match C++14 in GCC 10.1
+  547 |     std::pair<double, double> extract_timestamps(frame_holder & a, frame_holder & b)
+      |                                                                                    ^
+In file included from /usr/include/features.h:502,
+                 from /usr/include/aarch64-linux-gnu/c++/13/bits/os_defines.h:39,
+                 from /usr/include/aarch64-linux-gnu/c++/13/bits/c++config.h:679,
+                 from /usr/include/c++/13/ctime:41,
+                 from /home/nvidia/realsense_ws/src/librealsense/third-party/easyloggingpp/src/easylogging++.h:354,
+                 from /home/nvidia/realsense_ws/src/librealsense/third-party/easyloggingpp/src/easylogging++.cc:17:
+In function ‘size_t wcstombs(char*, const wchar_t*, size_t)’,
+    inlined from ‘static char* el::base::utils::Str::wcharPtrToCharPtr(const wchar_t*)’ at /home/nvidia/realsense_ws/src/librealsense/third-party/easyloggingpp/src/easylogging++.cc:1022:16:
+/usr/include/aarch64-linux-gnu/bits/stdlib.h:146:10: warning: ‘size_t __wcstombs_alias(char*, const wchar_t*, size_t)’ specified size 18446744073709551614 exceeds maximum object size 9223372036854775807 [-Wstringop-overflow=]
+  146 |   return __glibc_fortify (wcstombs, __len, sizeof (char),
+      |          ^~~~~~~~~~~~~~~
+/usr/include/aarch64-linux-gnu/bits/stdlib.h: In static member function ‘static char* el::base::utils::Str::wcharPtrToCharPtr(const wchar_t*)’:
+/usr/include/aarch64-linux-gnu/bits/stdlib.h:131:15: note: in a call to function ‘size_t __wcstombs_alias(char*, const wchar_t*, size_t)’ declared with attribute ‘access (read_only, 2)’
+  131 | extern size_t __REDIRECT_NTH (__wcstombs_alias,
+      |               ^~~~~~~~~~~~~~
+/sbin/ldconfig.real: Can't create temporary cache file /etc/ld.so.cache~: Permission denied
+---
+[Processing: librealsense2]
+[Processing: librealsense2]
+[Processing: librealsense2]
+[Processing: librealsense2]
+[Processing: librealsense2]
+[Processing: librealsense2]
+[Processing: librealsense2]
+[Processing: librealsense2]
+[Processing: librealsense2]
+[Processing: librealsense2]
+[Processing: librealsense2]
+[Processing: librealsense2]
+[Processing: librealsense2]
+[Processing: librealsense2]
+[Processing: librealsense2]
+Finished <<< librealsense2 [9min 23s]
+Starting >>> realsense2_camera
+--- stderr: realsense2_camera
+CMake Warning:
+  Manually-specified variables were not used by the project:
+
+    BUILD_EXAMPLES
+    BUILD_GRAPHICAL_EXAMPLES
+    BUILD_PYTHON_BINDINGS
+    FORCE_RSUSB_BACKEND
+
+
+---
+[Processing: realsense2_camera]
+[Processing: realsense2_camera]
+[Processing: realsense2_camera]
+[Processing: realsense2_camera]
+Finished <<< realsense2_camera [2min 5s]
+
+Summary: 4 packages finished [11min 28s]
+  4 packages had stderr output: librealsense2 realsense2_camera realsense2_camera_msgs realsense2_description

@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: drift-sensors
+Version: 0.1.0
+Summary: ICP lidar odometry + D435i IMU -> EKF -> /drift/state_odom for the drift policy.
+Maintainer: nvidia
+Maintainer-email: nvidia@todo.todo
+License: MIT

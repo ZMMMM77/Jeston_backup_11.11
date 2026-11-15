@@ -1,0 +1,61 @@
+# robot_localization EKF: ICP lidar odometry + D435i IMU (+ VESC wheel speed at startup) -> /odom_ekf.
+# Copied from Roboracer-Final-Project sensors_bringup/config/ekf.yaml with two inputs enabled for
+# drifting: ICP vy and IMU ay. Each *_config row is x y z | roll pitch yaw | vx vy vz | vroll vpitch vyaw | ax ay az.
+ekf_filter_node:
+  ros__parameters:
+    frequency: 45.0
+    sensor_timeout: 0.1
+    two_d_mode: true
+    publish_tf: true             # odom->base_link (vesc_to_odom must have publish_tf: false)
+
+    map_frame: map
+    odom_frame: odom
+    base_link_frame: base_link
+    world_frame: odom
+
+    # Odom0: ICP lidar odometry, immune to wheel slip
+    odom0: /odom_icp
+    odom0_config: [true,  true,  false,
+                   false, false, true,
+                   true,  true,  false,   # vx, vy  (vy enabled for drifting)
+                   false, false, false,
+                   false, false, false]
+    odom0_differential: false
+    odom0_relative: false
+
+    # Odom1: VESC wheel odom, bootstrap only; ICP dominates once running (tighter covariance)
+    odom1: /odom
+    odom1_config: [false, false, false,
+                   false, false, false,
+                   true,  false, false,   # vx only
+                   false, false, false,
+                   false, false, false]
+    odom1_differential: false
+    odom1_relative: false
+
+    # Imu0: D435i IMU rotated into base_link by d435i_imu.py
+    imu0: /imu/data
+    imu0_config: [false, false, false,
+                  false, false, false,
+                  false, false, false,
+                  false, false, true,    # vyaw
+                  true,  true,  false]   # ax, ay  (ay enabled for drifting)
+    imu0_differential: false
+    imu0_relative: false
+    imu0_remove_gravitational_acceleration: true
+
+    process_noise_covariance: [0.05, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0,
+                               0.0, 0.05, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0,
+                               0.0, 0.0, 0.06, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0,
+                               0.0, 0.0, 0.0, 0.03, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0,
+                               0.0, 0.0, 0.0, 0.0, 0.03, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0,
+                               0.0, 0.0, 0.0, 0.0, 0.0, 0.001, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0,
+                               0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.025, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0,
+                               0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.025, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0,
+                               0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.04, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0,
+                               0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.01, 0.0, 0.0, 0.0, 0.0, 0.0,
+                               0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.01, 0.0, 0.0, 0.0, 0.0,
+                               0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.002, 0.0, 0.0, 0.0,
+                               0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.01, 0.0, 0.0,
+                               0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.01, 0.0,
+                               0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.015]

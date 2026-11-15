@@ -31,7 +31,7 @@ import yaml
 def generate_launch_description():
     # config and args
     localize_config = os.path.join(
-        get_package_share_directory('particle_filter'),
+        get_package_share_directory('rl_drifting_input'),
         'config',
         'localize.yaml'
     )
@@ -45,7 +45,7 @@ def generate_launch_description():
 
     # nodes
     pf_node = Node(
-        package='particle_filter',
+        package='rl_drifting_input',
         executable='particle_filter',
         name='particle_filter',
         parameters=[LaunchConfiguration('localize_config')]
@@ -54,7 +54,7 @@ def generate_launch_description():
         package='nav2_map_server',
         executable='map_server',
         name='map_server',
-        parameters=[{'yaml_filename': os.path.join(get_package_share_directory('particle_filter'), 'maps', map_name + '.yaml')},
+        parameters=[{'yaml_filename': os.path.join(get_package_share_directory('rl_drifting_input'), 'maps', map_name + '.yaml')},
                     {'topic': 'map'},
                     {'frame_id': 'map'},
                     {'output': 'screen'},

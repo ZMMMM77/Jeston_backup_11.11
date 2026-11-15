@@ -1,0 +1,4 @@
+[console_scripts]
+d435i_imu = drift_sensors.d435i_imu:main
+particle_filter = drift_sensors.particle_filter:main
+state_merge = drift_sensors.state_merge:main
